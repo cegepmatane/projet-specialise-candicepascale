@@ -3,6 +3,10 @@ Lien projet sur ChatGpt
 
 https://chatgpt.com/share/6993fe03-bb34-8004-b1dc-34d2d7da99a7
 
+Capture d'un chat
+<img width="1715" height="989" alt="capture-chat" src="https://github.com/user-attachments/assets/af2baaec-dcc0-4d0e-a3e7-a286a1d37687" />
+
+
 
 5 fils RSS
 
