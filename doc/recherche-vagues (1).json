@@ -1,0 +1,74 @@
+{
+  "waves": [
+    {
+      "searches": [
+        "Mode de paiement pour site de vente",
+        "Meilleurs solutions de paiement en ligne"
+      ],
+      "urls": [
+        "https://stripe.com/fr",
+        "https://www.paystone.com/"
+      ],
+      "keywords": [
+        {
+          "term": "Stripe",
+          "type": "tech",
+          "description": "societe americaine destiné pour le paiement en ligne"
+        },
+        {
+          "term": "Quickbooks",
+          "type": "tech",
+          "description": "Facilite la reception et l'enregistrement des transactions"
+        },
+        {
+          "term": "BDM",
+          "type": "tool",
+          "description": "titre de la page qui liste les meilleurs outils de paiement en ligne"
+        }
+      ]
+    },
+    {
+      "searches": [
+        "Explorer stripe",
+        "Documentation de stripe"
+      ],
+      "urls": [
+        "https://docs.stripe.com/",
+        "https://docs.stripe.com/webhooks"
+      ],
+      "keywords": [
+        {
+          "term": "API STRIPE",
+          "type": "tech",
+          "description": "une infrastructure de paiement en ligne robuste et modulaire permettant aux développeurs d'intégrer facilement des paiements par carte bancaire"
+        },
+        {
+          "term": "Webhook",
+          "type": "tool",
+          "description": "une méthode permettant à une application d'envoyer automatiquement des données en temps réel à une autre application dès qu'un événement spécifique se produit"
+        }
+      ]
+    },
+    {
+      "searches": [
+        "checkout.session.completed Stripe",
+        "Stripe webhook signature verification"
+      ],
+      "urls": [
+        "https://docs.stripe.com/webhooks"
+      ],
+      "keywords": [
+        {
+          "term": "checkout.session.com pleted",
+          "type": "example",
+          "description": "Événement Stripe déclenché lorsque le paiement est réellement confirmé."
+        },
+        {
+          "term": "Endpoint secret",
+          "type": "tool",
+          "description": "Clé secrète utilisée par le serveur pour vérifier la signature du webhook Stripe"
+        }
+      ]
+    }
+  ]
+}
