@@ -1,142 +1,189 @@
-<?php include __DIR__ . '/includes/header.php'; ?>
+<?php
+include 'header.php';
+?>
 
-<main>
+<main class="page-accueil">
 
-  <!-- HERO : grand visuel style luxe -->
-Sélection du moment
-  <section class="hero hero-swar">
-    <div class="hero-media hero-media-img"
-Sélection du moment
-         style="background-image:url('https://source.unsplash.com/1920x1080/?jewelry,crystal,luxury');"></div>
-
-    <div class="hero-overlay">
-      <div class="hero-content">
-        <p class="hero-kicker">Nouvelle collection</p>
-        <h1>Éclat minimal, élégance maximale.</h1>
-        <p class="hero-sub">Des bijoux sobres, pensés pour durer. Homme • Femme • Enfant.</p>
-        <div class="hero-ctas">
-          <a class="btn" href="/nouveautes.php">Découvrir les nouveautés</a>
-          <a class="btn ghost" href="/femme.php">Voir Femme</a>
+    <section class="hero-accueil">
+        <div class="hero-contenu">
+            <p class="sur-titre">Bijoux élégants • Femme • Homme • Enfant</p>
+            <h2>Bienvenue chez Jewelry by PC</h2>
+            <p>
+                Découvrez une collection de bijoux élégants, raffinés et tendances
+                pour femme, homme et enfant. Offrez-vous l’éclat que vous méritez.
+            </p>
+            <div class="hero-boutons">
+                <a href="categorie.php" class="picture">Magasiner maintenant</a>
+                <a href="nouveautes.php" class="picture">Découvrir les nouveautés</a>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Bandeau promo / éditorial -->
-  <section class="container reveal">
-    <div class="promo-strip">
-      <div>
-        <strong>Livraison</strong><br>
-        <span>Rapide & soignée (démo)</span>
-      </div>
-      <div>
-        <strong>Qualité</strong><br>
-        <span>Finitions nettes</span>
-      </div>
-      <div>
-        <strong>Entretien</strong><br>
-        <span>Conseils selon matériaux</span>
-      </div>
-    </div>
-  </section>
+    <?php if (isset($_SESSION['utilisateur'])): ?>
+        <section class="bienvenue-client">
+            <p>
+                Bonjour <?= htmlspecialchars($_SESSION['utilisateur']['prenom']) ?>,
+                heureux de vous revoir sur Jewelry by PC.
+            </p>
+        </section>
+    <?php endif; ?>
 
-  <!-- Catégories principales : gros blocs -->
-  <section class="container reveal">
-    <div class="section-title">
-      <h2>Magasiner par univers</h2>
-      <p>Une navigation simple, claire.</p>
-    </div>
+    <section class="section-intro">
+        <h2>Accueil</h2>
+    </section>
 
-    <div class="cat-grid">
-      <a class="cat-card" href="/nouveautes.php">
-        <img src="https://source.unsplash.com/900x900/?jewelry,diamond" alt="Nouveautés">
-        <span>Nouveautés</span>
-      </a>
+    <div class="evenement">
 
-      <a class="cat-card" href="/femme.php">
-        <img src="https://source.unsplash.com/900x900/?necklace,jewelry,woman" alt="Femme">
-        <span>Femme</span>
-      </a>
+        <div class="objet">
+            <a href="images/bijeven.jpg" target="_blank" rel="noopener noreferrer">
+                <img src="images/bijeven.jpg" alt="Grande solde de bijoux" class="header21" title="Grande solde de bijoux" id="even">
+            </a>
+            <h3>Grande solde de bijoux</h3>
 
-      <a class="cat-card" href="/homme.php">
-        <img src="https://source.unsplash.com/900x900/?watch,jewelry,men" alt="Homme">
-        <span>Homme</span>
-      </a>
+            <section>
+                <p>Un événement à ne surtout pas rater.</p>
+                <p>Profitez de nos offres spéciales sur plusieurs bijoux sélectionnés.</p>
+                <p>Plus que :</p>
+            </section>
 
-      <a class="cat-card" href="/enfant.php">
-        <img src="https://source.unsplash.com/900x900/?bracelet,jewelry,kids" alt="Enfant">
-        <span>Enfant</span>
-      </a>
-    </div>
-  </section>
+            <div id="decompte" class="decompte1"></div>
 
-  <!-- Section “Best sellers / Sélection” style vitrine -->
-  <section class="container reveal">
-    <div class="section-title">
-      <h2>Sélection du moment</h2>
-      <p>Des pièces qui vont avec tout.</p>
-    </div>
+            <p>
+                <a href="categorie.php" class="picture">Voir les promotions</a>
+            </p>
+        </div>
 
-    <div class="products products-home">
-      <?php
-      // Mode statique: cartes “produit” sans DB (juste pour l’affichage)
-      $fake = [
-        ["Bague Minimal", "79.99 $", "https://source.unsplash.com/900x1100/?ring,jewelry"],
-        ["Montre Classique", "149.99 $", "https://source.unsplash.com/900x1100/?watch,luxury"],
-        ["Collier Perle", "99.99 $", "https://source.unsplash.com/900x1100/?necklace,pearl"],
-      ];
-      foreach($fake as $p){
-        echo '
-        <div class="product-card">
-          <img src="'.$p[2].'" alt="">
-          <div class="pmeta">
-            <div class="pname">'.$p[0].'</div>
-            <div class="pprice">'.$p[1].'</div>
-          </div>
-          <div class="pactions">
-            <a class="btn small ghost" href="/catalog.php">Voir</a>
-            <a class="btn small" href="/catalog.php">Ajouter</a>
-          </div>
-        </div>';
-      }
-      ?>
-    </div>
-  </section>
+        <div class="objet">
+            <h3>Une variété incroyable</h3>
 
-  <!-- Bloc éditorial double : très “luxe” -->
-  <section class="container reveal">
-    <div class="editorial">
-      <div class="editorial-text">
-        <h2>Entretien & durabilité</h2>
-        <p>
-          Prolonge la brillance : nettoyage doux, rangement séparé, bonnes pratiques selon métal/pierre.
-        </p>
-        <a class="btn ghost" href="/entretien.php">Voir les conseils</a>
-      </div>
+            <article>
+                <a href="images/even1.jpg" target="_blank" rel="noopener noreferrer">
+                    <img src="images/even1.jpg" alt="Vitrine de bijoux" class="header21" title="Vitrine de bijoux" id="even0">
+                </a>
 
-      <div class="editorial-media">
-        <img src="https://source.unsplash.com/1200x900/?jewelry,cleaning,cloth" alt="Entretien bijoux">
-      </div>
-    </div>
-  </section>
+                <p>
+                    Nous vous proposons plusieurs catégories de bijoux :
+                    bagues, bracelets, boucles d’oreilles, colliers et bijoux personnalisés.
+                </p>
 
-  <!-- “Inspiration” : grille d’images type lookbook -->
-  <section class="container reveal">
-    <div class="section-title">
-      <h2>Inspiration</h2>
-      <p>Des styles sobres, faciles à porter.</p>
+                <p>
+                    Que vous soyez un homme, une femme ou que vous cherchiez un bijou
+                    pour un enfant, vous trouverez certainement votre bonheur.
+                </p>
+
+                <p>
+                    <a href="categorie.php" class="picture">Voir les catégories</a>
+                </p>
+            </article>
+        </div>
+
+        <div class="objet">
+            <h3>Restez connectés</h3>
+
+            <p>
+                Recevez par mail nos nouveautés, promotions et inspirations bijoux.
+            </p>
+
+            <form action="index.php" method="post" class="form-infolettre">
+                <fieldset>
+                    <legend>Infolettre</legend>
+
+                    <div class="input-container">
+                        <label for="email">Adresse mail</label>
+                        <input type="email" name="email" id="email" class="email" placeholder="Adresse mail">
+                    </div>
+
+                    <div class="input-container">
+                        <input type="submit" value="Envoyer">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
     </div>
 
-    <div class="lookbook">
-      <img src="https://source.unsplash.com/900x900/?earrings,jewelry" alt="">
-      <img src="https://source.unsplash.com/900x900/?bracelet,luxury" alt="">
-      <img src="https://source.unsplash.com/900x900/?ring,diamond" alt="">
-      <img src="https://source.unsplash.com/900x900/?necklace,gold" alt="">
-    </div>
-  </section>
+    <section class="categories-accueil">
+        <h2>Nos catégories</h2>
+
+        <div class="evenement">
+            <div class="objet">
+                <h3>Bagues</h3>
+                <p>Des bagues élégantes pour sublimer chaque main.</p>
+                <a href="boutique.php?id=1" class="picture">Voir les bagues</a>
+            </div>
+
+            <div class="objet">
+                <h3>Bracelets</h3>
+                <p>Des bracelets délicats et tendance pour toutes les occasions.</p>
+                <a href="boutique.php?id=2" class="picture">Voir les bracelets</a>
+            </div>
+
+            <div class="objet">
+                <h3>Boucles d’oreilles</h3>
+                <p>Des créations lumineuses pour compléter votre style.</p>
+                <a href="boutique.php?id=3" class="picture">Voir les boucles d’oreilles</a>
+            </div>
+
+            <div class="objet">
+                <h3>Colliers</h3>
+                <p>Des colliers raffinés pour ajouter une touche d’éclat.</p>
+                <a href="boutique.php?id=4" class="picture">Voir les colliers</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="avantages-boutique">
+        <h2>Pourquoi choisir Jewelry by PC ?</h2>
+
+        <div class="evenement">
+            <div class="objet">
+                <h3>Bijoux pour tous</h3>
+                <p>Des collections pour femme, homme et enfant.</p>
+            </div>
+
+            <div class="objet">
+                <h3>Style et élégance</h3>
+                <p>Des bijoux choisis pour leur finesse et leur beauté.</p>
+            </div>
+
+            <div class="objet">
+                <h3>Achat simplifié</h3>
+                <p>Un parcours clair pour découvrir, choisir et commander.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="galerie-accueil">
+        <h2>Inspiration bijoux</h2>
+
+        <div class="conteneur-carrousel">
+            <div class="conteneur-images">
+                <img src="images/img1.jpg" alt="Bijou 1" class="actif">
+                <img src="images/img2.jpg" alt="Bijou 2">
+                <img src="images/img3.jpg" alt="Bijou 3">
+                <img src="images/img4.jpg" alt="Bijou 4">
+                <img src="images/img5.jpg" alt="Bijou 5">
+            </div>
+
+            <div class="commandes">
+                <button class="gauche" type="button">
+                    <img src="images/left.svg" alt="Image précédente">
+                </button>
+                <button class="droite" type="button">
+                    <img src="images/right.svg" alt="Image suivante">
+                </button>
+            </div>
+
+            <div class="cercles">
+                <button data-clic="1" class="cercle actif-cercle" type="button"></button>
+                <button data-clic="2" class="cercle" type="button"></button>
+                <button data-clic="3" class="cercle" type="button"></button>
+                <button data-clic="4" class="cercle" type="button"></button>
+                <button data-clic="5" class="cercle" type="button"></button>
+            </div>
+        </div>
+    </section>
 
 </main>
 
-
-
-<?php include __DIR__ . '/includes/footer.php'; ?>
+<?php include 'footer.php'; ?>
