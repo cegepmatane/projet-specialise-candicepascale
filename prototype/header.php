@@ -82,7 +82,7 @@ if (session_status() === PHP_SESSION_NONE) {
                 <li><a href="index.php">Accueil</a></li>
 
                 <li class="menu-avec-sousmenu">
-                    <a href="categorie.php">Boutique</a>
+                    <a href="categorie.php">Catalogue</a>
                     <ul class="sous-menu">
                         <li><a href="categorie.php">Toutes les catégories</a></li>
                         <li><a href="boutique.php?id=1">Bagues</a></li>
