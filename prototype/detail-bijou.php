@@ -4,10 +4,25 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 require_once __DIR__ . "/donnees/BijouDAO.php";
+require_once __DIR__ . "/donnees/EvenementUtilisateurDAO.php";
 require_once __DIR__ . "/header.php";
 
 $id = isset($_GET['id']) ? (int) $_GET['id'] : 0;
 $bijou = BijouDAO::trouverParId($id);
+
+if ($bijou && isset($_SESSION['utilisateur']['id'])) {
+    EvenementUtilisateurDAO::ajouterEvenement(
+        (int) $_SESSION['utilisateur']['id'],
+        (int) $bijou->obtenir('id'),
+        'vue'
+    );
+}
+
+$estFavori = false;
+
+if ($bijou && isset($_SESSION['utilisateur']['id'])) {
+
+}
 ?>
 
 <main class="page-detail-bijou">
@@ -35,14 +50,14 @@ $bijou = BijouDAO::trouverParId($id);
             <div class="detail-bijou-colonnes">
 
                 <div class="detail-bijou-gauche">
-                    <h2><?= htmlspecialchars($bijou->obtenir('nom')) ?></h2>
+                    <h2><?= htmlspecialchars($bijou->obtenir('nom'), ENT_QUOTES, 'UTF-8') ?></h2>
 
                     <div class="galerie-bijou">
                         <?php if (!empty($images)): ?>
                             <?php foreach ($images as $image): ?>
                                 <img
-                                    src="<?= htmlspecialchars($image['chemin_image']) ?>"
-                                    alt="<?= htmlspecialchars($image['texte_alternatif'] ?: $bijou->obtenir('nom')) ?>"
+                                    src="<?= htmlspecialchars($image['chemin_image'] ?? '', ENT_QUOTES, 'UTF-8') ?>"
+                                    alt="<?= htmlspecialchars(($image['texte_alternatif'] ?: $bijou->obtenir('nom')) ?? '', ENT_QUOTES, 'UTF-8') ?>"
                                     class="image-detail-bijou"
                                 >
                             <?php endforeach; ?>
@@ -54,30 +69,69 @@ $bijou = BijouDAO::trouverParId($id);
 
                 <div class="detail-bijou-droite">
                     <div class="infos-bijou">
-                        <p><strong>Description :</strong> <?= htmlspecialchars($bijou->obtenir('description')) ?></p>
+                        <p><strong>Description :</strong> <?= htmlspecialchars($bijou->obtenir('description'), ENT_QUOTES, 'UTF-8') ?></p>
                         <p><strong>Prix :</strong> <?= number_format((float)$bijou->obtenir('prix'), 2, ',', ' ') ?> $</p>
-                        <p><strong>Matériau :</strong> <?= htmlspecialchars($bijou->obtenir('materiau')) ?></p>
+                        <p><strong>Matériau :</strong> <?= htmlspecialchars($bijou->obtenir('materiau'), ENT_QUOTES, 'UTF-8') ?></p>
 
                         <?php if (!empty($bijou->obtenir('pierre'))): ?>
-                            <p><strong>Pierre :</strong> <?= htmlspecialchars($bijou->obtenir('pierre')) ?></p>
+                            <p><strong>Pierre :</strong> <?= htmlspecialchars($bijou->obtenir('pierre'), ENT_QUOTES, 'UTF-8') ?></p>
                         <?php endif; ?>
 
-                        <p><strong>Poids :</strong> <?= htmlspecialchars($bijou->obtenir('poids')) ?> g</p>
+                        <p><strong>Poids :</strong> <?= htmlspecialchars((string)$bijou->obtenir('poids'), ENT_QUOTES, 'UTF-8') ?> g</p>
                     </div>
+
+                    <?php if (isset($_SESSION['utilisateur']['id'])): ?>
+                        <div class="zone-favori">
+                            <?php if (isset($_SESSION['message_favori'])): ?>
+                                <p class="message-stock-ok">
+                                    <?= htmlspecialchars($_SESSION['message_favori'], ENT_QUOTES, 'UTF-8') ?>
+                                </p>
+                                <?php unset($_SESSION['message_favori']); ?>
+                            <?php endif; ?>
+
+                            <?php if (!$estFavori): ?>
+                                <form action="ajouter_favori.php" method="post">
+                                    <input
+                                        type="hidden"
+                                        name="csrf_token"
+                                        value="<?= htmlspecialchars($_SESSION['csrf_token'] ?? '', ENT_QUOTES, 'UTF-8') ?>"
+                                    >
+                                    <input type="hidden" name="bijou_id" value="<?= (int)$bijou->obtenir('id') ?>">
+
+                                    <button type="submit" class="btn-favori">
+                                        ❤️ Ajouter aux favoris
+                                    </button>
+                                </form>
+                            <?php else: ?>
+                                <form action="supprimer_favori.php" method="post">
+                                    <input
+                                        type="hidden"
+                                        name="csrf_token"
+                                        value="<?= htmlspecialchars($_SESSION['csrf_token'] ?? '', ENT_QUOTES, 'UTF-8') ?>"
+                                    >
+                                    <input type="hidden" name="bijou_id" value="<?= (int)$bijou->obtenir('id') ?>">
+
+                                    <button type="submit" class="btn-favori-supprimer">
+                                        💔 Retirer des favoris
+                                    </button>
+                                </form>
+                            <?php endif; ?>
+                        </div>
+                    <?php endif; ?>
 
                     <div class="variantes-bijou">
                         <h3>Tailles disponibles</h3>
 
                         <?php if (isset($_SESSION['message_panier'])): ?>
                             <p class="message-stock-erreur">
-                                <?= htmlspecialchars($_SESSION['message_panier']) ?>
+                                <?= htmlspecialchars($_SESSION['message_panier'], ENT_QUOTES, 'UTF-8') ?>
                             </p>
                             <?php unset($_SESSION['message_panier']); ?>
                         <?php endif; ?>
 
                         <?php if (isset($_SESSION['message_panier_success'])): ?>
                             <p class="message-stock-ok">
-                                <?= htmlspecialchars($_SESSION['message_panier_success']) ?>
+                                <?= htmlspecialchars($_SESSION['message_panier_success'], ENT_QUOTES, 'UTF-8') ?>
                             </p>
                             <?php unset($_SESSION['message_panier_success']); ?>
                         <?php endif; ?>
@@ -86,6 +140,11 @@ $bijou = BijouDAO::trouverParId($id);
                             <p class="message-stock-erreur">Stock épuisé</p>
                         <?php elseif (!empty($variantes)): ?>
                             <form action="ajouter_au_panier.php" method="post" id="form-ajout-panier">
+                                <input
+                                    type="hidden"
+                                    name="csrf_token"
+                                    value="<?= htmlspecialchars($_SESSION['csrf_token'] ?? '', ENT_QUOTES, 'UTF-8') ?>"
+                                >
                                 <input type="hidden" name="bijou_id" value="<?= (int)$bijou->obtenir('id') ?>">
 
                                 <label for="taille_id">Choisir une taille :</label><br>
@@ -100,7 +159,7 @@ $bijou = BijouDAO::trouverParId($id);
                                                 value="<?= (int)$variante['taille_id'] ?>"
                                                 data-stock="<?= $stock ?>"
                                             >
-                                                <?= htmlspecialchars($variante['libelle']) ?>
+                                                <?= htmlspecialchars($variante['libelle'], ENT_QUOTES, 'UTF-8') ?>
                                                 -
                                                 <?php if ($stock <= 3): ?>
                                                     <?= $stock ?> seulement disponible(s)
@@ -109,8 +168,12 @@ $bijou = BijouDAO::trouverParId($id);
                                                 <?php endif; ?>
                                             </option>
                                         <?php else: ?>
-                                            <option value="<?= (int)$variante['taille_id'] ?>" data-stock="0" disabled>
-                                                <?= htmlspecialchars($variante['libelle']) ?> - Stock épuisé
+                                            <option
+                                                value="<?= (int)$variante['taille_id'] ?>"
+                                                data-stock="0"
+                                                disabled
+                                            >
+                                                <?= htmlspecialchars($variante['libelle'], ENT_QUOTES, 'UTF-8') ?> - Stock épuisé
                                             </option>
                                         <?php endif; ?>
                                     <?php endforeach; ?>

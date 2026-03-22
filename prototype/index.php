@@ -1,10 +1,29 @@
 <?php
 include 'header.php';
+require_once __DIR__ . '/donnees/RecommandationDAO.php';
+
+$recommandations = [];
+
+if (isset($_SESSION['utilisateur']['id'])) {
+    $recommandations = RecommandationDAO::obtenirRecommandationsPourUtilisateur(
+        (int)$_SESSION['utilisateur']['id'],
+        4
+    );
+}
 ?>
 
 <main class="page-accueil">
 
-    <section class="hero-accueil">
+    <section class="hero-accueil hero-slider">
+        <div class="hero-slides">
+            <div class="hero-slide actif" style="background-image: url('images/img1.jpg');"></div>
+            <div class="hero-slide" style="background-image: url('images/img2.jpg');"></div>
+            <div class="hero-slide" style="background-image: url('images/img3.jpg');"></div>
+            <div class="hero-slide" style="background-image: url('images/img4.jpg');"></div>
+        </div>
+
+        <div class="hero-overlay"></div>
+
         <div class="hero-contenu">
             <p class="sur-titre">Bijoux élégants • Femme • Homme • Enfant</p>
             <h2>Bienvenue chez Jewelry by PC</h2>
@@ -17,90 +36,97 @@ include 'header.php';
                 <a href="nouveautes.php" class="picture">Découvrir les nouveautés</a>
             </div>
         </div>
+
+        <div class="hero-indicateurs">
+            <button type="button" class="hero-dot actif" data-slide="0" aria-label="Slide 1"></button>
+            <button type="button" class="hero-dot" data-slide="1" aria-label="Slide 2"></button>
+            <button type="button" class="hero-dot" data-slide="2" aria-label="Slide 3"></button>
+            <button type="button" class="hero-dot" data-slide="3" aria-label="Slide 4"></button>
+        </div>
     </section>
 
-    <?php if (isset($_SESSION['utilisateur'])): ?>
-        <section class="bienvenue-client">
-            <p>
-                Bonjour <?= htmlspecialchars($_SESSION['utilisateur']['prenom']) ?>,
-                heureux de vous revoir sur Jewelry by PC.
-            </p>
+    <?php if (isset($_SESSION['utilisateur']['id']) && !empty($recommandations)): ?>
+        <section class="recommandations-accueil">
+            <h2>Recommandé pour vous</h2>
+
+            <div class="grille-bijoux">
+                <?php foreach ($recommandations as $item): ?>
+                    <?php
+                    $bijou = $item['bijou'];
+                    $images = $bijou->obtenir('images') ?? [];
+                    $imagePrincipale = !empty($images) ? ($images[0]['chemin_image'] ?? '') : '';
+                    ?>
+
+                    <article class="carte-bijou">
+                        <div class="media-carte-bijou">
+                            <?php if (!empty($imagePrincipale)): ?>
+                                <img
+                                    src="<?= htmlspecialchars($imagePrincipale, ENT_QUOTES, 'UTF-8') ?>"
+                                    alt="<?= htmlspecialchars((string)$bijou->obtenir('nom'), ENT_QUOTES, 'UTF-8') ?>"
+                                    class="image-carte-bijou"
+                                >
+                            <?php else: ?>
+                                <div class="image-vide">Aucune image</div>
+                            <?php endif; ?>
+                        </div>
+
+                        <div class="contenu-carte-bijou">
+                            <span class="tag-reco">Suggestion personnalisée</span>
+
+                            <h3><?= htmlspecialchars((string)$bijou->obtenir('nom'), ENT_QUOTES, 'UTF-8') ?></h3>
+
+                            <p class="prix-bijou">
+                                <?= number_format((float)$bijou->obtenir('prix'), 2, ',', ' ') ?> $
+                            </p>
+
+                            <a href="detail-bijou.php?id=<?= (int)$bijou->obtenir('id') ?>" class="btn-detail">
+                                Voir le détail
+                            </a>
+                        </div>
+                    </article>
+                <?php endforeach; ?>
+            </div>
         </section>
     <?php endif; ?>
 
-    <section class="section-intro">
-        <h2>Accueil</h2>
-    </section>
-
-    <div class="evenement">
-
-        <div class="objet">
-            <a href="images/bijeven.jpg" target="_blank" rel="noopener noreferrer">
-                <img src="images/bijeven.jpg" alt="Grande solde de bijoux" class="header21" title="Grande solde de bijoux" id="even">
-            </a>
-            <h3>Grande solde de bijoux</h3>
-
-            <section>
-                <p>Un événement à ne surtout pas rater.</p>
-                <p>Profitez de nos offres spéciales sur plusieurs bijoux sélectionnés.</p>
-                <p>Plus que :</p>
-            </section>
-
-            <div id="decompte" class="decompte1"></div>
-
+    <section class="vedettes-accueil">
+        <div class="entete-section">
+            <h2>Nos bijoux en vedette</h2>
             <p>
-                <a href="categorie.php" class="picture">Voir les promotions</a>
+                Découvrez une sélection élégante de pièces qui font rayonner notre collection.
             </p>
         </div>
 
-        <div class="objet">
-            <h3>Une variété incroyable</h3>
+        <div class="grille-vedettes">
+            <article class="vedette-bijou vedette-large">
+                <img src="images/img1.jpg" alt="Bijou vedette 1">
+                <div class="overlay-vedette">
+                    <span class="tag-vedette">Coup de cœur</span>
+                    <h3>Éclat intemporel</h3>
+                    <p>
+                        Une pièce raffinée pensée pour sublimer chaque moment et révéler votre style.
+                    </p>
+                    <a href="categorie.php" class="picture">Découvrir</a>
+                </div>
+            </article>
 
-            <article>
-                <a href="images/even1.jpg" target="_blank" rel="noopener noreferrer">
-                    <img src="images/even1.jpg" alt="Vitrine de bijoux" class="header21" title="Vitrine de bijoux" id="even0">
-                </a>
+            <article class="vedette-bijou">
+                <img src="images/bagues/bague10.jpg" alt="Collection bagues">
+                <div class="overlay-vedette">
+                    <h3>Collection bagues</h3>
+                    <a href="boutique.php?id=1" class="picture">Voir les bagues</a>
+                </div>
+            </article>
 
-                <p>
-                    Nous vous proposons plusieurs catégories de bijoux :
-                    bagues, bracelets, boucles d’oreilles, colliers et bijoux personnalisés.
-                </p>
-
-                <p>
-                    Que vous soyez un homme, une femme ou que vous cherchiez un bijou
-                    pour un enfant, vous trouverez certainement votre bonheur.
-                </p>
-
-                <p>
-                    <a href="categorie.php" class="picture">Voir les catégories</a>
-                </p>
+            <article class="vedette-bijou">
+                <img src="images/img3.jpg" alt="Collection colliers">
+                <div class="overlay-vedette">
+                    <h3>Collection colliers</h3>
+                    <a href="boutique.php?id=4" class="picture">Voir les colliers</a>
+                </div>
             </article>
         </div>
-
-        <div class="objet">
-            <h3>Restez connectés</h3>
-
-            <p>
-                Recevez par mail nos nouveautés, promotions et inspirations bijoux.
-            </p>
-
-            <form action="index.php" method="post" class="form-infolettre">
-                <fieldset>
-                    <legend>Infolettre</legend>
-
-                    <div class="input-container">
-                        <label for="email">Adresse mail</label>
-                        <input type="email" name="email" id="email" class="email" placeholder="Adresse mail">
-                    </div>
-
-                    <div class="input-container">
-                        <input type="submit" value="Envoyer">
-                    </div>
-                </fieldset>
-            </form>
-        </div>
-
-    </div>
+    </section>
 
     <section class="categories-accueil">
         <h2>Nos catégories</h2>
@@ -108,24 +134,28 @@ include 'header.php';
         <div class="evenement">
             <div class="objet">
                 <h3>Bagues</h3>
+                <img src="images/bagues/bague3.jpg" alt="Collection colliers">
                 <p>Des bagues élégantes pour sublimer chaque main.</p>
                 <a href="boutique.php?id=1" class="picture">Voir les bagues</a>
             </div>
 
             <div class="objet">
                 <h3>Bracelets</h3>
+                <img src="images/bracelet.jpg" alt="Collection colliers">
                 <p>Des bracelets délicats et tendance pour toutes les occasions.</p>
                 <a href="boutique.php?id=2" class="picture">Voir les bracelets</a>
             </div>
 
             <div class="objet">
                 <h3>Boucles d’oreilles</h3>
+                <img src="images/bouicle3.jpg" alt="Collection colliers">
                 <p>Des créations lumineuses pour compléter votre style.</p>
                 <a href="boutique.php?id=3" class="picture">Voir les boucles d’oreilles</a>
             </div>
 
             <div class="objet">
                 <h3>Colliers</h3>
+                   <img src="images/colliers/collier10.jpg" alt="Collection colliers">
                 <p>Des colliers raffinés pour ajouter une touche d’éclat.</p>
                 <a href="boutique.php?id=4" class="picture">Voir les colliers</a>
             </div>
@@ -153,34 +183,15 @@ include 'header.php';
         </div>
     </section>
 
-    <section class="galerie-accueil">
-        <h2>Inspiration bijoux</h2>
+    <section class="infolettre-bas">
+        <div class="bloc-infolettre-bas">
+            <h2>Restez connectés</h2>
+            <p>Recevez nos nouveautés, promotions et inspirations bijoux.</p>
 
-        <div class="conteneur-carrousel">
-            <div class="conteneur-images">
-                <img src="images/img1.jpg" alt="Bijou 1" class="actif">
-                <img src="images/img2.jpg" alt="Bijou 2">
-                <img src="images/img3.jpg" alt="Bijou 3">
-                <img src="images/img4.jpg" alt="Bijou 4">
-                <img src="images/img5.jpg" alt="Bijou 5">
-            </div>
-
-            <div class="commandes">
-                <button class="gauche" type="button">
-                    <img src="images/left.svg" alt="Image précédente">
-                </button>
-                <button class="droite" type="button">
-                    <img src="images/right.svg" alt="Image suivante">
-                </button>
-            </div>
-
-            <div class="cercles">
-                <button data-clic="1" class="cercle actif-cercle" type="button"></button>
-                <button data-clic="2" class="cercle" type="button"></button>
-                <button data-clic="3" class="cercle" type="button"></button>
-                <button data-clic="4" class="cercle" type="button"></button>
-                <button data-clic="5" class="cercle" type="button"></button>
-            </div>
+            <form action="index.php" method="post" class="form-infolettre-bas">
+                <input type="email" name="email" placeholder="Adresse mail" required>
+                <input type="submit" value="S’inscrire">
+            </form>
         </div>
     </section>
 
