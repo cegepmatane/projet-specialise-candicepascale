@@ -1,0 +1,36 @@
+name: Surveillance des releases
+
+on:
+  schedule:
+    - cron: "0 9 * * 1" # chaque lundi
+  workflow_dispatch:
+
+jobs:
+  check-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Vérifier release
+        id: check
+        env:
+          OWNER: firebase
+          REPO: firebase-js-sdk
+        run: |
+          API_URL="https://api.github.com/repos/$OWNER/$REPO/releases/latest"
+
+          RESPONSE=$(curl -s $API_URL)
+
+          TAG=$(echo "$RESPONSE" | jq -r '.tag_name')
+          URL=$(echo "$RESPONSE" | jq -r '.html_url')
+
+          echo "tag=$TAG" >> $GITHUB_OUTPUT
+          echo "url=$URL" >> $GITHUB_OUTPUT
+
+      - name: Envoyer Discord
+        env:
+          WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          curl -H "Content-Type: application/json" \
+          -X POST \
+          -d "{\"content\":\"Nouvelle release Firebase : ${{ steps.check.outputs.tag }} ${{ steps.check.outputs.url }}\"}" \
+          $WEBHOOK
