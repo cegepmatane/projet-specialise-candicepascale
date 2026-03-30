@@ -5,6 +5,7 @@ if (session_status() === PHP_SESSION_NONE) {
 
 require_once __DIR__ . "/donnees/BijouDAO.php";
 require_once __DIR__ . "/donnees/EvenementUtilisateurDAO.php";
+require_once __DIR__ . "/donnees/FavoriDAO.php";
 require_once __DIR__ . "/header.php";
 
 $id = isset($_GET['id']) ? (int) $_GET['id'] : 0;
@@ -21,7 +22,10 @@ if ($bijou && isset($_SESSION['utilisateur']['id'])) {
 $estFavori = false;
 
 if ($bijou && isset($_SESSION['utilisateur']['id'])) {
-
+    $estFavori = FavoriDAO::estEnFavori(
+        (int) $_SESSION['utilisateur']['id'],
+        (int) $bijou->obtenir('id')
+    );
 }
 ?>
 
