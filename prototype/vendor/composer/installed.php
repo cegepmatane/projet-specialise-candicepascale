@@ -19,6 +19,15 @@
             'reference' => NULL,
             'dev_requirement' => false,
         ),
+        'phpmailer/phpmailer' => array(
+            'pretty_version' => 'v7.0.2',
+            'version' => '7.0.2.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpmailer/phpmailer',
+            'aliases' => array(),
+            'reference' => 'ebf1655bd5b99b3f97e1a3ec0a69e5f4cd7ea088',
+            'dev_requirement' => false,
+        ),
         'stripe/stripe-php' => array(
             'pretty_version' => 'v19.4.1',
             'version' => '19.4.1.0',

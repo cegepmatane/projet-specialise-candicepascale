@@ -5,7 +5,7 @@ require_once __DIR__ . '/../accesseur/Configuration.php';
 
 class CommandeDAO
 {
-    public static function creerCommande(int $utilisateurId, int $adresseLivraisonId, array $panier): ?int
+    public static function creerCommande(int $utilisateurId, array $panier, ?int $adresseLivraisonId = null): ?int
     {
         $pdo = Connexion::getInstance();
         $pdo->beginTransaction();
@@ -81,7 +81,9 @@ class CommandeDAO
             return $commandeId;
 
         } catch (Exception $e) {
-            $pdo->rollBack();
+            if ($pdo->inTransaction()) {
+                $pdo->rollBack();
+            }
             die("Erreur DAO commande : " . $e->getMessage());
         }
     }
@@ -162,32 +164,62 @@ class CommandeDAO
     }
 
     public static function mettreAJourStatut(
-        int $commandeId,
-        string $statut,
-        ?string $stripeSessionId = null,
-        ?string $stripePaymentIntentId = null
-    ): bool {
+            int $commandeId,
+            string $statut,
+            ?string $stripeSessionId = null,
+            ?string $stripePaymentIntentId = null
+        ): bool {
+            $pdo = Connexion::getInstance();
+
+            $sql = "
+                UPDATE commande
+                SET statut = :statut,
+                    stripe_session_id = :stripe_session_id,
+                    stripe_payment_intent_id = :stripe_payment_intent_id,
+                    date_paiement = CASE
+                        WHEN :statut_case = 'payee' THEN NOW()
+                        ELSE date_paiement
+                    END
+                WHERE id = :id
+            ";
+
+            $requete = $pdo->prepare($sql);
+
+            return $requete->execute([
+                ':statut' => $statut,
+                ':statut_case' => $statut,
+                ':stripe_session_id' => $stripeSessionId,
+                ':stripe_payment_intent_id' => $stripePaymentIntentId,
+                ':id' => $commandeId
+            ]);
+        }
+    public static function decrementerStockCommande(int $commandeId): bool
+    {
         $pdo = Connexion::getInstance();
 
-        $sql = "
-            UPDATE commande
-            SET statut = :statut,
-                stripe_session_id = :stripe_session_id,
-                stripe_payment_intent_id = :stripe_payment_intent_id,
-                date_paiement = CASE
-                    WHEN :statut = 'payee' THEN NOW()
-                    ELSE date_paiement
-                END
-            WHERE id = :id
-        ";
+        try {
+            $sql = "
+                UPDATE variantes_bijoux vb
+                INNER JOIN ligne_commande lc
+                    ON lc.bijou_id = vb.bijou_id
+                AND lc.taille_id = vb.taille_id
+                SET vb.stock = vb.stock - lc.quantite
+                WHERE lc.commande_id = :commande_id
+                AND vb.stock >= lc.quantite
+            ";
 
-        $requete = $pdo->prepare($sql);
+            $requete = $pdo->prepare($sql);
+            $requete->execute([
+                ':commande_id' => $commandeId
+            ]);
 
-        return $requete->execute([
-            ':statut' => $statut,
-            ':stripe_session_id' => $stripeSessionId,
-            ':stripe_payment_intent_id' => $stripePaymentIntentId,
-            ':id' => $commandeId
-        ]);
+            error_log("STOCK SIMPLE DEBUG | commande={$commandeId} | rowCount=" . $requete->rowCount());
+
+            return $requete->rowCount() > 0;
+
+        } catch (Exception $e) {
+            error_log("decrementerStockCommande exception: " . $e->getMessage());
+            return false;
+        }
     }
 }

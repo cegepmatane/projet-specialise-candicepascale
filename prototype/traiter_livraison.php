@@ -23,7 +23,7 @@ require_once __DIR__ . '/donnees/AdresseLivraisonDAO.php';
 require_once __DIR__ . '/donnees/CommandeDAO.php';
 
 $donnees = $_POST;
-$donnees['utilisateur_id'] = (int)$_SESSION['utilisateur']['id'];
+$donnees['utilisateur_id'] = (int) $_SESSION['utilisateur']['id'];
 
 $adresseLivraison = new AdresseLivraison($donnees);
 
@@ -42,8 +42,8 @@ if (!$adresseLivraisonId) {
 
 $commandeId = CommandeDAO::creerCommande(
     (int)$_SESSION['utilisateur']['id'],
-    $adresseLivraisonId,
-    $panier
+    $panier,
+    $adresseLivraisonId
 );
 
 if (!$commandeId) {
