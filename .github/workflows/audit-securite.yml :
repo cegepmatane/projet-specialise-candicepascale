@@ -20,7 +20,7 @@ jobs:
 
       # --- PHP ---
       - name: Audit Composer
-         run: composer audit 2>&1 > rapport.txt || true
+        run: composer audit 2>&1 > rapport.txt || true
 
       # --- C# / Godot ---
       # - name: Audit NuGet
