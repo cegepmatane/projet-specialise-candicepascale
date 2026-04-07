@@ -1,0 +1,71 @@
+name: Collecte données veille
+
+on:
+  schedule:
+    - cron: '0 8 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collecte:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Collecter les stats GitHub
+        run: |
+          mkdir -p data
+
+          TECHNO="stripe/stripe-php"
+          CONCURRENT1="laravel/framework"
+          CONCURRENT2="symfony/symfony"
+          CONCURRENT3="php/php-src"
+
+          curl -s "https://api.github.com/repos/$TECHNO" \
+            > data/techno-stats.json
+
+          echo '[' > data/comparaison.json
+          for REPO in $TECHNO $CONCURRENT1 $CONCURRENT2 $CONCURRENT3; do
+            if [ -n "$REPO" ]; then
+              STATS=$(curl -s "https://api.github.com/repos/$REPO")
+              NOM=$(echo "$STATS" | jq -r '.name')
+              STARS=$(echo "$STATS" | jq '.stargazers_count')
+              FORKS=$(echo "$STATS" | jq '.forks_count')
+              ISSUES=$(echo "$STATS" | jq '.open_issues_count')
+              echo "{\"nom\":\"$NOM\",\"repo\":\"$REPO\",\"stars\":$STARS,\"forks\":$FORKS,\"issues\":$ISSUES}," >> data/comparaison.json
+            fi
+          done
+          sed -i '$ s/,$//' data/comparaison.json
+          echo ']' >> data/comparaison.json
+
+          curl -s \
+            "https://api.github.com/repos/$TECHNO/stats/participation" \
+            > data/commits.json
+
+          curl -s \
+            "https://api.github.com/repos/$TECHNO/releases/latest" \
+            > data/release.json
+
+      - name: Collecter les flux RSS
+        run: |
+          FLUX1="https://blog.stripe.com/feed"
+          FLUX2="https://www.reddit.com/r/PHP/.rss"
+
+          curl -sL "$FLUX1" -o data/flux1.xml || true
+          curl -sL "$FLUX2" -o data/flux2.xml || true
+
+      - name: Générer le timestamp
+        run: |
+          echo "{\"derniere_maj\":\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" \
+            > data/meta.json
+
+      - name: Commit les données
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'actions@github.com'
+          git add data/
+          git diff --staged --quiet || \
+            git commit -m "Mise à jour données veille [skip ci]"
+          git push
