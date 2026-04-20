@@ -15,14 +15,14 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 <meta
   name="sentry-config"
   data-js-dsn=""
-  data-js-release="e6af63ce41ad114076eb790f2aea5afbdbdc2db9"
+  data-js-release="03766fea8f4eea2d5a10d6e65841c4cf90de3d41"
   data-js-environment="production"
   data-js-project="mkt"
 >
 
-    <meta name="edge-experiment-treatments" content="wpp_acq_support_link_global_nav.control.ursula.7df5f694-5fcf-66be-5b1d-eca543458d06.a.s,wpp_refreshed_nav_style.control.ursula.0ee41cef-064f-0bb7-0e27-cecd39718914.a.s,wpp_acquisition_mobile_sticky_hamburger.control.ursula.ec059368-e4c1-0d63-5f20-28a8c75b84fb.m.s,wpp_console_mvp_nav_cta.control.ursula.b50dd573-08e2-bd4a-a639-2eac1433f9c2.m.s">
-<meta name="experiment-treatments" content="wpp_acq_support_link_global_nav.control.ursula.3190b34d-541b-4f04-8ca3-bda25de573a5.a.s,wpp_refreshed_nav_style.control.ursula.d31f2f63-c03b-49fd-ab1f-e4a2d6e712ec.a.s,wpp_acquisition_mobile_sticky_hamburger.control.ursula.10889aff-180d-4dfd-bea0-7d59a1c0d6eb.m.s,wpp_console_mvp_nav_cta.control.ursula.7a579c10-ff0b-4a86-8ecb-3272796ffed5.m.s">
-<meta name="experiment-token" content="b057adf6f5dcb58180d2f7eab8feaf1d493fe242">
+    <meta name="edge-experiment-treatments" content="wpp_acq_support_link_global_nav.control.ursula.50ad132b-5cd5-d9e3-155c-01c274311ee8.a.s,wpp_refreshed_nav_style.control.ursula.14546674-736a-482e-1ddd-aa22f96c796b.a.s,wpp_acquisition_mobile_sticky_hamburger.control.ursula.08ae54d9-cb4c-be30-d21f-f804ff4a6016.m.s,wpp_console_mvp_nav_cta.control.ursula.742db215-7598-1303-fc45-f182b93f2fa2.m.s">
+<meta name="experiment-treatments" content="wpp_acq_support_link_global_nav.control.ursula.a9f8ca85-e9e5-46ed-83d5-732b9cdd5ebd.a.s,wpp_refreshed_nav_style.control.ursula.ef95bccc-a5b1-425a-bb9c-0279d1c0af9c.a.s,wpp_acquisition_mobile_sticky_hamburger.control.ursula.84dc2f48-b713-4140-aada-b64a48a70832.m.s,wpp_console_mvp_nav_cta.control.ursula.8f0facb8-b887-4219-b788-fa2defa75ac6.m.s">
+<meta name="experiment-token" content="b057adf68aae3304a4600c031ff6338d69461bb0">
     
 
     <script>(() => {
@@ -82,7 +82,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
     <template id="source-attribution-loader">
   <script defer
-    src="https://b.stripecdn.com/mkt-statics-srv/assets/imt-c75001d3cd68cfab1f05a91d01a6b464.js"
+    src="https://b.stripecdn.com/mkt-statics-srv/assets/imt-f968cf7fd4be8b56e54789dc02121680.js"
     data-store_url="https://b.stripecdn.com/mkt-statics-srv/assets/store-936f0d847a16164e7f6b15d74659c4a9.html">
   </script>
 </template>
@@ -397,11 +397,11 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
 
         <script type="application/json" data-js-script-registry>
-          [{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-MCVFE2B5.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedSiteHeader-BSCJUSAL.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-DashboardLoginLink-65NF22XE.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedMobileMenu-46CVFPAC.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedProductsNavGroup-GKS3VIVQ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-HorizontalOverflowContainer-T5CRZVSO.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Gradient-LVBRWB27.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-SegmentedControl-XVK6UJLC.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UpdateCard-AMOON5GK.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FullWidthCarousel-U2BBIO67.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FooterCta-WKBXTCSE.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-TextInput-CMHLJ7ET.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Form-Z4Y2GZMK.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-PrivacyNotice-NLGT5WZU.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LocaleControl-BXTLTOOA.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-W4NTG5RD.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Sentry-IABPFTSH.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-EnforceSameSiteLaxOnCookies-5NDXH4YF.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LoaderScript-HPC3NBJT.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatInitializer-SERUDFSM.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatCtaButtonLarge-UPCJU6H2.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Loader-4UWT3674.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-ScrollDepthTracker-ZYWKMNES.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-MonitorWebVitals-KZJVGVHI.js"}]
+          [{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-7BWCIYU3.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedSiteHeader-IA53Z3E4.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-DashboardLoginLink-OA77PSSO.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedMobileMenu-KRYBNYB4.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedProductsNavGroup-BAAPDC2F.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-HorizontalOverflowContainer-J36F23FQ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Gradient-BR55XADM.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-SegmentedControl-VH4VZTZ2.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UpdateCard-OVDRD3VM.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FullWidthCarousel-6LVSADTN.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FooterCta-BHUBTELY.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-TextInput-J3L2UN6S.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Form-D5AUIFDW.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-PrivacyNotice-YT7F56WR.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LocaleControl-QNJ42QSF.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-AV6RVEUL.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Sentry-IABPFTSH.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-EnforceSameSiteLaxOnCookies-5NDXH4YF.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LoaderScript-XXCOVURR.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatInitializer-HARSTKG2.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatCtaButtonLarge-2A3VZH7Z.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Loader-NHEGYFQW.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-ScrollDepthTracker-DFK7PY4E.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-MonitorWebVitals-5WFLWPQM.js"}]
         </script>
       
 
-        <script type="module" src="https://b.stripecdn.com/mkt-statics-srv/assets/v1-Bootstrapper-HIX2MHE7.js"></script>
+        <script type="module" src="https://b.stripecdn.com/mkt-statics-srv/assets/v1-Bootstrapper-7W3NVFMG.js"></script>
       
 
   </head>
@@ -597,6 +597,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     </button>
   
 </li>
+              
               <li class='
   SiteHeaderNavItem
   SiteHeaderNavItem--refreshed
@@ -10771,13 +10772,13 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
         <div class="BlogChangelogCard__itemBody">
           <p>
-            Adaptive Pricing is now supported for one-time payments on MB WAY, Alipay, TWINT, and Unified Payments Interface (UPI). 
+            Businesses in the UK, Europe, Canada, Australia, and Singapore can now offer Pix, Brazil’s most popular payment method, used in more than 40% of online domestic transactions.
             <a
   class="
     Link
     BlogChangelogCard__moreLink
   "
-  href="https://docs.stripe.com/payments/currencies/localize-prices/adaptive-pricing?payment-ui=stripe-hosted#configure-local-payment-methods"
+  href="https://docs.stripe.com/payments/pix"
   
   
   data-js-controller='AnalyticsButton'
@@ -10840,68 +10841,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogChangelogCard__moreLink
   "
   href="https://docs.stripe.com/revenue-recognition/revenue-settings#functional-currency"
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Learn more&nbsp;<svg
-  class="
-    HoverArrow
-    
-    
-  "
-  width="10"
-  height="10"
-  viewBox="0 0 10 10"
-  aria-hidden="true"
->
-  <g fill-rule="evenodd">
-    
-      <path class="HoverArrow__linePath" d="M0 5h7" />
-      <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-    
-  </g>
-</svg></a>
-          </p>
-        </div>
-      </li>
-    
-      <li class="BlogChangelogCard__item">
-        <span
-  class="
-    Badge
-    Badge--accented
-    flavor--Twilight
-    accent--Purple
-    
-    
-    
-    
-    
-  "
-  
->
-  
-  Payments
-  
-</span>
-
-        <div class="BlogChangelogCard__itemBody">
-          <p>
-            Businesses in the UK, Europe, Canada, Australia, and Singapore can now offer Pix, Brazil’s most popular payment method, used in more than 40% of online domestic transactions.
-            <a
-  class="
-    Link
-    BlogChangelogCard__moreLink
-  "
-  href="https://docs.stripe.com/payments/pix"
   
   
   data-js-controller='AnalyticsButton'
@@ -11329,13 +11268,13 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
         <div class="BlogChangelogCard__itemBody">
           <p>
-            Users can now accept payments over Machine Payments Protocol (MPP) in a few lines of code using our Payment Intents API.
+            Adaptive Pricing is now supported for one-time payments on MB WAY, Alipay, TWINT, and Unified Payments Interface (UPI). 
             <a
   class="
     Link
     BlogChangelogCard__moreLink
   "
-  href="https://docs.stripe.com/payments/machine#integration-guides"
+  href="https://docs.stripe.com/payments/currencies/localize-prices/adaptive-pricing?payment-ui=stripe-hosted#configure-local-payment-methods"
   
   
   data-js-controller='AnalyticsButton'
