@@ -15,14 +15,14 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 <meta
   name="sentry-config"
   data-js-dsn=""
-  data-js-release="0b9c38151822dc0be4fe9b1e7f38c620b62a4dae"
+  data-js-release="7b74cb5613228d493c3a56583d747354d71b605c"
   data-js-environment="production"
   data-js-project="mkt"
 >
 
-    <meta name="edge-experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.f9c32cef-fc82-5e14-1201-a5df46c411e5.m.s,wpp_console_mvp_nav_cta.control.ursula.6fa86970-73dd-bf03-9c88-624ee29e419f.m.s">
-<meta name="experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.a825d1e2-b17d-40f6-bbda-c61315327e11.m.s,wpp_console_mvp_nav_cta.control.ursula.9841cddc-e95d-48e6-9549-2edc5b8bc7b5.m.s">
-<meta name="experiment-token" content="b057adf635c28a440b6d92f8aca54a079b716628">
+    <meta name="edge-experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.85f3e87d-cafe-fa6f-c162-22cefe65175d.m.s,wpp_console_mvp_nav_cta.control.ursula.c3ac5ff3-0dd3-07bd-dc10-d371bf6e700e.m.s,acquisition_chat_cta.control.ursula.a0ae6e95-abe4-3987-478b-69dd0e2b55e8.m.s">
+<meta name="experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.16095816-8fb3-4734-a903-7f30bc5b4387.m.s,wpp_console_mvp_nav_cta.control.ursula.75a3df79-9418-4a7b-bb01-0c542ab63644.m.s,acquisition_chat_cta.control.ursula.05feaf84-9c5f-467f-aab5-8f51ab973664.m.s">
+<meta name="experiment-token" content="b057adf6181bce391cbe156957c1c62becef2dcc">
     
 
     <script>(() => {
@@ -82,7 +82,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
     <template id="source-attribution-loader">
   <script defer
-    src="https://b.stripecdn.com/mkt-statics-srv/assets/imt-ddec8801231ea28460b0d700ab127848.js"
+    src="https://b.stripecdn.com/mkt-statics-srv/assets/imt-2d5bc112f85da43d964151bf8c57b54b.js"
     data-store_url="https://b.stripecdn.com/mkt-statics-srv/assets/store-936f0d847a16164e7f6b15d74659c4a9.html">
   </script>
 </template>
@@ -134,6 +134,59 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Chat with Stripe sales
   </div>
 </button>
+  <div class="UniversalChatCtaCard__wrapper UniversalChatCtaCard__wrapper--fixed" data-universal-chat-cta-card>
+  <div class="UniversalChatCtaCard">
+    <button
+      class="UniversalChatCtaCard__close"
+      data-universal-chat-cta-card-close
+      type="button"
+      aria-label="Dismiss chat"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+        <path d="M12 4L4 12M4 4L12 12" stroke="#425466" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+    </button>
+
+    <div class="UniversalChatCtaCard__header">
+      <div class="UniversalChatCtaCard__avatars">
+        <img
+          class="UniversalChatCtaCard__avatar UniversalChatCtaCard__avatar--1"
+          data-universal-chat-avatar-1
+          src=""
+          alt=""
+          width="34"
+          height="34"
+        />
+        <img
+          class="UniversalChatCtaCard__avatar UniversalChatCtaCard__avatar--2"
+          data-universal-chat-avatar-2
+          src=""
+          alt=""
+          width="38"
+          height="38"
+        />
+      </div>
+
+      <div class="UniversalChatCtaCard__availability">
+        <span class="UniversalChatCtaCard__dot" aria-hidden="true"></span>
+        <span class="UniversalChatCtaCard__agentCount">
+          <span data-universal-chat-agent-count>8</span>&nbsp;sales reps available
+        </span>
+      </div>
+    </div>
+
+    <p class="UniversalChatCtaCard__subtitle">We're here to discuss your business needs.</p>
+  </div>
+
+  <button
+    class="UniversalChatCtaCard__cta"
+    data-universal-chat-cta-card-open
+    type="button"
+    aria-label="Chat now with sales"
+  >
+    Chat now<span class="UniversalChatCtaCard__ctaSuffix" aria-hidden="true">&nbsp;with sales</span>
+  </button>
+</div>
 
   <iframe data-universal-chat-iframe title="Chat Widget" src="https://support-conversations.stripe.com/widget?entrypoint=dot_com&audience=dot_com" style="position: fixed; right: 24px; bottom: 0px; left: auto; z-index: 2147483639; width: 390px; max-height: 708px; overflow: hidden; background-color: rgb(230, 235, 241); border: 0px; border-radius: 8px 8px 0 0; box-shadow: rgba(0, 0, 0, 0.05) 0px 12px 15px, rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgba(0, 0, 0, 0.08) 0px 5px 9px; transition: 0.2s ease-in-out; transform: translate(0, 100%); height: calc(-40px + 100svh); opacity: 0;"></iframe>
 
@@ -230,7 +283,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 <style>.SiteHeader{--siteMenuTransition:250ms;--siteMenuArrowSpacing:13px;--siteMenuArrowOffset:0;--userLogoColor:var(--navColor);position:relative;z-index:100;background-color:var(--backgroundColor)}@media (max-width:899px){.SiteHeader{--desktopNavDisplay:none}}@media (min-width:900px){.SiteHeader{--mobileNavDisplay:none}}@media (prefers-reduced-motion:reduce){.SiteHeader{--siteMenuTransition:1ms}}.SiteHeader--noTransitions{--siteMenuTransition:0ms}.SiteHeader.variant--Overlay{position:absolute;top:0;left:0;width:100%;background:none}@media (min-width:900px){.SiteHeader.variant--Fixed{position:fixed;top:0;left:0;width:100%}}.SiteHeader--hasGuides:after{position:absolute;bottom:0;left:0;width:100%;height:1px;margin:0;border:none;background:linear-gradient(90deg,var(--guideDashedColor),var(--guideDashedColor) 50%,transparent 0,transparent);background-size:8px 1px;content:""}.SiteHeader--excludesNav{pointer-events:none}.SiteHeader--excludesNav .SiteHeader__logo{pointer-events:auto}.SiteHeader.theme--Transparent:after{display:none}.SiteHeader__guidesContainer{position:absolute;top:0;left:0;width:100%;height:100%;overflow:hidden}.SiteHeader.theme--Transparent .SiteHeader__guidesContainer{display:none}.SiteHeader__container{position:relative;max-width:calc(1080px + var(--columnPaddingNormal)*2);margin:0 auto;padding:0 var(--columnPaddingNormal);overflow:hidden}.SiteHeader__navContainer{display:flex;justify-content:space-between;align-items:center;min-height:68px;padding:32px var(--columnPaddingNormal) 12px}.HubPage .SiteHeader__navContainer{padding-left:0;padding-right:0}@media (min-width:900px){.HubPage .SiteHeader__navContainer,.SiteHeader__navContainer{padding:12px var(--columnPaddingNormal)}}@media (pointer:fine){.SiteHeader__logo{transition:var(--hoverTransition);transition-property:color,opacity}@media (-webkit-min-device-pixel-ratio:2){.SiteHeader__logo{will-change:opacity,color}}.SiteHeader__logo:hover{color:var(--navHoverColor);opacity:var(--navHoverOpacity)}}.SiteHeader__logoLink{display:block;outline:none;padding:4px;margin:-4px}.keyboard-navigation .SiteHeader__logoLink:focus{box-shadow:var(--focusBoxShadow);border-radius:2px}.SiteHeader__ctaNav{display:var(--desktopNavDisplay,initial);white-space:nowrap;overflow:hidden;justify-content:flex-end}html[lang^=de] .SiteHeader__ctaNav{--ctaFont:var(--fontWeightSemibold) 14px/1.6 var(--fontFamily)}@media (min-width:900px) and (max-width:990px){.MktRoot[lang^=en][data-loading] .SiteHeader__ctaNav{opacity:0}}@media (min-width:900px) and (max-width:1069px){.MktRoot:not([lang^=en])[data-loading] .SiteHeader__ctaNav{opacity:0}}.SiteHeader__menuNav{display:var(--mobileNavDisplay,initial)}.SiteHeader__mobileMenuMask{position:absolute;top:0;left:0;width:100%;display:var(--mobileNavDisplay,flex);justify-content:flex-end;transform:translateY(-100%);transition:ease-out var(--siteMenuTransition);overflow:hidden;z-index:1;pointer-events:none}.SiteHeader--mobileMenuVisible .SiteHeader__mobileMenuMask{transform:translateY(0)}.SiteHeader__mobileMenu{opacity:0;transform:translateY(100%);transform-origin:50% 0;transition:visibility step-end var(--siteMenuTransition),transform ease-out var(--siteMenuTransition),opacity ease-out var(--siteMenuTransition);pointer-events:none;visibility:hidden}.SiteHeader--mobileMenuVisible .SiteHeader__mobileMenu{transform:translateY(0);opacity:1;pointer-events:auto;visibility:visible;transition:visibility step-start var(--siteMenuTransition),transform ease-out var(--siteMenuTransition),opacity ease-out var(--siteMenuTransition)}@media (min-width:900px){.SiteHeader__mobileMenu{display:none}}.SiteHeader__menuContainer{display:var(--desktopNavDisplay,block);position:absolute;top:calc(100% - 1px - var(--siteMenuArrowSpacing));left:0;width:100%;height:1000px;z-index:1;pointer-events:none;overflow:hidden;opacity:0;transition:var(--siteMenuTransition)}.SiteHeader--dropdownVisible .SiteHeader__menuContainer{opacity:1}.SiteHeader__menu{position:absolute;top:0;left:0}.SiteHeader--hasContactSales .SiteHeader__navContainer{-moz-column-gap:20px;column-gap:20px}html[lang^=de] .SiteHeader--hasContactSales .SiteHeader__navContainer,html[lang^=es] .SiteHeader--hasContactSales .SiteHeader__navContainer,html[lang^=fr] .SiteHeader--hasContactSales .SiteHeader__navContainer,html[lang^=id] .SiteHeader--hasContactSales .SiteHeader__navContainer,html[lang^=nl] .SiteHeader--hasContactSales .SiteHeader__navContainer{-moz-column-gap:16px;column-gap:16px}.SiteHeader--hasContactSales .SiteHeader__ctaNav{display:var(--desktopNavDisplay,flex);flex-grow:1}.SiteHeader--hasContactSales .SiteHeader__ctaNavContainer{display:flex;margin-top:3px;-moz-column-gap:16px;column-gap:16px}.SiteHeader--hasContactSales .SiteHeader__leftCta.SiteHeader__leftCta--isHidden,.SiteHeader--hasContactSales .SiteHeader__secondaryAction--isHidden{position:absolute;visibility:hidden;pointer-events:none}.SiteHeader--hasContactSales .SiteHeader__ctaNav .variant--Link{color:var(--linkColor)}.SiteHeader--tripleCTA .SiteHeader__navContainer{gap:15px}.SiteHeader--tripleCTA .SiteHeader__ctaNavContainer{--column-gap-inner:25px;-moz-column-gap:var(--column-gap-inner);column-gap:var(--column-gap-inner)}.SiteHeader__contactSalesButtonWithSearch{--column-gap:8px;display:flex;gap:var(--column-gap)}@media (min-width:900px){.MktRoot .SiteHeader--isSticky{--easeOutSine:cubic-bezier(0.61,1,0.88,1)}.MktRoot .SiteHeader--isSticky .SiteHeader__stickyShadow{position:absolute;top:0;width:100%;height:100%;transform:translateY(-100%);transition:opacity .25s var(--easeOutSine);box-shadow:0 0 60px rgba(50,50,93,.18);pointer-events:none;opacity:0}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque{--accentColor:#96f;--navColor:#0a2540;--navHoverColor:#0a2540;--linkColor:#0a2540;--linkHoverColor:#0a2540;--linkHoverOpacity:0.6;--buttonColor:#635bff;--menuBgColor:#eff3f9}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__stickyContainer{background:#fff}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenu__card.Card{box-shadow:0 20px 60px rgba(50,50,93,.18)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteSubMenu{--siteSubMenuBackgroundColor:var(--menuBgColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__ctaNav .variant--Button{color:var(--textColor);background-color:var(--buttonColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__ctaNav .variant--Button:hover{background-color:var(--linkColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__ctaNav .variant--Link{color:var(--linkColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__stickyShadow{transform:translateY(0)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenu{padding-top:0;height:calc(var(--siteMenuHeight))}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenu__card.Card{--cardBackground:var(--menuBgColor);border-top-left-radius:0;border-top-right-radius:0}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__menuContainer{top:100%;overflow:visible}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__menuShadowContainer{overflow:hidden}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenu__sectionWrapper{margin:4px}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenuSection__body{border-radius:4px;background:#fff}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenuSection__footer{--siteMenuFooterMargin:0px;border-radius:0;background:var(--menuBgColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteSubMenu{border-radius:0}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeaderArrow{top:-6px;box-shadow:none;--siteHeaderArrowBackgroundColor:var(--menuBgColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteSolutionsNav{padding:0;background-color:var(--menuBgColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteProductsNav{border-top-left-radius:0;border-top-right-radius:0;background-color:var(--menuBgColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--isStuck{position:fixed}.MktRoot .SiteHeader--isSticky.SiteHeader--noStickyTransitions .SiteHeader__navContainer *{transition:none}}html:has(.SiteHeader--refreshed[data-menu-state=open]){overflow:hidden;scrollbar-gutter:stable}.MktRoot .SiteHeader--refreshed{--siteMenuArrowSpacing:0;--refreshedNavShadow:0 30px 60px -50px rgba(0,0,0,0.10196078431372549),0 30px 60px -10px rgba(50,50,93,0.25098039215686274);--refreshedMenuShadow:0 18px 36px -18px rgba(0,0,0,0.1),0 30px 45px -30px rgba(50,50,93,0.25);--refreshedNavWidth:calc(100vw - var(--columnPaddingNormal)*2 - var(--scrollbarWidth));--refreshedNavMaxWidth:1264px;--refreshedNavHeight:64px;--refreshedNavPaddingBlock:6px;--refreshedNavBorderRadius:8px;--navContainerBorderBottomRadius:8px;--navContainerBgColor:#fff;--navContainerBoxShadow:var(--refreshedNavShadow);--hoverTransition:none;padding-block:var(--refreshedNavPaddingBlock)}.MktRoot .SiteHeader--refreshed.SiteHeader--hasGuides:after{z-index:-1}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer{min-height:var(--refreshedNavHeight);padding:12px 16px;border-top-left-radius:var(--refreshedNavBorderRadius);border-top-right-radius:var(--refreshedNavBorderRadius)}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeaderNav__list{display:var(--desktopNavDisplay,flex);gap:1px}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeaderNavItem__link{text-box:trim-both cap alphabetic}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeaderNavItem__link--hasCaret{-moz-column-gap:4px;column-gap:4px}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeaderNavItem__link--hasCaret .SiteHeaderNavItem__linkCaretContainer{margin-block-start:2px;padding:0}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeader__ctaNavContainer{margin-top:0}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeader__ctaNavContainer .HoverArrow{--hoverTransition:150ms cubic-bezier(0.215,0.61,0.355,1)}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeader__ctaNavContainer .CtaButton.variant--Link{padding:3px 0 5px}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeader__ctaNavContainer .CtaButton{display:flex;align-items:center;justify-content:center}.MktRoot .SiteHeader--refreshed.SiteHeader--mobileMenuVisible .SiteHeader__container{--navContainerTransitionMs:0ms}.MktRoot .SiteHeader--refreshed.theme--HubDark:hover{--buttonHoverColor:#031323;fill:var(--knockoutColor)}.MktRoot .SiteHeader--refreshed.theme--HubDark .RefreshedMenuButton__icon{fill:var(--knockoutColor)}.MktRoot .SiteHeader--refreshed.SiteHeader--isHomepage .RefreshedMenuButton__icon{fill:var(--stripeAccentDark)}@media (max-width:900px){.MktRoot .SiteHeader--refreshed{padding-top:0}.MktRoot .SiteHeader--refreshed .SiteHeader__container{padding:16px 24px 12px}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer{padding:0;min-height:40px}}@media (min-width:900px){.MktRoot .SiteHeader--refreshed .SiteHeader__logoLink{padding-block:4px 5px;padding-inline:4px}}.MktRoot .SiteHeader--refreshed .SiteHeader__overlay{position:fixed;inset:0;z-index:1;background:linear-gradient(transparent,rgba(236,239,241,.8));-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);transition-property:opacity;transition-timing-function:cubic-bezier(.22,1,.36,1);transition-duration:.5s}.MktRoot .SiteHeader--refreshed .SiteHeader__container{overflow:hidden;z-index:2}@media (min-width:1112px){.MktRoot .SiteHeader--refreshed .SiteHeader__container{overflow:visible}}.MktRoot .SiteHeader--refreshed .SiteHeader__container:after{content:"";display:block;width:calc(100vw - var(--columnPaddingNormal)*2 - var(--scrollbarWidth));max-width:1264px;height:100%;position:absolute;z-index:-1;top:0;left:50%;transform:translateX(-50%);opacity:0;transition-property:opacity,border-radius;transition-duration:.24s,0ms;transition-timing-function:cubic-bezier(.45,.05,.55,.95),linear;border-top-left-radius:var(--refreshedNavBorderRadius);border-top-right-radius:var(--refreshedNavBorderRadius);border-bottom-left-radius:var(--navContainerBorderBottomRadius);border-bottom-right-radius:var(--navContainerBorderBottomRadius);background-color:var(--navContainerBgColor);box-shadow:var(--navContainerBoxShadow)}@media (min-width:900px){.MktRoot .SiteHeader--refreshed .SiteHeader__container .CtaButton,.MktRoot .SiteHeader--refreshed .SiteHeader__container .RefreshedNavGradientCta .HoverArrow,.MktRoot .SiteHeader--refreshed .SiteHeader__container .RefreshedNavGradientCta .NavCta__label,.MktRoot .SiteHeader--refreshed .SiteHeader__container .RefreshedNavGradientCta .NavCta__label--noGradient,.MktRoot .SiteHeader--refreshed .SiteHeader__container .SiteHeader__logo svg path,.MktRoot .SiteHeader--refreshed .SiteHeader__container .SiteHeaderNavItem__link{transition-property:opacity,color,background-color,border,fill,stroke;transition-duration:.3s;transition-timing-function:cubic-bezier(.25,1,.5,1);transform:translateZ(0)}.MktRoot .SiteHeader--refreshed .SiteHeader__container .SiteHeader__logo{transition-duration:.24s;transition-timing-function:cubic-bezier(.45,.05,.55,.95)}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover{--navColor:#061b31;--navHoverColor:#061b31;--linkColor:#061b31;--linkHoverColor:#061b31;--linkHoverOpacity:0.6;--menuBgColor:#eff3f9;--userLogoColor:#031323;--knockoutColor:#fff;--buttonColor:#031323}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover .RefreshedNavGradientCta .CtaButton{background-color:#0a2540}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover .CtaButton.variant--Button:hover{opacity:.6}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover .RefreshedNavGradientCta .NavCta__label{opacity:0}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover .RefreshedNavGradientCta .NavCta__label--noGradient{opacity:1}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover .RefreshedNavGradientCta .HoverArrow{stroke:#fff!important}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover:after{opacity:1}}.MktRoot .SiteHeader--refreshed .SiteHeader__menuContainer{all:unset;display:block;opacity:1;height:100%;position:relative;z-index:2;pointer-events:none}.MktRoot .SiteHeader--refreshed .SiteHeader__menuContainer:before{content:"";display:block;position:absolute;left:50%;transform:translateX(-50%);width:var(--refreshedNavWidth);max-width:var(--refreshedNavMaxWidth);transition-property:opacity;transition-duration:.24s;transition-timing-function:cubic-bezier(.45,.05,.55,.95);height:10px;z-index:100;top:-10px;border-bottom:1px solid #e5edf5;pointer-events:auto}.MktRoot .SiteHeader--refreshed .RefreshedMenu{width:var(--refreshedNavWidth);max-width:var(--refreshedNavMaxWidth);background-color:#fff;border-bottom-left-radius:var(--refreshedNavBorderRadius);border-bottom-right-radius:var(--refreshedNavBorderRadius);box-shadow:var(--refreshedMenuShadow);display:inline-block;z-index:2;overflow:clip;left:50%;transform:translateX(-50%);transition:height .2s cubic-bezier(.45,.05,.55,.95);will-change:height}.MktRoot .SiteHeader--refreshed .RefreshedMenu__card{position:relative;height:100%;overflow:hidden;z-index:1}.MktRoot .SiteHeader--refreshed .RefreshedMenu__section{--siteMenuSectionOffset:0;display:inline-block;position:absolute;top:0;left:50%;opacity:1;transform:translateX(-50%) translateX(var(--siteMenuSectionOffset));transition-property:opacity,transform;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.25s,.5s;will-change:opacity,transform}.MktRoot .SiteHeader--refreshed .RefreshedMenu__section[aria-hidden=true]{opacity:0;pointer-events:none}.MktRoot .SiteHeader--refreshed .RefreshedMenu__section[aria-hidden=true].SiteMenu__section--left{--siteMenuSectionOffset:-20%}.MktRoot .SiteHeader--refreshed .RefreshedMenu__section[aria-hidden=true].SiteMenu__section--right{--siteMenuSectionOffset:20%}.MktRoot .SiteHeader--refreshed.SiteHeader--noTransitions .RefreshedMenu__section{transition-duration:0ms}.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .CtaButton,.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .RefreshedNavGradientCta .HoverArrow,.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .RefreshedNavGradientCta .NavCta__label,.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .RefreshedNavGradientCta .NavCta__label--noGradient,.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .SiteHeader__logo svg path,.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .SiteHeaderNavItem__link{transition-delay:.24s}.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .SiteHeader__container:after{transition-delay:.24s,.2s}.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .SiteHeaderNavItem__link:not(.SiteHeaderNavItem__link--hasCaret):hover{transition-delay:0ms}.MktRoot .SiteHeader--refreshed[data-menu-state=closed] .RefreshedMenu{height:0;pointer-events:none}.MktRoot .SiteHeader--refreshed[data-menu-state=closed] .SiteHeader__overlay{opacity:0;pointer-events:none}.MktRoot .SiteHeader--refreshed[data-menu-state=closed] .SiteHeader__menuContainer:before{opacity:0}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container{--navContainerBorderBottomRadius:0}@media (min-width:900px){.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container{--navColor:#061b31;--navHoverColor:#061b31;--linkColor:#061b31;--linkHoverColor:#061b31;--linkHoverOpacity:0.6;--menuBgColor:#eff3f9;--userLogoColor:#031323;--knockoutColor:#fff;--buttonColor:#031323}}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container .RefreshedNavGradientCta .CtaButton{background-color:#0a2540}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container .RefreshedNavGradientCta .CtaButton:hover{opacity:.6}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container .RefreshedNavGradientCta .NavCta__label{opacity:0}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container .RefreshedNavGradientCta .NavCta__label--noGradient{opacity:1}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container .RefreshedNavGradientCta .HoverArrow{stroke:#fff!important}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container:after{opacity:1;transition:none}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .RefreshedMenu{height:var(--siteMenuHeight);pointer-events:auto}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__menuContainer:before,.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__overlay{opacity:1}</style>
 <style>.Guides{position:absolute;height:100%;width:100%;top:0;left:0;padding:0 var(--columnPaddingNormal);pointer-events:none}@media (max-width:1111px){.Guides{max-width:var(--windowWidth)}}.Guides__container{display:grid;grid:1fr/repeat(var(--columnCountMax),1fr);position:relative;max-width:var(--layoutWidth);height:100%;margin:0 auto}.Guides__guide{width:1px;background:linear-gradient(180deg,var(--guideDashedColor),var(--guideDashedColor) 50%,transparent 0,transparent);background-size:1px 8px}.Guides__guide:first-of-type,.Guides__guide:last-of-type{background:var(--guideSolidColor)}.Guides__guide:last-of-type{position:absolute;top:0;right:0;height:100%}@media (max-width:599px){.Guides__guide:nth-of-type(3n){display:none}}@media (max-width:899px){.Guides__guide:nth-of-type(2n){display:none}}</style>
 <style>.UserLogo{--userLogoMaxWidth:140px;display:block}@media (min-width:350px){.UserLogo{--userLogoMaxWidth:160px}}@media (max-width:899px){.UserLogo{max-width:var(--userLogoMaxWidth)}}.theme--White .UserLogo.variant--Flat{--userLogoColor:#b2bcc7}.theme--Light .UserLogo.variant--Flat{--userLogoColor:#aab4c1}.theme--Dark .UserLogo.variant--Flat{--userLogoColor:#fff;--userLogoColorAltShadeLighter:color-mix(in srgb,var(--userLogoColor) 92.5%,#000)}.UserLogo.variant--Flat{--userLogoColorAlt:var(--backgroundColor);--userLogoColorAltShadeDarker:color-mix(in srgb,var(--userLogoColor) 85%,#000);--userLogoColorAltShadeLighter:color-mix(in srgb,var(--userLogoColor) 75%,#fff);--userLogoColorAltNoTransparency:var(--backgroundColor)}</style>
-<style>.SiteHeaderNavItem+.SiteHeaderNavItem{margin-left:-1px}.SiteHeaderNavItem__link,.SiteHeaderNavItem__link.Link{--linkColor:var(--navColor);--linkHoverColor:var(--navHoverColor);--linkHoverOpacity:var(--navHoverOpacity);display:block;padding:10px 20px;font:var(--fontWeightBold) 15px/1.6 var(--fontFamily);letter-spacing:.2px;color:var(--navColor);cursor:pointer;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:transparent;border:none;outline:none}.SiteHeaderNavItem__link.Link[aria-haspopup=true],.SiteHeaderNavItem__link[aria-haspopup=true]{cursor:default;transition:var(--hoverTransition);transition-property:color,opacity}.SiteHeaderNavItem__link.Link[aria-expanded=true],.SiteHeaderNavItem__link[aria-expanded=true]{color:var(--linkHoverColor);opacity:var(--linkHoverOpacity)}.keyboard-navigation .SiteHeaderNavItem__link.Link:focus,.keyboard-navigation .SiteHeaderNavItem__link:focus{box-shadow:var(--focusBoxShadow);border-radius:4px}html[lang^=ja] .SiteHeaderNavItem__link,html[lang^=ja] .SiteHeaderNavItem__link.Link{font-weight:600;font-variation-settings:"wght" 500}html[lang^=de] .SiteHeaderNavItem__link,html[lang^=de] .SiteHeaderNavItem__link.Link{font:var(--fontWeightBold) 14px/1.6 var(--fontFamily)}.SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link,.SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link.Link{padding:10px 20px}html[lang^=es] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link,html[lang^=es] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link.Link,html[lang^=fr] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link,html[lang^=fr] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link.Link,html[lang^=id] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link,html[lang^=id] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link.Link,html[lang^=nl] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link,html[lang^=nl] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link.Link{padding:10px 16px}html[lang^=de] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link,html[lang^=de] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link.Link{padding:10px 8px}.SiteHeader--tripleCTA .SiteHeaderNavItem__link,.SiteHeader--tripleCTA .SiteHeaderNavItem__link.Link{padding:10px 14px}.SiteHeader .SiteHeaderNavItem--condensed .SiteHeaderNavItem__link{padding:10px 12px}.SiteHeader .SiteHeaderNavItem--condensed .SiteHeaderNavItem__link:not(.SiteHeaderNavItem__link--hasCaret){padding:10px 16px}.SiteHeaderNavItem__link--hasCaret{display:flex;align-items:center;-moz-column-gap:3px;column-gap:3px}.SiteHeaderNavItem__link--hasCaret span,.SiteHeaderNavItem__link--hasCaret svg{display:inline-flex}.SiteHeaderNavItem__link--hasCaret.SiteHeaderNavItem__link[aria-expanded=true] .SiteHeaderNavItem__linkCaret--left{transform:rotate(-90deg)}.SiteHeaderNavItem__link--hasCaret.SiteHeaderNavItem__link[aria-expanded=true] .SiteHeaderNavItem__linkCaret--right{transform:rotate(90deg)}.SiteHeaderNavItem__link--hasCaret .SiteHeaderNavItem__linkCaretContainer{position:relative;padding:7px 1px 5px}.SiteHeaderNavItem__link--hasCaret .SiteHeaderNavItem__linkCaret{transition:transform .4s cubic-bezier(.4,0,.2,1)}.SiteHeaderNavItem__link--hasCaret .SiteHeaderNavItem__linkCaret--left{translate:2px}.SiteHeaderNavItem__link--hasCaret .SiteHeaderNavItem__linkCaret--right{translate:-2px}.SiteHeader--refreshed[data-menu-state=open] a.SiteHeaderNavItem__link,.SiteHeader--refreshed[data-menu-state=open] button.SiteHeaderNavItem__link[aria-expanded=false]{--navColor:#667691}.SiteHeader--refreshed .SiteHeaderNav__list:has(a.SiteHeaderNavItem__link:hover) .SiteHeaderNavItem__link:not(:hover){--navColor:#667691}.SiteHeaderNavItem--refreshed .SiteHeaderNavItem__link,.SiteHeaderNavItem--refreshed .SiteHeaderNavItem__link.Link{letter-spacing:normal;font:400 14px/1 var(--fontFamily);padding-block:12px 14px;padding-inline:12px;cursor:pointer}.SiteHeaderNavItem--refreshed .SiteHeaderNavItem__link.Link:hover,.SiteHeaderNavItem--refreshed .SiteHeaderNavItem__link.Link[aria-expanded=true],.SiteHeaderNavItem--refreshed .SiteHeaderNavItem__link:hover,.SiteHeaderNavItem--refreshed .SiteHeaderNavItem__link[aria-expanded=true]{color:var(--navColor);opacity:1}</style>
+<style>.SiteHeaderNavItem+.SiteHeaderNavItem{margin-left:-1px}.SiteHeaderNavItem__link,.SiteHeaderNavItem__link.Link{--linkColor:var(--navColor);--linkHoverColor:var(--navHoverColor);--linkHoverOpacity:var(--navHoverOpacity);display:block;padding:10px 20px;font:var(--fontWeightBold) 15px/1.6 var(--fontFamily);letter-spacing:.2px;color:var(--navColor);cursor:pointer;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:transparent;border:none;outline:none}.SiteHeaderNavItem__link.Link[aria-haspopup=true],.SiteHeaderNavItem__link[aria-haspopup=true]{cursor:default;transition:var(--hoverTransition);transition-property:color,opacity}.SiteHeaderNavItem__link.Link[aria-expanded=true],.SiteHeaderNavItem__link[aria-expanded=true]{color:var(--linkHoverColor);opacity:var(--linkHoverOpacity)}.keyboard-navigation .SiteHeaderNavItem__link.Link:focus,.keyboard-navigation .SiteHeaderNavItem__link:focus{box-shadow:var(--focusBoxShadow);border-radius:4px}html[lang^=ja] .SiteHeaderNavItem__link,html[lang^=ja] .SiteHeaderNavItem__link.Link{font-weight:600;font-variation-settings:"wght" 500}html[lang^=de] .SiteHeaderNavItem__link,html[lang^=de] .SiteHeaderNavItem__link.Link{font:var(--fontWeightBold) 14px/1.6 var(--fontFamily)}.SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link,.SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link.Link{padding:10px 20px}html[lang^=es] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link,html[lang^=es] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link.Link,html[lang^=fr] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link,html[lang^=fr] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link.Link,html[lang^=id] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link,html[lang^=id] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link.Link,html[lang^=nl] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link,html[lang^=nl] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link.Link{padding:10px 16px}html[lang^=de] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link,html[lang^=de] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link.Link{padding:10px 8px}.SiteHeader--tripleCTA .SiteHeaderNavItem__link,.SiteHeader--tripleCTA .SiteHeaderNavItem__link.Link{padding:10px 14px}.SiteHeader .SiteHeaderNavItem--condensed .SiteHeaderNavItem__link{padding:10px 12px}.SiteHeader .SiteHeaderNavItem--condensed .SiteHeaderNavItem__link:not(.SiteHeaderNavItem__link--hasCaret){padding:10px 16px}.SiteHeaderNavItem__link--hasCaret{display:flex;align-items:center;-moz-column-gap:3px;column-gap:3px}.SiteHeaderNavItem__link--hasCaret span,.SiteHeaderNavItem__link--hasCaret svg{display:inline-flex}.SiteHeaderNavItem__link--hasCaret.SiteHeaderNavItem__link[aria-expanded=true] .SiteHeaderNavItem__linkCaret--left{transform:rotate(-90deg)}.SiteHeaderNavItem__link--hasCaret.SiteHeaderNavItem__link[aria-expanded=true] .SiteHeaderNavItem__linkCaret--right{transform:rotate(90deg)}.SiteHeaderNavItem__link--hasCaret .SiteHeaderNavItem__linkCaretContainer{position:relative;padding:7px 1px 5px}.SiteHeaderNavItem__link--hasCaret .SiteHeaderNavItem__linkCaret{transition:transform .4s cubic-bezier(.4,0,.2,1)}.SiteHeaderNavItem__link--hasCaret .SiteHeaderNavItem__linkCaret--left{translate:2px}.SiteHeaderNavItem__link--hasCaret .SiteHeaderNavItem__linkCaret--right{translate:-2px}.SiteHeader--refreshed[data-menu-state=open] a.SiteHeaderNavItem__link,.SiteHeader--refreshed[data-menu-state=open] button.SiteHeaderNavItem__link[aria-expanded=false]{--navColor:#667691}.SiteHeader--refreshed .SiteHeaderNav__list:has(a.SiteHeaderNavItem__link:hover) .SiteHeaderNavItem__link:not(:hover){--navColor:#667691}.SiteHeaderNavItem--refreshed .SiteHeaderNavItem__link,.SiteHeaderNavItem--refreshed .SiteHeaderNavItem__link.Link{letter-spacing:normal;font:400 14px/1 var(--fontFamily);padding-block:12px 14px;padding-inline:12px;cursor:pointer}.SiteHeaderNavItem--refreshed .SiteHeaderNavItem__link.Link:hover,.SiteHeaderNavItem--refreshed .SiteHeaderNavItem__link.Link[aria-expanded=true],.SiteHeaderNavItem--refreshed .SiteHeaderNavItem__link:hover,.SiteHeaderNavItem--refreshed .SiteHeaderNavItem__link[aria-expanded=true]{color:var(--navColor);opacity:1}.SiteHeaderNavItem--refreshed.SiteHeaderNavItem--hasSparkle{display:none;margin-left:0}.SiteHeaderNavItem--refreshed.SiteHeaderNavItem--hasSparkle .SiteHeaderNavItem__sparkleDivider{display:block;flex-shrink:0;margin-left:4px;margin-right:16px}.SiteHeaderNavItem--refreshed.SiteHeaderNavItem--hasSparkle .SiteHeaderNavItem__link--hasSparkle,.SiteHeaderNavItem--refreshed.SiteHeaderNavItem--hasSparkle .SiteHeaderNavItem__link--hasSparkle.Link{display:inline-flex;align-items:center;-moz-column-gap:6px;column-gap:6px;padding-inline:0 12px}.SiteHeaderNavItem--refreshed.SiteHeaderNavItem--hasSparkle .SiteHeaderNavItem__sparkleIcon{flex-shrink:0}@media (min-width:1000px){.SiteHeader--refreshed .SiteHeaderNavItem--hasSparkle{display:inline-flex;align-items:center;flex-shrink:0}}</style>
 <style>.Link{font-weight:var(--linkWeight,var(--fontWeightSemibold));cursor:pointer;color:var(--linkColor);opacity:var(--linkOpacity,1);transition:var(--hoverTransition);transition-property:color,opacity;outline:none}@media (pointer:fine){.Link:hover{color:var(--linkHoverColor,var(--linkColor));opacity:var(--linkHoverOpacity,1)}}@media (pointer:coarse){.Link:active{color:var(--linkHoverColor,var(--linkColor));opacity:var(--linkHoverOpacity,1)}}.keyboard-navigation .Link:focus{box-shadow:var(--focusBoxShadow);border-radius:2px}.Link__icon{position:relative;top:2px;margin:0 8px 0 0}</style>
 <style>.SiteHeaderNav__list{display:var(--desktopNavDisplay,flex);align-items:center;margin:0;padding:0;list-style:none}.SiteHeaderNav__list:has(.SiteHeaderNavItem--condensed){padding-left:8px}</style>
 <style>.DashboardLoginLink__dualCTAWrapper{display:flex;flex-direction:row;gap:var(--column-gap-inner)}</style>
@@ -243,7 +296,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 <style>.RefreshedProductsNavMobile__content{width:100%;display:grid;grid-template-columns:1fr;background-color:#fff;padding:24px 24px 0;row-gap:32px}.RefreshedProductsNavMobile__groupLinks{display:flex;flex-direction:column;gap:12px;margin:calc(var(--divider-vertical-margin)*2) 0 0;list-style:none;padding:0}.RefreshedProductsNavMobile__aside{background-color:#f8fafd;padding:24px;margin:0 -24px}.RefreshedProductsNavMobile__asideTitle{color:#0a2540;font:300 14px/1.5 var(--fontFamily)}.RefreshedProductsNavMobile__asideLinks{display:grid;grid-template-columns:1fr;row-gap:12px;margin:24px 0 0;list-style:none;padding:0}.RefreshedProductsNavMobile__content .SiteProductsNav__group{background-color:#fff;--divider-color:#e5edf5;--divider-vertical-margin:12px}.RefreshedProductsNavMobile__content .SiteProductsNav__group:first-child{--suite-color:#ff6118;--stop-color:#fb76fa;--gradient-color:#533afd}.RefreshedProductsNavMobile__content .SiteProductsNav__group:nth-child(2){--suite-color:#fc5;--stop-color:#fb76fa;--gradient-color:#533afd;--gradient-line-offset:100%}.RefreshedProductsNavMobile__content .SiteProductsNav__group:nth-child(3){--suite-color:#f44bcc;--stop-color:#ec8fff;--gradient-color:#533afd;--gradient-line-offset:200%}.RefreshedProductsNavMobile__content .SiteProductsNav__group:nth-child(4){--suite-color:#ea2261;--stop-color:#da56ed;--gradient-color:#533afd;--gradient-line-offset:300%}.RefreshedProductsNavMobile__content .SiteProductsNav__groupTitle{position:relative;color:#0a2540;font:300 14px/1.2 var(--fontFamily)}</style>
 <style>.RefreshedNavItem{font:300 14px/18px var(--fontFamily);letter-spacing:normal;text-wrap:balance}.RefreshedNavItem:hover .RefreshedNavItem__link{color:#2e2b8c}.RefreshedNavItem:hover .RefreshedNavItem__body{color:#061b31}.RefreshedNavItem__link{color:#533afd;font-weight:400}.RefreshedNavItem__content{display:flex;flex-direction:column;gap:4px}.RefreshedNavItem__body{color:#3c4f69;font:300 14px/1.4 var(--fontFamily);opacity:1;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}@media (hover:none){.RefreshedNavItem__arrow.RefreshedHoverArrow{display:none}}.RefreshedNavItem__link:hover .RefreshedNavItem__arrow.RefreshedHoverArrow{visibility:visible}</style>
 <style>.RefreshedHoverArrow{position:relative;top:0;margin-left:0;visibility:hidden;transition:visibility 0ms linear .3s;animation-name:refreshed-nav-hover-arrow-out;animation-duration:.15s;animation-timing-function:cubic-bezier(.25,1,.5,1);animation-fill-mode:forwards}@media (hover:hover){a:hover .RefreshedHoverArrow,button:hover .RefreshedHoverArrow{animation-name:refreshed-nav-hover-arrow-in;animation-duration:.3s;visibility:visible;transition-delay:0ms}}@keyframes refreshed-nav-hover-arrow-in{0%{opacity:0;transform:translateX(-3px)}to{opacity:1;transform:translateX(0)}}@keyframes refreshed-nav-hover-arrow-out{0%{opacity:1}to{opacity:0}}</style>
-<style>.SessionsBanner{container-type:inline-size;container-name:sessions-banner;margin-block-start:32px}.SessionsBanner__card{background-color:#fff;border:1px solid #e5edf5;border-radius:4px;overflow:hidden;display:flex;flex-direction:column;align-items:center;font-size:14px}.SessionsBanner__text-emphasized{font:400 14px/1.4 var(--fontFamily);letter-spacing:0;color:#061b31}.SessionsBanner__text-subdued{display:block;font:300 14px/1.4 var(--fontFamily);letter-spacing:0;color:#667691}.SessionsBanner__link{--linkHoverColor:#2e2b8c;--linkHoverOpacity:1;font:400 14px/1.4 var(--fontFamily);letter-spacing:0;color:#533afd}.SessionsBanner__link .RefreshedHoverArrow{margin-left:3px}.SessionsBanner__picture{width:100%;order:1;flex-shrink:0}.SessionsBanner__image{height:80px;-o-object-fit:cover;object-fit:cover;-o-object-position:90% 50%;object-position:90% 50%}.SessionsBanner__content{padding:16px;display:flex;flex-direction:column;gap:12px;order:2}@container sessions-banner (min-width: 400px){.SessionsBanner__card{flex-direction:row;align-items:stretch}.SessionsBanner__picture{width:36%;order:1;display:flex;aspect-ratio:280/200}.SessionsBanner__image{height:100%;width:100%;-o-object-fit:cover;object-fit:cover;-o-object-position:90% 50%;object-position:90% 50%}.SessionsBanner__content{flex:1;order:2;padding:20px}.SessionsBanner__text-emphasized{display:block}}</style>
+<style>.SessionsBanner{container-type:inline-size;container-name:sessions-banner;margin-block-start:32px}.SessionsBanner__card{background-color:#fff;border:1px solid #e5edf5;border-radius:4px;overflow:hidden;display:flex;flex-direction:column;align-items:center;font-size:14px}.SessionsBanner__text-emphasized{font:400 14px/1.4 var(--fontFamily);letter-spacing:0;color:#061b31}.SessionsBanner__text-subdued{display:block;font:300 14px/1.4 var(--fontFamily);letter-spacing:0;color:#667691}.SessionsBanner__link{--linkHoverColor:#2e2b8c;--linkHoverOpacity:1;font:400 14px/1.4 var(--fontFamily);letter-spacing:0;color:#533afd}.SessionsBanner__link .RefreshedHoverArrow{margin-left:3px}.SessionsBanner__picture{width:100%;order:1;flex-shrink:0}.SessionsBanner__image{height:80px;max-width:100%;-o-object-fit:cover;object-fit:cover;-o-object-position:top;object-position:top}.SessionsBanner__content{padding:16px;display:flex;flex-direction:column;gap:12px;order:2}@container sessions-banner (min-width: 400px){.SessionsBanner__card{flex-direction:row;align-items:stretch}.SessionsBanner__picture{width:36%;order:1;display:flex;aspect-ratio:280/200}.SessionsBanner__image{height:100%;width:100%;-o-object-fit:cover;object-fit:cover;-o-object-position:center;object-position:center}.SessionsBanner__content{flex:1;order:2;padding:20px}.SessionsBanner__text-emphasized{display:block}}</style>
 <style>.Picture{--pictureMaxWidth:none;--pictureBleedLeft:0;--pictureBleedRight:0;--pictureBleedLeftMobile:0;--pictureBleedRightMobile:0;display:flex;max-width:var(--pictureMaxWidth);margin-left:calc(var(--pictureBleedLeft)*-1);margin-right:calc(var(--pictureBleedRight)*-1)}@media (max-width:599px){.Picture{margin-left:calc(var(--pictureBleedLeftMobile)*-1);margin-right:calc(var(--pictureBleedRightMobile)*-1)}}.Picture--fitCover{width:100%;height:100%}.Picture__image{vertical-align:top;align-self:flex-start}.Picture--autosize .Picture__image{width:100%;height:auto;max-width:100%}.Picture--fitCover .Picture__image{width:100%;height:100%;-o-object-fit:cover;object-fit:cover}</style>
 <style>.SiteMobileMenuSection{height:100%;max-height:0;overflow:hidden;opacity:0;transform:var(--siteMobileMenuSectionTransform);transition:max-height var(--transitionDuration) step-end,opacity var(--transitionDuration) step-end}.SiteMobileMenuSection--isActive{max-height:100%;opacity:1;transition:max-height var(--transitionDuration) step-start,opacity var(--transitionDuration) step-start}</style>
 <style>.RefreshedNavigation__content{--group-border:1px solid #e5edf5;--bg-aside:#f8fafd;--shadow-aside:#e5edf5;width:100%;display:grid;grid-template-columns:1fr;background-color:#fff;padding:24px 24px 0}.RefreshedNavigation__group{background-color:#fff;padding:0 0 32px}.RefreshedNavigation__group+.RefreshedNavigation__group:not(aside){border-top:var(--group-border);padding:32px 0}aside.RefreshedNavigation__group{position:relative;background-color:var(--bg-aside);padding:24px;margin:0 -24px}@media (min-width:940px){aside.RefreshedNavigation__group:after{content:"";display:block;position:absolute;inset:0 -1000px 0 0;box-shadow:0 -1px 0 0 var(--shadow-aside);background-color:var(--bg-aside);z-index:-1}}.RefreshedNavigation__groupTitle{display:flex;color:#0a2540;font:300 14px/1.2 var(--fontFamily)}.RefreshedNavigation__groupLinks{display:flex;flex-direction:column;gap:12px;margin:24px 0 0;list-style:none;padding:0}@media (min-width:900px){.RefreshedNavigation__content{width:var(--refreshedNavWidth);max-width:var(--refreshedNavMaxWidth);grid-template-columns:repeat(4,1fr);padding:0}.RefreshedNavigation__group{padding:32px 32px 48px}.RefreshedNavigation__group+.RefreshedNavigation__group:not(aside){border-top:none;border-left:var(--group-border);padding:32px 32px 48px}aside.RefreshedNavigation__group{border-left:var(--group-border);padding:32px 32px 48px;margin:0}}</style>
@@ -269,6 +322,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 <style>.SegmentedControl{--segmentedControlSpacing:16px;--segmentedControlBorderRadius:16.5px;--segmentedControlSpacingBetweenItems:0px;margin:0 0 var(--segmentedControlSpacing);position:relative;display:flex;-webkit-user-select:none;-moz-user-select:none;user-select:none}.SegmentedControl__container{display:flex;position:relative;max-width:100%}.SegmentedControl[data-selection-mode=multi]{--segmentedControlSpacingBetweenItems:4px;margin-left:calc(var(--segmentedControlSpacingBetweenItems)*-1);margin-right:calc(var(--segmentedControlSpacingBetweenItems)*-1)}.SegmentedControl[data-selection-mode=multi] .SegmentedControlButton{margin:0 var(--segmentedControlSpacingBetweenItems)}.SegmentedControl--singleModeActive .SegmentedControl__buttons{background-color:var(--accentColor)}.SegmentedControl--singleModeActive .SegmentedControl__buttons .SegmentedControlButton{color:var(--knockoutColor);border-radius:0}.SegmentedControl--singleModeActive .SegmentedControl__backContainer{display:flex}.SegmentedControl--singleModeActive .HorizontalOverflowContainer__items{pointer-events:none}.SegmentedControl__backContainer{display:flex;position:absolute;top:0;left:var(--segmentedControlSpacing);height:32px;display:none}.SegmentedControl__buttons{display:flex}</style>
 <style>.UniversalChatCtaButton{position:fixed;right:24px;bottom:24px;z-index:99;width:64px;height:64px;border-radius:50%;background:#0a2540;border:none;outline:none;display:flex;align-items:center;justify-content:center;flex-direction:column;cursor:pointer;animation:loadChatBubble .2s cubic-bezier(.16,1,.3,1);transition:opacity .3s cubic-bezier(.4,0,.2,1)}@media (pointer:fine){.UniversalChatCtaButton:hover{opacity:.8}}@media (pointer:coarse){.UniversalChatCtaButton:active{opacity:.8}}@media (prefers-reduced-motion:no-preference){@media (pointer:fine){.UniversalChatCtaButton:hover .UniversalChatCtaButton__bubbleLeft{transform:translateX(-8px) scale(0)}.UniversalChatCtaButton:hover .UniversalChatCtaButton__bubbleRightContainer{transform:scale(1.5) translateY(2px)}.UniversalChatCtaButton:hover .UniversalChatCtaButton__typingIndicator{opacity:1}}@media (pointer:coarse){.UniversalChatCtaButton:active .UniversalChatCtaButton__bubbleLeft{transform:translateX(-8px) scale(0)}.UniversalChatCtaButton:active .UniversalChatCtaButton__bubbleRightContainer{transform:scale(1.5) translateY(2px)}.UniversalChatCtaButton:active .UniversalChatCtaButton__typingIndicator{opacity:1}}}.UniversalChatCtaButton:before{content:"";position:absolute;inset:-1px;border-radius:50%;box-shadow:var(--focusBoxShadow);opacity:0;pointer-events:none}@media (prefers-reduced-motion:no-preference){.UniversalChatCtaButton:before{transition:opacity var(--hoverTransition)}}.UniversalChatCtaButton:focus-visible{outline:none}.UniversalChatCtaButton:focus-visible:before{opacity:1}@keyframes loadChatBubble{0%{opacity:0;transform:translateY(30px) scale(.5)}to{opacity:1;transform:translateY(0) scale(1)}}.UniversalChatCtaButton__bubbleLeft{position:relative;margin-bottom:-16px;margin-left:8px;z-index:10;transform-origin:top right;transition:transform .3s cubic-bezier(.4,0,.2,1)}.UniversalChatCtaButton__bubbleRightContainer{position:relative;margin-right:8px;transform-origin:bottom left;transition:transform .3s cubic-bezier(.4,0,.2,1)}.UniversalChatCtaButton__typingIndicator{position:absolute;top:8px;left:3px;opacity:0;overflow:visible;transition:opacity .3s cubic-bezier(.4,0,.2,1);scale:.67}.UniversalChatCtaButton__typingBubble{animation:UniversalChatTypingBubbleBounce .75s ease-in-out infinite}.UniversalChatCtaButton__typingBubble:nth-child(2){animation-delay:.15s}.UniversalChatCtaButton__typingBubble:nth-child(3){animation-delay:.3s}@keyframes UniversalChatTypingBubbleBounce{0%,to{animation-timing-function:ease-out;transform:translateY(2px)}50%{animation-timing-function:ease-in-out;transform:translateY(-2.5px)}}</style>
 <style>.UniversalChatCtaButtonLarge{--universal-chat-cta-button-ease:cubic-bezier(0.4,0,0.2,1);--universal-chat-cta-button-duration:0.3s;--universal-chat-cta-button-text-width:fit-content;position:fixed;right:24px;bottom:24px;z-index:99;width:var(--universal-chat-cta-button-text-width);height:68px;border-radius:8px;background:#fff;border:none;outline:none;display:flex;align-items:center;justify-content:left;flex-direction:row;cursor:pointer;box-shadow:0 4px 8px 0 rgba(0,0,0,.1);padding-left:14px;padding-right:14px;animation:loadChatBox .2s cubic-bezier(.16,1,.3,1);transition:width var(--universal-chat-cta-button-duration) var(--universal-chat-cta-button-ease)}@media (prefers-reduced-motion:no-preference){@media (pointer:fine){.UniversalChatCtaButtonLarge:hover .UniversalChatCtaButtonLarge__bubbleLeft{transform:translateX(-8px) scale(0)}.UniversalChatCtaButtonLarge:hover .UniversalChatCtaButtonLarge__bubbleRightContainer{transform:scale(1.25) translateX(2px) translateY(2px)}.UniversalChatCtaButtonLarge:hover .UniversalChatCtaButtonLarge__typingIndicator{opacity:1}}@media (pointer:coarse){.UniversalChatCtaButtonLarge:active .UniversalChatCtaButtonLarge__bubbleLeft{transform:translateX(-8px) scale(0)}.UniversalChatCtaButtonLarge:active .UniversalChatCtaButtonLarge__bubbleRightContainer{transform:scale(1.25) translateX(2px) translateY(2px)}.UniversalChatCtaButtonLarge:active .UniversalChatCtaButtonLarge__typingIndicator{opacity:1}}.UniversalChatCtaButtonLarge:not(:hover).UniversalChatCtaButtonLarge--collapsed{width:68px}.UniversalChatCtaButtonLarge:not(:hover).UniversalChatCtaButtonLarge--collapsed .UniversalChatCtaButtonLarge__text{color:transparent}.UniversalChatCtaButtonLarge:not(:hover).UniversalChatCtaButtonLarge--collapsed .UniversalChatCtaButtonLarge__icon{background:transparent}.UniversalChatCtaButtonLarge:not(:hover).UniversalChatCtaButtonLarge--collapsed .UniversalChatCtaButtonLarge__iconInner{scale:1.2}}.UniversalChatCtaButtonLarge__text{flex:1;color:#0a2540;font-family:var(--fontFamily);font-size:15px;font-weight:var(--fontWeightBold);overflow:hidden;padding-left:12px;text-align:left;white-space:nowrap;transition:color var(--universal-chat-cta-button-duration) var(--universal-chat-cta-button-ease)}.UniversalChatCtaButtonLarge__icon{display:grid;place-items:center;width:40px;height:40px;border-radius:4px;background:#e7ecf1;border:none;outline:none;transition:background var(--universal-chat-cta-button-duration) var(--universal-chat-cta-button-ease)}.UniversalChatCtaButtonLarge__iconInner{display:flex;align-items:center;justify-content:center;flex-direction:column;height:40px;width:40px;transition:scale var(--universal-chat-cta-button-duration) var(--universal-chat-cta-button-ease)}@keyframes loadChatBox{0%{opacity:0;transform:translateY(30px) scale(.5)}to{opacity:1;transform:translateY(0) scale(1)}}.UniversalChatCtaButtonLarge__bubbleLeft{position:relative;margin-bottom:-16px;margin-left:8px;z-index:10;transform-origin:top right;transition:transform .3s cubic-bezier(.4,0,.2,1)}.UniversalChatCtaButtonLarge__bubbleRightContainer{position:relative;margin-right:8px;transform-origin:bottom left;transition:transform .3s cubic-bezier(.4,0,.2,1)}.UniversalChatCtaButtonLarge__typingIndicator{position:absolute;top:8px;left:3px;opacity:0;overflow:visible;transition:opacity .3s cubic-bezier(.4,0,.2,1);scale:.67}.UniversalChatCtaButtonLarge__typingBubble{animation:UniversalChatTypingBubbleBounce .75s ease-in-out infinite}.UniversalChatCtaButtonLarge__typingBubble:nth-child(2){animation-delay:.15s}.UniversalChatCtaButtonLarge__typingBubble:nth-child(3){animation-delay:.3s}@keyframes UniversalChatTypingBubbleBounce{0%,to{animation-timing-function:ease-out;transform:translateY(2px)}50%{animation-timing-function:ease-in-out;transform:translateY(-2.5px)}}@keyframes blink{0%,50%{opacity:0}51%,to{opacity:1}}</style>
+<style>.UniversalChatCtaCard__wrapper{display:flex;flex-direction:column;align-items:flex-end;gap:8px;animation:UniversalChatCtaCard__entrance .3s cubic-bezier(.25,1,.5,1)}.UniversalChatCtaCard__wrapper--fixed{position:fixed;right:24px;bottom:24px;z-index:2147483638}@keyframes UniversalChatCtaCard__entrance{0%{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}@keyframes UniversalChatCtaCard__exit{0%{opacity:1;transform:translateY(0)}to{opacity:0;transform:translateY(8px)}}.UniversalChatCtaCard--exiting{animation:UniversalChatCtaCard__bodyExit .5s cubic-bezier(.25,1,.5,1) forwards;transform-origin:bottom right}@keyframes UniversalChatCtaCard__bodyExit{0%{opacity:1;transform:rotate(0deg) scale(1)}to{opacity:0;transform:rotate(15deg) scale(0)}}.UniversalChatCtaCard{position:relative;cursor:pointer;border-radius:4px;padding:16px 20px 18px;width:317px;transition:transform .3s ease,opacity .3s ease}.UniversalChatCtaCard:before{content:"";position:absolute;inset:0;border-radius:4px;background:#fff;box-shadow:0 4px 24px 0 rgba(0,0,0,.12),0 0 0 1px rgba(0,0,0,.06);transition:transform .2s ease;z-index:-1}.UniversalChatCtaCard:hover:before{transform:scale(1.025,1.05)}.UniversalChatCtaCard--scrolled{transform:translateY(-32px);opacity:0;pointer-events:none}.UniversalChatCtaCard--scrolled.UniversalChatCtaCard--exiting{animation:none}.UniversalChatCtaCard__close{position:absolute;top:8px;right:8px;display:flex;align-items:center;justify-content:center;width:24px;height:24px;background:transparent;border:none;outline:none;cursor:pointer;padding:0;border-radius:4px;transition:background .2s ease-in-out}.UniversalChatCtaCard__close:focus-visible{outline:1px solid #0a2540}.UniversalChatCtaCard__close:hover{background:#f0f4f8}.UniversalChatCtaCard__header{display:flex;align-items:center;gap:12px;margin-bottom:4px;padding-right:20px}.UniversalChatCtaCard__avatars{display:flex;flex-shrink:0;align-items:center}.UniversalChatCtaCard__avatar{border-radius:50%;-o-object-fit:cover;object-fit:cover;border-color:#e7ecf1;width:34px;height:34px}.UniversalChatCtaCard__avatar:nth-child(2){border:2px solid #fff;margin-left:-12px;width:38px;height:38px}.UniversalChatCtaCard__availability{display:flex;align-items:center;gap:6px}.UniversalChatCtaCard__dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#2ca25e;flex-shrink:0}.UniversalChatCtaCard__agentCount{font-family:var(--fontFamily);font-size:14px;font-weight:var(--fontWeightBold);color:#0a2540;line-height:1.4}.UniversalChatCtaCard__subtitle{font-family:var(--fontFamily);font-size:14px;font-weight:300;color:#425466;line-height:1.5;margin:0}.UniversalChatCtaCard__cta{display:flex;align-items:center;justify-content:center;height:40px;padding:0 24px;background:#0a2540;color:#fff;border:none;border-radius:4px;cursor:pointer;font-family:var(--fontFamily);font-size:15px;font-weight:var(--fontWeightBold);white-space:nowrap;transition:background .2s ease-in-out;overflow:hidden}.UniversalChatCtaCard__cta:hover{background:#1a3a5c}.UniversalChatCtaCard__ctaSuffix{display:inline-block;max-width:0;opacity:0;overflow:hidden;transform:translateX(8px);transition:max-width .5s cubic-bezier(.25,1,.5,1),opacity .3s ease,transform .5s cubic-bezier(.25,1,.5,1)}.UniversalChatCtaCard__cta--suffixEnabled:hover .UniversalChatCtaCard__ctaSuffix{max-width:80px;opacity:1;transform:translateX(0)}</style>
 
             <link rel="preload" href="https://b.stripecdn.com/mkt-statics-srv/assets/v1/f965fdf4.woff2" as="font" crossorigin>
           
@@ -389,11 +443,11 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
 
         <script type="application/json" data-js-script-registry>
-          [{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-APZ3NPNO.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedSiteHeader-LOB6Y7AZ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-DashboardLoginLink-NK6LBBIY.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedMobileMenu-6E4MRIFM.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedProductsNavGroup-OOLYYDBW.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-HorizontalOverflowContainer-WCXQFWWJ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Gradient-77IBLSVV.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-SegmentedControl-ZLDGQGB4.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UpdateCard-WJWDPLIH.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FullWidthCarousel-F3PJKNMC.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FooterCta-LCVZYZOQ.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-TextInput-C2DZXRHG.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Form-6CQNCQOQ.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-PrivacyNotice-BBTMEKWY.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LocaleControl-O3MDP6GD.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-VP5QCAVR.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Sentry-IABPFTSH.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-EnforceSameSiteLaxOnCookies-5NDXH4YF.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LoaderScript-ISMAVH6R.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatInitializer-C52NXI6A.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatCtaButtonLarge-XKJ7R54S.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Loader-T25W6NPW.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-ScrollDepthTracker-FUMZVXS6.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-MonitorWebVitals-UNUJTQCM.js"}]
+          [{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-OQFMZ2TB.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedSiteHeader-I36PO2JU.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-DashboardLoginLink-B4UGQTQE.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedMobileMenu-OBIXH6PQ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedProductsNavGroup-BXUQ2UYJ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-HorizontalOverflowContainer-WTX24HIA.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Gradient-JGXRLJ3I.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-SegmentedControl-WO4QVX2W.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UpdateCard-4JPGVYUJ.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FullWidthCarousel-2VIDTFZW.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FooterCta-74QQCDUM.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-TextInput-WT6E7XO5.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Form-C65E2DBG.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-PrivacyNotice-2QNLL6UP.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LocaleControl-IPS5U3WC.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-SCBH3WOO.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Sentry-IABPFTSH.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-EnforceSameSiteLaxOnCookies-5NDXH4YF.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LoaderScript-23DNH5NS.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatInitializer-6O2ZDIVC.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatCtaButtonLarge-CO5TFJHZ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Loader-KD5PWS5P.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-ScrollDepthTracker-DKNGZHUH.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-MonitorWebVitals-LDS3IGWP.js"}]
         </script>
       
 
-        <script type="module" src="https://b.stripecdn.com/mkt-statics-srv/assets/v1-Bootstrapper-NHSJRUQL.js"></script>
+        <script type="module" src="https://b.stripecdn.com/mkt-statics-srv/assets/v1-Bootstrapper-KGJU7NXO.js"></script>
       
 
   </head>
@@ -472,6 +526,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   SiteHeaderNavItem
   SiteHeaderNavItem--refreshed
   
+  
 '>
   
     <button
@@ -501,6 +556,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
               <li class='
   SiteHeaderNavItem
   SiteHeaderNavItem--refreshed
+  
   
 '>
   
@@ -532,6 +588,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   SiteHeaderNavItem
   SiteHeaderNavItem--refreshed
   
+  
 '>
   
     <button
@@ -562,6 +619,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   SiteHeaderNavItem
   SiteHeaderNavItem--refreshed
   
+  
 '>
   
     <button
@@ -588,10 +646,10 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     </button>
   
 </li>
-              
               <li class='
   SiteHeaderNavItem
   SiteHeaderNavItem--refreshed
+  
   
 '>
   
@@ -2531,7 +2589,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     <div class="SessionsBanner__content">
       <div>
         <span class="SessionsBanner__text-emphasized">
-          Building the economic infrastructure for AI
+          Stripe Sessions 2026
         </span>
         <span class="SessionsBanner__text-subdued">
           See how Stripe is building the economic infrastructure for AI.
@@ -2554,7 +2612,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   
   
   
-><span>Watch on demand&nbsp;<svg
+><span>Watch now&nbsp;<svg
   class="
     RefreshedHoverArrow
     
@@ -2585,7 +2643,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
       
         <source
           srcset="
-            https://images.stripeassets.com/fzn2n1nzq965/5IYCnqC3lSFI3dW5UhGIIA/5fb13c82f7714870669ecd651760d88d/sessions-nav-banner.png?q=80&fm=webp
+            https://images.stripeassets.com/fzn2n1nzq965/1fXkzdGTGUqFS4khCdLKq8/5bc54c1739b62111a740119871d3582e/sessions-2026-nav-bg.png?q=80&fm=webp
           "
           type="image/webp"
         >
@@ -2595,13 +2653,13 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
   <img
     class="Picture__image SessionsBanner__image"
-    src="https://images.stripeassets.com/fzn2n1nzq965/5IYCnqC3lSFI3dW5UhGIIA/5fb13c82f7714870669ecd651760d88d/sessions-nav-banner.png?q=80"
+    src="https://images.stripeassets.com/fzn2n1nzq965/1fXkzdGTGUqFS4khCdLKq8/5bc54c1739b62111a740119871d3582e/sessions-2026-nav-bg.png?q=80"
     
       
     
     alt="Sessions Background"
-    width="570"
-    height="407"
+    width="760"
+    height="256"
     loading="lazy"
     
   >
@@ -6090,7 +6148,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     <div class="SessionsBanner__content">
       <div>
         <span class="SessionsBanner__text-emphasized">
-          Building the economic infrastructure for AI
+          Stripe Sessions 2026
         </span>
         <span class="SessionsBanner__text-subdued">
           See how Stripe is building the economic infrastructure for AI.
@@ -6113,7 +6171,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   
   
   
-><span>Watch on demand&nbsp;<svg
+><span>Watch now&nbsp;<svg
   class="
     RefreshedHoverArrow
     
@@ -6144,7 +6202,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
       
         <source
           srcset="
-            https://images.stripeassets.com/fzn2n1nzq965/5IYCnqC3lSFI3dW5UhGIIA/5fb13c82f7714870669ecd651760d88d/sessions-nav-banner.png?q=80&fm=webp
+            https://images.stripeassets.com/fzn2n1nzq965/1fXkzdGTGUqFS4khCdLKq8/5bc54c1739b62111a740119871d3582e/sessions-2026-nav-bg.png?q=80&fm=webp
           "
           type="image/webp"
         >
@@ -6154,13 +6212,13 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
   <img
     class="Picture__image SessionsBanner__image"
-    src="https://images.stripeassets.com/fzn2n1nzq965/5IYCnqC3lSFI3dW5UhGIIA/5fb13c82f7714870669ecd651760d88d/sessions-nav-banner.png?q=80"
+    src="https://images.stripeassets.com/fzn2n1nzq965/1fXkzdGTGUqFS4khCdLKq8/5bc54c1739b62111a740119871d3582e/sessions-2026-nav-bg.png?q=80"
     
       
     
     alt="Sessions Background"
-    width="570"
-    height="407"
+    width="760"
+    height="256"
     loading="lazy"
     
   >
@@ -8419,7 +8477,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost
     BlogIndexPost--variantFeatured
     BlogIndexPost--hasFigure
-    
+    BlogIndexPost--hasMultipleAuthors
   "
 >
   <h2
@@ -8437,19 +8495,19 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogCategoryLink
   "
-  href="/blog/product"
+  href="/blog/industry"
   
   
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
-  data-analytics-label='everything_we_announced__category__product'
+  data-analytics-label='five_vertical_saas__category__industry'
   
   
   
   
   
->Product</a></h2>
+>Industry</a></h2>
 
   <h1
   class="
@@ -8466,7 +8524,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogIndexPost__titleLink
   "
-  href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
+  href="https://stripe.com/blog/vertical-saas-insights-sessions-2026"
   
   
   data-js-controller='AnalyticsButton'
@@ -8478,11 +8536,11 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   
   
   
->Everything we announced at Sessions 2026</a></h1>
+>Five vertical SaaS insights from Sessions 2026</a></h1>
 
   <time
   class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-04-29T00:00-07:00"
+  datetime="2026-05-11T00:00-07:00"
 >
   
   <a
@@ -8490,19 +8548,19 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogPostDate__link
   "
-  href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
+  href="https://stripe.com/blog/vertical-saas-insights-sessions-2026"
   
   
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
-  data-analytics-label='everything_we_announced__date'
+  data-analytics-label='five_vertical_saas__date'
   
   
   
   
   
->April 29, 2026</a>
+>May 11, 2026</a>
 </time>
 
   <div class="BlogIndexPost__authorList">
@@ -8516,7 +8574,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   "
 >
   <a
-    href="https://twitter.com/gaybrick"
+    href="https://www.linkedin.com/in/aakash-sahney-94017114/?originalSubdomain=ca"
     target="_blank"
   >
     <img
@@ -8524,16 +8582,47 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
       width="48"
       height="48"
       loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/2V8UpuoDuP3zR8ehtLwjoN/796ff6de2354596236223bc835e3b0e0/Will_Gaybrick.png?w=96&h=96"
+      src="https://images.stripeassets.com/fzn2n1nzq965/p0cKJihswqSLVGVOlpoTq/650bc8f54e6d74b8964d90b3e1590a51/asahney.jpg.png?w=96&h=96"
     >
   </a>
   <figcaption class="BlogAuthor__caption">
     <a
       class="BlogAuthor__link"
-      href="https://twitter.com/gaybrick"
+      href="https://www.linkedin.com/in/aakash-sahney-94017114/?originalSubdomain=ca"
       target="_blank"
-    >Will Gaybrick</a>
-    <span class="BlogAuthor__role">Product and Business</span>
+    >Aakash Sahney</a>
+    <span class="BlogAuthor__role">Head of Product, Stripe Connect</span>
+  </figcaption>
+</figure>
+    
+      <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/dicarlo/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/4VrShwRxoAZeYXB1SzvOqS/965646530e11402a082346ea1af97033/dicarlo.jpg.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/dicarlo/"
+      target="_blank"
+    >Christian DiCarlo</a>
+    <span class="BlogAuthor__role">Global Head of Platform Partnerships</span>
   </figcaption>
 </figure>
   </div>
@@ -8565,7 +8654,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     >
       
         <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/5Uq9NEKuVAdSjvGIpsY4wy/ef80210cb8ff35c3a15fb1f2e9123539/updated-blog-index.png?w=1080&q=80&fm=webp"
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/6cEmsrSa4sI1LamZFsHMdv/437806562a9b76619e3b2f981e0c6938/Index_image_NEW.png?w=1080&q=80&fm=webp"
           type="image/webp"
         >
       
@@ -8574,14 +8663,14 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
       <img
         class="BlogImageCard__image"
-        alt="Blog &gt; Sessions 2026 &gt; Index image"
+        alt="Blog &gt; Five vertical SaaS insights from Sessions 2026 &gt; Index image"
         src="
         
-          https://images.stripeassets.com/fzn2n1nzq965/5Uq9NEKuVAdSjvGIpsY4wy/ef80210cb8ff35c3a15fb1f2e9123539/updated-blog-index.png?w=1080&q=80
+          https://images.stripeassets.com/fzn2n1nzq965/6cEmsrSa4sI1LamZFsHMdv/437806562a9b76619e3b2f981e0c6938/Index_image_NEW.png?w=1080&q=80
         
       "
-        width="2500"
-        height="2500"
+        width="1250"
+        height="1250"
         loading="auto"
       >
     </picture>
@@ -8589,7 +8678,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   
 
   <div class="BlogIndexPost__body">
-    <p>We’re making Stripe even more programmable; protecting and propelling your business with the strength of the Stripe network; and building economic infrastructure for AI.</p>
+    <p>AI is forcing platforms to expand beyond pure software. See how vertical SaaS platforms are using payments, financial services, and agentic commerce to build more durable businesses.</p>
   </div>
 
   <a
@@ -8597,7 +8686,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogIndexPost__readMoreLink
   "
-  href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
+  href="https://stripe.com/blog/vertical-saas-insights-sessions-2026"
   
   
   data-js-controller='AnalyticsButton'
@@ -9072,6 +9161,222 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
+  data-analytics-label='everything_we_announced__category__product'
+  
+  
+  
+  
+  
+>Product</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Everything we announced at Sessions 2026</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-04-29T00:00-07:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='everything_we_announced__date'
+  
+  
+  
+  
+  
+>April 29, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://twitter.com/gaybrick"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/2V8UpuoDuP3zR8ehtLwjoN/796ff6de2354596236223bc835e3b0e0/Will_Gaybrick.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://twitter.com/gaybrick"
+      target="_blank"
+    >Will Gaybrick</a>
+    <span class="BlogAuthor__role">Product and Business</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/5Uq9NEKuVAdSjvGIpsY4wy/ef80210cb8ff35c3a15fb1f2e9123539/updated-blog-index.png?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="Blog &gt; Sessions 2026 &gt; Index image"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/5Uq9NEKuVAdSjvGIpsY4wy/ef80210cb8ff35c3a15fb1f2e9123539/updated-blog-index.png?w=1080&q=80
+        
+      "
+        width="2500"
+        height="2500"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>We’re making Stripe even more programmable; protecting and propelling your business with the strength of the Stripe network; and building economic infrastructure for AI.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+        
+          <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
+    
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/product"
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
   data-analytics-label='how_agents_digital__category__product'
   
   
@@ -9227,253 +9532,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost__readMoreLink
   "
   href="https://stripe.com/blog/global-checkout-trends"
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-        
-          <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    BlogIndexPost--hasMultipleAuthors
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/industry"
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='insights_from_shoptalk__category__industry'
-  
-  
-  
-  
-  
->Industry</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/shoptalk-2026"
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Insights from Shoptalk 2026: How agents are changing retail</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-04-02T00:00-07:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/shoptalk-2026"
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='insights_from_shoptalk__date'
-  
-  
-  
-  
-  
->April  2, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/ashye/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/Jg90MAx4nNzT83Qr7Nawr/f0f8c11b2453cf3933b23f34a2c85cf5/ashye.jpg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/ashye/"
-      target="_blank"
-    >Ashye Marcus</a>
-    <span class="BlogAuthor__role">Global Head of Retail GTM</span>
-  </figcaption>
-</figure>
-    
-      <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/jake-sinsheimer-4334953a/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/5UbSYTD8uZBmdwNa0fELB9/645eb589b4a136527a986cabaeffebb2/jakes.jpg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/jake-sinsheimer-4334953a/"
-      target="_blank"
-    >Jake Sinsheimer</a>
-    <span class="BlogAuthor__role">Head of Agentic Commerce GTM</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/5aI5xOfce2H0wZlLKZzIgv/02ddf4d2c099f39d2a63c70e5e794195/3_agentic_trends_-_1500x1500_-_7.png?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="Blog &gt; Shoptalk 2026 &gt; Index image"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/5aI5xOfce2H0wZlLKZzIgv/02ddf4d2c099f39d2a63c70e5e794195/3_agentic_trends_-_1500x1500_-_7.png?w=1080&q=80
-        
-      "
-        width="1500"
-        height="1500"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>Retailers know search and discovery have already shifted. What comes next is less settled. From embedded checkout to emerging third-party surfaces, here’s how ecommerce and AI leaders are integrating agentic commerce.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/shoptalk-2026"
   
   
   data-js-controller='AnalyticsButton'
@@ -10332,6 +10390,253 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogCategoryLink
   "
+  href="/blog/industry"
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='insights_from_shoptalk__category__industry'
+  
+  
+  
+  
+  
+>Industry</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/shoptalk-2026"
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Insights from Shoptalk 2026: How agents are changing retail</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-04-02T00:00-07:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/shoptalk-2026"
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='insights_from_shoptalk__date'
+  
+  
+  
+  
+  
+>April  2, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/ashye/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/Jg90MAx4nNzT83Qr7Nawr/f0f8c11b2453cf3933b23f34a2c85cf5/ashye.jpg.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/ashye/"
+      target="_blank"
+    >Ashye Marcus</a>
+    <span class="BlogAuthor__role">Global Head of Retail GTM</span>
+  </figcaption>
+</figure>
+    
+      <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/jake-sinsheimer-4334953a/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/5UbSYTD8uZBmdwNa0fELB9/645eb589b4a136527a986cabaeffebb2/jakes.jpg.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/jake-sinsheimer-4334953a/"
+      target="_blank"
+    >Jake Sinsheimer</a>
+    <span class="BlogAuthor__role">Head of Agentic Commerce GTM</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/5aI5xOfce2H0wZlLKZzIgv/02ddf4d2c099f39d2a63c70e5e794195/3_agentic_trends_-_1500x1500_-_7.png?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="Blog &gt; Shoptalk 2026 &gt; Index image"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/5aI5xOfce2H0wZlLKZzIgv/02ddf4d2c099f39d2a63c70e5e794195/3_agentic_trends_-_1500x1500_-_7.png?w=1080&q=80
+        
+      "
+        width="1500"
+        height="1500"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>Retailers know search and discovery have already shifted. What comes next is less settled. From embedded checkout to emerging third-party surfaces, here’s how ecommerce and AI leaders are integrating agentic commerce.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/shoptalk-2026"
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+        
+          <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
+    BlogIndexPost--hasMultipleAuthors
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
   href="/blog/product"
   
   
@@ -10772,6 +11077,10 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 </span></a>
 </article>
         
+
+        
+
+        
           <article
   class="
     BlogIndexPost
@@ -11018,10 +11327,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   </svg>
 </span></a>
 </article>
-        
-
-        
-
         
           <article
   class="
@@ -11454,253 +11759,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost__readMoreLink
   "
   href="https://stripe.com/blog/10-lessons"
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-        
-          <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    BlogIndexPost--hasMultipleAuthors
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/industry"
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='analyzing_first_party__category__industry'
-  
-  
-  
-  
-  
->Industry</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/analyzing-first-party-fraud-trends-account-free-trial-and-refund-abuse"
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Analyzing first-party fraud trends: Account, free trial, and refund abuse</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-03-10T00:00-08:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/analyzing-first-party-fraud-trends-account-free-trial-and-refund-abuse"
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='analyzing_first_party__date'
-  
-  
-  
-  
-  
->March 10, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/joshuafackerman/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/35lfMdkM3sVURuV037RnZR/a6ab2df6aae0b0899b553f0ea6676926/jackerman.jpg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/joshuafackerman/"
-      target="_blank"
-    >Josh Ackerman</a>
-    <span class="BlogAuthor__role">Product Lead, Stripe Radar</span>
-  </figcaption>
-</figure>
-    
-      <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/jacob-meltzer-25438b114/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/5eyqlHCu45v94z66ZrImHa/008affb4f60e729459444e081eec6d17/Screenshot_2025-01-10_at_8.55.57_AM.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/jacob-meltzer-25438b114/"
-      target="_blank"
-    >Jacob Meltzer</a>
-    <span class="BlogAuthor__role">Engineering Lead, Stripe Radar</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/6Q9QOcOKdwnmutUW8UEFOM/0b06bc4a1e35569bf711188f4927e120/fpft-updated-index.png?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="Blog &gt; First-party fraud trends &gt; Index image"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/6Q9QOcOKdwnmutUW8UEFOM/0b06bc4a1e35569bf711188f4927e120/fpft-updated-index.png?w=1080&q=80
-        
-      "
-        width="1250"
-        height="1250"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>From November 2025 to February 2026, our models detected 6.2x more abusive free trials across the Stripe network. This is part of a broader shift toward first-party fraud, where legitimate users abuse policies by setting up multiple accounts, cycling through free trials, or exploiting refunds.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/analyzing-first-party-fraud-trends-account-free-trial-and-refund-abuse"
   
   
   data-js-controller='AnalyticsButton'
@@ -15873,6 +15931,222 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
+  data-analytics-label='everything_we_announced__category__product'
+  
+  
+  
+  
+  
+>Product</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Everything we announced at Sessions 2026</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-04-29T00:00-07:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='everything_we_announced__date'
+  
+  
+  
+  
+  
+>April 29, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://twitter.com/gaybrick"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/2V8UpuoDuP3zR8ehtLwjoN/796ff6de2354596236223bc835e3b0e0/Will_Gaybrick.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://twitter.com/gaybrick"
+      target="_blank"
+    >Will Gaybrick</a>
+    <span class="BlogAuthor__role">Product and Business</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/5Uq9NEKuVAdSjvGIpsY4wy/ef80210cb8ff35c3a15fb1f2e9123539/updated-blog-index.png?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="Blog &gt; Sessions 2026 &gt; Index image"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/5Uq9NEKuVAdSjvGIpsY4wy/ef80210cb8ff35c3a15fb1f2e9123539/updated-blog-index.png?w=1080&q=80
+        
+      "
+        width="2500"
+        height="2500"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>We’re making Stripe even more programmable; protecting and propelling your business with the strength of the Stripe network; and building economic infrastructure for AI.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+          
+            <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
+    
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/product"
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
   data-analytics-label='how_agents_digital__category__product'
   
   
@@ -16522,253 +16796,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost__readMoreLink
   "
   href="https://stripe.com/blog/adaptive-pricing-for-subscriptions"
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-          
-            <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    BlogIndexPost--hasMultipleAuthors
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/product"
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='introducing_the_machine__category__product'
-  
-  
-  
-  
-  
->Product</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/machine-payments-protocol"
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Introducing the Machine Payments Protocol</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-03-18T00:00-07:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/machine-payments-protocol"
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='introducing_the_machine__date'
-  
-  
-  
-  
-  
->March 18, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/jeffwweinstein/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/4qQkhztmc7kSJ8uF5xhS07/2eec0f9fb206c4f07241f78638e48876/jweinstein.jpg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/jeffwweinstein/"
-      target="_blank"
-    >Jeff Weinstein</a>
-    <span class="BlogAuthor__role">Product Lead, Agentic Commerce</span>
-  </figcaption>
-</figure>
-    
-      <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/steve-kaliski-079a7710/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/5J3NH1pwJMvEoWscqnfp2z/c7643056fd12a84521b9c20abf67bbe8/stevekaliski.jpg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/steve-kaliski-079a7710/"
-      target="_blank"
-    >Steve Kaliski</a>
-    <span class="BlogAuthor__role">Engineering Lead, Agentic Commerce</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/5XnKM1MhctFUry2VRGpdHI/7d68233cb5e62da2b590136c7918a559/MPP-index.png?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="blog &gt; mpp &gt; index"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/5XnKM1MhctFUry2VRGpdHI/7d68233cb5e62da2b590136c7918a559/MPP-index.png?w=1080&q=80
-        
-      "
-        width="2500"
-        height="2500"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>We’re launching the Machine Payments Protocol (MPP), an open standard, internet-native way for agents to pay—co-authored by Tempo and Stripe. Businesses on Stripe can accept payments over MPP in a few lines of code using our PaymentIntents API.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/machine-payments-protocol"
   
   
   data-js-controller='AnalyticsButton'
@@ -23698,7 +23725,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   </div>
 </footer>
   
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Stripe Blog: Online Payment Solutions Blog","url":"https://stripe.com/blog","mainEntity":{"@type":"ItemList","name":"Latest articles","itemListOrder":"http://schema.org/ItemListOrderDescending","numberOfItems":9,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"BlogPosting","headline":"Giving agents the ability to pay","url":"https://stripe.com/blog/giving-agents-the-ability-to-pay","author":[{"@type":"Person","name":"Dan Hill","url":"https://www.linkedin.com/in/hilldan/"}],"datePublished":"2026-04-29T00:00-07:00"}},{"@type":"ListItem","position":2,"item":{"@type":"BlogPosting","headline":"How agents, digital wallets, and trust are rewriting checkout","url":"https://stripe.com/blog/global-checkout-trends","author":[{"@type":"Person","name":"Veni Singh","url":"https://www.linkedin.com/in/venisingh/"}],"datePublished":"2026-04-07T00:00-07:00"}},{"@type":"ListItem","position":3,"item":{"@type":"BlogPosting","headline":"Insights from Shoptalk 2026: How agents are changing retail","url":"https://stripe.com/blog/shoptalk-2026","author":[{"@type":"Person","name":"Ashye Marcus","url":"https://www.linkedin.com/in/ashye/"},{"@type":"Person","name":"Jake Sinsheimer","url":"https://www.linkedin.com/in/jake-sinsheimer-4334953a/"}],"datePublished":"2026-04-02T00:00-07:00"}},{"@type":"ListItem","position":4,"item":{"@type":"BlogPosting","headline":"How Stripe Radar helps prevent free trial abuse","url":"https://stripe.com/blog/how-stripe-radar-helps-prevent-free-trial-abuse","author":[{"@type":"Person","name":"Yu-Hsin Lin","url":"https://www.linkedin.com/in/yuhsinl/"},{"@type":"Person","name":"Yujie Wang","url":"https://www.linkedin.com/in/yujie-w/"}],"datePublished":"2026-03-24T00:00-07:00"}},{"@type":"ListItem","position":5,"item":{"@type":"BlogPosting","headline":"Three of the biggest fraud trends from MRC Vegas 2026","url":"https://stripe.com/blog/three-fraud-trends-from-mrc-vegas-2026","author":[{"@type":"Person","name":"Jon Krauss","url":"https://www.linkedin.com/in/jon-krauss-30bb3616/"}],"datePublished":"2026-03-20T00:00-07:00"}},{"@type":"ListItem","position":6,"item":{"@type":"BlogPosting","headline":"Testing the impact of Adaptive Pricing across 1.5M subscription checkout sessions","url":"https://stripe.com/blog/adaptive-pricing-for-subscriptions","author":[{"@type":"Person","name":"Sahil Bhagat","url":"https://www.linkedin.com/in/scbhagat8/"},{"@type":"Person","name":"Danielle Carollo","url":"https://www.linkedin.com/in/danielle-carollo/"}],"datePublished":"2026-03-19T00:00-07:00"}},{"@type":"ListItem","position":7,"item":{"@type":"BlogPosting","headline":"Introducing the Machine Payments Protocol","url":"https://stripe.com/blog/machine-payments-protocol","author":[{"@type":"Person","name":"Jeff Weinstein","url":"https://www.linkedin.com/in/jeffwweinstein/"},{"@type":"Person","name":"Steve Kaliski","url":"https://www.linkedin.com/in/steve-kaliski-079a7710/"}],"datePublished":"2026-03-18T00:00-07:00"}},{"@type":"ListItem","position":8,"item":{"@type":"BlogPosting","headline":"10 things we learned building for the first generation of agentic commerce","url":"https://stripe.com/blog/10-lessons","author":[{"@type":"Person","name":"Roshan Sadanani","url":"https://twitter.com/blattus"}],"datePublished":"2026-03-12T00:00-07:00"}},{"@type":"ListItem","position":9,"item":{"@type":"BlogPosting","headline":"Analyzing first-party fraud trends: Account, free trial, and refund abuse","url":"https://stripe.com/blog/analyzing-first-party-fraud-trends-account-free-trial-and-refund-abuse","author":[{"@type":"Person","name":"Josh Ackerman","url":"https://www.linkedin.com/in/joshuafackerman/"},{"@type":"Person","name":"Jacob Meltzer","url":"https://www.linkedin.com/in/jacob-meltzer-25438b114/"}],"datePublished":"2026-03-10T00:00-08:00"}}]}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Stripe Blog: Online Payment Solutions Blog","url":"https://stripe.com/blog","mainEntity":{"@type":"ItemList","name":"Latest articles","itemListOrder":"http://schema.org/ItemListOrderDescending","numberOfItems":9,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"BlogPosting","headline":"Giving agents the ability to pay","url":"https://stripe.com/blog/giving-agents-the-ability-to-pay","author":[{"@type":"Person","name":"Dan Hill","url":"https://www.linkedin.com/in/hilldan/"}],"datePublished":"2026-04-29T00:00-07:00"}},{"@type":"ListItem","position":2,"item":{"@type":"BlogPosting","headline":"Everything we announced at Sessions 2026","url":"https://stripe.com/blog/everything-we-announced-at-sessions-2026","author":[{"@type":"Person","name":"Will Gaybrick","url":"https://twitter.com/gaybrick"}],"datePublished":"2026-04-29T00:00-07:00"}},{"@type":"ListItem","position":3,"item":{"@type":"BlogPosting","headline":"How agents, digital wallets, and trust are rewriting checkout","url":"https://stripe.com/blog/global-checkout-trends","author":[{"@type":"Person","name":"Veni Singh","url":"https://www.linkedin.com/in/venisingh/"}],"datePublished":"2026-04-07T00:00-07:00"}},{"@type":"ListItem","position":4,"item":{"@type":"BlogPosting","headline":"Insights from Shoptalk 2026: How agents are changing retail","url":"https://stripe.com/blog/shoptalk-2026","author":[{"@type":"Person","name":"Ashye Marcus","url":"https://www.linkedin.com/in/ashye/"},{"@type":"Person","name":"Jake Sinsheimer","url":"https://www.linkedin.com/in/jake-sinsheimer-4334953a/"}],"datePublished":"2026-04-02T00:00-07:00"}},{"@type":"ListItem","position":5,"item":{"@type":"BlogPosting","headline":"How Stripe Radar helps prevent free trial abuse","url":"https://stripe.com/blog/how-stripe-radar-helps-prevent-free-trial-abuse","author":[{"@type":"Person","name":"Yu-Hsin Lin","url":"https://www.linkedin.com/in/yuhsinl/"},{"@type":"Person","name":"Yujie Wang","url":"https://www.linkedin.com/in/yujie-w/"}],"datePublished":"2026-03-24T00:00-07:00"}},{"@type":"ListItem","position":6,"item":{"@type":"BlogPosting","headline":"Three of the biggest fraud trends from MRC Vegas 2026","url":"https://stripe.com/blog/three-fraud-trends-from-mrc-vegas-2026","author":[{"@type":"Person","name":"Jon Krauss","url":"https://www.linkedin.com/in/jon-krauss-30bb3616/"}],"datePublished":"2026-03-20T00:00-07:00"}},{"@type":"ListItem","position":7,"item":{"@type":"BlogPosting","headline":"Testing the impact of Adaptive Pricing across 1.5M subscription checkout sessions","url":"https://stripe.com/blog/adaptive-pricing-for-subscriptions","author":[{"@type":"Person","name":"Sahil Bhagat","url":"https://www.linkedin.com/in/scbhagat8/"},{"@type":"Person","name":"Danielle Carollo","url":"https://www.linkedin.com/in/danielle-carollo/"}],"datePublished":"2026-03-19T00:00-07:00"}},{"@type":"ListItem","position":8,"item":{"@type":"BlogPosting","headline":"Introducing the Machine Payments Protocol","url":"https://stripe.com/blog/machine-payments-protocol","author":[{"@type":"Person","name":"Jeff Weinstein","url":"https://www.linkedin.com/in/jeffwweinstein/"},{"@type":"Person","name":"Steve Kaliski","url":"https://www.linkedin.com/in/steve-kaliski-079a7710/"}],"datePublished":"2026-03-18T00:00-07:00"}},{"@type":"ListItem","position":9,"item":{"@type":"BlogPosting","headline":"10 things we learned building for the first generation of agentic commerce","url":"https://stripe.com/blog/10-lessons","author":[{"@type":"Person","name":"Roshan Sadanani","url":"https://twitter.com/blattus"}],"datePublished":"2026-03-12T00:00-07:00"}}]}}</script>
     </div>
   </body>
 </html>
