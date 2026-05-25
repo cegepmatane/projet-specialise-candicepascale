@@ -15,14 +15,14 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 <meta
   name="sentry-config"
   data-js-dsn=""
-  data-js-release="7b74cb5613228d493c3a56583d747354d71b605c"
+  data-js-release="1e30a3ae6ca707e10aff34d665c0dbd4aa166fe9"
   data-js-environment="production"
   data-js-project="mkt"
 >
 
-    <meta name="edge-experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.85f3e87d-cafe-fa6f-c162-22cefe65175d.m.s,wpp_console_mvp_nav_cta.control.ursula.c3ac5ff3-0dd3-07bd-dc10-d371bf6e700e.m.s,acquisition_chat_cta.control.ursula.a0ae6e95-abe4-3987-478b-69dd0e2b55e8.m.s">
-<meta name="experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.16095816-8fb3-4734-a903-7f30bc5b4387.m.s,wpp_console_mvp_nav_cta.control.ursula.75a3df79-9418-4a7b-bb01-0c542ab63644.m.s,acquisition_chat_cta.control.ursula.05feaf84-9c5f-467f-aab5-8f51ab973664.m.s">
-<meta name="experiment-token" content="b057adf6181bce391cbe156957c1c62becef2dcc">
+    <meta name="edge-experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.d2375d05-4c5a-956e-3f31-26e2a1caf612.m.s,wpp_console_mvp_nav_cta.control.ursula.e6ca31ca-a254-f65e-c297-4a6baa7e3799.m.s,acquisition_chat_cta.control.ursula.3e2e4da7-4240-625e-0f64-16b1c064b4a3.m.s">
+<meta name="experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.f0b91db1-98b2-4fe1-aed9-6568c5b89ab7.m.s,wpp_console_mvp_nav_cta.control.ursula.511455aa-3983-4b49-8a75-17ba0f2402a0.m.s,acquisition_chat_cta.control.ursula.c569ec58-1eb8-4aa0-9204-e90f904c2390.m.s">
+<meta name="experiment-token" content="b057adf68f0167d0e439c621e25be670afa6fdb9">
     
 
     <script>(() => {
@@ -82,7 +82,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
     <template id="source-attribution-loader">
   <script defer
-    src="https://b.stripecdn.com/mkt-statics-srv/assets/imt-2d5bc112f85da43d964151bf8c57b54b.js"
+    src="https://b.stripecdn.com/mkt-statics-srv/assets/imt-50a72d2c62fb74df0958f9e9d0c3ecbc.js"
     data-store_url="https://b.stripecdn.com/mkt-statics-srv/assets/store-936f0d847a16164e7f6b15d74659c4a9.html">
   </script>
 </template>
@@ -223,7 +223,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     
       
       
-
       
       
       
@@ -244,6 +243,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
       <meta name="twitter:description" content="Follow the Stripe blog to learn about new product features, the latest in technology, payment solutions, and business initiatives.">
     
 
+    
     
     
     
@@ -443,11 +443,11 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
 
         <script type="application/json" data-js-script-registry>
-          [{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-OQFMZ2TB.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedSiteHeader-I36PO2JU.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-DashboardLoginLink-B4UGQTQE.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedMobileMenu-OBIXH6PQ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedProductsNavGroup-BXUQ2UYJ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-HorizontalOverflowContainer-WTX24HIA.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Gradient-JGXRLJ3I.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-SegmentedControl-WO4QVX2W.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UpdateCard-4JPGVYUJ.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FullWidthCarousel-2VIDTFZW.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FooterCta-74QQCDUM.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-TextInput-WT6E7XO5.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Form-C65E2DBG.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-PrivacyNotice-2QNLL6UP.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LocaleControl-IPS5U3WC.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-SCBH3WOO.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Sentry-IABPFTSH.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-EnforceSameSiteLaxOnCookies-5NDXH4YF.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LoaderScript-23DNH5NS.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatInitializer-6O2ZDIVC.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatCtaButtonLarge-CO5TFJHZ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Loader-KD5PWS5P.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-ScrollDepthTracker-DKNGZHUH.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-MonitorWebVitals-LDS3IGWP.js"}]
+          [{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-74SWH4UA.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedSiteHeader-QX5OF2B5.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-DashboardLoginLink-7NSZTWG7.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedMobileMenu-CJ3LWJAF.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedProductsNavGroup-DHKMJULN.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-HorizontalOverflowContainer-MS6BFYST.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Gradient-KH6V3GK7.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-SegmentedControl-CCZ6LW26.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UpdateCard-MAO5WOIE.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FullWidthCarousel-USN5HZHS.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FooterCta-3VZTQEWB.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-TextInput-MD2ZDR65.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Form-37NVDWKP.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-PrivacyNotice-PW6AGSV6.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LocaleControl-WJH3GOYJ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-HBHD5KBB.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Sentry-IABPFTSH.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-EnforceSameSiteLaxOnCookies-5NDXH4YF.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LoaderScript-MIFZT7Y3.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatInitializer-U4ODCZIM.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatCtaButtonLarge-NLHPIPT7.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Loader-M3NJUSJK.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-ScrollDepthTracker-KNQ5A2E6.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-MonitorWebVitals-4YMHUQXW.js"}]
         </script>
       
 
-        <script type="module" src="https://b.stripecdn.com/mkt-statics-srv/assets/v1-Bootstrapper-KGJU7NXO.js"></script>
+        <script type="module" src="https://b.stripecdn.com/mkt-statics-srv/assets/v1-Bootstrapper-L2OMJF3L.js"></script>
       
 
   </head>
@@ -659,6 +659,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     SiteHeaderNavItem__link
   "
   href="/pricing"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -1047,6 +1048,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/pricing"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -1081,6 +1083,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://dashboard.stripe.com/"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -1112,6 +1115,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://dashboard.stripe.com/login"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -1141,6 +1145,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     SiteMobileMenuNavItem__link
   "
   href="https://dashboard.stripe.com/login"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -2603,6 +2608,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/sessions/2026?utm_medium=owned-surfaces&utm_source=9cb9&utm_campaign=GLOBAL_4301&utm_content=8a70&utm_term=5a728d3d167c"
   rel="noopener noreferrer"
   target="_blank"
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -6162,6 +6168,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/sessions/2026?utm_medium=owned-surfaces&utm_source=9cb9&utm_campaign=GLOBAL_4301&utm_content=8a70&utm_term=5a728d3d167c"
   rel="noopener noreferrer"
   target="_blank"
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -8389,6 +8396,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -8498,6 +8506,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/industry"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -8527,6 +8536,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/vertical-saas-insights-sessions-2026"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -8549,6 +8559,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/vertical-saas-insights-sessions-2026"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -8687,6 +8698,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost__readMoreLink
   "
   href="https://stripe.com/blog/vertical-saas-insights-sessions-2026"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -8942,6 +8954,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/product"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -8971,6 +8984,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/giving-agents-the-ability-to-pay"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -8993,6 +9007,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/giving-agents-the-ability-to-pay"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -9102,6 +9117,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/giving-agents-the-ability-to-pay"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -9158,6 +9174,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/product"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -9187,6 +9204,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -9209,6 +9227,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -9318,6 +9337,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -9374,6 +9394,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/product"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -9403,6 +9424,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/global-checkout-trends"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -9425,6 +9447,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/global-checkout-trends"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -9532,6 +9555,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost__readMoreLink
   "
   href="https://stripe.com/blog/global-checkout-trends"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -10393,6 +10417,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/industry"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -10422,6 +10447,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/shoptalk-2026"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -10444,6 +10470,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/shoptalk-2026"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -10584,6 +10611,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/shoptalk-2026"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -10640,6 +10668,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/product"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -10669,6 +10698,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/how-stripe-radar-helps-prevent-free-trial-abuse"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -10691,6 +10721,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/how-stripe-radar-helps-prevent-free-trial-abuse"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -10831,6 +10862,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/how-stripe-radar-helps-prevent-free-trial-abuse"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -10887,6 +10919,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/industry"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -10916,6 +10949,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/three-fraud-trends-from-mrc-vegas-2026"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -10938,6 +10972,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/three-fraud-trends-from-mrc-vegas-2026"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -11047,6 +11082,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/three-fraud-trends-from-mrc-vegas-2026"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -11107,6 +11143,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/product"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -11136,6 +11173,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/adaptive-pricing-for-subscriptions"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -11158,6 +11196,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/adaptive-pricing-for-subscriptions"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -11298,6 +11337,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/adaptive-pricing-for-subscriptions"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -11354,6 +11394,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/product"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -11383,6 +11424,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/machine-payments-protocol"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -11405,6 +11447,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/machine-payments-protocol"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -11545,6 +11588,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/machine-payments-protocol"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -11601,6 +11645,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/product"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -11630,6 +11675,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/10-lessons"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -11652,6 +11698,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/10-lessons"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -11759,6 +11806,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost__readMoreLink
   "
   href="https://stripe.com/blog/10-lessons"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -11935,6 +11983,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/corporate"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -11964,6 +12013,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/stripe-sessions-is-back-on-may-6-2025"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -11986,6 +12036,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/stripe-sessions-is-back-on-may-6-2025"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -12095,6 +12146,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/stripe-sessions-is-back-on-may-6-2025"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -12151,6 +12203,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/corporate"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -12180,6 +12233,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/biggest-updates-sessions-2024"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -12202,6 +12256,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/biggest-updates-sessions-2024"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -12311,6 +12366,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/biggest-updates-sessions-2024"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -12367,6 +12423,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/corporate"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -12396,6 +12453,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/stripe-sessions-2024"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -12418,6 +12476,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/stripe-sessions-2024"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -12527,6 +12586,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/stripe-sessions-2024"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -12583,6 +12643,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/corporate"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -12612,6 +12673,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/creator-economy-2023"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -12634,6 +12696,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/creator-economy-2023"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -12743,6 +12806,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/creator-economy-2023"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -12799,6 +12863,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/corporate"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -12828,6 +12893,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/stripe-sessions-2023"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -12850,6 +12916,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/stripe-sessions-2023"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -12957,6 +13024,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost__readMoreLink
   "
   href="https://stripe.com/blog/stripe-sessions-2023"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -13132,6 +13200,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/engineering"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -13161,6 +13230,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/can-ai-agents-build-real-stripe-integrations"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -13183,6 +13253,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/can-ai-agents-build-real-stripe-integrations"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -13323,6 +13394,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/can-ai-agents-build-real-stripe-integrations"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -13379,6 +13451,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/engineering"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -13408,6 +13481,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/how-we-built-it-real-time-analytics-for-stripe-billing"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -13430,6 +13504,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/how-we-built-it-real-time-analytics-for-stripe-billing"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -13539,6 +13614,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/how-we-built-it-real-time-analytics-for-stripe-billing"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -13595,6 +13671,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/engineering"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -13624,6 +13701,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/how-we-built-it-jurisdiction-resolution-for-stripe-tax"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -13646,6 +13724,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/how-we-built-it-jurisdiction-resolution-for-stripe-tax"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -13786,6 +13865,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/how-we-built-it-jurisdiction-resolution-for-stripe-tax"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -13842,6 +13922,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/engineering"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -13871,6 +13952,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/how-stripes-document-databases-supported-99.999-uptime-with-zero-downtime-data-migrations"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -13893,6 +13975,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/how-stripes-document-databases-supported-99.999-uptime-with-zero-downtime-data-migrations"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -14033,6 +14116,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/how-stripes-document-databases-supported-99.999-uptime-with-zero-downtime-data-migrations"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -14089,6 +14173,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/engineering"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -14118,6 +14203,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/test-clocks-how-we-made-it-easier-to-test-stripe-billing-integrations"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -14140,6 +14226,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/test-clocks-how-we-made-it-easier-to-test-stripe-billing-integrations"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -14247,6 +14334,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost__readMoreLink
   "
   href="https://stripe.com/blog/test-clocks-how-we-made-it-easier-to-test-stripe-billing-integrations"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -14422,6 +14510,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/industry"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -14451,6 +14540,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/shoptalk-2026"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -14473,6 +14563,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/shoptalk-2026"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -14613,6 +14704,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/shoptalk-2026"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -14669,6 +14761,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/industry"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -14698,6 +14791,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/three-fraud-trends-from-mrc-vegas-2026"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -14720,6 +14814,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/three-fraud-trends-from-mrc-vegas-2026"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -14829,6 +14924,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/three-fraud-trends-from-mrc-vegas-2026"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -14885,6 +14981,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/industry"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -14914,6 +15011,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/analyzing-first-party-fraud-trends-account-free-trial-and-refund-abuse"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -14936,6 +15034,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/analyzing-first-party-fraud-trends-account-free-trial-and-refund-abuse"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -15076,6 +15175,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/analyzing-first-party-fraud-trends-account-free-trial-and-refund-abuse"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -15132,6 +15232,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/industry"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -15161,6 +15262,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/three-agentic-commerce-trends-nrf-2026"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -15183,6 +15285,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/three-agentic-commerce-trends-nrf-2026"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -15323,6 +15426,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/three-agentic-commerce-trends-nrf-2026"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -15379,6 +15483,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/industry"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -15408,6 +15513,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/high-growth-companies-stand-out-with-flexible-pricing"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -15430,6 +15536,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/high-growth-companies-stand-out-with-flexible-pricing"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -15537,6 +15644,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost__readMoreLink
   "
   href="https://stripe.com/blog/high-growth-companies-stand-out-with-flexible-pricing"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -15712,6 +15820,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/product"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -15741,6 +15850,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/giving-agents-the-ability-to-pay"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -15763,6 +15873,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/giving-agents-the-ability-to-pay"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -15872,6 +15983,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/giving-agents-the-ability-to-pay"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -15928,6 +16040,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/product"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -15957,6 +16070,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -15979,6 +16093,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -16088,6 +16203,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -16144,6 +16260,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/product"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -16173,6 +16290,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/global-checkout-trends"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -16195,6 +16313,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/global-checkout-trends"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -16304,6 +16423,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/global-checkout-trends"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -16360,6 +16480,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/product"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -16389,6 +16510,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/how-stripe-radar-helps-prevent-free-trial-abuse"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -16411,6 +16533,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/how-stripe-radar-helps-prevent-free-trial-abuse"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -16551,6 +16674,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/how-stripe-radar-helps-prevent-free-trial-abuse"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -16607,6 +16731,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog/product"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
@@ -16636,6 +16761,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/blog/adaptive-pricing-for-subscriptions"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -16658,6 +16784,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogPostDate__link
   "
   href="https://stripe.com/blog/adaptive-pricing-for-subscriptions"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -16796,6 +16923,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost__readMoreLink
   "
   href="https://stripe.com/blog/adaptive-pricing-for-subscriptions"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -17111,6 +17239,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="mailto:sales@stripe.com"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -17170,6 +17299,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/privacy"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -17192,6 +17322,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/privacy"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -17207,6 +17338,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     
   "
   href="/privacy"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -17620,6 +17752,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/au/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -17670,6 +17803,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/at/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -17692,6 +17826,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/en-at/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -17744,6 +17879,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/nl-be/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -17766,6 +17902,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/fr-be/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -17792,6 +17929,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/de-be/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -17814,6 +17952,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/en-be/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -17866,6 +18005,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/br/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -17888,6 +18028,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/en-br/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -17940,6 +18081,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/en-bg/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -17990,6 +18132,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/en-ca/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -18012,6 +18155,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/fr-ca/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -18064,6 +18208,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/en-hr/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -18086,6 +18231,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/it-hr/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -18138,6 +18284,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/en-cy/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -18186,6 +18333,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/en-cz/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -18238,6 +18386,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/en-dk/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -18286,6 +18435,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/en-ee/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -18338,6 +18488,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/en-fi/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -18360,6 +18511,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/sv-fi/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -18415,6 +18567,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/fr/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -18437,6 +18590,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/en-fr/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -18489,6 +18643,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/de/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -18511,6 +18666,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/en-de/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -18563,6 +18719,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/en-gi/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -18611,6 +18768,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/en-gr/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -18663,6 +18821,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/en-hk/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -18685,6 +18844,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/zh-hk/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -18737,6 +18897,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/en-hu/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -18785,6 +18946,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/in/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -18837,6 +18999,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/ie/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -18887,6 +19050,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/it/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -18909,6 +19073,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/en-it/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -18961,6 +19126,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/jp/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -18983,6 +19149,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/en-jp/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -19035,6 +19202,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/en-lv/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -19085,6 +19253,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/de-li/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -19107,6 +19276,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/en-li/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -19162,6 +19332,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/en-lt/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -19212,6 +19383,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/fr-lu/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -19236,6 +19408,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/de-lu/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -19258,6 +19431,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/en-lu/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -19310,6 +19484,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/en-my/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -19332,6 +19507,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/zh-my/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -19384,6 +19560,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/en-mt/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -19434,6 +19611,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/mx/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -19456,6 +19634,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/en-mx/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -19508,6 +19687,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/nl/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -19530,6 +19710,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/en-nl/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -19582,6 +19763,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/nz/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -19630,6 +19812,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/en-no/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -19682,6 +19865,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/en-pl/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -19732,6 +19916,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/pt-pt/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -19754,6 +19939,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/en-pt/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -19806,6 +19992,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/en-ro/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -19856,6 +20043,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/en-sg/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -19878,6 +20066,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/zh-sg/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -19933,6 +20122,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/en-sk/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -19983,6 +20173,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/en-si/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -20005,6 +20196,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/it-si/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -20057,6 +20249,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/es/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -20079,6 +20272,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/en-es/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -20131,6 +20325,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/se/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -20153,6 +20348,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/en-se/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -20205,6 +20401,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/de-ch/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -20227,6 +20424,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/fr-ch/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -20253,6 +20451,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/it-ch/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -20275,6 +20474,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/en-ch/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -20327,6 +20527,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/th/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -20349,6 +20550,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/en-th/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -20401,6 +20603,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/ae/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -20451,6 +20654,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/gb/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -20490,6 +20694,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/us/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -20514,6 +20719,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/es-us/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Languages'
   data-analytics-action='Clicked'
@@ -20536,6 +20742,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     GlobalizationPicker__countryLanguage
   "
   href="https://stripe.com/zh-us/blog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -20617,6 +20824,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/pricing"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -20653,6 +20861,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="/atlas"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -20693,6 +20902,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/authorization-boost"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -20729,6 +20939,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="/billing"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -20769,6 +20980,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/capital/platforms"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -20805,6 +21017,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="/payments/checkout"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -20845,6 +21058,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/use-cases/crypto"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -20881,6 +21095,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="/climate"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -20921,6 +21136,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/connect"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -20957,6 +21173,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="/data-pipeline"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -20997,6 +21214,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/payments/elements"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -21033,6 +21251,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="/treasury"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -21073,6 +21292,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/financial-connections"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -21109,6 +21329,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="/identity"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -21149,6 +21370,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/invoicing"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -21185,6 +21407,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="https://stripe.com/issuing"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -21225,6 +21448,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/payments/link"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -21261,6 +21485,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="/managed-payments"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -21301,6 +21526,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/payments"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -21337,6 +21563,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="/payments/payment-links"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -21377,6 +21604,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/connect/payouts"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -21413,6 +21641,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="https://stripe.com/radar"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -21453,6 +21682,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/revenue-recognition"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -21489,6 +21719,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="https://stripe.com/sigma"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -21529,6 +21760,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/tax"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -21565,6 +21797,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="/terminal"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -21638,6 +21871,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/enterprise"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -21675,6 +21909,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="/startups"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -21717,6 +21952,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/use-cases/agentic-commerce"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -21753,6 +21989,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="/use-cases/crypto"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -21794,6 +22031,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/use-cases/ecommerce"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -21831,6 +22069,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="/use-cases/embedded-finance"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -21872,6 +22111,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/use-cases/finance-automation"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -21909,6 +22149,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="/use-cases/global-businesses"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -21954,6 +22195,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/use-cases/in-app-payments"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -21991,6 +22233,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="/use-cases/marketplaces"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -22032,6 +22275,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/use-cases/platforms"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -22069,6 +22313,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="/use-cases/saas"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -22111,6 +22356,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/use-cases/ai"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -22150,6 +22396,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/use-cases/creator-economy"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -22186,6 +22433,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="/industries/travel"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -22227,6 +22475,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/industries/insurance"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -22264,6 +22513,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="/industries/media-entertainment"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -22305,6 +22555,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/industries/nonprofits"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -22344,6 +22595,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/industries/public-sector"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -22381,6 +22633,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="/industries/retail"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -22452,6 +22705,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://marketplace.stripe.com/"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -22491,6 +22745,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/partners"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -22528,6 +22783,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="/professional-services"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -22600,6 +22856,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://docs.stripe.com/"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -22637,6 +22894,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="https://docs.stripe.com/api"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -22678,6 +22936,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://status.stripe.com/"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -22715,6 +22974,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="https://docs.stripe.com/changelog"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -22756,6 +23016,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://docs.stripe.com/development"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -22793,6 +23054,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="https://stripe.dev/"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -22866,6 +23128,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/guides"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -22903,6 +23166,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="/customers"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -22944,6 +23208,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/blog"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -22981,6 +23246,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="/sessions"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -23022,6 +23288,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/privacy"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -23059,6 +23326,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="/legal/restricted-businesses"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -23100,6 +23368,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://stripe.com/spc/licenses"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -23137,6 +23406,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="/sitemap"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -23178,6 +23448,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/cookie-settings"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -23214,6 +23485,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="https://privacy.stripe.com/"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -23254,6 +23526,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="https://stripe.com/resources/more"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -23323,6 +23596,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/roadmap"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -23359,6 +23633,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="/jobs"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -23399,6 +23674,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="/newsroom"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -23437,6 +23713,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://press.stripe.com/"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -23473,6 +23750,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="/contact/sales"
+  
   
   
   data-js-controller='AnalyticsButton'
@@ -23542,6 +23820,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   href="https://support.stripe.com/?referrerLocale=en-us"
   
   
+  
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
@@ -23578,6 +23857,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     ListItem__label
   "
   href="/support-plans"
+  
   
   
   data-js-controller='AnalyticsButton'
