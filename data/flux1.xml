@@ -15,14 +15,14 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 <meta
   name="sentry-config"
   data-js-dsn=""
-  data-js-release="1e30a3ae6ca707e10aff34d665c0dbd4aa166fe9"
+  data-js-release="a832d88e4f5a782bb3eeb17b90ce5af315db465d"
   data-js-environment="production"
   data-js-project="mkt"
 >
 
-    <meta name="edge-experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.d2375d05-4c5a-956e-3f31-26e2a1caf612.m.s,wpp_console_mvp_nav_cta.control.ursula.e6ca31ca-a254-f65e-c297-4a6baa7e3799.m.s,acquisition_chat_cta.control.ursula.3e2e4da7-4240-625e-0f64-16b1c064b4a3.m.s">
-<meta name="experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.f0b91db1-98b2-4fe1-aed9-6568c5b89ab7.m.s,wpp_console_mvp_nav_cta.control.ursula.511455aa-3983-4b49-8a75-17ba0f2402a0.m.s,acquisition_chat_cta.control.ursula.c569ec58-1eb8-4aa0-9204-e90f904c2390.m.s">
-<meta name="experiment-token" content="b057adf68f0167d0e439c621e25be670afa6fdb9">
+    <meta name="edge-experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.a4231a34-cf8b-dd84-a93f-bd7514bf8a97.m.s,wpp_console_mvp_nav_cta.control.ursula.be732364-4bff-2c44-5bb1-e4b2b00c081d.m.s,acquisition_chat_cta.control.ursula.49ccd0b1-2ec7-8318-d5b4-713062c475af.a.s">
+<meta name="experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.052b8fa3-8219-488d-ba0c-b6d1983c21b6.m.s,wpp_console_mvp_nav_cta.control.ursula.56a49245-112a-43f6-a8e0-43e21e03f671.m.s,acquisition_chat_cta.control.ursula.9e117627-71f5-4656-ad47-1e4bf809e1c4.a.s">
+<meta name="experiment-token" content="b057adf6963cf7b3d1cca93790dce52955e17068">
     
 
     <script>(() => {
@@ -82,7 +82,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
     <template id="source-attribution-loader">
   <script defer
-    src="https://b.stripecdn.com/mkt-statics-srv/assets/imt-50a72d2c62fb74df0958f9e9d0c3ecbc.js"
+    src="https://b.stripecdn.com/mkt-statics-srv/assets/imt-ab502f88ae98dfaf66409f527c53e08f.js"
     data-store_url="https://b.stripecdn.com/mkt-statics-srv/assets/store-936f0d847a16164e7f6b15d74659c4a9.html">
   </script>
 </template>
@@ -443,11 +443,11 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
 
         <script type="application/json" data-js-script-registry>
-          [{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-74SWH4UA.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedSiteHeader-QX5OF2B5.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-DashboardLoginLink-7NSZTWG7.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedMobileMenu-CJ3LWJAF.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedProductsNavGroup-DHKMJULN.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-HorizontalOverflowContainer-MS6BFYST.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Gradient-KH6V3GK7.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-SegmentedControl-CCZ6LW26.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UpdateCard-MAO5WOIE.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FullWidthCarousel-USN5HZHS.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FooterCta-3VZTQEWB.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-TextInput-MD2ZDR65.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Form-37NVDWKP.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-PrivacyNotice-PW6AGSV6.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LocaleControl-WJH3GOYJ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-HBHD5KBB.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Sentry-IABPFTSH.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-EnforceSameSiteLaxOnCookies-5NDXH4YF.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LoaderScript-MIFZT7Y3.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatInitializer-U4ODCZIM.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatCtaButtonLarge-NLHPIPT7.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Loader-M3NJUSJK.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-ScrollDepthTracker-KNQ5A2E6.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-MonitorWebVitals-4YMHUQXW.js"}]
+          [{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-SW3QBYOW.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedSiteHeader-MY3KYAPI.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-DashboardLoginLink-QE7JO7JV.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedMobileMenu-CMNEJ7QG.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedProductsNavGroup-XW677TEO.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-HorizontalOverflowContainer-BNIEOIPG.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Gradient-HN5O3FNQ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-SegmentedControl-JAFJ6ODG.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UpdateCard-GPQABK6R.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FullWidthCarousel-E2QLDAQU.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FooterCta-JBS3EFXQ.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-TextInput-7EWETVNE.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Form-CXZOUDGT.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-PrivacyNotice-6DVVH3JU.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LocaleControl-EMCWSUNP.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-FGHY6ZQS.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Sentry-IABPFTSH.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-EnforceSameSiteLaxOnCookies-5NDXH4YF.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LoaderScript-DMFSGLD7.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatInitializer-6B65XWCD.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatCtaButtonLarge-GNIZJPWQ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Loader-RRS5EHUI.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-ScrollDepthTracker-OLM26W2N.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-MonitorWebVitals-ZLTPGA3X.js"}]
         </script>
       
 
-        <script type="module" src="https://b.stripecdn.com/mkt-statics-srv/assets/v1-Bootstrapper-L2OMJF3L.js"></script>
+        <script type="module" src="https://b.stripecdn.com/mkt-statics-srv/assets/v1-Bootstrapper-XBIJJSRL.js"></script>
       
 
   </head>
@@ -8485,7 +8485,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost
     BlogIndexPost--variantFeatured
     BlogIndexPost--hasFigure
-    BlogIndexPost--hasMultipleAuthors
+    
   "
 >
   <h2
@@ -8510,7 +8510,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
-  data-analytics-label='five_vertical_saas__category__industry'
+  data-analytics-label='solo_founding_is__category__industry'
   
   
   
@@ -8533,7 +8533,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogIndexPost__titleLink
   "
-  href="https://stripe.com/blog/vertical-saas-insights-sessions-2026"
+  href="https://stripe.com/blog/top-solo-founder-traits"
   
   
   
@@ -8546,11 +8546,11 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   
   
   
->Five vertical SaaS insights from Sessions 2026</a></h1>
+>Solo founding is at an all-time high: Top performers have these traits in common</a></h1>
 
   <time
   class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-05-11T00:00-07:00"
+  datetime="2026-05-28T00:00-07:00"
 >
   
   <a
@@ -8558,20 +8558,20 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogPostDate__link
   "
-  href="https://stripe.com/blog/vertical-saas-insights-sessions-2026"
+  href="https://stripe.com/blog/top-solo-founder-traits"
   
   
   
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
-  data-analytics-label='five_vertical_saas__date'
+  data-analytics-label='solo_founding_is__date'
   
   
   
   
   
->May 11, 2026</a>
+>May 28, 2026</a>
 </time>
 
   <div class="BlogIndexPost__authorList">
@@ -8585,7 +8585,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   "
 >
   <a
-    href="https://www.linkedin.com/in/aakash-sahney-94017114/?originalSubdomain=ca"
+    href="https://www.linkedin.com/in/jesse-carey/"
     target="_blank"
   >
     <img
@@ -8593,47 +8593,16 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
       width="48"
       height="48"
       loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/p0cKJihswqSLVGVOlpoTq/650bc8f54e6d74b8964d90b3e1590a51/asahney.jpg.png?w=96&h=96"
+      src="https://images.stripeassets.com/fzn2n1nzq965/2YE7NgzZbtTazPTYNUpJQf/880de7198aa1dc34d0a74d428e26ab65/jmc.jpg.png?w=96&h=96"
     >
   </a>
   <figcaption class="BlogAuthor__caption">
     <a
       class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/aakash-sahney-94017114/?originalSubdomain=ca"
+      href="https://www.linkedin.com/in/jesse-carey/"
       target="_blank"
-    >Aakash Sahney</a>
-    <span class="BlogAuthor__role">Head of Product, Stripe Connect</span>
-  </figcaption>
-</figure>
-    
-      <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/dicarlo/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/4VrShwRxoAZeYXB1SzvOqS/965646530e11402a082346ea1af97033/dicarlo.jpg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/dicarlo/"
-      target="_blank"
-    >Christian DiCarlo</a>
-    <span class="BlogAuthor__role">Global Head of Platform Partnerships</span>
+    >Jesse Carey</a>
+    <span class="BlogAuthor__role">Product Strategy and Operations, Stripe Atlas</span>
   </figcaption>
 </figure>
   </div>
@@ -8665,7 +8634,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     >
       
         <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/6cEmsrSa4sI1LamZFsHMdv/437806562a9b76619e3b2f981e0c6938/Index_image_NEW.png?w=1080&q=80&fm=webp"
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/3YiEqV9ZoR97PiMWsrHnVE/c44cc91c0be0ed35d4c024609a1a097a/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding__1_.png?w=1080&q=80&fm=webp"
           type="image/webp"
         >
       
@@ -8674,10 +8643,10 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
       <img
         class="BlogImageCard__image"
-        alt="Blog &gt; Five vertical SaaS insights from Sessions 2026 &gt; Index image"
+        alt="Blog &gt; Top solo founder traits &gt; Index image"
         src="
         
-          https://images.stripeassets.com/fzn2n1nzq965/6cEmsrSa4sI1LamZFsHMdv/437806562a9b76619e3b2f981e0c6938/Index_image_NEW.png?w=1080&q=80
+          https://images.stripeassets.com/fzn2n1nzq965/3YiEqV9ZoR97PiMWsrHnVE/c44cc91c0be0ed35d4c024609a1a097a/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding__1_.png?w=1080&q=80
         
       "
         width="1250"
@@ -8689,7 +8658,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   
 
   <div class="BlogIndexPost__body">
-    <p>AI is forcing platforms to expand beyond pure software. See how vertical SaaS platforms are using payments, financial services, and agentic commerce to build more durable businesses.</p>
+    <p>In 2025, solo founders in the top decile generated 61 times the revenue of the median solo founder in their first six months. We analyzed the data to understand what drives that gap.</p>
   </div>
 
   <a
@@ -8697,7 +8666,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogIndexPost__readMoreLink
   "
-  href="https://stripe.com/blog/vertical-saas-insights-sessions-2026"
+  href="https://stripe.com/blog/top-solo-founder-traits"
   
   
   
@@ -8958,6 +8927,477 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
+  data-analytics-label='expanding_stripe_radar__category__product'
+  
+  
+  
+  
+  
+>Product</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/expanding-stripe-radar-to-protect-more-of-your-business"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Expanding Stripe Radar to protect more of your business</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-05-27T00:00-07:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/expanding-stripe-radar-to-protect-more-of-your-business"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='expanding_stripe_radar__date'
+  
+  
+  
+  
+  
+>May 27, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/samuelbakouch/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/3z7sTxfj4EqUcuALokYl7Q/2632260aa44da4b06dc82fa7f428d2c4/E0181S17H6Z-U08TQKY3DJ7-b8bac14771e5-512.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/samuelbakouch/"
+      target="_blank"
+    >Samuel Bakouch</a>
+    <span class="BlogAuthor__role">Head of Product, Payments Intelligence</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/2FSmdXVwwuymT0YfmIXxfq/aeadbd7af5e4620151924efbf9cdf6ad/radar-index.jpg?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="Blog &gt; Expanding Stripe Radar &gt; Index image"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/2FSmdXVwwuymT0YfmIXxfq/aeadbd7af5e4620151924efbf9cdf6ad/radar-index.jpg?w=1080&q=80
+        
+      "
+        width="1250"
+        height="1250"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>Radar now blocks high-risk transactions across all supported payment methods; defends against new fraud types like multi-account abuse and pay-as-you-go abuse, regardless of which payment processor you use; and gives platforms new tools to evaluate and mitigate merchant risk on and off Stripe.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/expanding-stripe-radar-to-protect-more-of-your-business"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+        
+          <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
+    BlogIndexPost--hasMultipleAuthors
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/industry"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='five_vertical_saas__category__industry'
+  
+  
+  
+  
+  
+>Industry</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/vertical-saas-insights-sessions-2026"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Five vertical SaaS insights from Sessions 2026</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-05-11T00:00-07:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/vertical-saas-insights-sessions-2026"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='five_vertical_saas__date'
+  
+  
+  
+  
+  
+>May 11, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/aakash-sahney-94017114/?originalSubdomain=ca"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/p0cKJihswqSLVGVOlpoTq/650bc8f54e6d74b8964d90b3e1590a51/asahney.jpg.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/aakash-sahney-94017114/?originalSubdomain=ca"
+      target="_blank"
+    >Aakash Sahney</a>
+    <span class="BlogAuthor__role">Head of Product, Stripe Connect</span>
+  </figcaption>
+</figure>
+    
+      <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/dicarlo/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/4VrShwRxoAZeYXB1SzvOqS/965646530e11402a082346ea1af97033/dicarlo.jpg.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/dicarlo/"
+      target="_blank"
+    >Christian DiCarlo</a>
+    <span class="BlogAuthor__role">Global Head of Platform Partnerships</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/6cEmsrSa4sI1LamZFsHMdv/437806562a9b76619e3b2f981e0c6938/Index_image_NEW.png?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="Blog &gt; Five vertical SaaS insights from Sessions 2026 &gt; Index image"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/6cEmsrSa4sI1LamZFsHMdv/437806562a9b76619e3b2f981e0c6938/Index_image_NEW.png?w=1080&q=80
+        
+      "
+        width="1250"
+        height="1250"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>AI is forcing platforms to expand beyond pure software. See how vertical SaaS platforms are using payments, financial services, and agentic commerce to build more durable businesses.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/vertical-saas-insights-sessions-2026"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+        
+          <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
+    
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/product"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
   data-analytics-label='giving_agents_the__category__product'
   
   
@@ -9115,446 +9555,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost__readMoreLink
   "
   href="https://stripe.com/blog/giving-agents-the-ability-to-pay"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-        
-          <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/product"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='everything_we_announced__category__product'
-  
-  
-  
-  
-  
->Product</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Everything we announced at Sessions 2026</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-04-29T00:00-07:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='everything_we_announced__date'
-  
-  
-  
-  
-  
->April 29, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://twitter.com/gaybrick"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/2V8UpuoDuP3zR8ehtLwjoN/796ff6de2354596236223bc835e3b0e0/Will_Gaybrick.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://twitter.com/gaybrick"
-      target="_blank"
-    >Will Gaybrick</a>
-    <span class="BlogAuthor__role">Product and Business</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/5Uq9NEKuVAdSjvGIpsY4wy/ef80210cb8ff35c3a15fb1f2e9123539/updated-blog-index.png?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="Blog &gt; Sessions 2026 &gt; Index image"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/5Uq9NEKuVAdSjvGIpsY4wy/ef80210cb8ff35c3a15fb1f2e9123539/updated-blog-index.png?w=1080&q=80
-        
-      "
-        width="2500"
-        height="2500"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>We’re making Stripe even more programmable; protecting and propelling your business with the strength of the Stripe network; and building economic infrastructure for AI.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-        
-          <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/product"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='how_agents_digital__category__product'
-  
-  
-  
-  
-  
->Product</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/global-checkout-trends"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->How agents, digital wallets, and trust are rewriting checkout</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-04-07T00:00-07:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/global-checkout-trends"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='how_agents_digital__date'
-  
-  
-  
-  
-  
->April  7, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/venisingh/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/2oubl0sJ97reVM1oWs7B3S/5ca6cbcc5f7fb452d21caf52619a4a10/veni.jpg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/venisingh/"
-      target="_blank"
-    >Veni Singh</a>
-    <span class="BlogAuthor__role">Product Manager, OCS and Payments Dashboard Product</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/ldkId6Rz1TQvWrVdACbe0/c3c1a161b959d5714171ee73b4e79fcc/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding__1_.png?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="Blog &gt; Global checkout trends &gt; Index image"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/ldkId6Rz1TQvWrVdACbe0/c3c1a161b959d5714171ee73b4e79fcc/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding__1_.png?w=1080&q=80
-        
-      "
-        width="1250"
-        height="1250"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>We analyzed checkout activity across more than 20K businesses, surveyed shoppers and ecommerce leaders, and gathered insights from businesses on the Stripe network to understand what’s changing in online conversion.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/global-checkout-trends"
   
   
   
@@ -10396,6 +10396,446 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost
     BlogIndexPost--variantNormal
     BlogIndexPost--hasFigure
+    
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/product"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='everything_we_announced__category__product'
+  
+  
+  
+  
+  
+>Product</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Everything we announced at Sessions 2026</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-04-29T00:00-07:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='everything_we_announced__date'
+  
+  
+  
+  
+  
+>April 29, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://twitter.com/gaybrick"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/2V8UpuoDuP3zR8ehtLwjoN/796ff6de2354596236223bc835e3b0e0/Will_Gaybrick.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://twitter.com/gaybrick"
+      target="_blank"
+    >Will Gaybrick</a>
+    <span class="BlogAuthor__role">Product and Business</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/5Uq9NEKuVAdSjvGIpsY4wy/ef80210cb8ff35c3a15fb1f2e9123539/updated-blog-index.png?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="Blog &gt; Sessions 2026 &gt; Index image"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/5Uq9NEKuVAdSjvGIpsY4wy/ef80210cb8ff35c3a15fb1f2e9123539/updated-blog-index.png?w=1080&q=80
+        
+      "
+        width="2500"
+        height="2500"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>We’re making Stripe even more programmable; protecting and propelling your business with the strength of the Stripe network; and building economic infrastructure for AI.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+        
+          <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
+    
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/product"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='how_agents_digital__category__product'
+  
+  
+  
+  
+  
+>Product</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/global-checkout-trends"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>How agents, digital wallets, and trust are rewriting checkout</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-04-07T00:00-07:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/global-checkout-trends"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='how_agents_digital__date'
+  
+  
+  
+  
+  
+>April  7, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/venisingh/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/2oubl0sJ97reVM1oWs7B3S/5ca6cbcc5f7fb452d21caf52619a4a10/veni.jpg.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/venisingh/"
+      target="_blank"
+    >Veni Singh</a>
+    <span class="BlogAuthor__role">Product Manager, OCS and Payments Dashboard Product</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/ldkId6Rz1TQvWrVdACbe0/c3c1a161b959d5714171ee73b4e79fcc/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding__1_.png?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="Blog &gt; Global checkout trends &gt; Index image"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/ldkId6Rz1TQvWrVdACbe0/c3c1a161b959d5714171ee73b4e79fcc/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding__1_.png?w=1080&q=80
+        
+      "
+        width="1250"
+        height="1250"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>We analyzed checkout activity across more than 20K businesses, surveyed shoppers and ecommerce leaders, and gathered insights from businesses on the Stripe network to understand what’s changing in online conversion.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/global-checkout-trends"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+        
+          <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
     BlogIndexPost--hasMultipleAuthors
   "
 >
@@ -10641,6 +11081,10 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   </svg>
 </span></a>
 </article>
+        
+
+        
+
         
           <article
   class="
@@ -11113,10 +11557,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 </span></a>
 </article>
         
-
-        
-
-        
           <article
   class="
     BlogIndexPost
@@ -11335,477 +11775,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost__readMoreLink
   "
   href="https://stripe.com/blog/adaptive-pricing-for-subscriptions"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-        
-          <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    BlogIndexPost--hasMultipleAuthors
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/product"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='introducing_the_machine__category__product'
-  
-  
-  
-  
-  
->Product</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/machine-payments-protocol"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Introducing the Machine Payments Protocol</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-03-18T00:00-07:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/machine-payments-protocol"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='introducing_the_machine__date'
-  
-  
-  
-  
-  
->March 18, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/jeffwweinstein/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/4qQkhztmc7kSJ8uF5xhS07/2eec0f9fb206c4f07241f78638e48876/jweinstein.jpg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/jeffwweinstein/"
-      target="_blank"
-    >Jeff Weinstein</a>
-    <span class="BlogAuthor__role">Product Lead, Agentic Commerce</span>
-  </figcaption>
-</figure>
-    
-      <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/steve-kaliski-079a7710/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/5J3NH1pwJMvEoWscqnfp2z/c7643056fd12a84521b9c20abf67bbe8/stevekaliski.jpg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/steve-kaliski-079a7710/"
-      target="_blank"
-    >Steve Kaliski</a>
-    <span class="BlogAuthor__role">Engineering Lead, Agentic Commerce</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/5XnKM1MhctFUry2VRGpdHI/7d68233cb5e62da2b590136c7918a559/MPP-index.png?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="blog &gt; mpp &gt; index"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/5XnKM1MhctFUry2VRGpdHI/7d68233cb5e62da2b590136c7918a559/MPP-index.png?w=1080&q=80
-        
-      "
-        width="2500"
-        height="2500"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>We’re launching the Machine Payments Protocol (MPP), an open standard, internet-native way for agents to pay—co-authored by Tempo and Stripe. Businesses on Stripe can accept payments over MPP in a few lines of code using our PaymentIntents API.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/machine-payments-protocol"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-        
-          <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/product"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='10_things_we__category__product'
-  
-  
-  
-  
-  
->Product</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/10-lessons"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->10 things we learned building for the first generation of agentic commerce</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-03-12T00:00-07:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/10-lessons"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='10_things_we__date'
-  
-  
-  
-  
-  
->March 12, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://twitter.com/blattus"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/SjoMMp3aie8R06UmP72Qx/5702bd934458790720564d75e73fe59e/roshan.jpg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://twitter.com/blattus"
-      target="_blank"
-    >Roshan Sadanani</a>
-    <span class="BlogAuthor__role">Product, Agentic Payments</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/3JPDWTTYPpM2YcBISc8vag/7b023bd06d150e886a75df88a73c41d2/Index_preview.png?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="Blog &gt; 10 things learned &gt; Index image"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/3JPDWTTYPpM2YcBISc8vag/7b023bd06d150e886a75df88a73c41d2/Index_preview.png?w=1080&q=80
-        
-      "
-        width="5000"
-        height="5000"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>A future where we buy with AI agents feels inevitable. Making it actually work is harder. These lessons from the first wave of agentic commerce are meant to help sellers decide what to tackle, avoid common bottlenecks, and get ahead of what’s coming.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/10-lessons"
   
   
   
@@ -14514,6 +14483,257 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
+  data-analytics-label='five_vertical_saas__category__industry'
+  
+  
+  
+  
+  
+>Industry</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/vertical-saas-insights-sessions-2026"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Five vertical SaaS insights from Sessions 2026</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-05-11T00:00-07:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/vertical-saas-insights-sessions-2026"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='five_vertical_saas__date'
+  
+  
+  
+  
+  
+>May 11, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/aakash-sahney-94017114/?originalSubdomain=ca"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/p0cKJihswqSLVGVOlpoTq/650bc8f54e6d74b8964d90b3e1590a51/asahney.jpg.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/aakash-sahney-94017114/?originalSubdomain=ca"
+      target="_blank"
+    >Aakash Sahney</a>
+    <span class="BlogAuthor__role">Head of Product, Stripe Connect</span>
+  </figcaption>
+</figure>
+    
+      <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/dicarlo/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/4VrShwRxoAZeYXB1SzvOqS/965646530e11402a082346ea1af97033/dicarlo.jpg.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/dicarlo/"
+      target="_blank"
+    >Christian DiCarlo</a>
+    <span class="BlogAuthor__role">Global Head of Platform Partnerships</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/6cEmsrSa4sI1LamZFsHMdv/437806562a9b76619e3b2f981e0c6938/Index_image_NEW.png?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="Blog &gt; Five vertical SaaS insights from Sessions 2026 &gt; Index image"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/6cEmsrSa4sI1LamZFsHMdv/437806562a9b76619e3b2f981e0c6938/Index_image_NEW.png?w=1080&q=80
+        
+      "
+        width="1250"
+        height="1250"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>AI is forcing platforms to expand beyond pure software. See how vertical SaaS platforms are using payments, financial services, and agentic commerce to build more durable businesses.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/vertical-saas-insights-sessions-2026"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+          
+            <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
+    BlogIndexPost--hasMultipleAuthors
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/industry"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
   data-analytics-label='insights_from_shoptalk__category__industry'
   
   
@@ -15457,226 +15677,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 </span></a>
 </article>
           
-            <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/industry"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='high_growth_companies__category__industry'
-  
-  
-  
-  
-  
->Industry</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/high-growth-companies-stand-out-with-flexible-pricing"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->High-growth companies stand out with flexible pricing</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2025-09-24T00:00-07:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/high-growth-companies-stand-out-with-flexible-pricing"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='high_growth_companies__date'
-  
-  
-  
-  
-  
->September 24, 2025</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/wisam-hirzalla-9b20a91/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/1anSGXOGXPqjOBYc2Sh1Io/efe5bf0e7525ec4cd7ef18aa6ee9ca03/Screenshot_2024-12-12_at_10.07.54_AM.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/wisam-hirzalla-9b20a91/"
-      target="_blank"
-    >Wisam Hirzalla</a>
-    <span class="BlogAuthor__role">Product Lead, Stripe Billing</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/7hoLlyRYJMXpurVEZFvl9J/1612f5479346b4fbac1aa745468a551d/pricing_derivative_post_hero_image_edited.png?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="Blog &gt; High-growth companies stand out with flexible pricing &gt; Hero image"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/7hoLlyRYJMXpurVEZFvl9J/1612f5479346b4fbac1aa745468a551d/pricing_derivative_post_hero_image_edited.png?w=1080&q=80
-        
-      "
-        width="11924"
-        height="8640"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>Our recent survey of 2,000+ global business leaders showed that the fastest-growing companies are approaching pricing differently than their peers. Here are some of the strategies behind their success.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/high-growth-companies-stand-out-with-flexible-pricing"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-          
 
           <div
   class="
@@ -15795,6 +15795,226 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
           
             <div class="BlogIndexGridSection__layout">
     <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
+    
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/product"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='expanding_stripe_radar__category__product'
+  
+  
+  
+  
+  
+>Product</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/expanding-stripe-radar-to-protect-more-of-your-business"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Expanding Stripe Radar to protect more of your business</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-05-27T00:00-07:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/expanding-stripe-radar-to-protect-more-of-your-business"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='expanding_stripe_radar__date'
+  
+  
+  
+  
+  
+>May 27, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/samuelbakouch/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/3z7sTxfj4EqUcuALokYl7Q/2632260aa44da4b06dc82fa7f428d2c4/E0181S17H6Z-U08TQKY3DJ7-b8bac14771e5-512.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/samuelbakouch/"
+      target="_blank"
+    >Samuel Bakouch</a>
+    <span class="BlogAuthor__role">Head of Product, Payments Intelligence</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/2FSmdXVwwuymT0YfmIXxfq/aeadbd7af5e4620151924efbf9cdf6ad/radar-index.jpg?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="Blog &gt; Expanding Stripe Radar &gt; Index image"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/2FSmdXVwwuymT0YfmIXxfq/aeadbd7af5e4620151924efbf9cdf6ad/radar-index.jpg?w=1080&q=80
+        
+      "
+        width="1250"
+        height="1250"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>Radar now blocks high-risk transactions across all supported payment methods; defends against new fraud types like multi-account abuse and pay-as-you-go abuse, regardless of which payment processor you use; and gives platforms new tools to evaluate and mitigate merchant risk on and off Stripe.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/expanding-stripe-radar-to-protect-more-of-your-business"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+          
+            <article
   class="
     BlogIndexPost
     BlogIndexPost--variantNormal
@@ -16672,257 +16892,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost__readMoreLink
   "
   href="https://stripe.com/blog/how-stripe-radar-helps-prevent-free-trial-abuse"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-          
-            <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    BlogIndexPost--hasMultipleAuthors
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/product"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='testing_the_impact__category__product'
-  
-  
-  
-  
-  
->Product</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/adaptive-pricing-for-subscriptions"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Testing the impact of Adaptive Pricing across 1.5M subscription checkout sessions</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-03-19T00:00-07:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/adaptive-pricing-for-subscriptions"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='testing_the_impact__date'
-  
-  
-  
-  
-  
->March 19, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/scbhagat8/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/1J6HVgqa1xRDpNsLooxeOB/05ae79f81e3f457427a1154145c82597/sahilbhagat.jpg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/scbhagat8/"
-      target="_blank"
-    >Sahil Bhagat</a>
-    <span class="BlogAuthor__role">Product Manager, Adaptive Pricing</span>
-  </figcaption>
-</figure>
-    
-      <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/danielle-carollo/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/5PiQDsVcA3yJ17ZdJIAU6C/8e35e6dfcf89701fd0016bfad67f6700/daniellecar.jpg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/danielle-carollo/"
-      target="_blank"
-    >Danielle Carollo</a>
-    <span class="BlogAuthor__role">Data Scientist, Adaptive Pricing</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/6Ee0jsPU0no73KBQtvLZSs/3f8e7c460e2e394b0deb3aba8af00fcc/Blog_Index_2x__1_.png?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="Blog &gt; Adaptive Pricing for subscriptions &gt; Index image"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/6Ee0jsPU0no73KBQtvLZSs/3f8e7c460e2e394b0deb3aba8af00fcc/Blog_Index_2x__1_.png?w=1080&q=80
-        
-      "
-        width="4320"
-        height="4320"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>Adaptive Pricing is now available for subscriptions, allowing businesses to automatically localize prices in 150+ countries while Stripe handles currency conversion. In an A/B test across 1.5 million subscription checkouts, businesses saw 4.7% higher conversion and 5.4% higher LTV per session, on average.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/adaptive-pricing-for-subscriptions"
   
   
   
@@ -24005,7 +23974,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   </div>
 </footer>
   
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Stripe Blog: Online Payment Solutions Blog","url":"https://stripe.com/blog","mainEntity":{"@type":"ItemList","name":"Latest articles","itemListOrder":"http://schema.org/ItemListOrderDescending","numberOfItems":9,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"BlogPosting","headline":"Giving agents the ability to pay","url":"https://stripe.com/blog/giving-agents-the-ability-to-pay","author":[{"@type":"Person","name":"Dan Hill","url":"https://www.linkedin.com/in/hilldan/"}],"datePublished":"2026-04-29T00:00-07:00"}},{"@type":"ListItem","position":2,"item":{"@type":"BlogPosting","headline":"Everything we announced at Sessions 2026","url":"https://stripe.com/blog/everything-we-announced-at-sessions-2026","author":[{"@type":"Person","name":"Will Gaybrick","url":"https://twitter.com/gaybrick"}],"datePublished":"2026-04-29T00:00-07:00"}},{"@type":"ListItem","position":3,"item":{"@type":"BlogPosting","headline":"How agents, digital wallets, and trust are rewriting checkout","url":"https://stripe.com/blog/global-checkout-trends","author":[{"@type":"Person","name":"Veni Singh","url":"https://www.linkedin.com/in/venisingh/"}],"datePublished":"2026-04-07T00:00-07:00"}},{"@type":"ListItem","position":4,"item":{"@type":"BlogPosting","headline":"Insights from Shoptalk 2026: How agents are changing retail","url":"https://stripe.com/blog/shoptalk-2026","author":[{"@type":"Person","name":"Ashye Marcus","url":"https://www.linkedin.com/in/ashye/"},{"@type":"Person","name":"Jake Sinsheimer","url":"https://www.linkedin.com/in/jake-sinsheimer-4334953a/"}],"datePublished":"2026-04-02T00:00-07:00"}},{"@type":"ListItem","position":5,"item":{"@type":"BlogPosting","headline":"How Stripe Radar helps prevent free trial abuse","url":"https://stripe.com/blog/how-stripe-radar-helps-prevent-free-trial-abuse","author":[{"@type":"Person","name":"Yu-Hsin Lin","url":"https://www.linkedin.com/in/yuhsinl/"},{"@type":"Person","name":"Yujie Wang","url":"https://www.linkedin.com/in/yujie-w/"}],"datePublished":"2026-03-24T00:00-07:00"}},{"@type":"ListItem","position":6,"item":{"@type":"BlogPosting","headline":"Three of the biggest fraud trends from MRC Vegas 2026","url":"https://stripe.com/blog/three-fraud-trends-from-mrc-vegas-2026","author":[{"@type":"Person","name":"Jon Krauss","url":"https://www.linkedin.com/in/jon-krauss-30bb3616/"}],"datePublished":"2026-03-20T00:00-07:00"}},{"@type":"ListItem","position":7,"item":{"@type":"BlogPosting","headline":"Testing the impact of Adaptive Pricing across 1.5M subscription checkout sessions","url":"https://stripe.com/blog/adaptive-pricing-for-subscriptions","author":[{"@type":"Person","name":"Sahil Bhagat","url":"https://www.linkedin.com/in/scbhagat8/"},{"@type":"Person","name":"Danielle Carollo","url":"https://www.linkedin.com/in/danielle-carollo/"}],"datePublished":"2026-03-19T00:00-07:00"}},{"@type":"ListItem","position":8,"item":{"@type":"BlogPosting","headline":"Introducing the Machine Payments Protocol","url":"https://stripe.com/blog/machine-payments-protocol","author":[{"@type":"Person","name":"Jeff Weinstein","url":"https://www.linkedin.com/in/jeffwweinstein/"},{"@type":"Person","name":"Steve Kaliski","url":"https://www.linkedin.com/in/steve-kaliski-079a7710/"}],"datePublished":"2026-03-18T00:00-07:00"}},{"@type":"ListItem","position":9,"item":{"@type":"BlogPosting","headline":"10 things we learned building for the first generation of agentic commerce","url":"https://stripe.com/blog/10-lessons","author":[{"@type":"Person","name":"Roshan Sadanani","url":"https://twitter.com/blattus"}],"datePublished":"2026-03-12T00:00-07:00"}}]}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Stripe Blog: Online Payment Solutions Blog","url":"https://stripe.com/blog","mainEntity":{"@type":"ItemList","name":"Latest articles","itemListOrder":"http://schema.org/ItemListOrderDescending","numberOfItems":9,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"BlogPosting","headline":"Expanding Stripe Radar to protect more of your business","url":"https://stripe.com/blog/expanding-stripe-radar-to-protect-more-of-your-business","author":[{"@type":"Person","name":"Samuel Bakouch","url":"https://www.linkedin.com/in/samuelbakouch/"}],"datePublished":"2026-05-27T00:00-07:00"}},{"@type":"ListItem","position":2,"item":{"@type":"BlogPosting","headline":"Five vertical SaaS insights from Sessions 2026","url":"https://stripe.com/blog/vertical-saas-insights-sessions-2026","author":[{"@type":"Person","name":"Aakash Sahney","url":"https://www.linkedin.com/in/aakash-sahney-94017114/?originalSubdomain=ca"},{"@type":"Person","name":"Christian DiCarlo","url":"https://www.linkedin.com/in/dicarlo/"}],"datePublished":"2026-05-11T00:00-07:00"}},{"@type":"ListItem","position":3,"item":{"@type":"BlogPosting","headline":"Giving agents the ability to pay","url":"https://stripe.com/blog/giving-agents-the-ability-to-pay","author":[{"@type":"Person","name":"Dan Hill","url":"https://www.linkedin.com/in/hilldan/"}],"datePublished":"2026-04-29T00:00-07:00"}},{"@type":"ListItem","position":4,"item":{"@type":"BlogPosting","headline":"Everything we announced at Sessions 2026","url":"https://stripe.com/blog/everything-we-announced-at-sessions-2026","author":[{"@type":"Person","name":"Will Gaybrick","url":"https://twitter.com/gaybrick"}],"datePublished":"2026-04-29T00:00-07:00"}},{"@type":"ListItem","position":5,"item":{"@type":"BlogPosting","headline":"How agents, digital wallets, and trust are rewriting checkout","url":"https://stripe.com/blog/global-checkout-trends","author":[{"@type":"Person","name":"Veni Singh","url":"https://www.linkedin.com/in/venisingh/"}],"datePublished":"2026-04-07T00:00-07:00"}},{"@type":"ListItem","position":6,"item":{"@type":"BlogPosting","headline":"Insights from Shoptalk 2026: How agents are changing retail","url":"https://stripe.com/blog/shoptalk-2026","author":[{"@type":"Person","name":"Ashye Marcus","url":"https://www.linkedin.com/in/ashye/"},{"@type":"Person","name":"Jake Sinsheimer","url":"https://www.linkedin.com/in/jake-sinsheimer-4334953a/"}],"datePublished":"2026-04-02T00:00-07:00"}},{"@type":"ListItem","position":7,"item":{"@type":"BlogPosting","headline":"How Stripe Radar helps prevent free trial abuse","url":"https://stripe.com/blog/how-stripe-radar-helps-prevent-free-trial-abuse","author":[{"@type":"Person","name":"Yu-Hsin Lin","url":"https://www.linkedin.com/in/yuhsinl/"},{"@type":"Person","name":"Yujie Wang","url":"https://www.linkedin.com/in/yujie-w/"}],"datePublished":"2026-03-24T00:00-07:00"}},{"@type":"ListItem","position":8,"item":{"@type":"BlogPosting","headline":"Three of the biggest fraud trends from MRC Vegas 2026","url":"https://stripe.com/blog/three-fraud-trends-from-mrc-vegas-2026","author":[{"@type":"Person","name":"Jon Krauss","url":"https://www.linkedin.com/in/jon-krauss-30bb3616/"}],"datePublished":"2026-03-20T00:00-07:00"}},{"@type":"ListItem","position":9,"item":{"@type":"BlogPosting","headline":"Testing the impact of Adaptive Pricing across 1.5M subscription checkout sessions","url":"https://stripe.com/blog/adaptive-pricing-for-subscriptions","author":[{"@type":"Person","name":"Sahil Bhagat","url":"https://www.linkedin.com/in/scbhagat8/"},{"@type":"Person","name":"Danielle Carollo","url":"https://www.linkedin.com/in/danielle-carollo/"}],"datePublished":"2026-03-19T00:00-07:00"}}]}}</script>
     </div>
   </body>
 </html>
