@@ -15,14 +15,14 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 <meta
   name="sentry-config"
   data-js-dsn=""
-  data-js-release="a832d88e4f5a782bb3eeb17b90ce5af315db465d"
+  data-js-release="0f7b55179e1d1d32cb2a2b279729e2d875eb62ec"
   data-js-environment="production"
   data-js-project="mkt"
 >
 
-    <meta name="edge-experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.a4231a34-cf8b-dd84-a93f-bd7514bf8a97.m.s,wpp_console_mvp_nav_cta.control.ursula.be732364-4bff-2c44-5bb1-e4b2b00c081d.m.s,acquisition_chat_cta.control.ursula.49ccd0b1-2ec7-8318-d5b4-713062c475af.a.s">
-<meta name="experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.052b8fa3-8219-488d-ba0c-b6d1983c21b6.m.s,wpp_console_mvp_nav_cta.control.ursula.56a49245-112a-43f6-a8e0-43e21e03f671.m.s,acquisition_chat_cta.control.ursula.9e117627-71f5-4656-ad47-1e4bf809e1c4.a.s">
-<meta name="experiment-token" content="b057adf6963cf7b3d1cca93790dce52955e17068">
+    <meta name="edge-experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.f258f3d9-4be2-ee90-4f40-3792adff41cd.m.s,wpp_console_mvp_nav_cta.control.ursula.6f298e02-2712-b1e5-73e8-5bcb6ac1e48f.m.s,acquisition_chat_cta.treatment.ursula.83159e7a-3264-ee8b-3de3-83b0bac4ba99.a.s">
+<meta name="experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.02809c21-fc6e-4f2a-9a3f-21c93c5427ba.m.s,wpp_console_mvp_nav_cta.control.ursula.19abdda0-ee94-43ab-9f53-71eb2b4e230a.m.s,acquisition_chat_cta.treatment.ursula.0a9c0df5-d614-40af-ac83-ac3304ad5970.a.s">
+<meta name="experiment-token" content="b057adf601cc1131e9bae2dd93e4d4bc0feff4f6">
     
 
     <script>(() => {
@@ -280,7 +280,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 </script>
     <link rel="preconnect" href="https://b.stripecdn.com" crossorigin>
 <link rel="dns-prefetch" href="https://b.stripecdn.com">
-<style>.SiteHeader{--siteMenuTransition:250ms;--siteMenuArrowSpacing:13px;--siteMenuArrowOffset:0;--userLogoColor:var(--navColor);position:relative;z-index:100;background-color:var(--backgroundColor)}@media (max-width:899px){.SiteHeader{--desktopNavDisplay:none}}@media (min-width:900px){.SiteHeader{--mobileNavDisplay:none}}@media (prefers-reduced-motion:reduce){.SiteHeader{--siteMenuTransition:1ms}}.SiteHeader--noTransitions{--siteMenuTransition:0ms}.SiteHeader.variant--Overlay{position:absolute;top:0;left:0;width:100%;background:none}@media (min-width:900px){.SiteHeader.variant--Fixed{position:fixed;top:0;left:0;width:100%}}.SiteHeader--hasGuides:after{position:absolute;bottom:0;left:0;width:100%;height:1px;margin:0;border:none;background:linear-gradient(90deg,var(--guideDashedColor),var(--guideDashedColor) 50%,transparent 0,transparent);background-size:8px 1px;content:""}.SiteHeader--excludesNav{pointer-events:none}.SiteHeader--excludesNav .SiteHeader__logo{pointer-events:auto}.SiteHeader.theme--Transparent:after{display:none}.SiteHeader__guidesContainer{position:absolute;top:0;left:0;width:100%;height:100%;overflow:hidden}.SiteHeader.theme--Transparent .SiteHeader__guidesContainer{display:none}.SiteHeader__container{position:relative;max-width:calc(1080px + var(--columnPaddingNormal)*2);margin:0 auto;padding:0 var(--columnPaddingNormal);overflow:hidden}.SiteHeader__navContainer{display:flex;justify-content:space-between;align-items:center;min-height:68px;padding:32px var(--columnPaddingNormal) 12px}.HubPage .SiteHeader__navContainer{padding-left:0;padding-right:0}@media (min-width:900px){.HubPage .SiteHeader__navContainer,.SiteHeader__navContainer{padding:12px var(--columnPaddingNormal)}}@media (pointer:fine){.SiteHeader__logo{transition:var(--hoverTransition);transition-property:color,opacity}@media (-webkit-min-device-pixel-ratio:2){.SiteHeader__logo{will-change:opacity,color}}.SiteHeader__logo:hover{color:var(--navHoverColor);opacity:var(--navHoverOpacity)}}.SiteHeader__logoLink{display:block;outline:none;padding:4px;margin:-4px}.keyboard-navigation .SiteHeader__logoLink:focus{box-shadow:var(--focusBoxShadow);border-radius:2px}.SiteHeader__ctaNav{display:var(--desktopNavDisplay,initial);white-space:nowrap;overflow:hidden;justify-content:flex-end}html[lang^=de] .SiteHeader__ctaNav{--ctaFont:var(--fontWeightSemibold) 14px/1.6 var(--fontFamily)}@media (min-width:900px) and (max-width:990px){.MktRoot[lang^=en][data-loading] .SiteHeader__ctaNav{opacity:0}}@media (min-width:900px) and (max-width:1069px){.MktRoot:not([lang^=en])[data-loading] .SiteHeader__ctaNav{opacity:0}}.SiteHeader__menuNav{display:var(--mobileNavDisplay,initial)}.SiteHeader__mobileMenuMask{position:absolute;top:0;left:0;width:100%;display:var(--mobileNavDisplay,flex);justify-content:flex-end;transform:translateY(-100%);transition:ease-out var(--siteMenuTransition);overflow:hidden;z-index:1;pointer-events:none}.SiteHeader--mobileMenuVisible .SiteHeader__mobileMenuMask{transform:translateY(0)}.SiteHeader__mobileMenu{opacity:0;transform:translateY(100%);transform-origin:50% 0;transition:visibility step-end var(--siteMenuTransition),transform ease-out var(--siteMenuTransition),opacity ease-out var(--siteMenuTransition);pointer-events:none;visibility:hidden}.SiteHeader--mobileMenuVisible .SiteHeader__mobileMenu{transform:translateY(0);opacity:1;pointer-events:auto;visibility:visible;transition:visibility step-start var(--siteMenuTransition),transform ease-out var(--siteMenuTransition),opacity ease-out var(--siteMenuTransition)}@media (min-width:900px){.SiteHeader__mobileMenu{display:none}}.SiteHeader__menuContainer{display:var(--desktopNavDisplay,block);position:absolute;top:calc(100% - 1px - var(--siteMenuArrowSpacing));left:0;width:100%;height:1000px;z-index:1;pointer-events:none;overflow:hidden;opacity:0;transition:var(--siteMenuTransition)}.SiteHeader--dropdownVisible .SiteHeader__menuContainer{opacity:1}.SiteHeader__menu{position:absolute;top:0;left:0}.SiteHeader--hasContactSales .SiteHeader__navContainer{-moz-column-gap:20px;column-gap:20px}html[lang^=de] .SiteHeader--hasContactSales .SiteHeader__navContainer,html[lang^=es] .SiteHeader--hasContactSales .SiteHeader__navContainer,html[lang^=fr] .SiteHeader--hasContactSales .SiteHeader__navContainer,html[lang^=id] .SiteHeader--hasContactSales .SiteHeader__navContainer,html[lang^=nl] .SiteHeader--hasContactSales .SiteHeader__navContainer{-moz-column-gap:16px;column-gap:16px}.SiteHeader--hasContactSales .SiteHeader__ctaNav{display:var(--desktopNavDisplay,flex);flex-grow:1}.SiteHeader--hasContactSales .SiteHeader__ctaNavContainer{display:flex;margin-top:3px;-moz-column-gap:16px;column-gap:16px}.SiteHeader--hasContactSales .SiteHeader__leftCta.SiteHeader__leftCta--isHidden,.SiteHeader--hasContactSales .SiteHeader__secondaryAction--isHidden{position:absolute;visibility:hidden;pointer-events:none}.SiteHeader--hasContactSales .SiteHeader__ctaNav .variant--Link{color:var(--linkColor)}.SiteHeader--tripleCTA .SiteHeader__navContainer{gap:15px}.SiteHeader--tripleCTA .SiteHeader__ctaNavContainer{--column-gap-inner:25px;-moz-column-gap:var(--column-gap-inner);column-gap:var(--column-gap-inner)}.SiteHeader__contactSalesButtonWithSearch{--column-gap:8px;display:flex;gap:var(--column-gap)}@media (min-width:900px){.MktRoot .SiteHeader--isSticky{--easeOutSine:cubic-bezier(0.61,1,0.88,1)}.MktRoot .SiteHeader--isSticky .SiteHeader__stickyShadow{position:absolute;top:0;width:100%;height:100%;transform:translateY(-100%);transition:opacity .25s var(--easeOutSine);box-shadow:0 0 60px rgba(50,50,93,.18);pointer-events:none;opacity:0}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque{--accentColor:#96f;--navColor:#0a2540;--navHoverColor:#0a2540;--linkColor:#0a2540;--linkHoverColor:#0a2540;--linkHoverOpacity:0.6;--buttonColor:#635bff;--menuBgColor:#eff3f9}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__stickyContainer{background:#fff}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenu__card.Card{box-shadow:0 20px 60px rgba(50,50,93,.18)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteSubMenu{--siteSubMenuBackgroundColor:var(--menuBgColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__ctaNav .variant--Button{color:var(--textColor);background-color:var(--buttonColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__ctaNav .variant--Button:hover{background-color:var(--linkColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__ctaNav .variant--Link{color:var(--linkColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__stickyShadow{transform:translateY(0)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenu{padding-top:0;height:calc(var(--siteMenuHeight))}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenu__card.Card{--cardBackground:var(--menuBgColor);border-top-left-radius:0;border-top-right-radius:0}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__menuContainer{top:100%;overflow:visible}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__menuShadowContainer{overflow:hidden}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenu__sectionWrapper{margin:4px}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenuSection__body{border-radius:4px;background:#fff}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenuSection__footer{--siteMenuFooterMargin:0px;border-radius:0;background:var(--menuBgColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteSubMenu{border-radius:0}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeaderArrow{top:-6px;box-shadow:none;--siteHeaderArrowBackgroundColor:var(--menuBgColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteSolutionsNav{padding:0;background-color:var(--menuBgColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteProductsNav{border-top-left-radius:0;border-top-right-radius:0;background-color:var(--menuBgColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--isStuck{position:fixed}.MktRoot .SiteHeader--isSticky.SiteHeader--noStickyTransitions .SiteHeader__navContainer *{transition:none}}html:has(.SiteHeader--refreshed[data-menu-state=open]){overflow:hidden;scrollbar-gutter:stable}.MktRoot .SiteHeader--refreshed{--siteMenuArrowSpacing:0;--refreshedNavShadow:0 30px 60px -50px rgba(0,0,0,0.10196078431372549),0 30px 60px -10px rgba(50,50,93,0.25098039215686274);--refreshedMenuShadow:0 18px 36px -18px rgba(0,0,0,0.1),0 30px 45px -30px rgba(50,50,93,0.25);--refreshedNavWidth:calc(100vw - var(--columnPaddingNormal)*2 - var(--scrollbarWidth));--refreshedNavMaxWidth:1264px;--refreshedNavHeight:64px;--refreshedNavPaddingBlock:6px;--refreshedNavBorderRadius:8px;--navContainerBorderBottomRadius:8px;--navContainerBgColor:#fff;--navContainerBoxShadow:var(--refreshedNavShadow);--hoverTransition:none;padding-block:var(--refreshedNavPaddingBlock)}.MktRoot .SiteHeader--refreshed.SiteHeader--hasGuides:after{z-index:-1}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer{min-height:var(--refreshedNavHeight);padding:12px 16px;border-top-left-radius:var(--refreshedNavBorderRadius);border-top-right-radius:var(--refreshedNavBorderRadius)}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeaderNav__list{display:var(--desktopNavDisplay,flex);gap:1px}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeaderNavItem__link{text-box:trim-both cap alphabetic}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeaderNavItem__link--hasCaret{-moz-column-gap:4px;column-gap:4px}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeaderNavItem__link--hasCaret .SiteHeaderNavItem__linkCaretContainer{margin-block-start:2px;padding:0}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeader__ctaNavContainer{margin-top:0}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeader__ctaNavContainer .HoverArrow{--hoverTransition:150ms cubic-bezier(0.215,0.61,0.355,1)}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeader__ctaNavContainer .CtaButton.variant--Link{padding:3px 0 5px}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeader__ctaNavContainer .CtaButton{display:flex;align-items:center;justify-content:center}.MktRoot .SiteHeader--refreshed.SiteHeader--mobileMenuVisible .SiteHeader__container{--navContainerTransitionMs:0ms}.MktRoot .SiteHeader--refreshed.theme--HubDark:hover{--buttonHoverColor:#031323;fill:var(--knockoutColor)}.MktRoot .SiteHeader--refreshed.theme--HubDark .RefreshedMenuButton__icon{fill:var(--knockoutColor)}.MktRoot .SiteHeader--refreshed.SiteHeader--isHomepage .RefreshedMenuButton__icon{fill:var(--stripeAccentDark)}@media (max-width:900px){.MktRoot .SiteHeader--refreshed{padding-top:0}.MktRoot .SiteHeader--refreshed .SiteHeader__container{padding:16px 24px 12px}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer{padding:0;min-height:40px}}@media (min-width:900px){.MktRoot .SiteHeader--refreshed .SiteHeader__logoLink{padding-block:4px 5px;padding-inline:4px}}.MktRoot .SiteHeader--refreshed .SiteHeader__overlay{position:fixed;inset:0;z-index:1;background:linear-gradient(transparent,rgba(236,239,241,.8));-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);transition-property:opacity;transition-timing-function:cubic-bezier(.22,1,.36,1);transition-duration:.5s}.MktRoot .SiteHeader--refreshed .SiteHeader__container{overflow:hidden;z-index:2}@media (min-width:1112px){.MktRoot .SiteHeader--refreshed .SiteHeader__container{overflow:visible}}.MktRoot .SiteHeader--refreshed .SiteHeader__container:after{content:"";display:block;width:calc(100vw - var(--columnPaddingNormal)*2 - var(--scrollbarWidth));max-width:1264px;height:100%;position:absolute;z-index:-1;top:0;left:50%;transform:translateX(-50%);opacity:0;transition-property:opacity,border-radius;transition-duration:.24s,0ms;transition-timing-function:cubic-bezier(.45,.05,.55,.95),linear;border-top-left-radius:var(--refreshedNavBorderRadius);border-top-right-radius:var(--refreshedNavBorderRadius);border-bottom-left-radius:var(--navContainerBorderBottomRadius);border-bottom-right-radius:var(--navContainerBorderBottomRadius);background-color:var(--navContainerBgColor);box-shadow:var(--navContainerBoxShadow)}@media (min-width:900px){.MktRoot .SiteHeader--refreshed .SiteHeader__container .CtaButton,.MktRoot .SiteHeader--refreshed .SiteHeader__container .RefreshedNavGradientCta .HoverArrow,.MktRoot .SiteHeader--refreshed .SiteHeader__container .RefreshedNavGradientCta .NavCta__label,.MktRoot .SiteHeader--refreshed .SiteHeader__container .RefreshedNavGradientCta .NavCta__label--noGradient,.MktRoot .SiteHeader--refreshed .SiteHeader__container .SiteHeader__logo svg path,.MktRoot .SiteHeader--refreshed .SiteHeader__container .SiteHeaderNavItem__link{transition-property:opacity,color,background-color,border,fill,stroke;transition-duration:.3s;transition-timing-function:cubic-bezier(.25,1,.5,1);transform:translateZ(0)}.MktRoot .SiteHeader--refreshed .SiteHeader__container .SiteHeader__logo{transition-duration:.24s;transition-timing-function:cubic-bezier(.45,.05,.55,.95)}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover{--navColor:#061b31;--navHoverColor:#061b31;--linkColor:#061b31;--linkHoverColor:#061b31;--linkHoverOpacity:0.6;--menuBgColor:#eff3f9;--userLogoColor:#031323;--knockoutColor:#fff;--buttonColor:#031323}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover .RefreshedNavGradientCta .CtaButton{background-color:#0a2540}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover .CtaButton.variant--Button:hover{opacity:.6}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover .RefreshedNavGradientCta .NavCta__label{opacity:0}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover .RefreshedNavGradientCta .NavCta__label--noGradient{opacity:1}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover .RefreshedNavGradientCta .HoverArrow{stroke:#fff!important}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover:after{opacity:1}}.MktRoot .SiteHeader--refreshed .SiteHeader__menuContainer{all:unset;display:block;opacity:1;height:100%;position:relative;z-index:2;pointer-events:none}.MktRoot .SiteHeader--refreshed .SiteHeader__menuContainer:before{content:"";display:block;position:absolute;left:50%;transform:translateX(-50%);width:var(--refreshedNavWidth);max-width:var(--refreshedNavMaxWidth);transition-property:opacity;transition-duration:.24s;transition-timing-function:cubic-bezier(.45,.05,.55,.95);height:10px;z-index:100;top:-10px;border-bottom:1px solid #e5edf5;pointer-events:auto}.MktRoot .SiteHeader--refreshed .RefreshedMenu{width:var(--refreshedNavWidth);max-width:var(--refreshedNavMaxWidth);background-color:#fff;border-bottom-left-radius:var(--refreshedNavBorderRadius);border-bottom-right-radius:var(--refreshedNavBorderRadius);box-shadow:var(--refreshedMenuShadow);display:inline-block;z-index:2;overflow:clip;left:50%;transform:translateX(-50%);transition:height .2s cubic-bezier(.45,.05,.55,.95);will-change:height}.MktRoot .SiteHeader--refreshed .RefreshedMenu__card{position:relative;height:100%;overflow:hidden;z-index:1}.MktRoot .SiteHeader--refreshed .RefreshedMenu__section{--siteMenuSectionOffset:0;display:inline-block;position:absolute;top:0;left:50%;opacity:1;transform:translateX(-50%) translateX(var(--siteMenuSectionOffset));transition-property:opacity,transform;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.25s,.5s;will-change:opacity,transform}.MktRoot .SiteHeader--refreshed .RefreshedMenu__section[aria-hidden=true]{opacity:0;pointer-events:none}.MktRoot .SiteHeader--refreshed .RefreshedMenu__section[aria-hidden=true].SiteMenu__section--left{--siteMenuSectionOffset:-20%}.MktRoot .SiteHeader--refreshed .RefreshedMenu__section[aria-hidden=true].SiteMenu__section--right{--siteMenuSectionOffset:20%}.MktRoot .SiteHeader--refreshed.SiteHeader--noTransitions .RefreshedMenu__section{transition-duration:0ms}.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .CtaButton,.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .RefreshedNavGradientCta .HoverArrow,.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .RefreshedNavGradientCta .NavCta__label,.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .RefreshedNavGradientCta .NavCta__label--noGradient,.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .SiteHeader__logo svg path,.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .SiteHeaderNavItem__link{transition-delay:.24s}.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .SiteHeader__container:after{transition-delay:.24s,.2s}.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .SiteHeaderNavItem__link:not(.SiteHeaderNavItem__link--hasCaret):hover{transition-delay:0ms}.MktRoot .SiteHeader--refreshed[data-menu-state=closed] .RefreshedMenu{height:0;pointer-events:none}.MktRoot .SiteHeader--refreshed[data-menu-state=closed] .SiteHeader__overlay{opacity:0;pointer-events:none}.MktRoot .SiteHeader--refreshed[data-menu-state=closed] .SiteHeader__menuContainer:before{opacity:0}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container{--navContainerBorderBottomRadius:0}@media (min-width:900px){.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container{--navColor:#061b31;--navHoverColor:#061b31;--linkColor:#061b31;--linkHoverColor:#061b31;--linkHoverOpacity:0.6;--menuBgColor:#eff3f9;--userLogoColor:#031323;--knockoutColor:#fff;--buttonColor:#031323}}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container .RefreshedNavGradientCta .CtaButton{background-color:#0a2540}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container .RefreshedNavGradientCta .CtaButton:hover{opacity:.6}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container .RefreshedNavGradientCta .NavCta__label{opacity:0}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container .RefreshedNavGradientCta .NavCta__label--noGradient{opacity:1}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container .RefreshedNavGradientCta .HoverArrow{stroke:#fff!important}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container:after{opacity:1;transition:none}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .RefreshedMenu{height:var(--siteMenuHeight);pointer-events:auto}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__menuContainer:before,.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__overlay{opacity:1}</style>
+<style>.SiteHeader{--siteMenuTransition:250ms;--siteMenuArrowSpacing:13px;--siteMenuArrowOffset:0;--userLogoColor:var(--navColor);position:relative;z-index:100;background-color:var(--backgroundColor)}@media (max-width:899px){.SiteHeader{--desktopNavDisplay:none}}@media (min-width:900px){.SiteHeader{--mobileNavDisplay:none}}@media (prefers-reduced-motion:reduce){.SiteHeader{--siteMenuTransition:1ms}}.SiteHeader--noTransitions{--siteMenuTransition:0ms}.SiteHeader.variant--Overlay{position:absolute;top:0;left:0;width:100%;background:none}@media (min-width:900px){.SiteHeader.variant--Fixed{position:fixed;top:0;left:0;width:100%}}.SiteHeader--hasGuides:after{position:absolute;bottom:0;left:0;width:100%;height:1px;margin:0;border:none;background:linear-gradient(90deg,var(--guideDashedColor),var(--guideDashedColor) 50%,transparent 0,transparent);background-size:8px 1px;content:""}.SiteHeader--excludesNav{pointer-events:none}.SiteHeader--excludesNav .SiteHeader__logo{pointer-events:auto}.SiteHeader.theme--Transparent:after{display:none}.SiteHeader__guidesContainer{position:absolute;top:0;left:0;width:100%;height:100%;overflow:hidden}.SiteHeader.theme--Transparent .SiteHeader__guidesContainer{display:none}.SiteHeader__container{position:relative;max-width:calc(1080px + var(--columnPaddingNormal)*2);margin:0 auto;padding:0 var(--columnPaddingNormal);overflow:hidden}.SiteHeader__navContainer{display:flex;justify-content:space-between;align-items:center;min-height:68px;padding:32px var(--columnPaddingNormal) 12px}.HubPage .SiteHeader__navContainer{padding-left:0;padding-right:0}@media (min-width:900px){.HubPage .SiteHeader__navContainer,.SiteHeader__navContainer{padding:12px var(--columnPaddingNormal)}}@media (pointer:fine){.SiteHeader__logo{transition:var(--hoverTransition);transition-property:color,opacity}@media (-webkit-min-device-pixel-ratio:2){.SiteHeader__logo{will-change:opacity,color}}.SiteHeader__logo:hover{color:var(--navHoverColor);opacity:var(--navHoverOpacity)}}.SiteHeader__logoLink{display:block;outline:none;padding:4px;margin:-4px}.keyboard-navigation .SiteHeader__logoLink:focus{box-shadow:var(--focusBoxShadow);border-radius:2px}.SiteHeader__ctaNav{display:var(--desktopNavDisplay,initial);white-space:nowrap;overflow:hidden;justify-content:flex-end}html[lang^=de] .SiteHeader__ctaNav{--ctaFont:var(--fontWeightSemibold) 14px/1.6 var(--fontFamily)}@media (min-width:900px) and (max-width:990px){.MktRoot[lang^=en][data-loading] .SiteHeader__ctaNav{opacity:0}}@media (min-width:900px) and (max-width:1069px){.MktRoot:not([lang^=en])[data-loading] .SiteHeader__ctaNav{opacity:0}}.SiteHeader__menuNav{display:var(--mobileNavDisplay,initial)}.SiteHeader__mobileMenuMask{position:absolute;top:0;left:0;width:100%;display:var(--mobileNavDisplay,flex);justify-content:flex-end;transform:translateY(-100%);transition:ease-out var(--siteMenuTransition);overflow:hidden;z-index:1;pointer-events:none}.SiteHeader--mobileMenuVisible .SiteHeader__mobileMenuMask{transform:translateY(0)}.SiteHeader__mobileMenu{opacity:0;transform:translateY(100%);transform-origin:50% 0;transition:visibility step-end var(--siteMenuTransition),transform ease-out var(--siteMenuTransition),opacity ease-out var(--siteMenuTransition);pointer-events:none;visibility:hidden}.SiteHeader--mobileMenuVisible .SiteHeader__mobileMenu{transform:translateY(0);opacity:1;pointer-events:auto;visibility:visible;transition:visibility step-start var(--siteMenuTransition),transform ease-out var(--siteMenuTransition),opacity ease-out var(--siteMenuTransition)}@media (min-width:900px){.SiteHeader__mobileMenu{display:none}}.SiteHeader__menuContainer{display:var(--desktopNavDisplay,block);position:absolute;top:calc(100% - 1px - var(--siteMenuArrowSpacing));left:0;width:100%;height:1000px;z-index:1;pointer-events:none;overflow:hidden;opacity:0;transition:var(--siteMenuTransition)}.SiteHeader--dropdownVisible .SiteHeader__menuContainer{opacity:1}.SiteHeader__menu{position:absolute;top:0;left:0}.SiteHeader--hasContactSales .SiteHeader__navContainer{-moz-column-gap:20px;column-gap:20px}html[lang^=de] .SiteHeader--hasContactSales .SiteHeader__navContainer,html[lang^=es] .SiteHeader--hasContactSales .SiteHeader__navContainer,html[lang^=fr] .SiteHeader--hasContactSales .SiteHeader__navContainer,html[lang^=id] .SiteHeader--hasContactSales .SiteHeader__navContainer,html[lang^=nl] .SiteHeader--hasContactSales .SiteHeader__navContainer{-moz-column-gap:16px;column-gap:16px}.SiteHeader--hasContactSales .SiteHeader__ctaNav{display:var(--desktopNavDisplay,flex);flex-grow:1}.SiteHeader--hasContactSales .SiteHeader__ctaNavContainer{display:flex;margin-top:3px;-moz-column-gap:16px;column-gap:16px}.SiteHeader--hasContactSales .SiteHeader__leftCta.SiteHeader__leftCta--isHidden,.SiteHeader--hasContactSales .SiteHeader__secondaryAction--isHidden{position:absolute;visibility:hidden;pointer-events:none}.SiteHeader--hasContactSales .SiteHeader__ctaNav .variant--Link{color:var(--linkColor)}.SiteHeader--tripleCTA .SiteHeader__navContainer{gap:15px}.SiteHeader--tripleCTA .SiteHeader__ctaNavContainer{--column-gap-inner:25px;-moz-column-gap:var(--column-gap-inner);column-gap:var(--column-gap-inner)}.SiteHeader__contactSalesButtonWithSearch{--column-gap:8px;display:flex;gap:var(--column-gap)}@media (min-width:900px){.MktRoot .SiteHeader--isSticky{--easeOutSine:cubic-bezier(0.61,1,0.88,1)}.MktRoot .SiteHeader--isSticky .SiteHeader__stickyShadow{position:absolute;top:0;width:100%;height:100%;transform:translateY(-100%);transition:opacity .25s var(--easeOutSine);box-shadow:0 0 60px rgba(50,50,93,.18);pointer-events:none;opacity:0}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque{--accentColor:#96f;--navColor:#0a2540;--navHoverColor:#0a2540;--linkColor:#0a2540;--linkHoverColor:#0a2540;--linkHoverOpacity:0.6;--buttonColor:#635bff;--menuBgColor:#eff3f9}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__stickyContainer{background:#fff}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenu__card.Card{box-shadow:0 20px 60px rgba(50,50,93,.18)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteSubMenu{--siteSubMenuBackgroundColor:var(--menuBgColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__ctaNav .variant--Button{color:var(--textColor);background-color:var(--buttonColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__ctaNav .variant--Button:hover{background-color:var(--linkColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__ctaNav .variant--Link{color:var(--linkColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__stickyShadow{transform:translateY(0)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenu{padding-top:0;height:calc(var(--siteMenuHeight))}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenu__card.Card{--cardBackground:var(--menuBgColor);border-top-left-radius:0;border-top-right-radius:0}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__menuContainer{top:100%;overflow:visible}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__menuShadowContainer{overflow:hidden}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenu__sectionWrapper{margin:4px}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenuSection__body{border-radius:4px;background:#fff}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenuSection__footer{--siteMenuFooterMargin:0px;border-radius:0;background:var(--menuBgColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteSubMenu{border-radius:0}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeaderArrow{top:-6px;box-shadow:none;--siteHeaderArrowBackgroundColor:var(--menuBgColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteSolutionsNav{padding:0;background-color:var(--menuBgColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteProductsNav{border-top-left-radius:0;border-top-right-radius:0;background-color:var(--menuBgColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--isStuck{position:fixed}.MktRoot .SiteHeader--isSticky.SiteHeader--noStickyTransitions .SiteHeader__navContainer *{transition:none}}html:has(.SiteHeader--refreshed[data-menu-state=open]){overflow:hidden;scrollbar-gutter:stable}.MktRoot .SiteHeader--refreshed{--siteMenuArrowSpacing:0;--refreshedNavShadow:0 30px 60px -50px rgba(0,0,0,0.10196078431372549),0 30px 60px -10px rgba(50,50,93,0.25098039215686274);--refreshedMenuShadow:0 18px 36px -18px rgba(0,0,0,0.1),0 30px 45px -30px rgba(50,50,93,0.25);--refreshedNavWidth:calc(100vw - var(--columnPaddingNormal)*2 - var(--scrollbarWidth));--refreshedNavMaxWidth:1264px;--refreshedNavHeight:64px;--refreshedNavPaddingBlock:6px;--refreshedNavBorderRadius:8px;--navContainerBorderBottomRadius:8px;--navContainerBgColor:#fff;--navContainerBoxShadow:var(--refreshedNavShadow);--hoverTransition:none;padding-block:var(--refreshedNavPaddingBlock)}.MktRoot .SiteHeader--refreshed.SiteHeader--hasGuides:after{z-index:-1}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer{min-height:var(--refreshedNavHeight);padding:12px 16px;border-top-left-radius:var(--refreshedNavBorderRadius);border-top-right-radius:var(--refreshedNavBorderRadius)}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeaderNav__list{display:var(--desktopNavDisplay,flex);gap:1px}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeaderNavItem__link{text-box:trim-both cap alphabetic}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeaderNavItem__link--hasCaret{-moz-column-gap:4px;column-gap:4px}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeaderNavItem__link--hasCaret .SiteHeaderNavItem__linkCaretContainer{margin-block-start:2px;padding:0}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeader__ctaNavContainer{margin-top:0}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeader__ctaNavContainer .HoverArrow{--hoverTransition:150ms cubic-bezier(0.215,0.61,0.355,1)}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeader__ctaNavContainer .CtaButton.variant--Link{padding:3px 0 5px}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeader__ctaNavContainer .CtaButton{display:flex;align-items:center;justify-content:center}.MktRoot .SiteHeader--refreshed.SiteHeader--mobileMenuVisible .SiteHeader__container{--navContainerTransitionMs:0ms}.MktRoot .SiteHeader--refreshed.theme--HubDark:hover{--buttonHoverColor:#031323;fill:var(--knockoutColor)}.MktRoot .SiteHeader--refreshed.theme--HubDark .RefreshedMenuButton__icon{fill:var(--knockoutColor)}.MktRoot .SiteHeader--refreshed.SiteHeader--isHomepage .RefreshedMenuButton__icon{fill:var(--stripeAccentDark)}@media (max-width:900px){.MktRoot .SiteHeader--refreshed{padding-top:0}.MktRoot .SiteHeader--refreshed .SiteHeader__container{padding:16px 24px 12px}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer{padding:0;min-height:40px}}@media (min-width:900px){.MktRoot .SiteHeader--refreshed .SiteHeader__logoLink{padding-block:4px 5px;padding-inline:4px}}.MktRoot .SiteHeader--refreshed .SiteHeader__overlay{position:fixed;inset:0;z-index:1;background:linear-gradient(transparent,rgba(236,239,241,.8));-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);transition-property:opacity;transition-timing-function:cubic-bezier(.22,1,.36,1);transition-duration:.5s}.MktRoot .SiteHeader--refreshed .SiteHeader__container{overflow:hidden;z-index:2}@media (min-width:1112px){.MktRoot .SiteHeader--refreshed .SiteHeader__container{overflow:visible}}.MktRoot .SiteHeader--refreshed .SiteHeader__container:after{content:"";display:block;width:calc(100vw - var(--columnPaddingNormal)*2 - var(--scrollbarWidth));max-width:1264px;height:100%;position:absolute;z-index:-1;top:0;left:50%;transform:translateX(-50%);opacity:0;transition-property:opacity,border-radius;transition-duration:.24s,0ms;transition-timing-function:cubic-bezier(.45,.05,.55,.95),linear;border-top-left-radius:var(--refreshedNavBorderRadius);border-top-right-radius:var(--refreshedNavBorderRadius);border-bottom-left-radius:var(--navContainerBorderBottomRadius);border-bottom-right-radius:var(--navContainerBorderBottomRadius);background-color:var(--navContainerBgColor);box-shadow:var(--navContainerBoxShadow)}@media (min-width:900px){.MktRoot .SiteHeader--refreshed .SiteHeader__container .CtaButton,.MktRoot .SiteHeader--refreshed .SiteHeader__container .RefreshedNavGradientCta .HoverArrow,.MktRoot .SiteHeader--refreshed .SiteHeader__container .RefreshedNavGradientCta .NavCta__label,.MktRoot .SiteHeader--refreshed .SiteHeader__container .RefreshedNavGradientCta .NavCta__label--noGradient,.MktRoot .SiteHeader--refreshed .SiteHeader__container .SiteHeader__logo svg path,.MktRoot .SiteHeader--refreshed .SiteHeader__container .SiteHeaderNavItem__link{transition-property:opacity,color,background-color,border,fill,stroke;transition-duration:.3s;transition-timing-function:cubic-bezier(.25,1,.5,1);transform:translateZ(0)}.MktRoot .SiteHeader--refreshed .SiteHeader__container .SiteHeader__logo{transition-duration:.24s;transition-timing-function:cubic-bezier(.45,.05,.55,.95)}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover{--navColor:#061b31;--navHoverColor:#061b31;--linkColor:#061b31;--linkHoverColor:#061b31;--linkHoverOpacity:0.6;--menuBgColor:#eff3f9;--userLogoColor:#031323;--knockoutColor:#fff;--buttonColor:#031323}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover .RefreshedNavGradientCta .CtaButton{background-color:#0a2540}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover .CtaButton.variant--Button:hover{opacity:.6}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover .RefreshedNavGradientCta .NavCta__label{opacity:0}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover .RefreshedNavGradientCta .NavCta__label--noGradient{opacity:1}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover .RefreshedNavGradientCta .HoverArrow{stroke:#fff!important}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover:after{opacity:1}}.MktRoot .SiteHeader--refreshed .SiteHeader__menuContainer{all:unset;display:block;opacity:1;height:100%;position:relative;z-index:2;pointer-events:none}.MktRoot .SiteHeader--refreshed .SiteHeader__menuContainer:before{content:"";display:block;position:absolute;left:50%;transform:translateX(-50%);width:var(--refreshedNavWidth);max-width:var(--refreshedNavMaxWidth);transition-property:opacity;transition-duration:.24s;transition-timing-function:cubic-bezier(.45,.05,.55,.95);height:10px;z-index:100;top:-10px;border-bottom:1px solid #e5edf5;pointer-events:auto}.MktRoot .SiteHeader--refreshed .RefreshedMenu{width:var(--refreshedNavWidth);max-width:var(--refreshedNavMaxWidth);background-color:#fff;border-bottom-left-radius:var(--refreshedNavBorderRadius);border-bottom-right-radius:var(--refreshedNavBorderRadius);box-shadow:var(--refreshedMenuShadow);display:inline-block;z-index:2;overflow:clip;left:50%;transform:translateX(-50%);transition:height .2s cubic-bezier(.45,.05,.55,.95);will-change:height}.MktRoot .SiteHeader--refreshed .RefreshedMenu__card{position:relative;height:100%;overflow:hidden;z-index:1}.MktRoot .SiteHeader--refreshed .RefreshedMenu__section{--siteMenuSectionOffset:0;display:inline-block;position:absolute;top:0;left:50%;opacity:1;transform:translateX(-50%) translateX(var(--siteMenuSectionOffset));transition-property:opacity,transform;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.25s,.5s;will-change:opacity,transform}.MktRoot .SiteHeader--refreshed .RefreshedMenu__section[aria-hidden=true]{opacity:0;pointer-events:none}.MktRoot .SiteHeader--refreshed .RefreshedMenu__section[aria-hidden=true].SiteMenu__section--left{--siteMenuSectionOffset:-20%}.MktRoot .SiteHeader--refreshed .RefreshedMenu__section[aria-hidden=true].SiteMenu__section--right{--siteMenuSectionOffset:20%}.MktRoot .SiteHeader--refreshed.SiteHeader--noTransitions .RefreshedMenu__section{transition-duration:0ms}.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .CtaButton,.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .RefreshedNavGradientCta .HoverArrow,.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .RefreshedNavGradientCta .NavCta__label,.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .RefreshedNavGradientCta .NavCta__label--noGradient,.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .SiteHeader__logo svg path,.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .SiteHeaderNavItem__link{transition-delay:.24s}.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .SiteHeader__container:after{transition-delay:.24s,.2s}.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .SiteHeaderNavItem__link:not(.SiteHeaderNavItem__link--hasCaret):hover{transition-delay:0ms}.MktRoot .SiteHeader--refreshed[data-menu-state=closed] .RefreshedMenu{height:0;pointer-events:none}.MktRoot .SiteHeader--refreshed[data-menu-state=closed] .SiteHeader__overlay{opacity:0;pointer-events:none}.MktRoot .SiteHeader--refreshed[data-menu-state=closed] .SiteHeader__menuContainer:before{opacity:0}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container{--navContainerBorderBottomRadius:0}@media (min-width:900px){.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container{--navColor:#061b31;--navHoverColor:#061b31;--linkColor:#061b31;--linkHoverColor:#061b31;--linkHoverOpacity:0.6;--menuBgColor:#eff3f9;--userLogoColor:#031323;--knockoutColor:#fff;--buttonColor:#031323}}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container .RefreshedNavGradientCta .CtaButton{background-color:#0a2540}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container .RefreshedNavGradientCta .CtaButton:hover{opacity:.6}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container .RefreshedNavGradientCta .NavCta__label{opacity:0}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container .RefreshedNavGradientCta .NavCta__label--noGradient{opacity:1}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container .RefreshedNavGradientCta .HoverArrow{stroke:#fff!important}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container:after{opacity:1;transition:none}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .RefreshedMenu{height:var(--siteMenuHeight);pointer-events:auto}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__menuContainer:before,.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__overlay{opacity:1}@media (max-width:899px){.MktRoot .SiteHeader--refreshed .SiteHeader__menuNav--guide-me-container{display:flex;align-items:center;gap:16px}}</style>
 <style>.Guides{position:absolute;height:100%;width:100%;top:0;left:0;padding:0 var(--columnPaddingNormal);pointer-events:none}@media (max-width:1111px){.Guides{max-width:var(--windowWidth)}}.Guides__container{display:grid;grid:1fr/repeat(var(--columnCountMax),1fr);position:relative;max-width:var(--layoutWidth);height:100%;margin:0 auto}.Guides__guide{width:1px;background:linear-gradient(180deg,var(--guideDashedColor),var(--guideDashedColor) 50%,transparent 0,transparent);background-size:1px 8px}.Guides__guide:first-of-type,.Guides__guide:last-of-type{background:var(--guideSolidColor)}.Guides__guide:last-of-type{position:absolute;top:0;right:0;height:100%}@media (max-width:599px){.Guides__guide:nth-of-type(3n){display:none}}@media (max-width:899px){.Guides__guide:nth-of-type(2n){display:none}}</style>
 <style>.UserLogo{--userLogoMaxWidth:140px;display:block}@media (min-width:350px){.UserLogo{--userLogoMaxWidth:160px}}@media (max-width:899px){.UserLogo{max-width:var(--userLogoMaxWidth)}}.theme--White .UserLogo.variant--Flat{--userLogoColor:#b2bcc7}.theme--Light .UserLogo.variant--Flat{--userLogoColor:#aab4c1}.theme--Dark .UserLogo.variant--Flat{--userLogoColor:#fff;--userLogoColorAltShadeLighter:color-mix(in srgb,var(--userLogoColor) 92.5%,#000)}.UserLogo.variant--Flat{--userLogoColorAlt:var(--backgroundColor);--userLogoColorAltShadeDarker:color-mix(in srgb,var(--userLogoColor) 85%,#000);--userLogoColorAltShadeLighter:color-mix(in srgb,var(--userLogoColor) 75%,#fff);--userLogoColorAltNoTransparency:var(--backgroundColor)}</style>
 <style>.SiteHeaderNavItem+.SiteHeaderNavItem{margin-left:-1px}.SiteHeaderNavItem__link,.SiteHeaderNavItem__link.Link{--linkColor:var(--navColor);--linkHoverColor:var(--navHoverColor);--linkHoverOpacity:var(--navHoverOpacity);display:block;padding:10px 20px;font:var(--fontWeightBold) 15px/1.6 var(--fontFamily);letter-spacing:.2px;color:var(--navColor);cursor:pointer;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:transparent;border:none;outline:none}.SiteHeaderNavItem__link.Link[aria-haspopup=true],.SiteHeaderNavItem__link[aria-haspopup=true]{cursor:default;transition:var(--hoverTransition);transition-property:color,opacity}.SiteHeaderNavItem__link.Link[aria-expanded=true],.SiteHeaderNavItem__link[aria-expanded=true]{color:var(--linkHoverColor);opacity:var(--linkHoverOpacity)}.keyboard-navigation .SiteHeaderNavItem__link.Link:focus,.keyboard-navigation .SiteHeaderNavItem__link:focus{box-shadow:var(--focusBoxShadow);border-radius:4px}html[lang^=ja] .SiteHeaderNavItem__link,html[lang^=ja] .SiteHeaderNavItem__link.Link{font-weight:600;font-variation-settings:"wght" 500}html[lang^=de] .SiteHeaderNavItem__link,html[lang^=de] .SiteHeaderNavItem__link.Link{font:var(--fontWeightBold) 14px/1.6 var(--fontFamily)}.SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link,.SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link.Link{padding:10px 20px}html[lang^=es] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link,html[lang^=es] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link.Link,html[lang^=fr] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link,html[lang^=fr] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link.Link,html[lang^=id] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link,html[lang^=id] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link.Link,html[lang^=nl] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link,html[lang^=nl] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link.Link{padding:10px 16px}html[lang^=de] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link,html[lang^=de] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link.Link{padding:10px 8px}.SiteHeader--tripleCTA .SiteHeaderNavItem__link,.SiteHeader--tripleCTA .SiteHeaderNavItem__link.Link{padding:10px 14px}.SiteHeader .SiteHeaderNavItem--condensed .SiteHeaderNavItem__link{padding:10px 12px}.SiteHeader .SiteHeaderNavItem--condensed .SiteHeaderNavItem__link:not(.SiteHeaderNavItem__link--hasCaret){padding:10px 16px}.SiteHeaderNavItem__link--hasCaret{display:flex;align-items:center;-moz-column-gap:3px;column-gap:3px}.SiteHeaderNavItem__link--hasCaret span,.SiteHeaderNavItem__link--hasCaret svg{display:inline-flex}.SiteHeaderNavItem__link--hasCaret.SiteHeaderNavItem__link[aria-expanded=true] .SiteHeaderNavItem__linkCaret--left{transform:rotate(-90deg)}.SiteHeaderNavItem__link--hasCaret.SiteHeaderNavItem__link[aria-expanded=true] .SiteHeaderNavItem__linkCaret--right{transform:rotate(90deg)}.SiteHeaderNavItem__link--hasCaret .SiteHeaderNavItem__linkCaretContainer{position:relative;padding:7px 1px 5px}.SiteHeaderNavItem__link--hasCaret .SiteHeaderNavItem__linkCaret{transition:transform .4s cubic-bezier(.4,0,.2,1)}.SiteHeaderNavItem__link--hasCaret .SiteHeaderNavItem__linkCaret--left{translate:2px}.SiteHeaderNavItem__link--hasCaret .SiteHeaderNavItem__linkCaret--right{translate:-2px}.SiteHeader--refreshed[data-menu-state=open] a.SiteHeaderNavItem__link,.SiteHeader--refreshed[data-menu-state=open] button.SiteHeaderNavItem__link[aria-expanded=false]{--navColor:#667691}.SiteHeader--refreshed .SiteHeaderNav__list:has(a.SiteHeaderNavItem__link:hover) .SiteHeaderNavItem__link:not(:hover){--navColor:#667691}.SiteHeaderNavItem--refreshed .SiteHeaderNavItem__link,.SiteHeaderNavItem--refreshed .SiteHeaderNavItem__link.Link{letter-spacing:normal;font:400 14px/1 var(--fontFamily);padding-block:12px 14px;padding-inline:12px;cursor:pointer}.SiteHeaderNavItem--refreshed .SiteHeaderNavItem__link.Link:hover,.SiteHeaderNavItem--refreshed .SiteHeaderNavItem__link.Link[aria-expanded=true],.SiteHeaderNavItem--refreshed .SiteHeaderNavItem__link:hover,.SiteHeaderNavItem--refreshed .SiteHeaderNavItem__link[aria-expanded=true]{color:var(--navColor);opacity:1}.SiteHeaderNavItem--refreshed.SiteHeaderNavItem--hasSparkle{display:none;margin-left:0}.SiteHeaderNavItem--refreshed.SiteHeaderNavItem--hasSparkle .SiteHeaderNavItem__sparkleDivider{display:block;flex-shrink:0;margin-left:4px;margin-right:16px}.SiteHeaderNavItem--refreshed.SiteHeaderNavItem--hasSparkle .SiteHeaderNavItem__link--hasSparkle,.SiteHeaderNavItem--refreshed.SiteHeaderNavItem--hasSparkle .SiteHeaderNavItem__link--hasSparkle.Link{display:inline-flex;align-items:center;-moz-column-gap:6px;column-gap:6px;padding-inline:0 12px}.SiteHeaderNavItem--refreshed.SiteHeaderNavItem--hasSparkle .SiteHeaderNavItem__sparkleIcon{flex-shrink:0}@media (min-width:1000px){.SiteHeader--refreshed .SiteHeaderNavItem--hasSparkle{display:inline-flex;align-items:center;flex-shrink:0}}</style>
@@ -291,7 +291,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 <style>.HoverArrow{--arrowSpacing:5px;--arrowHoverTransition:150ms cubic-bezier(0.215,0.61,0.355,1);--arrowHoverOffset:translateX(3px);--arrowTipTransform:none;--arrowLineOpacity:0;position:relative;top:var(--arrowTop,1px);margin-left:var(--arrowSpacing);stroke-width:2px;fill:none;stroke:currentColor}.HoverArrow--sizeSmall{--arrowSpacing:4px;stroke-width:1.5px}.HoverArrow__linePath{opacity:var(--arrowLineOpacity);transition:opacity var(--hoverTransition,var(--arrowHoverTransition))}.HoverArrow__tipPath{transform:var(--arrowTipTransform);transition:transform var(--hoverTransition,var(--arrowHoverTransition))}.nobr{white-space:nowrap;line-height:0}@media (pointer:fine){a:hover .HoverArrow__linePath,button:hover .HoverArrow__linePath{--arrowLineOpacity:1}a:hover .HoverArrow__tipPath,button:hover .HoverArrow__tipPath{--arrowTipTransform:var(--arrowHoverOffset)}}@media (pointer:coarse){a:active .HoverArrow__linePath,button:active .HoverArrow__linePath{--arrowLineOpacity:1}a:active .HoverArrow__tipPath,button:active .HoverArrow__tipPath{--arrowTipTransform:var(--arrowHoverOffset)}}</style>
 <style>.SiteHeader:not(.SiteHeader--isStuck) .NavCtaGradient{--buttonColor:#fff;--buttonHoverColor:hsla(0,0%,100%,0.9);--initialGradientColor:linear-gradient(90deg,#e18638,#e17a38)}.SiteHeader:not(.SiteHeader--isStuck) .NavCtaGradient .CtaButton.variant--Button .NavCta__label{background:var(--initialGradientColor);will-change:color;background-clip:text!important;-webkit-background-clip:text!important;-webkit-text-fill-color:transparent!important;transition:background .3s linear}.SiteHeader:not(.SiteHeader--isStuck) .NavCtaGradient .CtaButton.variant--Button .HoverArrow{stroke:#e17a38;will-change:stroke;transition:stroke .3s linear}.SiteHeader--isStuck .NavCtaGradient .CtaButton.variant--Button .NavCta__label{background:none!important}.SiteHeader--isStuck .NavCtaGradient .HoverArrow{stroke:#fff!important}</style>
 <style>.RefreshedMenuButton{margin-left:auto;position:relative;border-radius:6px;padding:0;width:40px;height:40px;display:grid;place-items:center;background-color:var(--accentColor);border:none;cursor:pointer;transition:background-color .2s cubic-bezier(0,.09,.4,1),opacity .25s ease-in-out,visibility .25s ease-in-out}.RefreshedMenuButton rect{opacity:1;transform-origin:center;transition:.25s ease-in-out}@media (pointer:fine){.RefreshedMenuButton:hover rect:first-child{transform:translateY(-10px)}.RefreshedMenuButton:hover rect:nth-child(4){transform:translateY(10px)}}@media (pointer:coarse){.RefreshedMenuButton:active rect:first-child{transform:translateY(-10px)}.RefreshedMenuButton:active rect:nth-child(4){transform:translateY(10px)}}.RefreshedMenuButton__icon{fill:#fff}.SiteHeader--mobileMenuVisible .RefreshedMenuButton{fill:#533afd;opacity:0;visibility:hidden;pointer-events:none}.SiteHeader--mobileMenuVisible .RefreshedMenuButton rect{opacity:1;transform-origin:center;transition:.25s ease-in-out}.SiteHeader--mobileMenuVisible .RefreshedMenuButton rect:first-child{transform:translateX(40px) translateY(20px);width:0;opacity:0}.SiteHeader--mobileMenuVisible .RefreshedMenuButton rect:nth-child(4){transform:translateX(40px) translateY(-20px);width:0;opacity:0}.SiteHeader--mobileMenuVisible .RefreshedMenuButton rect:nth-child(2){transform:rotate(45deg)}.SiteHeader--mobileMenuVisible .RefreshedMenuButton rect:nth-child(3){transform:rotate(-45deg)}</style>
-<style>.MobileMenu{--siteMobileMenuHeaderHeight:60px;--siteMobileMenuFooterHeight:64px;--siteMobileMenuPadding:4px;--siteMobileMenuNavListTransform:translateY(0px);--siteMobileMenuSectionTransform:translateY(0px);--transitionDuration:240ms;--transitionEasing:cubic-bezier(0.45,0.05,0.55,0.95);--siteMobileMenuTransition:var(--transitionDuration) var(--transitionEasing);--siteMobileMenuTransitionIn:visibility var(--transitionDuration) step-end,opacity var(--siteMobileMenuTransition);--siteMobileMenuTransitionOut:visibility var(--transitionDuration) step-start,opacity var(--siteMobileMenuTransition);position:fixed;inset:0;transform:translateY(0);background:#f6f9fb;overflow-x:hidden;overflow-y:var(--siteMobileMenuOverflowY);display:grid;grid:var(--siteMobileMenuHeaderHeight) auto var(--siteMobileMenuFooterHeight)/auto;padding:var(--siteMobileMenuPadding);z-index:2}@media (min-width:900px){.MobileMenu{display:none}}@media (prefers-reduced-motion:reduced){.MobileMenu{--transitionDuration:1ms}}.MobileMenu__header{position:sticky;top:0;padding:16px;height:var(--siteMobileMenuHeaderHeight);display:flex;justify-content:space-between;align-items:center;background-color:#fff;border-radius:4px 4px 0 0;z-index:1}.MobileMenu__header:before{content:"";position:absolute;inset:calc(var(--siteMobileMenuPadding)*-1) calc(var(--siteMobileMenuPadding)*-1) 0 calc(var(--siteMobileMenuPadding)*-1);border:solid #f6f9fb;border-width:var(--siteMobileMenuPadding);border-bottom:0 solid #f6f9fb;pointer-events:none}.MobileMenu__header:after{content:"";position:absolute;right:0;bottom:0;left:0;height:1px;background:linear-gradient(90deg,var(--guideDashedColor),var(--guideDashedColor) 50%,transparent 0,transparent);background-size:8px 1px}.MobileMenu__logo{--userLogoColor:var(--accentColor);opacity:1;visibility:visible;transition:var(--siteMobileMenuTransitionOut);-webkit-tap-highlight-color:transparent}.MobileMenu--isMenuSectionActive .MobileMenu__logo{opacity:0;visibility:hidden;transition:var(--siteMobileMenuTransitionIn);pointer-events:none}.MobileMenu__backButton{position:absolute;left:12px;display:inline-flex;justify-content:center;align-items:center;-moz-column-gap:8px;column-gap:8px;padding:0;color:var(--accentColor);font:var(--fontWeightSemibold) 16px/1.5 var(--fontFamily);border:none;outline:none;background:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;opacity:0;visibility:hidden;transition:visibility var(--transitionDuration) step-end,opacity .15s ease-out;pointer-events:none;cursor:pointer;-webkit-tap-highlight-color:transparent}.MobileMenu--isMenuSectionActive .MobileMenu__backButton{opacity:1;pointer-events:auto;visibility:visible;transition:var(--siteMobileMenuTransitionOut)}.keyboard-navigation .MobileMenu__backButton:focus{box-shadow:var(--focusBoxShadow)}.MobileMenu__backButtonChevron{margin-top:3px}.MobileMenu__backButtonText{padding:0 4px 2px 0}.MobileMenu__closeButton{padding:0;border:none;outline:none;background:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;cursor:pointer;-webkit-tap-highlight-color:transparent}.keyboard-navigation .MobileMenu__closeButton:focus{box-shadow:var(--focusBoxShadow)}.MobileMenu__body{width:calc(100vw - 8px);display:flex}.MobileMenu__nav{width:100%;flex-shrink:0;background-color:#fff}.MobileMenu__navList{list-style:none;margin:20px 16px;padding:0;transform:var(--siteMobileMenuNavListTransform)}.MobileMenu__sections{position:relative;width:100%;flex-shrink:0;background:#f6f9fb;transform:translateX(-80%);opacity:0;pointer-events:none;transition-duration:.25s,.5s;transition-property:opacity,transform;transition-timing-function:cubic-bezier(.4,0,.2,1)}.MobileMenu--isMenuSectionActive .MobileMenu__sections{transform:translateX(-100%);opacity:1;pointer-events:auto}.MobileMenu__footer{height:var(--siteMobileMenuFooterHeight);display:flex;justify-content:center;align-items:center;padding:4px;gap:16px;position:sticky;bottom:0;background:radial-gradient(66.35% 66.35% at 50% 50%,hsla(0,0%,100%,.9) 0,hsla(0,0%,100%,0) 100%),hsla(0,0%,100%,.8);-webkit-backdrop-filter:blur(3.5px);backdrop-filter:blur(3.5px);z-index:2;border-radius:0 0 4px 4px}.MobileMenu__footer:after{content:"";position:absolute;inset:0 calc(var(--siteMobileMenuPadding)*-1) calc(var(--siteMobileMenuPadding)*-1) calc(var(--siteMobileMenuPadding)*-1);border:solid #f6f9fb;border-width:var(--siteMobileMenuPadding);border-top:0 solid #f6f9fb;pointer-events:none}.MobileMenu--isRefreshed.MobileMenu{--siteMobileMenuFooterHeight:76px;--siteMobileMenuPadding:0;--siteMobileMenuHeaderHeight:66px;background:#fff}.MobileMenu--isRefreshed .MobileMenu__sections{background-color:#fff}.MobileMenu--isRefreshed .MobileMenu__header:after{content:none}.MobileMenu--isRefreshed .MobileMenu__logo{--userLogoColor:#031323}.MobileMenu--isRefreshed .MobileMenu__header{padding:16px 24px 10px}.MobileMenu--isRefreshed .MobileMenu__navList{margin-block:12px;margin-inline:24px 16px}.MobileMenu--isRefreshed .MobileMenu__backButton{color:#533afd;left:24px;line-height:1;text-box:trim-both cap alphabetic}.MobileMenu--isRefreshed .MobileMenu__backButtonText{padding:0}.MobileMenu--isRefreshed .MobileMenu__closeButton{width:40px;height:40px;display:grid;place-items:center;border-radius:4px;background:#e8e9ff;opacity:0;visibility:hidden;transition:none}.MobileMenu--isRefreshed .SiteMobileMenuNavItem{margin-top:1px}.MobileMenu--isRefreshed .SiteMobileMenuNavItem__label,.MobileMenu--isRefreshed .SiteMobileMenuNavItem__link{font-weight:400;line-height:1;color:#061b31}.MobileMenu--isRefreshed .SiteMobileMenuNavItem__link{padding:16px 0}.MobileMenu--isRefreshed .SiteMobileMenuNavItem__chevron{color:#533afd}.MobileMenu--isRefreshed .SiteMobileMenuNavItem:not(.SiteMobileMenuNavItem--hasDescription):before{border-bottom:1px dashed #e5edf5;background:none;background-size:none}.MobileMenu--isRefreshed .MobileMenu__footer .CtaButton.variant--Button{color:#fff;background-color:#031323}.MobileMenu--isRefreshed .MobileMenu__footer .CtaButton.variant--Link{color:#031323}.SiteHeader--mobileMenuVisible:has(.MobileMenu--isRefreshed) .MobileMenu__closeButton{fill:#533afd;opacity:1;visibility:visible;transition:opacity .25s ease-in-out .1s,visibility 0s ease-in-out .1s}.SiteHeader--mobileMenuVisible:has(.MobileMenu--isRefreshed) .MobileMenu__closeButton rect{opacity:1;transform-origin:center;transition:.25s ease-in-out}.SiteHeader--mobileMenuVisible:has(.MobileMenu--isRefreshed) .MobileMenu__closeButton rect:first-child{transform:translateX(40px) translateY(20px);width:0;opacity:0}.SiteHeader--mobileMenuVisible:has(.MobileMenu--isRefreshed) .MobileMenu__closeButton rect:nth-child(4){transform:translateX(40px) translateY(-20px);width:0;opacity:0}.SiteHeader--mobileMenuVisible:has(.MobileMenu--isRefreshed) .MobileMenu__closeButton rect:nth-child(2){transform:rotate(45deg)}.SiteHeader--mobileMenuVisible:has(.MobileMenu--isRefreshed) .MobileMenu__closeButton rect:nth-child(3){transform:rotate(-45deg)}</style>
+<style>.MobileMenu{--siteMobileMenuHeaderHeight:60px;--siteMobileMenuFooterHeight:64px;--siteMobileMenuPadding:4px;--siteMobileMenuNavListTransform:translateY(0px);--siteMobileMenuSectionTransform:translateY(0px);--transitionDuration:240ms;--transitionEasing:cubic-bezier(0.45,0.05,0.55,0.95);--siteMobileMenuTransition:var(--transitionDuration) var(--transitionEasing);--siteMobileMenuTransitionIn:visibility var(--transitionDuration) step-end,opacity var(--siteMobileMenuTransition);--siteMobileMenuTransitionOut:visibility var(--transitionDuration) step-start,opacity var(--siteMobileMenuTransition);position:fixed;inset:0;transform:translateY(0);background:#f6f9fb;overflow-x:hidden;overflow-y:var(--siteMobileMenuOverflowY);display:grid;grid:var(--siteMobileMenuHeaderHeight) auto var(--siteMobileMenuFooterHeight)/auto;padding:var(--siteMobileMenuPadding);z-index:2}@media (min-width:900px){.MobileMenu{display:none}}@media (prefers-reduced-motion:reduced){.MobileMenu{--transitionDuration:1ms}}.MobileMenu__header{position:sticky;top:0;padding:16px;height:var(--siteMobileMenuHeaderHeight);display:flex;justify-content:space-between;align-items:center;background-color:#fff;border-radius:4px 4px 0 0;z-index:1}.MobileMenu__header:before{content:"";position:absolute;inset:calc(var(--siteMobileMenuPadding)*-1) calc(var(--siteMobileMenuPadding)*-1) 0 calc(var(--siteMobileMenuPadding)*-1);border:solid #f6f9fb;border-width:var(--siteMobileMenuPadding);border-bottom:0 solid #f6f9fb;pointer-events:none}.MobileMenu__header:after{content:"";position:absolute;right:0;bottom:0;left:0;height:1px;background:linear-gradient(90deg,var(--guideDashedColor),var(--guideDashedColor) 50%,transparent 0,transparent);background-size:8px 1px}.MobileMenu__logo{--userLogoColor:var(--accentColor);opacity:1;visibility:visible;transition:var(--siteMobileMenuTransitionOut);-webkit-tap-highlight-color:transparent}.MobileMenu--isMenuSectionActive .MobileMenu__logo{opacity:0;visibility:hidden;transition:var(--siteMobileMenuTransitionIn);pointer-events:none}.MobileMenu__backButton{position:absolute;left:12px;display:inline-flex;justify-content:center;align-items:center;-moz-column-gap:8px;column-gap:8px;padding:0;color:var(--accentColor);font:var(--fontWeightSemibold) 16px/1.5 var(--fontFamily);border:none;outline:none;background:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;opacity:0;visibility:hidden;transition:visibility var(--transitionDuration) step-end,opacity .15s ease-out;pointer-events:none;cursor:pointer;-webkit-tap-highlight-color:transparent}.MobileMenu--isMenuSectionActive .MobileMenu__backButton{opacity:1;pointer-events:auto;visibility:visible;transition:var(--siteMobileMenuTransitionOut)}.keyboard-navigation .MobileMenu__backButton:focus{box-shadow:var(--focusBoxShadow)}.MobileMenu__backButtonChevron{margin-top:3px}.MobileMenu__backButtonText{padding:0 4px 2px 0}.MobileMenu__closeButton{padding:0;border:none;outline:none;background:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;cursor:pointer;-webkit-tap-highlight-color:transparent}.keyboard-navigation .MobileMenu__closeButton:focus{box-shadow:var(--focusBoxShadow)}.MobileMenu__body{width:calc(100vw - 8px);display:flex}.MobileMenu__nav{width:100%;flex-shrink:0;background-color:#fff}.MobileMenu__navList{list-style:none;margin:20px 16px;padding:0;transform:var(--siteMobileMenuNavListTransform)}.MobileMenu__sections{position:relative;width:100%;flex-shrink:0;background:#f6f9fb;transform:translateX(-80%);opacity:0;pointer-events:none;transition-duration:.25s,.5s;transition-property:opacity,transform;transition-timing-function:cubic-bezier(.4,0,.2,1)}.MobileMenu--isMenuSectionActive .MobileMenu__sections{transform:translateX(-100%);opacity:1;pointer-events:auto}.MobileMenu__footer{height:var(--siteMobileMenuFooterHeight);display:flex;justify-content:center;align-items:center;padding:4px;gap:16px;position:sticky;bottom:0;background:radial-gradient(66.35% 66.35% at 50% 50%,hsla(0,0%,100%,.9) 0,hsla(0,0%,100%,0) 100%),hsla(0,0%,100%,.8);-webkit-backdrop-filter:blur(3.5px);backdrop-filter:blur(3.5px);z-index:2;border-radius:0 0 4px 4px}.MobileMenu__footer:after{content:"";position:absolute;inset:0 calc(var(--siteMobileMenuPadding)*-1) calc(var(--siteMobileMenuPadding)*-1) calc(var(--siteMobileMenuPadding)*-1);border:solid #f6f9fb;border-width:var(--siteMobileMenuPadding);border-top:0 solid #f6f9fb;pointer-events:none}.MobileMenu--isRefreshed.MobileMenu{--siteMobileMenuFooterHeight:76px;--siteMobileMenuPadding:0;--siteMobileMenuHeaderHeight:66px;background:#fff}.MobileMenu--isRefreshed .MobileMenu__sections{background-color:#fff}.MobileMenu--isRefreshed .MobileMenu__header:after{content:none}.MobileMenu--isRefreshed .MobileMenu__logo{--userLogoColor:#031323}.MobileMenu--isRefreshed .MobileMenu__header{padding:16px 24px 10px}.MobileMenu--isRefreshed .MobileMenu__navList{margin-block:12px;margin-inline:24px 16px}.MobileMenu--isRefreshed .MobileMenu__backButton{color:#533afd;left:24px;line-height:1;text-box:trim-both cap alphabetic}.MobileMenu--isRefreshed .MobileMenu__backButtonText{padding:0}.MobileMenu--isRefreshed .MobileMenu__closeButton{width:40px;height:40px;display:grid;place-items:center;border-radius:4px;background:#e8e9ff;opacity:0;visibility:hidden;transition:none}.MobileMenu--isRefreshed .SiteMobileMenuNavItem{margin-top:1px}.MobileMenu--isRefreshed .SiteMobileMenuNavItem__label,.MobileMenu--isRefreshed .SiteMobileMenuNavItem__link{font-weight:400;line-height:1;color:#061b31}.MobileMenu--isRefreshed .SiteMobileMenuNavItem__link{padding:16px 0}.MobileMenu--isRefreshed .SiteMobileMenuNavItem__chevron{color:#533afd}.MobileMenu--isRefreshed .SiteMobileMenuNavItem:not(.SiteMobileMenuNavItem--hasDescription):before{border-bottom:1px dashed #e5edf5;background:none;background-size:none}.MobileMenu--isRefreshed .MobileMenu__footer .CtaButton.variant--Button{color:#fff;background-color:#031323}.MobileMenu--isRefreshed .MobileMenu__footer .CtaButton.variant--Link{color:#031323}.SiteHeader--mobileMenuVisible:has(.MobileMenu--isRefreshed) .MobileMenu__closeButton{fill:#533afd;opacity:1;visibility:visible;transition:opacity .25s ease-in-out .1s,visibility 0s ease-in-out .1s}.SiteHeader--mobileMenuVisible:has(.MobileMenu--isRefreshed) .MobileMenu__closeButton rect{opacity:1;transform-origin:center;transition:.25s ease-in-out}.SiteHeader--mobileMenuVisible:has(.MobileMenu--isRefreshed) .MobileMenu__closeButton rect:first-child{transform:translateX(40px) translateY(20px);width:0;opacity:0}.SiteHeader--mobileMenuVisible:has(.MobileMenu--isRefreshed) .MobileMenu__closeButton rect:nth-child(4){transform:translateX(40px) translateY(-20px);width:0;opacity:0}.SiteHeader--mobileMenuVisible:has(.MobileMenu--isRefreshed) .MobileMenu__closeButton rect:nth-child(2){transform:rotate(45deg)}.SiteHeader--mobileMenuVisible:has(.MobileMenu--isRefreshed) .MobileMenu__closeButton rect:nth-child(3){transform:rotate(-45deg)}.MobileMenu--guide-me{display:flex;align-items:center;gap:16px}</style>
 <style>.SiteMobileMenuNavItem{--linkColor:#3f4b66;position:relative}.SiteMobileMenuNavItem:not(.SiteMobileMenuNavItem--hasDescription):before{content:"";position:absolute;right:0;bottom:0;left:0;height:1px;background:linear-gradient(90deg,var(--guideDashedColor),var(--guideDashedColor) 50%,transparent 0,transparent);background-size:8px 1px}.SiteMobileMenuNavItem--hasDescription{--linkHoverOpacity:0.8}.SiteMobileMenuNavItem__link{--linkWeight:var(--fontWeightBold);display:flex;justify-content:space-between;align-items:center;-moz-column-gap:20px;column-gap:20px;width:100%;padding:20px 0;border:none;outline:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:transparent;text-align:left;font:var(--fontWeightBold) 18px/1.27 var(--fontFamily);letter-spacing:.2px;color:#3f4b66;cursor:pointer;-webkit-tap-highlight-color:transparent}.keyboard-navigation .SiteMobileMenuNavItem__link:focus{box-shadow:var(--focusBoxShadow)}@media (pointer:fine){.SiteMobileMenuNavItem__link:hover{opacity:var(--linkHoverOpacity,1)}}@media (pointer:coarse){.SiteMobileMenuNavItem__link:active{opacity:var(--linkHoverOpacity,1)}}.SiteMobileMenuNavItem__label:not(:only-child){color:#0a2540;font:var(--fontWeightBold) 16px/1.3 var(--fontFamily)}.SiteMobileMenuNavItem__description{margin-top:4px;font:var(--fontWeightNormal) 16px/1.25 var(--fontFamily)}.SiteMobileMenuNavItem__chevron{flex-shrink:0}</style>
 <style>.RefreshedProductsNavMobile__content{width:100%;display:grid;grid-template-columns:1fr;background-color:#fff;padding:24px 24px 0;row-gap:32px}.RefreshedProductsNavMobile__groupLinks{display:flex;flex-direction:column;gap:12px;margin:calc(var(--divider-vertical-margin)*2) 0 0;list-style:none;padding:0}.RefreshedProductsNavMobile__aside{background-color:#f8fafd;padding:24px;margin:0 -24px}.RefreshedProductsNavMobile__asideTitle{color:#0a2540;font:300 14px/1.5 var(--fontFamily)}.RefreshedProductsNavMobile__asideLinks{display:grid;grid-template-columns:1fr;row-gap:12px;margin:24px 0 0;list-style:none;padding:0}.RefreshedProductsNavMobile__content .SiteProductsNav__group{background-color:#fff;--divider-color:#e5edf5;--divider-vertical-margin:12px}.RefreshedProductsNavMobile__content .SiteProductsNav__group:first-child{--suite-color:#ff6118;--stop-color:#fb76fa;--gradient-color:#533afd}.RefreshedProductsNavMobile__content .SiteProductsNav__group:nth-child(2){--suite-color:#fc5;--stop-color:#fb76fa;--gradient-color:#533afd;--gradient-line-offset:100%}.RefreshedProductsNavMobile__content .SiteProductsNav__group:nth-child(3){--suite-color:#f44bcc;--stop-color:#ec8fff;--gradient-color:#533afd;--gradient-line-offset:200%}.RefreshedProductsNavMobile__content .SiteProductsNav__group:nth-child(4){--suite-color:#ea2261;--stop-color:#da56ed;--gradient-color:#533afd;--gradient-line-offset:300%}.RefreshedProductsNavMobile__content .SiteProductsNav__groupTitle{position:relative;color:#0a2540;font:300 14px/1.2 var(--fontFamily)}</style>
 <style>.RefreshedNavItem{font:300 14px/18px var(--fontFamily);letter-spacing:normal;text-wrap:balance}.RefreshedNavItem:hover .RefreshedNavItem__link{color:#2e2b8c}.RefreshedNavItem:hover .RefreshedNavItem__body{color:#061b31}.RefreshedNavItem__link{color:#533afd;font-weight:400}.RefreshedNavItem__content{display:flex;flex-direction:column;gap:4px}.RefreshedNavItem__body{color:#3c4f69;font:300 14px/1.4 var(--fontFamily);opacity:1;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}@media (hover:none){.RefreshedNavItem__arrow.RefreshedHoverArrow{display:none}}.RefreshedNavItem__link:hover .RefreshedNavItem__arrow.RefreshedHoverArrow{visibility:visible}</style>
@@ -443,7 +443,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
 
         <script type="application/json" data-js-script-registry>
-          [{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-SW3QBYOW.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedSiteHeader-MY3KYAPI.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-DashboardLoginLink-QE7JO7JV.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedMobileMenu-CMNEJ7QG.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedProductsNavGroup-XW677TEO.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-HorizontalOverflowContainer-BNIEOIPG.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Gradient-HN5O3FNQ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-SegmentedControl-JAFJ6ODG.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UpdateCard-GPQABK6R.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FullWidthCarousel-E2QLDAQU.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FooterCta-JBS3EFXQ.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-TextInput-7EWETVNE.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Form-CXZOUDGT.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-PrivacyNotice-6DVVH3JU.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LocaleControl-EMCWSUNP.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-FGHY6ZQS.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Sentry-IABPFTSH.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-EnforceSameSiteLaxOnCookies-5NDXH4YF.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LoaderScript-DMFSGLD7.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatInitializer-6B65XWCD.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatCtaButtonLarge-GNIZJPWQ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Loader-RRS5EHUI.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-ScrollDepthTracker-OLM26W2N.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-MonitorWebVitals-ZLTPGA3X.js"}]
+          [{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-SW3QBYOW.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedSiteHeader-YY73Y4RI.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-DashboardLoginLink-JAZRUVPY.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedMobileMenu-DENATAQ4.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedProductsNavGroup-VPFAQ3FN.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-HorizontalOverflowContainer-BNIEOIPG.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Gradient-HN5O3FNQ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-SegmentedControl-JAFJ6ODG.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UpdateCard-GPQABK6R.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FullWidthCarousel-E2QLDAQU.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FooterCta-JBS3EFXQ.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-TextInput-7EWETVNE.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Form-CXZOUDGT.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-PrivacyNotice-6DVVH3JU.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LocaleControl-EMCWSUNP.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-BMTNBUBS.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Sentry-IABPFTSH.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-EnforceSameSiteLaxOnCookies-5NDXH4YF.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LoaderScript-DMFSGLD7.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatInitializer-RCHSU4GT.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatCtaButtonLarge-GNIZJPWQ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Loader-RRS5EHUI.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-ScrollDepthTracker-OLM26W2N.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-MonitorWebVitals-ZLTPGA3X.js"}]
         </script>
       
 
@@ -864,7 +864,8 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
             </div>
           </nav>
 
-          <nav class="SiteHeader__menuNav">
+          <nav class="SiteHeader__menuNav SiteHeader__menuNav--guide-me-container">
+              
               <button
   class='RefreshedMenuButton'
   title='Open mobile navigation'
@@ -917,18 +918,22 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
       </svg>
       <span class="MobileMenu__backButtonText">Back</span>
     </button>
-    <button
-    class="MobileMenu__closeButton"
-    data-js-target='MobileMenu.closeButton'
-    data-testid="header-mobile-close-nav-menu-button"
-    >
-      <svg width="16" height="16" viewBox="0 0 100 100">
-        <rect width="80" height="10" x="10" y="25" rx="5" ry="5"></rect>
-        <rect width="80" height="10" x="10" y="45" rx="5" ry="5"></rect>
-        <rect width="80" height="10" x="10" y="45" rx="5" ry="5"></rect>
-        <rect width="80" height="10" x="10" y="65" rx="5" ry="5"></rect>
-      </svg>
+    <div class="MobileMenu--guide-me">
+                  
+                <button
+  class="MobileMenu__closeButton"
+  data-js-target='MobileMenu.closeButton'
+  data-testid="header-mobile-close-nav-menu-button"
+  >
+    <svg width="16" height="16" viewBox="0 0 100 100">
+      <rect width="80" height="10" x="10" y="25" rx="5" ry="5"></rect>
+      <rect width="80" height="10" x="10" y="45" rx="5" ry="5"></rect>
+      <rect width="80" height="10" x="10" y="45" rx="5" ry="5"></rect>
+      <rect width="80" height="10" x="10" y="65" rx="5" ry="5"></rect>
+    </svg>
     </button>
+    </div>
+
   </div>
   <div class="MobileMenu__body">
     <nav class="MobileMenu__nav" data-js-target="MobileMenu.nav">
@@ -8503,20 +8508,20 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogCategoryLink
   "
-  href="/blog/industry"
+  href="/blog/product"
   
   
   
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
-  data-analytics-label='solo_founding_is__category__industry'
+  data-analytics-label='new_ways_to__category__product'
   
   
   
   
   
->Industry</a></h2>
+>Product</a></h2>
 
   <h1
   class="
@@ -8533,7 +8538,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogIndexPost__titleLink
   "
-  href="https://stripe.com/blog/top-solo-founder-traits"
+  href="https://stripe.com/blog/new-ways-to-turn-global-demand-into-revenue"
   
   
   
@@ -8546,11 +8551,11 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   
   
   
->Solo founding is at an all-time high: Top performers have these traits in common</a></h1>
+>New ways to turn global demand into revenue</a></h1>
 
   <time
   class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-05-28T00:00-07:00"
+  datetime="2026-06-04T00:00-07:00"
 >
   
   <a
@@ -8558,20 +8563,20 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogPostDate__link
   "
-  href="https://stripe.com/blog/top-solo-founder-traits"
+  href="https://stripe.com/blog/new-ways-to-turn-global-demand-into-revenue"
   
   
   
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
-  data-analytics-label='solo_founding_is__date'
+  data-analytics-label='new_ways_to__date'
   
   
   
   
   
->May 28, 2026</a>
+>June  4, 2026</a>
 </time>
 
   <div class="BlogIndexPost__authorList">
@@ -8585,7 +8590,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   "
 >
   <a
-    href="https://www.linkedin.com/in/jesse-carey/"
+    href="https://www.linkedin.com/in/abhinav-tiwari-4687117/"
     target="_blank"
   >
     <img
@@ -8593,16 +8598,16 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
       width="48"
       height="48"
       loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/2YE7NgzZbtTazPTYNUpJQf/880de7198aa1dc34d0a74d428e26ab65/jmc.jpg.png?w=96&h=96"
+      src="https://images.stripeassets.com/fzn2n1nzq965/1ISuR83B05mcT6Ou7eknwY/12e6049d8c8d4424ca7b8213e66d7352/abhit.jpeg.png?w=96&h=96"
     >
   </a>
   <figcaption class="BlogAuthor__caption">
     <a
       class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/jesse-carey/"
+      href="https://www.linkedin.com/in/abhinav-tiwari-4687117/"
       target="_blank"
-    >Jesse Carey</a>
-    <span class="BlogAuthor__role">Product Strategy and Operations, Stripe Atlas</span>
+    >Abhi Tiwari</a>
+    <span class="BlogAuthor__role">Product Lead, Global</span>
   </figcaption>
 </figure>
   </div>
@@ -8634,7 +8639,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     >
       
         <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/3YiEqV9ZoR97PiMWsrHnVE/c44cc91c0be0ed35d4c024609a1a097a/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding__1_.png?w=1080&q=80&fm=webp"
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/4U7BjI3CSDLJ5GSJRpNkIB/c6bcc4533280bfced4e2067247035319/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding_4.png?w=1080&q=80&fm=webp"
           type="image/webp"
         >
       
@@ -8643,10 +8648,10 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
       <img
         class="BlogImageCard__image"
-        alt="Blog &gt; Top solo founder traits &gt; Index image"
+        alt="Blog &gt; New ways to turn global demand into revenue &gt; Index image"
         src="
         
-          https://images.stripeassets.com/fzn2n1nzq965/3YiEqV9ZoR97PiMWsrHnVE/c44cc91c0be0ed35d4c024609a1a097a/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding__1_.png?w=1080&q=80
+          https://images.stripeassets.com/fzn2n1nzq965/4U7BjI3CSDLJ5GSJRpNkIB/c6bcc4533280bfced4e2067247035319/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding_4.png?w=1080&q=80
         
       "
         width="1250"
@@ -8658,7 +8663,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   
 
   <div class="BlogIndexPost__body">
-    <p>In 2025, solo founders in the top decile generated 61 times the revenue of the median solo founder in their first six months. We analyzed the data to understand what drives that gap.</p>
+    <p>Stripe’s latest global commerce solutions help businesses localize checkout for every market, increase authorization rates with AI, reduce FX costs with multicurrency support, and automate tax and compliance processes.</p>
   </div>
 
   <a
@@ -8666,7 +8671,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogIndexPost__readMoreLink
   "
-  href="https://stripe.com/blog/top-solo-founder-traits"
+  href="https://stripe.com/blog/new-ways-to-turn-global-demand-into-revenue"
   
   
   
@@ -8927,6 +8932,446 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
+  data-analytics-label='helping_businesses_optimize__category__product'
+  
+  
+  
+  
+  
+>Product</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/helping-businesses-optimize-network-costs-with-visa-digital-commerce-authentication-program"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Helping businesses optimize network costs with the Visa Digital Commerce Authentication Program (DCAP)</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-06-03T00:00-07:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/helping-businesses-optimize-network-costs-with-visa-digital-commerce-authentication-program"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='helping_businesses_optimize__date'
+  
+  
+  
+  
+  
+>June  3, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/kanika-nayyar-/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/6CoNwdOcjWENbUQlcsU7Pc/bfd909ac774799d88f120a5a600a61a4/kanikanayyar.jpg.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/kanika-nayyar-/"
+      target="_blank"
+    >Kanika Nayyar</a>
+    <span class="BlogAuthor__role">Global Payments Performance </span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/JzGrj59MBDaLNm9e1akgN/e43d83ae9015d74511b815aadec81ee9/dcap-index-2.jpg?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="Blog &gt; Visa DCAP &gt; Index image"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/JzGrj59MBDaLNm9e1akgN/e43d83ae9015d74511b815aadec81ee9/dcap-index-2.jpg?w=1080&q=80
+        
+      "
+        width="2500"
+        height="2500"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>We moved quickly to help Stripe businesses take advantage of DCAP and capture interchange savings while protecting authorization rates. Here’s what we did.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/helping-businesses-optimize-network-costs-with-visa-digital-commerce-authentication-program"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+        
+          <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
+    
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/industry"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='solo_founding_is__category__industry'
+  
+  
+  
+  
+  
+>Industry</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/top-solo-founder-traits"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Solo founding is at an all-time high: Top performers have these traits in common</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-05-28T00:00-07:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/top-solo-founder-traits"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='solo_founding_is__date'
+  
+  
+  
+  
+  
+>May 28, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/jesse-carey/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/2YE7NgzZbtTazPTYNUpJQf/880de7198aa1dc34d0a74d428e26ab65/jmc.jpg.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/jesse-carey/"
+      target="_blank"
+    >Jesse Carey</a>
+    <span class="BlogAuthor__role">Product Strategy and Operations, Stripe Atlas</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/3YiEqV9ZoR97PiMWsrHnVE/c44cc91c0be0ed35d4c024609a1a097a/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding__1_.png?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="Blog &gt; Top solo founder traits &gt; Index image"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/3YiEqV9ZoR97PiMWsrHnVE/c44cc91c0be0ed35d4c024609a1a097a/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding__1_.png?w=1080&q=80
+        
+      "
+        width="1250"
+        height="1250"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>In 2025, solo founders in the top decile generated 61 times the revenue of the median solo founder in their first six months. We analyzed the data to understand what drives that gap.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/top-solo-founder-traits"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+        
+          <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
+    
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/product"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
   data-analytics-label='expanding_stripe_radar__category__product'
   
   
@@ -9116,8 +9561,811 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   </svg>
 </span></a>
 </article>
+  </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section
+  
+  class="
+    Section
+    
+    theme--Light
+    
+    
+    
+    Section--paddingNormal
+    
+    
+    
+    Section--hasGuides
+    
+    
+  "
+  
+  
+  
+  
+  
+>
+  <div class="Section__masked">
+    <div class="Section__backgroundMask">
+      <div class="
+        Section__background
         
-          <article
+      ">
+        
+        <div
+  class='
+    Guides
+    
+  '
+  aria-hidden='true'
+>
+  <div class='Guides__container'>
+    <div class='Guides__guide'></div>
+    <div class='Guides__guide'></div>
+    <div class='Guides__guide'></div>
+    <div class='Guides__guide'></div>
+    <div class='Guides__guide'></div>
+  </div>
+</div>
+      </div>
+      
+    </div>
+    <div class='Section__container'>
+      <div class='Section__layoutContainer'>
+        <div class='Section__layout'>
+          
+            <div
+  class="
+    RowLayout
+    
+  "
+  
+  
+  
+>
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSubsection
+    
+    
+    
+    
+  "
+  
+>Recent highlights</h1>
+    
+    <div
+  class="
+    FullWidthCarousel
+    UpdateCardCarousel
+  "
+  style="
+    
+    
+  "
+  data-js-controller="FullWidthCarousel"
+  data-js-target=""
+  data-analytics-label="recent_highlights"
+  
+  
+  
+>
+  <div class="FullWidthCarousel__layout"  data-js-target="FullWidthCarousel.layout">
+    <div class="FullWidthCarousel__track" data-js-target="FullWidthCarousel.track">
+      <div class="FullWidthCarousel__spacer FullWidthCarousel__spacer--left" data-js-target="FullWidthCarousel.leftSpacer"></div>
+      <article
+  class="UpdateCard "
+  
+    style="--cardBackground: var(--shadeOneColor);"
+  
+  data-js-controller="UpdateCard"
+>
+  <div class="UpdateCard__background"></div>
+  <div class="UpdateCard__background UpdateCard__background--hover"></div>
+  <div class="UpdateCard__content">
+    <header class="UpdateCard__header">
+      <h1 class="UpdateCard__title">Rethinking risk in the age of AI</h1>
+      <time class="UpdateCard__date" datetime="2026-06-04">June  4, 2026</time>
+    </header>
+    <div class="UpdateCard__body">
+      <p>Join senior risk and payments leaders in Seattle to explore how AI is reshaping fraud strategy. Seats are limited. </p>
+    </div>
+    
+    <footer class="UpdateCard__footer">
+      <a
+  class='
+    CtaButton
+    variant--Link
+    CtaButton--arrow
+    
+    
+  '
+  href="https://stripe.events/stripeforumseattle1?utm_campaign=T5QX6Eo2zn5AP8iIGrUCWB7FFhttps%3A%2F%2Fstripe.events%2Facnext_seattle%3Futm_campaign%3DTD0976N7Lv4IS9ymCxV2jTAHH"
+  
+  data-js-controller='AnalyticsButton'
+  
+  data-analytics-category='Buttons'
+  data-analytics-action='Clicked'
+  data-analytics-label='recent_highlights__rethinking_risk_in__learn_more'
+  
+  
+  
+  
+  
+>Learn more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span>
+</a>
+    </footer>
+    
+  </div>
+</article>
+      
+        <article
+  class="UpdateCard "
+  
+    style="--cardBackground: var(--shadeTwoColor);"
+  
+  data-js-controller="UpdateCard"
+>
+  <div class="UpdateCard__background"></div>
+  <div class="UpdateCard__background UpdateCard__background--hover"></div>
+  <div class="UpdateCard__content">
+    <header class="UpdateCard__header">
+      <h1 class="UpdateCard__title">The future of agentic commerce is here</h1>
+      <time class="UpdateCard__date" datetime="2026-06-04">June  4, 2026</time>
+    </header>
+    <div class="UpdateCard__body">
+      <p>Explore how AI agents are transforming commerce at Stripe’s Agentic Commerce Next roadshow. Reserve your spot in Seattle. </p>
+    </div>
+    
+    <footer class="UpdateCard__footer">
+      <a
+  class='
+    CtaButton
+    variant--Link
+    CtaButton--arrow
+    
+    
+  '
+  href="https://stripe.events/acnext_seattle?utm_campaign=TD0976N7Lv4IS9ymCxV2jTAHH"
+  
+  data-js-controller='AnalyticsButton'
+  
+  data-analytics-category='Buttons'
+  data-analytics-action='Clicked'
+  data-analytics-label='recent_highlights__the_future_of__learn_more'
+  
+  
+  
+  
+  
+>Learn more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span>
+</a>
+    </footer>
+    
+  </div>
+</article>
+      
+        <article
+  class="UpdateCard "
+  
+    style="--cardBackground: var(--shadeThreeColor);"
+  
+  data-js-controller="UpdateCard"
+>
+  <div class="UpdateCard__background"></div>
+  <div class="UpdateCard__background UpdateCard__background--hover"></div>
+  <div class="UpdateCard__content">
+    <header class="UpdateCard__header">
+      <h1 class="UpdateCard__title">Introducing next-day settlement, a faster way to access your earnings</h1>
+      <time class="UpdateCard__date" datetime="2025-12-17">December 17, 2025</time>
+    </header>
+    <div class="UpdateCard__body">
+      <p>Gain next-day access to cash, and use funds where they’re needed most. Get reliable auto-settlement in a few clicks right from the Dashboard.</p>
+    </div>
+    
+    <footer class="UpdateCard__footer">
+      <a
+  class='
+    CtaButton
+    variant--Link
+    CtaButton--arrow
+    
+    
+  '
+  href="https://docs.stripe.com/payouts/next-day-settlement"
+  
+  data-js-controller='AnalyticsButton'
+  
+  data-analytics-category='Buttons'
+  data-analytics-action='Clicked'
+  data-analytics-label='recent_highlights__introducing_next_day__learn_more'
+  
+  
+  
+  
+  
+>Learn more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span>
+</a>
+    </footer>
+    
+  </div>
+</article>
+      
+        <article
+  class="UpdateCard "
+  
+    style="--cardBackground: var(--shadeFourColor);"
+  
+  data-js-controller="UpdateCard"
+>
+  <div class="UpdateCard__background"></div>
+  <div class="UpdateCard__background UpdateCard__background--hover"></div>
+  <div class="UpdateCard__content">
+    <header class="UpdateCard__header">
+      <h1 class="UpdateCard__title">PayTo available in Australia</h1>
+      <time class="UpdateCard__date" datetime="2025-12-15">December 15, 2025</time>
+    </header>
+    <div class="UpdateCard__body">
+      <p>Businesses in Australia can now offer PayTo. Accept one-off and recurring direct debits with PayTo to get real-time payment confirmation and funds deposited into your Stripe balance instantly, 24 hours a day, every day of the year.</p>
+    </div>
+    
+    <footer class="UpdateCard__footer">
+      <a
+  class='
+    CtaButton
+    variant--Link
+    CtaButton--arrow
+    
+    
+  '
+  href="/payment-method/payto"
+  
+  data-js-controller='AnalyticsButton'
+  
+  data-analytics-category='Buttons'
+  data-analytics-action='Clicked'
+  data-analytics-label='recent_highlights__payto_available_in__learn_more'
+  
+  
+  
+  
+  
+>Learn more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span>
+</a>
+    </footer>
+    
+  </div>
+</article>
+      
+        <article
+  class="UpdateCard "
+  
+    style="--cardBackground: var(--shadeFiveColor);"
+  
+  data-js-controller="UpdateCard"
+>
+  <div class="UpdateCard__background"></div>
+  <div class="UpdateCard__background UpdateCard__background--hover"></div>
+  <div class="UpdateCard__content">
+    <header class="UpdateCard__header">
+      <h1 class="UpdateCard__title">Introducing Tempo, the payments-first blockchain</h1>
+      <time class="UpdateCard__date" datetime="2025-09-04">September  4, 2025</time>
+    </header>
+    <div class="UpdateCard__body">
+      <p>Tempo, a Layer 1 blockchain incubated by Stripe and crypto VC firm Paradigm, is purpose-built for scalable, low-cost stablecoin payments.</p>
+    </div>
+    
+    <footer class="UpdateCard__footer">
+      <a
+  class='
+    CtaButton
+    variant--Link
+    CtaButton--arrow
+    
+    
+  '
+  href="https://tempo.xyz/launch-announcement"
+  
+  data-js-controller='AnalyticsButton'
+  
+  data-analytics-category='Buttons'
+  data-analytics-action='Clicked'
+  data-analytics-label='recent_highlights__introducing_tempo_the__learn_more'
+  
+  
+  
+  
+  
+>Learn more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span>
+</a>
+    </footer>
+    
+  </div>
+</article>
+      
+        <article
+  class="UpdateCard "
+  
+    style="--cardBackground: var(--shadeSixColor);"
+  
+  data-js-controller="UpdateCard"
+>
+  <div class="UpdateCard__background"></div>
+  <div class="UpdateCard__background UpdateCard__background--hover"></div>
+  <div class="UpdateCard__content">
+    <header class="UpdateCard__header">
+      <h1 class="UpdateCard__title">Alma available in France</h1>
+      <time class="UpdateCard__date" datetime="2024-10-30">October 30, 2024</time>
+    </header>
+    <div class="UpdateCard__body">
+      <p>Give customers in France the option to pay with Alma, so they can choose to complete their purchase in two, three, or four installments—while you get paid immediately.</p>
+    </div>
+    
+    <footer class="UpdateCard__footer">
+      <a
+  class='
+    CtaButton
+    variant--Link
+    CtaButton--arrow
+    
+    
+  '
+  href="/payment-method/alma"
+  
+  data-js-controller='AnalyticsButton'
+  
+  data-analytics-category='Buttons'
+  data-analytics-action='Clicked'
+  data-analytics-label='recent_highlights__alma_available_in__learn_more'
+  
+  
+  
+  
+  
+>Learn more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span>
+</a>
+    </footer>
+    
+  </div>
+</article>
+      
+        <article
+  class="UpdateCard "
+  
+    style="--cardBackground: var(--shadeOneColor);"
+  
+  data-js-controller="UpdateCard"
+>
+  <div class="UpdateCard__background"></div>
+  <div class="UpdateCard__background UpdateCard__background--hover"></div>
+  <div class="UpdateCard__content">
+    <header class="UpdateCard__header">
+      <h1 class="UpdateCard__title">Pay by Bank available in the UK</h1>
+      <time class="UpdateCard__date" datetime="2024-05-21">May 21, 2024</time>
+    </header>
+    <div class="UpdateCard__body">
+      <p>Businesses in the UK can now offer Pay by Bank. Accept payments in real time, and reduce payment costs with Stripe’s open banking–powered payment method.</p>
+    </div>
+    
+    <footer class="UpdateCard__footer">
+      <a
+  class='
+    CtaButton
+    variant--Link
+    CtaButton--arrow
+    
+    
+  '
+  href="https://docs.stripe.com/payments/pay-by-bank?locale=en-GB"
+  
+  data-js-controller='AnalyticsButton'
+  
+  data-analytics-category='Buttons'
+  data-analytics-action='Clicked'
+  data-analytics-label='recent_highlights__pay_by_bank__learn_more'
+  
+  
+  
+  
+  
+>Learn more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span>
+</a>
+    </footer>
+    
+  </div>
+</article>
+      
+        <article
+  class="UpdateCard "
+  
+    style="--cardBackground: var(--shadeTwoColor);"
+  
+  data-js-controller="UpdateCard"
+>
+  <div class="UpdateCard__background"></div>
+  <div class="UpdateCard__background UpdateCard__background--hover"></div>
+  <div class="UpdateCard__content">
+    <header class="UpdateCard__header">
+      <h1 class="UpdateCard__title">Manual payouts now faster in UK</h1>
+      <time class="UpdateCard__date" datetime="2024-04-10">April 10, 2024</time>
+    </header>
+    <div class="UpdateCard__body">
+      <p>Manual payouts will now land in your bank account on the same business day due to new local banking integrations in the UK. No extra fees, no integrations changes needed. </p>
+    </div>
+    
+    <footer class="UpdateCard__footer">
+      <a
+  class='
+    CtaButton
+    variant--Link
+    CtaButton--arrow
+    
+    
+  '
+  href="https://docs.stripe.com/payouts#manual-payouts"
+  
+  data-js-controller='AnalyticsButton'
+  
+  data-analytics-category='Buttons'
+  data-analytics-action='Clicked'
+  data-analytics-label='recent_highlights__manual_payouts_now__learn_more'
+  
+  
+  
+  
+  
+>Learn more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span>
+</a>
+    </footer>
+    
+  </div>
+</article>
+      
+        <article
+  class="UpdateCard "
+  
+    style="--cardBackground: var(--shadeThreeColor);"
+  
+  data-js-controller="UpdateCard"
+>
+  <div class="UpdateCard__background"></div>
+  <div class="UpdateCard__background UpdateCard__background--hover"></div>
+  <div class="UpdateCard__content">
+    <header class="UpdateCard__header">
+      <h1 class="UpdateCard__title">Amazon Pay available in the US</h1>
+      <time class="UpdateCard__date" datetime="2024-04-10">April 10, 2024</time>
+    </header>
+    <div class="UpdateCard__body">
+      <p>Businesses in the US can now offer Amazon Pay. Allow your customers to pay using the same checkout experience that millions of Amazon customers know and trust.</p>
+    </div>
+    
+    <footer class="UpdateCard__footer">
+      <a
+  class='
+    CtaButton
+    variant--Link
+    CtaButton--arrow
+    
+    
+  '
+  href="/payment-method/amazon-pay"
+  
+  data-js-controller='AnalyticsButton'
+  
+  data-analytics-category='Buttons'
+  data-analytics-action='Clicked'
+  data-analytics-label='recent_highlights__amazon_pay_available__learn_more'
+  
+  
+  
+  
+  
+>Learn more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span>
+</a>
+    </footer>
+    
+  </div>
+</article>
+      
+        <article
+  class="UpdateCard "
+  
+    style="--cardBackground: var(--shadeFourColor);"
+  
+  data-js-controller="UpdateCard"
+>
+  <div class="UpdateCard__background"></div>
+  <div class="UpdateCard__background UpdateCard__background--hover"></div>
+  <div class="UpdateCard__content">
+    <header class="UpdateCard__header">
+      <h1 class="UpdateCard__title">Cash App Pay available in US</h1>
+      <time class="UpdateCard__date" datetime="2023-06-07">June  7, 2023</time>
+    </header>
+    <div class="UpdateCard__body">
+      <p>Businesses in the US can now reach new customers with Cash App Pay. Allow customers to pay with the wallet that's number one in both app stores.</p>
+    </div>
+    
+    <footer class="UpdateCard__footer">
+      <a
+  class='
+    CtaButton
+    variant--Link
+    CtaButton--arrow
+    
+    
+  '
+  href="/payments/cash-app-pay"
+  
+  data-js-controller='AnalyticsButton'
+  
+  data-analytics-category='Buttons'
+  data-analytics-action='Clicked'
+  data-analytics-label='recent_highlights__cash_app_pay__learn_more'
+  
+  
+  
+  
+  
+>Learn more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span>
+</a>
+    </footer>
+    
+  </div>
+</article>
+      <div class="FullWidthCarousel__spacer FullWidthCarousel__spacer--right"></div>
+    </div>
+  </div>
+</div>
+</div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section
+  
+  class="
+    Section
+    BlogIndexGridSection
+    
+    
+    
+    
+    Section--paddingSmall
+    
+    
+    
+    Section--hasGuides
+    
+    
+  "
+  
+  
+  
+  
+  
+>
+  <div class="Section__masked">
+    <div class="Section__backgroundMask">
+      <div class="
+        Section__background
+        
+      ">
+        
+        <div
+  class='
+    Guides
+    
+  '
+  aria-hidden='true'
+>
+  <div class='Guides__container'>
+    <div class='Guides__guide'></div>
+    <div class='Guides__guide'></div>
+    <div class='Guides__guide'></div>
+    <div class='Guides__guide'></div>
+    <div class='Guides__guide'></div>
+  </div>
+</div>
+      </div>
+      
+    </div>
+    <div class='Section__container'>
+      <div class='Section__layoutContainer'>
+        <div class='Section__layout'>
+          
+            <div class="BlogIndexGridSection__layout">
+    <article
   class="
     BlogIndexPost
     BlogIndexPost--variantNormal
@@ -9587,811 +10835,8 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   </svg>
 </span></a>
 </article>
-  </div>
-          
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-      <section
-  
-  class="
-    Section
-    
-    theme--Light
-    
-    
-    
-    Section--paddingNormal
-    
-    
-    
-    Section--hasGuides
-    
-    
-  "
-  
-  
-  
-  
-  
->
-  <div class="Section__masked">
-    <div class="Section__backgroundMask">
-      <div class="
-        Section__background
         
-      ">
-        
-        <div
-  class='
-    Guides
-    
-  '
-  aria-hidden='true'
->
-  <div class='Guides__container'>
-    <div class='Guides__guide'></div>
-    <div class='Guides__guide'></div>
-    <div class='Guides__guide'></div>
-    <div class='Guides__guide'></div>
-    <div class='Guides__guide'></div>
-  </div>
-</div>
-      </div>
-      
-    </div>
-    <div class='Section__container'>
-      <div class='Section__layoutContainer'>
-        <div class='Section__layout'>
-          
-            <div
-  class="
-    RowLayout
-    
-  "
-  
-  
-  
->
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSubsection
-    
-    
-    
-    
-  "
-  
->Recent highlights</h1>
-    
-    <div
-  class="
-    FullWidthCarousel
-    UpdateCardCarousel
-  "
-  style="
-    
-    
-  "
-  data-js-controller="FullWidthCarousel"
-  data-js-target=""
-  data-analytics-label="recent_highlights"
-  
-  
-  
->
-  <div class="FullWidthCarousel__layout"  data-js-target="FullWidthCarousel.layout">
-    <div class="FullWidthCarousel__track" data-js-target="FullWidthCarousel.track">
-      <div class="FullWidthCarousel__spacer FullWidthCarousel__spacer--left" data-js-target="FullWidthCarousel.leftSpacer"></div>
-      <article
-  class="UpdateCard "
-  
-    style="--cardBackground: var(--shadeOneColor);"
-  
-  data-js-controller="UpdateCard"
->
-  <div class="UpdateCard__background"></div>
-  <div class="UpdateCard__background UpdateCard__background--hover"></div>
-  <div class="UpdateCard__content">
-    <header class="UpdateCard__header">
-      <h1 class="UpdateCard__title">Introducing next-day settlement, a faster way to access your earnings</h1>
-      <time class="UpdateCard__date" datetime="2025-12-17">December 17, 2025</time>
-    </header>
-    <div class="UpdateCard__body">
-      <p>Gain next-day access to cash, and use funds where they’re needed most. Get reliable auto-settlement in a few clicks right from the Dashboard.</p>
-    </div>
-    
-    <footer class="UpdateCard__footer">
-      <a
-  class='
-    CtaButton
-    variant--Link
-    CtaButton--arrow
-    
-    
-  '
-  href="https://docs.stripe.com/payouts/next-day-settlement"
-  
-  data-js-controller='AnalyticsButton'
-  
-  data-analytics-category='Buttons'
-  data-analytics-action='Clicked'
-  data-analytics-label='recent_highlights__introducing_next_day__learn_more'
-  
-  
-  
-  
-  
->Learn more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span>
-</a>
-    </footer>
-    
-  </div>
-</article>
-      
-        <article
-  class="UpdateCard "
-  
-    style="--cardBackground: var(--shadeTwoColor);"
-  
-  data-js-controller="UpdateCard"
->
-  <div class="UpdateCard__background"></div>
-  <div class="UpdateCard__background UpdateCard__background--hover"></div>
-  <div class="UpdateCard__content">
-    <header class="UpdateCard__header">
-      <h1 class="UpdateCard__title">PayTo available in Australia</h1>
-      <time class="UpdateCard__date" datetime="2025-12-15">December 15, 2025</time>
-    </header>
-    <div class="UpdateCard__body">
-      <p>Businesses in Australia can now offer PayTo. Accept one-off and recurring direct debits with PayTo to get real-time payment confirmation and funds deposited into your Stripe balance instantly, 24 hours a day, every day of the year.</p>
-    </div>
-    
-    <footer class="UpdateCard__footer">
-      <a
-  class='
-    CtaButton
-    variant--Link
-    CtaButton--arrow
-    
-    
-  '
-  href="/payment-method/payto"
-  
-  data-js-controller='AnalyticsButton'
-  
-  data-analytics-category='Buttons'
-  data-analytics-action='Clicked'
-  data-analytics-label='recent_highlights__payto_available_in__learn_more'
-  
-  
-  
-  
-  
->Learn more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span>
-</a>
-    </footer>
-    
-  </div>
-</article>
-      
-        <article
-  class="UpdateCard "
-  
-    style="--cardBackground: var(--shadeThreeColor);"
-  
-  data-js-controller="UpdateCard"
->
-  <div class="UpdateCard__background"></div>
-  <div class="UpdateCard__background UpdateCard__background--hover"></div>
-  <div class="UpdateCard__content">
-    <header class="UpdateCard__header">
-      <h1 class="UpdateCard__title">Introducing Tempo, the payments-first blockchain</h1>
-      <time class="UpdateCard__date" datetime="2025-09-04">September  4, 2025</time>
-    </header>
-    <div class="UpdateCard__body">
-      <p>Tempo, a Layer 1 blockchain incubated by Stripe and crypto VC firm Paradigm, is purpose-built for scalable, low-cost stablecoin payments.</p>
-    </div>
-    
-    <footer class="UpdateCard__footer">
-      <a
-  class='
-    CtaButton
-    variant--Link
-    CtaButton--arrow
-    
-    
-  '
-  href="https://tempo.xyz/launch-announcement"
-  
-  data-js-controller='AnalyticsButton'
-  
-  data-analytics-category='Buttons'
-  data-analytics-action='Clicked'
-  data-analytics-label='recent_highlights__introducing_tempo_the__learn_more'
-  
-  
-  
-  
-  
->Learn more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span>
-</a>
-    </footer>
-    
-  </div>
-</article>
-      
-        <article
-  class="UpdateCard "
-  
-    style="--cardBackground: var(--shadeFourColor);"
-  
-  data-js-controller="UpdateCard"
->
-  <div class="UpdateCard__background"></div>
-  <div class="UpdateCard__background UpdateCard__background--hover"></div>
-  <div class="UpdateCard__content">
-    <header class="UpdateCard__header">
-      <h1 class="UpdateCard__title">Alma available in France</h1>
-      <time class="UpdateCard__date" datetime="2024-10-30">October 30, 2024</time>
-    </header>
-    <div class="UpdateCard__body">
-      <p>Give customers in France the option to pay with Alma, so they can choose to complete their purchase in two, three, or four installments—while you get paid immediately.</p>
-    </div>
-    
-    <footer class="UpdateCard__footer">
-      <a
-  class='
-    CtaButton
-    variant--Link
-    CtaButton--arrow
-    
-    
-  '
-  href="/payment-method/alma"
-  
-  data-js-controller='AnalyticsButton'
-  
-  data-analytics-category='Buttons'
-  data-analytics-action='Clicked'
-  data-analytics-label='recent_highlights__alma_available_in__learn_more'
-  
-  
-  
-  
-  
->Learn more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span>
-</a>
-    </footer>
-    
-  </div>
-</article>
-      
-        <article
-  class="UpdateCard "
-  
-    style="--cardBackground: var(--shadeFiveColor);"
-  
-  data-js-controller="UpdateCard"
->
-  <div class="UpdateCard__background"></div>
-  <div class="UpdateCard__background UpdateCard__background--hover"></div>
-  <div class="UpdateCard__content">
-    <header class="UpdateCard__header">
-      <h1 class="UpdateCard__title">Pay by Bank available in the UK</h1>
-      <time class="UpdateCard__date" datetime="2024-05-21">May 21, 2024</time>
-    </header>
-    <div class="UpdateCard__body">
-      <p>Businesses in the UK can now offer Pay by Bank. Accept payments in real time, and reduce payment costs with Stripe’s open banking–powered payment method.</p>
-    </div>
-    
-    <footer class="UpdateCard__footer">
-      <a
-  class='
-    CtaButton
-    variant--Link
-    CtaButton--arrow
-    
-    
-  '
-  href="https://docs.stripe.com/payments/pay-by-bank?locale=en-GB"
-  
-  data-js-controller='AnalyticsButton'
-  
-  data-analytics-category='Buttons'
-  data-analytics-action='Clicked'
-  data-analytics-label='recent_highlights__pay_by_bank__learn_more'
-  
-  
-  
-  
-  
->Learn more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span>
-</a>
-    </footer>
-    
-  </div>
-</article>
-      
-        <article
-  class="UpdateCard "
-  
-    style="--cardBackground: var(--shadeSixColor);"
-  
-  data-js-controller="UpdateCard"
->
-  <div class="UpdateCard__background"></div>
-  <div class="UpdateCard__background UpdateCard__background--hover"></div>
-  <div class="UpdateCard__content">
-    <header class="UpdateCard__header">
-      <h1 class="UpdateCard__title">Manual payouts now faster in UK</h1>
-      <time class="UpdateCard__date" datetime="2024-04-10">April 10, 2024</time>
-    </header>
-    <div class="UpdateCard__body">
-      <p>Manual payouts will now land in your bank account on the same business day due to new local banking integrations in the UK. No extra fees, no integrations changes needed. </p>
-    </div>
-    
-    <footer class="UpdateCard__footer">
-      <a
-  class='
-    CtaButton
-    variant--Link
-    CtaButton--arrow
-    
-    
-  '
-  href="https://docs.stripe.com/payouts#manual-payouts"
-  
-  data-js-controller='AnalyticsButton'
-  
-  data-analytics-category='Buttons'
-  data-analytics-action='Clicked'
-  data-analytics-label='recent_highlights__manual_payouts_now__learn_more'
-  
-  
-  
-  
-  
->Learn more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span>
-</a>
-    </footer>
-    
-  </div>
-</article>
-      
-        <article
-  class="UpdateCard "
-  
-    style="--cardBackground: var(--shadeOneColor);"
-  
-  data-js-controller="UpdateCard"
->
-  <div class="UpdateCard__background"></div>
-  <div class="UpdateCard__background UpdateCard__background--hover"></div>
-  <div class="UpdateCard__content">
-    <header class="UpdateCard__header">
-      <h1 class="UpdateCard__title">Amazon Pay available in the US</h1>
-      <time class="UpdateCard__date" datetime="2024-04-10">April 10, 2024</time>
-    </header>
-    <div class="UpdateCard__body">
-      <p>Businesses in the US can now offer Amazon Pay. Allow your customers to pay using the same checkout experience that millions of Amazon customers know and trust.</p>
-    </div>
-    
-    <footer class="UpdateCard__footer">
-      <a
-  class='
-    CtaButton
-    variant--Link
-    CtaButton--arrow
-    
-    
-  '
-  href="/payment-method/amazon-pay"
-  
-  data-js-controller='AnalyticsButton'
-  
-  data-analytics-category='Buttons'
-  data-analytics-action='Clicked'
-  data-analytics-label='recent_highlights__amazon_pay_available__learn_more'
-  
-  
-  
-  
-  
->Learn more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span>
-</a>
-    </footer>
-    
-  </div>
-</article>
-      
-        <article
-  class="UpdateCard "
-  
-    style="--cardBackground: var(--shadeTwoColor);"
-  
-  data-js-controller="UpdateCard"
->
-  <div class="UpdateCard__background"></div>
-  <div class="UpdateCard__background UpdateCard__background--hover"></div>
-  <div class="UpdateCard__content">
-    <header class="UpdateCard__header">
-      <h1 class="UpdateCard__title">Cash App Pay available in US</h1>
-      <time class="UpdateCard__date" datetime="2023-06-07">June  7, 2023</time>
-    </header>
-    <div class="UpdateCard__body">
-      <p>Businesses in the US can now reach new customers with Cash App Pay. Allow customers to pay with the wallet that's number one in both app stores.</p>
-    </div>
-    
-    <footer class="UpdateCard__footer">
-      <a
-  class='
-    CtaButton
-    variant--Link
-    CtaButton--arrow
-    
-    
-  '
-  href="/payments/cash-app-pay"
-  
-  data-js-controller='AnalyticsButton'
-  
-  data-analytics-category='Buttons'
-  data-analytics-action='Clicked'
-  data-analytics-label='recent_highlights__cash_app_pay__learn_more'
-  
-  
-  
-  
-  
->Learn more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span>
-</a>
-    </footer>
-    
-  </div>
-</article>
-      
-        <article
-  class="UpdateCard "
-  
-    style="--cardBackground: var(--shadeThreeColor);"
-  
-  data-js-controller="UpdateCard"
->
-  <div class="UpdateCard__background"></div>
-  <div class="UpdateCard__background UpdateCard__background--hover"></div>
-  <div class="UpdateCard__content">
-    <header class="UpdateCard__header">
-      <h1 class="UpdateCard__title">Introducing Stripe Reader S700</h1>
-      <time class="UpdateCard__date" datetime="2023-05-02">May  2, 2023</time>
-    </header>
-    <div class="UpdateCard__body">
-      <p>Build custom experiences for interactions from ordering to loyalty management—or run your custom POS on an all-in-one device.</p>
-    </div>
-    
-    <footer class="UpdateCard__footer">
-      <a
-  class='
-    CtaButton
-    variant--Link
-    CtaButton--arrow
-    
-    
-  '
-  href="/terminal#hardware"
-  
-  data-js-controller='AnalyticsButton'
-  
-  data-analytics-category='Buttons'
-  data-analytics-action='Clicked'
-  data-analytics-label='recent_highlights__introducing_stripe_reader__notify_me'
-  
-  
-  
-  
-  
->Notify me<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span>
-</a>
-    </footer>
-    
-  </div>
-</article>
-      
-        <article
-  class="UpdateCard "
-  
-    style="--cardBackground: var(--shadeFourColor);"
-  
-  data-js-controller="UpdateCard"
->
-  <div class="UpdateCard__background"></div>
-  <div class="UpdateCard__background UpdateCard__background--hover"></div>
-  <div class="UpdateCard__content">
-    <header class="UpdateCard__header">
-      <h1 class="UpdateCard__title">BNPL support expanded globally</h1>
-      <time class="UpdateCard__date" datetime="2023-04-27">April 27, 2023</time>
-    </header>
-    <div class="UpdateCard__body">
-      <p>Businesses can now accept more buy now, pay later methods globally through one integration on Stripe: Klarna in AU, NZ, CA, CH, PT, PL, CZ, and GR; Affirm in CA. </p>
-    </div>
-    
-    <footer class="UpdateCard__footer">
-      <a
-  class='
-    CtaButton
-    variant--Link
-    CtaButton--arrow
-    
-    
-  '
-  href="/docs/payments/buy-now-pay-later"
-  
-  data-js-controller='AnalyticsButton'
-  
-  data-analytics-category='Buttons'
-  data-analytics-action='Clicked'
-  data-analytics-label='recent_highlights__bnpl_support_expanded__read_more'
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span>
-</a>
-    </footer>
-    
-  </div>
-</article>
-      <div class="FullWidthCarousel__spacer FullWidthCarousel__spacer--right"></div>
-    </div>
-  </div>
-</div>
-</div>
-          
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-      <section
-  
-  class="
-    Section
-    BlogIndexGridSection
-    
-    
-    
-    
-    Section--paddingSmall
-    
-    
-    
-    Section--hasGuides
-    
-    
-  "
-  
-  
-  
-  
-  
->
-  <div class="Section__masked">
-    <div class="Section__backgroundMask">
-      <div class="
-        Section__background
-        
-      ">
-        
-        <div
-  class='
-    Guides
-    
-  '
-  aria-hidden='true'
->
-  <div class='Guides__container'>
-    <div class='Guides__guide'></div>
-    <div class='Guides__guide'></div>
-    <div class='Guides__guide'></div>
-    <div class='Guides__guide'></div>
-    <div class='Guides__guide'></div>
-  </div>
-</div>
-      </div>
-      
-    </div>
-    <div class='Section__container'>
-      <div class='Section__layoutContainer'>
-        <div class='Section__layout'>
-          
-            <div class="BlogIndexGridSection__layout">
-    <article
+          <article
   class="
     BlogIndexPost
     BlogIndexPost--variantNormal
@@ -10610,6 +11055,10 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   </svg>
 </span></a>
 </article>
+        
+
+        
+
         
           <article
   class="
@@ -11082,10 +11531,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 </span></a>
 </article>
         
-
-        
-
-        
           <article
   class="
     BlogIndexPost
@@ -11304,477 +11749,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost__readMoreLink
   "
   href="https://stripe.com/blog/how-stripe-radar-helps-prevent-free-trial-abuse"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-        
-          <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/industry"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='three_of_the__category__industry'
-  
-  
-  
-  
-  
->Industry</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/three-fraud-trends-from-mrc-vegas-2026"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Three of the biggest fraud trends from MRC Vegas 2026</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-03-20T00:00-07:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/three-fraud-trends-from-mrc-vegas-2026"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='three_of_the__date'
-  
-  
-  
-  
-  
->March 20, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/jon-krauss-30bb3616/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/3NFgmNhlE6HxvZKqMQYbbb/63f25f2ee03f510ad0834a71e331988a/E0181S17H6Z-U08UAFZ29S5-162caa0639fd-512.jpg?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/jon-krauss-30bb3616/"
-      target="_blank"
-    >Jon Krauss</a>
-    <span class="BlogAuthor__role">Head of Global Payments Performance </span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/6EX5VwS3VABCPIi20UrofS/7ce914e20366c183f0fcfa7ae8d8a5ba/MRC-index.png?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="blog &gt; mrc &gt; index"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/6EX5VwS3VABCPIi20UrofS/7ce914e20366c183f0fcfa7ae8d8a5ba/MRC-index.png?w=1080&q=80
-        
-      "
-        width="3000"
-        height="3000"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>The most sophisticated fraud teams are shifting from one-size-fits-all fraud approaches to more dynamic, tailored interventions. They are removing friction for trusted users, embedding fraud detection directly into agentic transactions, and investing in multilayered identity verification to combat deepfakes. </p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/three-fraud-trends-from-mrc-vegas-2026"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-        
-          <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    BlogIndexPost--hasMultipleAuthors
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/product"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='testing_the_impact__category__product'
-  
-  
-  
-  
-  
->Product</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/adaptive-pricing-for-subscriptions"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Testing the impact of Adaptive Pricing across 1.5M subscription checkout sessions</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-03-19T00:00-07:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/adaptive-pricing-for-subscriptions"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='testing_the_impact__date'
-  
-  
-  
-  
-  
->March 19, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/scbhagat8/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/1J6HVgqa1xRDpNsLooxeOB/05ae79f81e3f457427a1154145c82597/sahilbhagat.jpg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/scbhagat8/"
-      target="_blank"
-    >Sahil Bhagat</a>
-    <span class="BlogAuthor__role">Product Manager, Adaptive Pricing</span>
-  </figcaption>
-</figure>
-    
-      <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/danielle-carollo/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/5PiQDsVcA3yJ17ZdJIAU6C/8e35e6dfcf89701fd0016bfad67f6700/daniellecar.jpg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/danielle-carollo/"
-      target="_blank"
-    >Danielle Carollo</a>
-    <span class="BlogAuthor__role">Data Scientist, Adaptive Pricing</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/6Ee0jsPU0no73KBQtvLZSs/3f8e7c460e2e394b0deb3aba8af00fcc/Blog_Index_2x__1_.png?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="Blog &gt; Adaptive Pricing for subscriptions &gt; Index image"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/6Ee0jsPU0no73KBQtvLZSs/3f8e7c460e2e394b0deb3aba8af00fcc/Blog_Index_2x__1_.png?w=1080&q=80
-        
-      "
-        width="4320"
-        height="4320"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>Adaptive Pricing is now available for subscriptions, allowing businesses to automatically localize prices in 150+ countries while Stripe handles currency conversion. In an A/B test across 1.5 million subscription checkouts, businesses saw 4.7% higher conversion and 5.4% higher LTV per session, on average.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/adaptive-pricing-for-subscriptions"
   
   
   
@@ -14458,6 +14432,226 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost
     BlogIndexPost--variantNormal
     BlogIndexPost--hasFigure
+    
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/industry"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='solo_founding_is__category__industry'
+  
+  
+  
+  
+  
+>Industry</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/top-solo-founder-traits"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Solo founding is at an all-time high: Top performers have these traits in common</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-05-28T00:00-07:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/top-solo-founder-traits"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='solo_founding_is__date'
+  
+  
+  
+  
+  
+>May 28, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/jesse-carey/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/2YE7NgzZbtTazPTYNUpJQf/880de7198aa1dc34d0a74d428e26ab65/jmc.jpg.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/jesse-carey/"
+      target="_blank"
+    >Jesse Carey</a>
+    <span class="BlogAuthor__role">Product Strategy and Operations, Stripe Atlas</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/3YiEqV9ZoR97PiMWsrHnVE/c44cc91c0be0ed35d4c024609a1a097a/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding__1_.png?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="Blog &gt; Top solo founder traits &gt; Index image"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/3YiEqV9ZoR97PiMWsrHnVE/c44cc91c0be0ed35d4c024609a1a097a/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding__1_.png?w=1080&q=80
+        
+      "
+        width="1250"
+        height="1250"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>In 2025, solo founders in the top decile generated 61 times the revenue of the median solo founder in their first six months. We analyzed the data to understand what drives that gap.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/top-solo-founder-traits"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+          
+            <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
     BlogIndexPost--hasMultipleAuthors
   "
 >
@@ -15426,257 +15620,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 </span></a>
 </article>
           
-            <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    BlogIndexPost--hasMultipleAuthors
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/industry"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='the_three_biggest__category__industry'
-  
-  
-  
-  
-  
->Industry</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/three-agentic-commerce-trends-nrf-2026"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->The three biggest agentic commerce trends from NRF 2026</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-01-16T00:00-08:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/three-agentic-commerce-trends-nrf-2026"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='the_three_biggest__date'
-  
-  
-  
-  
-  
->January 16, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/maiaj/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/3Rz6Z5Q075ipfXKjMIYTff/7124d18def76719d3871b6f5e0c694fe/maia.jpg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/maiaj/"
-      target="_blank"
-    >Maia Josebachvili</a>
-    <span class="BlogAuthor__role">Chief Revenue Officer, AI </span>
-  </figcaption>
-</figure>
-    
-      <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/bobeirne/?originalSubdomain=ie"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/7DBkmwRCiLgQAs9v0xTLB9/888ae7503eb389fa50f9f80d55241bda/barbaraob.jpg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/bobeirne/?originalSubdomain=ie"
-      target="_blank"
-    >Barbara O’Beirne</a>
-    <span class="BlogAuthor__role">Head of Global Enterprise Business Development </span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/46fJrLwGPQcSu7OB4ItzWb/991d27ab2c147b6a5b8f82d7ba97837a/index-image-nrf.png?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="Blog &gt; Agentic commerce trends from NRF 2026 &gt; Index"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/46fJrLwGPQcSu7OB4ItzWb/991d27ab2c147b6a5b8f82d7ba97837a/index-image-nrf.png?w=1080&q=80
-        
-      "
-        width="1250"
-        height="1250"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>Not only are the majority of retailers actively implementing, or have plans to implement, agentic commerce, but many are also moving to a more tactical phase of optimizing their setup—refining their product catalog strategy to launch faster and investing in their own agentic shopping experiences in addition to integrating with third-party agents.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/three-agentic-commerce-trends-nrf-2026"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-          
 
           <div
   class="
@@ -15795,6 +15738,226 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
           
             <div class="BlogIndexGridSection__layout">
     <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
+    
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/product"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='helping_businesses_optimize__category__product'
+  
+  
+  
+  
+  
+>Product</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/helping-businesses-optimize-network-costs-with-visa-digital-commerce-authentication-program"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Helping businesses optimize network costs with the Visa Digital Commerce Authentication Program (DCAP)</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-06-03T00:00-07:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/helping-businesses-optimize-network-costs-with-visa-digital-commerce-authentication-program"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='helping_businesses_optimize__date'
+  
+  
+  
+  
+  
+>June  3, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/kanika-nayyar-/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/6CoNwdOcjWENbUQlcsU7Pc/bfd909ac774799d88f120a5a600a61a4/kanikanayyar.jpg.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/kanika-nayyar-/"
+      target="_blank"
+    >Kanika Nayyar</a>
+    <span class="BlogAuthor__role">Global Payments Performance </span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/JzGrj59MBDaLNm9e1akgN/e43d83ae9015d74511b815aadec81ee9/dcap-index-2.jpg?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="Blog &gt; Visa DCAP &gt; Index image"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/JzGrj59MBDaLNm9e1akgN/e43d83ae9015d74511b815aadec81ee9/dcap-index-2.jpg?w=1080&q=80
+        
+      "
+        width="2500"
+        height="2500"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>We moved quickly to help Stripe businesses take advantage of DCAP and capture interchange savings while protecting authorization rates. Here’s what we did.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/helping-businesses-optimize-network-costs-with-visa-digital-commerce-authentication-program"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+          
+            <article
   class="
     BlogIndexPost
     BlogIndexPost--variantNormal
@@ -16641,257 +16804,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost__readMoreLink
   "
   href="https://stripe.com/blog/global-checkout-trends"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-          
-            <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    BlogIndexPost--hasMultipleAuthors
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/product"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='how_stripe_radar__category__product'
-  
-  
-  
-  
-  
->Product</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/how-stripe-radar-helps-prevent-free-trial-abuse"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->How Stripe Radar helps prevent free trial abuse</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-03-24T00:00-07:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/how-stripe-radar-helps-prevent-free-trial-abuse"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='how_stripe_radar__date'
-  
-  
-  
-  
-  
->March 24, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/yuhsinl/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/7J2ZgwLOdpiJ2KWx9fruEE/c5c7c8ff82894abd0f22295ebd5c8a47/yuhsin.jpg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/yuhsinl/"
-      target="_blank"
-    >Yu-Hsin Lin</a>
-    <span class="BlogAuthor__role">Product, Radar</span>
-  </figcaption>
-</figure>
-    
-      <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/yujie-w/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/5TjVjiCAtP6RtCAGa9rASv/4358e901e8662e50c0634208fe3b1d44/yujiewang.jpg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/yujie-w/"
-      target="_blank"
-    >Yujie Wang</a>
-    <span class="BlogAuthor__role">Machine Learning Engineer, Radar</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/23lASLziC4DNmD8xdKQHqu/99291ee057701ba5d661881830c72ff7/Radar-index.png?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="Blog &gt; Radar free trial control &gt; Index"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/23lASLziC4DNmD8xdKQHqu/99291ee057701ba5d661881830c72ff7/Radar-index.png?w=1080&q=80
-        
-      "
-        width="2750"
-        height="2750"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>Radar now helps prevent free trial abuse with just one click. When enabled, Radar predicts the presence of abusive behavior that violates common trial terms, such as repeated trial signup or missed cancellations, with 90% accuracy.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/how-stripe-radar-helps-prevent-free-trial-abuse"
   
   
   
@@ -21024,45 +20936,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     ListItem__label
   "
-  href="/use-cases/crypto"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='global_footer__crypto'
-  
-  
-  
-  data-testid="footer-products-crypto-list-item"
-  
->Crypto</a>
-  
-
-  
-</li>
-          <li
-  class="
-    List__item
-    ListItem
-    
-    
-    
-  "
-  
-  
->
-  
-
-  
-    
-    
-    <a
-  class="
-    Link
-    ListItem__label
-  "
   href="/climate"
   
   
@@ -21141,6 +21014,45 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     ListItem__label
   "
+  href="/use-cases/crypto"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='global_footer__crypto'
+  
+  
+  
+  data-testid="footer-products-crypto-list-item"
+  
+>Crypto</a>
+  
+
+  
+</li>
+          <li
+  class="
+    List__item
+    ListItem
+    
+    
+    
+  "
+  
+  
+>
+  
+
+  
+    
+    
+    <a
+  class="
+    Link
+    ListItem__label
+  "
   href="/data-pipeline"
   
   
@@ -21194,45 +21106,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   data-testid="footer-products-elements-list-item"
   
 >Elements</a>
-  
-
-  
-</li>
-          <li
-  class="
-    List__item
-    ListItem
-    
-    
-    
-  "
-  
-  
->
-  
-
-  
-    
-    
-    <a
-  class="
-    Link
-    ListItem__label
-  "
-  href="/treasury"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='global_footer__treasury'
-  
-  
-  
-  data-testid="footer-products-treasury-list-item"
-  
->Treasury</a>
   
 
   
@@ -21492,20 +21365,20 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     ListItem__label
   "
-  href="/payments"
+  href="/payments/payment-links"
   
   
   
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
-  data-analytics-label='global_footer__payments'
+  data-analytics-label='global_footer__payment_links'
   
   
   
-  data-testid="footer-products-payments-list-item"
+  data-testid="footer-products-payment-links-list-item"
   
->Payments</a>
+>Payment links</a>
   
 
   
@@ -21531,20 +21404,20 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     ListItem__label
   "
-  href="/payments/payment-links"
+  href="/payments"
   
   
   
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
-  data-analytics-label='global_footer__payment_links'
+  data-analytics-label='global_footer__payments'
   
   
   
-  data-testid="footer-products-payment-links-list-item"
+  data-testid="footer-products-payments-list-item"
   
->Payment links</a>
+>Payments</a>
   
 
   
@@ -21783,6 +21656,45 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
   
 </li>
+          <li
+  class="
+    List__item
+    ListItem
+    
+    
+    
+  "
+  
+  
+>
+  
+
+  
+    
+    
+    <a
+  class="
+    Link
+    ListItem__label
+  "
+  href="/treasury"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='global_footer__treasury'
+  
+  
+  
+  data-testid="footer-products-treasury-list-item"
+  
+>Treasury</a>
+  
+
+  
+</li>
     
   </ul>
   
@@ -21936,6 +21848,8 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
   
 </li>
+          
+          
           <li
   class="
     List__item
@@ -23974,7 +23888,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   </div>
 </footer>
   
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Stripe Blog: Online Payment Solutions Blog","url":"https://stripe.com/blog","mainEntity":{"@type":"ItemList","name":"Latest articles","itemListOrder":"http://schema.org/ItemListOrderDescending","numberOfItems":9,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"BlogPosting","headline":"Expanding Stripe Radar to protect more of your business","url":"https://stripe.com/blog/expanding-stripe-radar-to-protect-more-of-your-business","author":[{"@type":"Person","name":"Samuel Bakouch","url":"https://www.linkedin.com/in/samuelbakouch/"}],"datePublished":"2026-05-27T00:00-07:00"}},{"@type":"ListItem","position":2,"item":{"@type":"BlogPosting","headline":"Five vertical SaaS insights from Sessions 2026","url":"https://stripe.com/blog/vertical-saas-insights-sessions-2026","author":[{"@type":"Person","name":"Aakash Sahney","url":"https://www.linkedin.com/in/aakash-sahney-94017114/?originalSubdomain=ca"},{"@type":"Person","name":"Christian DiCarlo","url":"https://www.linkedin.com/in/dicarlo/"}],"datePublished":"2026-05-11T00:00-07:00"}},{"@type":"ListItem","position":3,"item":{"@type":"BlogPosting","headline":"Giving agents the ability to pay","url":"https://stripe.com/blog/giving-agents-the-ability-to-pay","author":[{"@type":"Person","name":"Dan Hill","url":"https://www.linkedin.com/in/hilldan/"}],"datePublished":"2026-04-29T00:00-07:00"}},{"@type":"ListItem","position":4,"item":{"@type":"BlogPosting","headline":"Everything we announced at Sessions 2026","url":"https://stripe.com/blog/everything-we-announced-at-sessions-2026","author":[{"@type":"Person","name":"Will Gaybrick","url":"https://twitter.com/gaybrick"}],"datePublished":"2026-04-29T00:00-07:00"}},{"@type":"ListItem","position":5,"item":{"@type":"BlogPosting","headline":"How agents, digital wallets, and trust are rewriting checkout","url":"https://stripe.com/blog/global-checkout-trends","author":[{"@type":"Person","name":"Veni Singh","url":"https://www.linkedin.com/in/venisingh/"}],"datePublished":"2026-04-07T00:00-07:00"}},{"@type":"ListItem","position":6,"item":{"@type":"BlogPosting","headline":"Insights from Shoptalk 2026: How agents are changing retail","url":"https://stripe.com/blog/shoptalk-2026","author":[{"@type":"Person","name":"Ashye Marcus","url":"https://www.linkedin.com/in/ashye/"},{"@type":"Person","name":"Jake Sinsheimer","url":"https://www.linkedin.com/in/jake-sinsheimer-4334953a/"}],"datePublished":"2026-04-02T00:00-07:00"}},{"@type":"ListItem","position":7,"item":{"@type":"BlogPosting","headline":"How Stripe Radar helps prevent free trial abuse","url":"https://stripe.com/blog/how-stripe-radar-helps-prevent-free-trial-abuse","author":[{"@type":"Person","name":"Yu-Hsin Lin","url":"https://www.linkedin.com/in/yuhsinl/"},{"@type":"Person","name":"Yujie Wang","url":"https://www.linkedin.com/in/yujie-w/"}],"datePublished":"2026-03-24T00:00-07:00"}},{"@type":"ListItem","position":8,"item":{"@type":"BlogPosting","headline":"Three of the biggest fraud trends from MRC Vegas 2026","url":"https://stripe.com/blog/three-fraud-trends-from-mrc-vegas-2026","author":[{"@type":"Person","name":"Jon Krauss","url":"https://www.linkedin.com/in/jon-krauss-30bb3616/"}],"datePublished":"2026-03-20T00:00-07:00"}},{"@type":"ListItem","position":9,"item":{"@type":"BlogPosting","headline":"Testing the impact of Adaptive Pricing across 1.5M subscription checkout sessions","url":"https://stripe.com/blog/adaptive-pricing-for-subscriptions","author":[{"@type":"Person","name":"Sahil Bhagat","url":"https://www.linkedin.com/in/scbhagat8/"},{"@type":"Person","name":"Danielle Carollo","url":"https://www.linkedin.com/in/danielle-carollo/"}],"datePublished":"2026-03-19T00:00-07:00"}}]}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Stripe Blog: Online Payment Solutions Blog","url":"https://stripe.com/blog","mainEntity":{"@type":"ItemList","name":"Latest articles","itemListOrder":"http://schema.org/ItemListOrderDescending","numberOfItems":9,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"BlogPosting","headline":"Helping businesses optimize network costs with the Visa Digital Commerce Authentication Program (DCAP)","url":"https://stripe.com/blog/helping-businesses-optimize-network-costs-with-visa-digital-commerce-authentication-program","author":[{"@type":"Person","name":"Kanika Nayyar","url":"https://www.linkedin.com/in/kanika-nayyar-/"}],"datePublished":"2026-06-03T00:00-07:00"}},{"@type":"ListItem","position":2,"item":{"@type":"BlogPosting","headline":"Solo founding is at an all-time high: Top performers have these traits in common","url":"https://stripe.com/blog/top-solo-founder-traits","author":[{"@type":"Person","name":"Jesse Carey","url":"https://www.linkedin.com/in/jesse-carey/"}],"datePublished":"2026-05-28T00:00-07:00"}},{"@type":"ListItem","position":3,"item":{"@type":"BlogPosting","headline":"Expanding Stripe Radar to protect more of your business","url":"https://stripe.com/blog/expanding-stripe-radar-to-protect-more-of-your-business","author":[{"@type":"Person","name":"Samuel Bakouch","url":"https://www.linkedin.com/in/samuelbakouch/"}],"datePublished":"2026-05-27T00:00-07:00"}},{"@type":"ListItem","position":4,"item":{"@type":"BlogPosting","headline":"Five vertical SaaS insights from Sessions 2026","url":"https://stripe.com/blog/vertical-saas-insights-sessions-2026","author":[{"@type":"Person","name":"Aakash Sahney","url":"https://www.linkedin.com/in/aakash-sahney-94017114/?originalSubdomain=ca"},{"@type":"Person","name":"Christian DiCarlo","url":"https://www.linkedin.com/in/dicarlo/"}],"datePublished":"2026-05-11T00:00-07:00"}},{"@type":"ListItem","position":5,"item":{"@type":"BlogPosting","headline":"Giving agents the ability to pay","url":"https://stripe.com/blog/giving-agents-the-ability-to-pay","author":[{"@type":"Person","name":"Dan Hill","url":"https://www.linkedin.com/in/hilldan/"}],"datePublished":"2026-04-29T00:00-07:00"}},{"@type":"ListItem","position":6,"item":{"@type":"BlogPosting","headline":"Everything we announced at Sessions 2026","url":"https://stripe.com/blog/everything-we-announced-at-sessions-2026","author":[{"@type":"Person","name":"Will Gaybrick","url":"https://twitter.com/gaybrick"}],"datePublished":"2026-04-29T00:00-07:00"}},{"@type":"ListItem","position":7,"item":{"@type":"BlogPosting","headline":"How agents, digital wallets, and trust are rewriting checkout","url":"https://stripe.com/blog/global-checkout-trends","author":[{"@type":"Person","name":"Veni Singh","url":"https://www.linkedin.com/in/venisingh/"}],"datePublished":"2026-04-07T00:00-07:00"}},{"@type":"ListItem","position":8,"item":{"@type":"BlogPosting","headline":"Insights from Shoptalk 2026: How agents are changing retail","url":"https://stripe.com/blog/shoptalk-2026","author":[{"@type":"Person","name":"Ashye Marcus","url":"https://www.linkedin.com/in/ashye/"},{"@type":"Person","name":"Jake Sinsheimer","url":"https://www.linkedin.com/in/jake-sinsheimer-4334953a/"}],"datePublished":"2026-04-02T00:00-07:00"}},{"@type":"ListItem","position":9,"item":{"@type":"BlogPosting","headline":"How Stripe Radar helps prevent free trial abuse","url":"https://stripe.com/blog/how-stripe-radar-helps-prevent-free-trial-abuse","author":[{"@type":"Person","name":"Yu-Hsin Lin","url":"https://www.linkedin.com/in/yuhsinl/"},{"@type":"Person","name":"Yujie Wang","url":"https://www.linkedin.com/in/yujie-w/"}],"datePublished":"2026-03-24T00:00-07:00"}}]}}</script>
     </div>
   </body>
 </html>
