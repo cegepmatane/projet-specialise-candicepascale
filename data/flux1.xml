@@ -15,14 +15,14 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 <meta
   name="sentry-config"
   data-js-dsn=""
-  data-js-release="0f7b55179e1d1d32cb2a2b279729e2d875eb62ec"
+  data-js-release="4dddf9f2e853cf28f60a1d1d9bc71d63b7c0aeba"
   data-js-environment="production"
   data-js-project="mkt"
 >
 
-    <meta name="edge-experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.f258f3d9-4be2-ee90-4f40-3792adff41cd.m.s,wpp_console_mvp_nav_cta.control.ursula.6f298e02-2712-b1e5-73e8-5bcb6ac1e48f.m.s,acquisition_chat_cta.treatment.ursula.83159e7a-3264-ee8b-3de3-83b0bac4ba99.a.s">
-<meta name="experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.02809c21-fc6e-4f2a-9a3f-21c93c5427ba.m.s,wpp_console_mvp_nav_cta.control.ursula.19abdda0-ee94-43ab-9f53-71eb2b4e230a.m.s,acquisition_chat_cta.treatment.ursula.0a9c0df5-d614-40af-ac83-ac3304ad5970.a.s">
-<meta name="experiment-token" content="b057adf601cc1131e9bae2dd93e4d4bc0feff4f6">
+    <meta name="edge-experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.d46f4725-7a3f-4fe2-f18b-dee71277fd48.m.s,wpp_console_mvp_nav_cta.control.ursula.305bfd6e-c53b-22f3-07b8-bfdc59933e2d.m.s,acquisition_chat_cta.treatment.ursula.23d34409-dafd-8d2d-2541-2e1ebd8f52a0.a.s">
+<meta name="experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.33731dd1-faa8-4dac-8507-2f93abfdb334.m.s,wpp_console_mvp_nav_cta.control.ursula.47355764-816b-4c18-8543-a6622071ab66.m.s,acquisition_chat_cta.treatment.ursula.7374896d-3b92-4bf6-beb6-4f0156c8c74e.a.s">
+<meta name="experiment-token" content="b057adf6c76d1cf552c024a80cae69b7603a12ed">
     
 
     <script>(() => {
@@ -8515,7 +8515,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
-  data-analytics-label='new_ways_to__category__product'
+  data-analytics-label='stripe_projects_adds__category__product'
   
   
   
@@ -8538,7 +8538,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogIndexPost__titleLink
   "
-  href="https://stripe.com/blog/new-ways-to-turn-global-demand-into-revenue"
+  href="https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls"
   
   
   
@@ -8551,11 +8551,11 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   
   
   
->New ways to turn global demand into revenue</a></h1>
+>Stripe Projects adds new agent integrations, more providers, and custom developer controls</a></h1>
 
   <time
   class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-06-04T00:00-07:00"
+  datetime="2026-06-11T08:30-07:00"
 >
   
   <a
@@ -8563,20 +8563,20 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogPostDate__link
   "
-  href="https://stripe.com/blog/new-ways-to-turn-global-demand-into-revenue"
+  href="https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls"
   
   
   
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
-  data-analytics-label='new_ways_to__date'
+  data-analytics-label='stripe_projects_adds__date'
   
   
   
   
   
->June  4, 2026</a>
+>June 11, 2026</a>
 </time>
 
   <div class="BlogIndexPost__authorList">
@@ -8590,7 +8590,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   "
 >
   <a
-    href="https://www.linkedin.com/in/abhinav-tiwari-4687117/"
+    href="https://www.linkedin.com/in/ramibanna/"
     target="_blank"
   >
     <img
@@ -8598,16 +8598,16 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
       width="48"
       height="48"
       loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/1ISuR83B05mcT6Ou7eknwY/12e6049d8c8d4424ca7b8213e66d7352/abhit.jpeg.png?w=96&h=96"
+      src="https://images.stripeassets.com/fzn2n1nzq965/7eD6kZQ2g0U57wwXoI138U/15e4dedd7dae8af343420ae9bbc9ace1/Rami_Banna_-_Headshot.jpg?w=96&h=96"
     >
   </a>
   <figcaption class="BlogAuthor__caption">
     <a
       class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/abhinav-tiwari-4687117/"
+      href="https://www.linkedin.com/in/ramibanna/"
       target="_blank"
-    >Abhi Tiwari</a>
-    <span class="BlogAuthor__role">Product Lead, Global</span>
+    >Rami Banna</a>
+    <span class="BlogAuthor__role">Product Lead, Stripe Projects </span>
   </figcaption>
 </figure>
   </div>
@@ -8639,7 +8639,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     >
       
         <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/4U7BjI3CSDLJ5GSJRpNkIB/c6bcc4533280bfced4e2067247035319/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding_4.png?w=1080&q=80&fm=webp"
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/4mPcNGGQ44X1tyxR5NqLkf/c5c51591187eaebeb1291d662bee2356/projects-index.jpg?w=1080&q=80&fm=webp"
           type="image/webp"
         >
       
@@ -8648,10 +8648,10 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
       <img
         class="BlogImageCard__image"
-        alt="Blog &gt; New ways to turn global demand into revenue &gt; Index image"
+        alt="Blog &gt; Projects &gt; Index"
         src="
         
-          https://images.stripeassets.com/fzn2n1nzq965/4U7BjI3CSDLJ5GSJRpNkIB/c6bcc4533280bfced4e2067247035319/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding_4.png?w=1080&q=80
+          https://images.stripeassets.com/fzn2n1nzq965/4mPcNGGQ44X1tyxR5NqLkf/c5c51591187eaebeb1291d662bee2356/projects-index.jpg?w=1080&q=80
         
       "
         width="1250"
@@ -8663,7 +8663,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   
 
   <div class="BlogIndexPost__body">
-    <p>Stripe’s latest global commerce solutions help businesses localize checkout for every market, increase authorization rates with AI, reduce FX costs with multicurrency support, and automate tax and compliance processes.</p>
+    <p>Our data shows that agents are capable of independently writing code and integrating with APIs like Stripe’s. Yet, many steps adjacent to writing code are still too hard for agents to do on their own. We’re expanding Stripe Projects to solve this. </p>
   </div>
 
   <a
@@ -8671,7 +8671,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogIndexPost__readMoreLink
   "
-  href="https://stripe.com/blog/new-ways-to-turn-global-demand-into-revenue"
+  href="https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls"
   
   
   
@@ -8903,6 +8903,226 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
           
             <div class="BlogIndexGridSection__layout">
     <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
+    
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/product"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='new_ways_to__category__product'
+  
+  
+  
+  
+  
+>Product</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/new-ways-to-turn-global-demand-into-revenue"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>New ways to turn global demand into revenue</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-06-04T00:00-07:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/new-ways-to-turn-global-demand-into-revenue"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='new_ways_to__date'
+  
+  
+  
+  
+  
+>June  4, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/abhinav-tiwari-4687117/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/1ISuR83B05mcT6Ou7eknwY/12e6049d8c8d4424ca7b8213e66d7352/abhit.jpeg.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/abhinav-tiwari-4687117/"
+      target="_blank"
+    >Abhi Tiwari</a>
+    <span class="BlogAuthor__role">Product Lead, Global</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/4U7BjI3CSDLJ5GSJRpNkIB/c6bcc4533280bfced4e2067247035319/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding_4.png?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="Blog &gt; New ways to turn global demand into revenue &gt; Index image"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/4U7BjI3CSDLJ5GSJRpNkIB/c6bcc4533280bfced4e2067247035319/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding_4.png?w=1080&q=80
+        
+      "
+        width="1250"
+        height="1250"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>At Sessions 2026, Stripe unveiled dozens of products and capabilities to help businesses turn global demand into revenue. See how to go global faster with localized checkout and Adaptive Pricing, smarter fraud tools, multicurrency treasury support, and automated tax compliance.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/new-ways-to-turn-global-demand-into-revenue"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+        
+          <article
   class="
     BlogIndexPost
     BlogIndexPost--variantNormal
@@ -9309,226 +9529,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost__readMoreLink
   "
   href="https://stripe.com/blog/top-solo-founder-traits"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-        
-          <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/product"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='expanding_stripe_radar__category__product'
-  
-  
-  
-  
-  
->Product</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/expanding-stripe-radar-to-protect-more-of-your-business"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Expanding Stripe Radar to protect more of your business</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-05-27T00:00-07:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/expanding-stripe-radar-to-protect-more-of-your-business"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='expanding_stripe_radar__date'
-  
-  
-  
-  
-  
->May 27, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/samuelbakouch/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/3z7sTxfj4EqUcuALokYl7Q/2632260aa44da4b06dc82fa7f428d2c4/E0181S17H6Z-U08TQKY3DJ7-b8bac14771e5-512.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/samuelbakouch/"
-      target="_blank"
-    >Samuel Bakouch</a>
-    <span class="BlogAuthor__role">Head of Product, Payments Intelligence</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/2FSmdXVwwuymT0YfmIXxfq/aeadbd7af5e4620151924efbf9cdf6ad/radar-index.jpg?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="Blog &gt; Expanding Stripe Radar &gt; Index image"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/2FSmdXVwwuymT0YfmIXxfq/aeadbd7af5e4620151924efbf9cdf6ad/radar-index.jpg?w=1080&q=80
-        
-      "
-        width="1250"
-        height="1250"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>Radar now blocks high-risk transactions across all supported payment methods; defends against new fraud types like multi-account abuse and pay-as-you-go abuse, regardless of which payment processor you use; and gives platforms new tools to evaluate and mitigate merchant risk on and off Stripe.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/expanding-stripe-radar-to-protect-more-of-your-business"
   
   
   
@@ -10370,6 +10370,226 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost
     BlogIndexPost--variantNormal
     BlogIndexPost--hasFigure
+    
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/product"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='expanding_stripe_radar__category__product'
+  
+  
+  
+  
+  
+>Product</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/expanding-stripe-radar-to-protect-more-of-your-business"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Expanding Stripe Radar to protect more of your business</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-05-27T00:00-07:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/expanding-stripe-radar-to-protect-more-of-your-business"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='expanding_stripe_radar__date'
+  
+  
+  
+  
+  
+>May 27, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/samuelbakouch/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/3z7sTxfj4EqUcuALokYl7Q/2632260aa44da4b06dc82fa7f428d2c4/E0181S17H6Z-U08TQKY3DJ7-b8bac14771e5-512.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/samuelbakouch/"
+      target="_blank"
+    >Samuel Bakouch</a>
+    <span class="BlogAuthor__role">Head of Product, Payments Intelligence</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/2FSmdXVwwuymT0YfmIXxfq/aeadbd7af5e4620151924efbf9cdf6ad/radar-index.jpg?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="Blog &gt; Expanding Stripe Radar &gt; Index image"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/2FSmdXVwwuymT0YfmIXxfq/aeadbd7af5e4620151924efbf9cdf6ad/radar-index.jpg?w=1080&q=80
+        
+      "
+        width="1250"
+        height="1250"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>Radar now blocks high-risk transactions across all supported payment methods; defends against new fraud types like multi-account abuse and pay-as-you-go abuse, regardless of which payment processor you use; and gives platforms new tools to evaluate and mitigate merchant risk on and off Stripe.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/expanding-stripe-radar-to-protect-more-of-your-business"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+        
+          <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
     BlogIndexPost--hasMultipleAuthors
   "
 >
@@ -10646,226 +10866,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
-  data-analytics-label='giving_agents_the__category__product'
-  
-  
-  
-  
-  
->Product</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/giving-agents-the-ability-to-pay"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Giving agents the ability to pay</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-04-29T00:00-07:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/giving-agents-the-ability-to-pay"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='giving_agents_the__date'
-  
-  
-  
-  
-  
->April 29, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/hilldan/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/14o7aP3jMwozZ4dNL0dIkR/10229680810e5245e41fbf7417e11de6/danhill.jpg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/hilldan/"
-      target="_blank"
-    >Dan Hill</a>
-    <span class="BlogAuthor__role">Product Manager, Link Consumer Product</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/6Q9CknSN2E2Fa6DUi6eWe/798ca5888658b7dd385cfb687dcff08b/LinkAgentWallet_1250x1250.png?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="Blog &gt; Giving agents the ability to pay &gt; Index image"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/6Q9CknSN2E2Fa6DUi6eWe/798ca5888658b7dd385cfb687dcff08b/LinkAgentWallet_1250x1250.png?w=1080&q=80
-        
-      "
-        width="1250"
-        height="1250"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>Link’s wallet for agents gives agents programmatic access to Link, including the ability to generate a one-time-use card or Shared Payment Token (SPT) backed by the cards and bank accounts already in your wallet. It’s built on Stripe’s new Issuing for agents.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/giving-agents-the-ability-to-pay"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-        
-          <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/product"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
   data-analytics-label='everything_we_announced__category__product'
   
   
@@ -11059,6 +11059,226 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
         
 
+        
+          <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
+    
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/product"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='giving_agents_the__category__product'
+  
+  
+  
+  
+  
+>Product</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/giving-agents-the-ability-to-pay"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Giving agents the ability to pay</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-04-29T00:00-07:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/giving-agents-the-ability-to-pay"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='giving_agents_the__date'
+  
+  
+  
+  
+  
+>April 29, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/hilldan/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/14o7aP3jMwozZ4dNL0dIkR/10229680810e5245e41fbf7417e11de6/danhill.jpg.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/hilldan/"
+      target="_blank"
+    >Dan Hill</a>
+    <span class="BlogAuthor__role">Product Manager, Link Consumer Product</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/6Q9CknSN2E2Fa6DUi6eWe/798ca5888658b7dd385cfb687dcff08b/LinkAgentWallet_1250x1250.png?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="Blog &gt; Giving agents the ability to pay &gt; Index image"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/6Q9CknSN2E2Fa6DUi6eWe/798ca5888658b7dd385cfb687dcff08b/LinkAgentWallet_1250x1250.png?w=1080&q=80
+        
+      "
+        width="1250"
+        height="1250"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>Link’s wallet for agents gives agents programmatic access to Link, including the ability to generate a one-time-use card or Shared Payment Token (SPT) backed by the cards and bank accounts already in your wallet. It’s built on Stripe’s new Issuing for agents.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/giving-agents-the-ability-to-pay"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
         
           <article
   class="
@@ -11498,257 +11718,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost__readMoreLink
   "
   href="https://stripe.com/blog/shoptalk-2026"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-        
-          <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    BlogIndexPost--hasMultipleAuthors
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/product"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='how_stripe_radar__category__product'
-  
-  
-  
-  
-  
->Product</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/how-stripe-radar-helps-prevent-free-trial-abuse"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->How Stripe Radar helps prevent free trial abuse</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-03-24T00:00-07:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/how-stripe-radar-helps-prevent-free-trial-abuse"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='how_stripe_radar__date'
-  
-  
-  
-  
-  
->March 24, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/yuhsinl/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/7J2ZgwLOdpiJ2KWx9fruEE/c5c7c8ff82894abd0f22295ebd5c8a47/yuhsin.jpg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/yuhsinl/"
-      target="_blank"
-    >Yu-Hsin Lin</a>
-    <span class="BlogAuthor__role">Product, Radar</span>
-  </figcaption>
-</figure>
-    
-      <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/yujie-w/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/5TjVjiCAtP6RtCAGa9rASv/4358e901e8662e50c0634208fe3b1d44/yujiewang.jpg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/yujie-w/"
-      target="_blank"
-    >Yujie Wang</a>
-    <span class="BlogAuthor__role">Machine Learning Engineer, Radar</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/23lASLziC4DNmD8xdKQHqu/99291ee057701ba5d661881830c72ff7/Radar-index.png?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="Blog &gt; Radar free trial control &gt; Index"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/23lASLziC4DNmD8xdKQHqu/99291ee057701ba5d661881830c72ff7/Radar-index.png?w=1080&q=80
-        
-      "
-        width="2750"
-        height="2750"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>Radar now helps prevent free trial abuse with just one click. When enabled, Radar predicts the presence of abusive behavior that violates common trial terms, such as repeated trial signup or missed cancellations, with 90% accuracy.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/how-stripe-radar-helps-prevent-free-trial-abuse"
   
   
   
@@ -15767,6 +15736,226 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
+  data-analytics-label='new_ways_to__category__product'
+  
+  
+  
+  
+  
+>Product</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/new-ways-to-turn-global-demand-into-revenue"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>New ways to turn global demand into revenue</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-06-04T00:00-07:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/new-ways-to-turn-global-demand-into-revenue"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='new_ways_to__date'
+  
+  
+  
+  
+  
+>June  4, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/abhinav-tiwari-4687117/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/1ISuR83B05mcT6Ou7eknwY/12e6049d8c8d4424ca7b8213e66d7352/abhit.jpeg.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/abhinav-tiwari-4687117/"
+      target="_blank"
+    >Abhi Tiwari</a>
+    <span class="BlogAuthor__role">Product Lead, Global</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/4U7BjI3CSDLJ5GSJRpNkIB/c6bcc4533280bfced4e2067247035319/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding_4.png?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="Blog &gt; New ways to turn global demand into revenue &gt; Index image"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/4U7BjI3CSDLJ5GSJRpNkIB/c6bcc4533280bfced4e2067247035319/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding_4.png?w=1080&q=80
+        
+      "
+        width="1250"
+        height="1250"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>At Sessions 2026, Stripe unveiled dozens of products and capabilities to help businesses turn global demand into revenue. See how to go global faster with localized checkout and Adaptive Pricing, smarter fraud tools, multicurrency treasury support, and automated tax compliance.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/new-ways-to-turn-global-demand-into-revenue"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+          
+            <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
+    
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/product"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
   data-analytics-label='helping_businesses_optimize__category__product'
   
   
@@ -16207,226 +16396,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
-  data-analytics-label='giving_agents_the__category__product'
-  
-  
-  
-  
-  
->Product</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/giving-agents-the-ability-to-pay"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Giving agents the ability to pay</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-04-29T00:00-07:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/giving-agents-the-ability-to-pay"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='giving_agents_the__date'
-  
-  
-  
-  
-  
->April 29, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/hilldan/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/14o7aP3jMwozZ4dNL0dIkR/10229680810e5245e41fbf7417e11de6/danhill.jpg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/hilldan/"
-      target="_blank"
-    >Dan Hill</a>
-    <span class="BlogAuthor__role">Product Manager, Link Consumer Product</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/6Q9CknSN2E2Fa6DUi6eWe/798ca5888658b7dd385cfb687dcff08b/LinkAgentWallet_1250x1250.png?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="Blog &gt; Giving agents the ability to pay &gt; Index image"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/6Q9CknSN2E2Fa6DUi6eWe/798ca5888658b7dd385cfb687dcff08b/LinkAgentWallet_1250x1250.png?w=1080&q=80
-        
-      "
-        width="1250"
-        height="1250"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>Link’s wallet for agents gives agents programmatic access to Link, including the ability to generate a one-time-use card or Shared Payment Token (SPT) backed by the cards and bank accounts already in your wallet. It’s built on Stripe’s new Issuing for agents.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/giving-agents-the-ability-to-pay"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-          
-            <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/product"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
   data-analytics-label='everything_we_announced__category__product'
   
   
@@ -16647,7 +16616,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
-  data-analytics-label='how_agents_digital__category__product'
+  data-analytics-label='giving_agents_the__category__product'
   
   
   
@@ -16670,7 +16639,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogIndexPost__titleLink
   "
-  href="https://stripe.com/blog/global-checkout-trends"
+  href="https://stripe.com/blog/giving-agents-the-ability-to-pay"
   
   
   
@@ -16683,11 +16652,11 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   
   
   
->How agents, digital wallets, and trust are rewriting checkout</a></h1>
+>Giving agents the ability to pay</a></h1>
 
   <time
   class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-04-07T00:00-07:00"
+  datetime="2026-04-29T00:00-07:00"
 >
   
   <a
@@ -16695,20 +16664,20 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogPostDate__link
   "
-  href="https://stripe.com/blog/global-checkout-trends"
+  href="https://stripe.com/blog/giving-agents-the-ability-to-pay"
   
   
   
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
-  data-analytics-label='how_agents_digital__date'
+  data-analytics-label='giving_agents_the__date'
   
   
   
   
   
->April  7, 2026</a>
+>April 29, 2026</a>
 </time>
 
   <div class="BlogIndexPost__authorList">
@@ -16722,7 +16691,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   "
 >
   <a
-    href="https://www.linkedin.com/in/venisingh/"
+    href="https://www.linkedin.com/in/hilldan/"
     target="_blank"
   >
     <img
@@ -16730,16 +16699,16 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
       width="48"
       height="48"
       loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/2oubl0sJ97reVM1oWs7B3S/5ca6cbcc5f7fb452d21caf52619a4a10/veni.jpg.png?w=96&h=96"
+      src="https://images.stripeassets.com/fzn2n1nzq965/14o7aP3jMwozZ4dNL0dIkR/10229680810e5245e41fbf7417e11de6/danhill.jpg.png?w=96&h=96"
     >
   </a>
   <figcaption class="BlogAuthor__caption">
     <a
       class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/venisingh/"
+      href="https://www.linkedin.com/in/hilldan/"
       target="_blank"
-    >Veni Singh</a>
-    <span class="BlogAuthor__role">Product Manager, OCS and Payments Dashboard Product</span>
+    >Dan Hill</a>
+    <span class="BlogAuthor__role">Product Manager, Link Consumer Product</span>
   </figcaption>
 </figure>
   </div>
@@ -16771,7 +16740,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     >
       
         <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/ldkId6Rz1TQvWrVdACbe0/c3c1a161b959d5714171ee73b4e79fcc/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding__1_.png?w=1080&q=80&fm=webp"
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/6Q9CknSN2E2Fa6DUi6eWe/798ca5888658b7dd385cfb687dcff08b/LinkAgentWallet_1250x1250.png?w=1080&q=80&fm=webp"
           type="image/webp"
         >
       
@@ -16780,10 +16749,10 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
       <img
         class="BlogImageCard__image"
-        alt="Blog &gt; Global checkout trends &gt; Index image"
+        alt="Blog &gt; Giving agents the ability to pay &gt; Index image"
         src="
         
-          https://images.stripeassets.com/fzn2n1nzq965/ldkId6Rz1TQvWrVdACbe0/c3c1a161b959d5714171ee73b4e79fcc/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding__1_.png?w=1080&q=80
+          https://images.stripeassets.com/fzn2n1nzq965/6Q9CknSN2E2Fa6DUi6eWe/798ca5888658b7dd385cfb687dcff08b/LinkAgentWallet_1250x1250.png?w=1080&q=80
         
       "
         width="1250"
@@ -16795,7 +16764,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   
 
   <div class="BlogIndexPost__body">
-    <p>We analyzed checkout activity across more than 20K businesses, surveyed shoppers and ecommerce leaders, and gathered insights from businesses on the Stripe network to understand what’s changing in online conversion.</p>
+    <p>Link’s wallet for agents gives agents programmatic access to Link, including the ability to generate a one-time-use card or Shared Payment Token (SPT) backed by the cards and bank accounts already in your wallet. It’s built on Stripe’s new Issuing for agents.</p>
   </div>
 
   <a
@@ -16803,7 +16772,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogIndexPost__readMoreLink
   "
-  href="https://stripe.com/blog/global-checkout-trends"
+  href="https://stripe.com/blog/giving-agents-the-ability-to-pay"
   
   
   
@@ -23888,7 +23857,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   </div>
 </footer>
   
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Stripe Blog: Online Payment Solutions Blog","url":"https://stripe.com/blog","mainEntity":{"@type":"ItemList","name":"Latest articles","itemListOrder":"http://schema.org/ItemListOrderDescending","numberOfItems":9,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"BlogPosting","headline":"Helping businesses optimize network costs with the Visa Digital Commerce Authentication Program (DCAP)","url":"https://stripe.com/blog/helping-businesses-optimize-network-costs-with-visa-digital-commerce-authentication-program","author":[{"@type":"Person","name":"Kanika Nayyar","url":"https://www.linkedin.com/in/kanika-nayyar-/"}],"datePublished":"2026-06-03T00:00-07:00"}},{"@type":"ListItem","position":2,"item":{"@type":"BlogPosting","headline":"Solo founding is at an all-time high: Top performers have these traits in common","url":"https://stripe.com/blog/top-solo-founder-traits","author":[{"@type":"Person","name":"Jesse Carey","url":"https://www.linkedin.com/in/jesse-carey/"}],"datePublished":"2026-05-28T00:00-07:00"}},{"@type":"ListItem","position":3,"item":{"@type":"BlogPosting","headline":"Expanding Stripe Radar to protect more of your business","url":"https://stripe.com/blog/expanding-stripe-radar-to-protect-more-of-your-business","author":[{"@type":"Person","name":"Samuel Bakouch","url":"https://www.linkedin.com/in/samuelbakouch/"}],"datePublished":"2026-05-27T00:00-07:00"}},{"@type":"ListItem","position":4,"item":{"@type":"BlogPosting","headline":"Five vertical SaaS insights from Sessions 2026","url":"https://stripe.com/blog/vertical-saas-insights-sessions-2026","author":[{"@type":"Person","name":"Aakash Sahney","url":"https://www.linkedin.com/in/aakash-sahney-94017114/?originalSubdomain=ca"},{"@type":"Person","name":"Christian DiCarlo","url":"https://www.linkedin.com/in/dicarlo/"}],"datePublished":"2026-05-11T00:00-07:00"}},{"@type":"ListItem","position":5,"item":{"@type":"BlogPosting","headline":"Giving agents the ability to pay","url":"https://stripe.com/blog/giving-agents-the-ability-to-pay","author":[{"@type":"Person","name":"Dan Hill","url":"https://www.linkedin.com/in/hilldan/"}],"datePublished":"2026-04-29T00:00-07:00"}},{"@type":"ListItem","position":6,"item":{"@type":"BlogPosting","headline":"Everything we announced at Sessions 2026","url":"https://stripe.com/blog/everything-we-announced-at-sessions-2026","author":[{"@type":"Person","name":"Will Gaybrick","url":"https://twitter.com/gaybrick"}],"datePublished":"2026-04-29T00:00-07:00"}},{"@type":"ListItem","position":7,"item":{"@type":"BlogPosting","headline":"How agents, digital wallets, and trust are rewriting checkout","url":"https://stripe.com/blog/global-checkout-trends","author":[{"@type":"Person","name":"Veni Singh","url":"https://www.linkedin.com/in/venisingh/"}],"datePublished":"2026-04-07T00:00-07:00"}},{"@type":"ListItem","position":8,"item":{"@type":"BlogPosting","headline":"Insights from Shoptalk 2026: How agents are changing retail","url":"https://stripe.com/blog/shoptalk-2026","author":[{"@type":"Person","name":"Ashye Marcus","url":"https://www.linkedin.com/in/ashye/"},{"@type":"Person","name":"Jake Sinsheimer","url":"https://www.linkedin.com/in/jake-sinsheimer-4334953a/"}],"datePublished":"2026-04-02T00:00-07:00"}},{"@type":"ListItem","position":9,"item":{"@type":"BlogPosting","headline":"How Stripe Radar helps prevent free trial abuse","url":"https://stripe.com/blog/how-stripe-radar-helps-prevent-free-trial-abuse","author":[{"@type":"Person","name":"Yu-Hsin Lin","url":"https://www.linkedin.com/in/yuhsinl/"},{"@type":"Person","name":"Yujie Wang","url":"https://www.linkedin.com/in/yujie-w/"}],"datePublished":"2026-03-24T00:00-07:00"}}]}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Stripe Blog: Online Payment Solutions Blog","url":"https://stripe.com/blog","mainEntity":{"@type":"ItemList","name":"Latest articles","itemListOrder":"http://schema.org/ItemListOrderDescending","numberOfItems":9,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"BlogPosting","headline":"New ways to turn global demand into revenue","url":"https://stripe.com/blog/new-ways-to-turn-global-demand-into-revenue","author":[{"@type":"Person","name":"Abhi Tiwari","url":"https://www.linkedin.com/in/abhinav-tiwari-4687117/"}],"datePublished":"2026-06-04T00:00-07:00"}},{"@type":"ListItem","position":2,"item":{"@type":"BlogPosting","headline":"Helping businesses optimize network costs with the Visa Digital Commerce Authentication Program (DCAP)","url":"https://stripe.com/blog/helping-businesses-optimize-network-costs-with-visa-digital-commerce-authentication-program","author":[{"@type":"Person","name":"Kanika Nayyar","url":"https://www.linkedin.com/in/kanika-nayyar-/"}],"datePublished":"2026-06-03T00:00-07:00"}},{"@type":"ListItem","position":3,"item":{"@type":"BlogPosting","headline":"Solo founding is at an all-time high: Top performers have these traits in common","url":"https://stripe.com/blog/top-solo-founder-traits","author":[{"@type":"Person","name":"Jesse Carey","url":"https://www.linkedin.com/in/jesse-carey/"}],"datePublished":"2026-05-28T00:00-07:00"}},{"@type":"ListItem","position":4,"item":{"@type":"BlogPosting","headline":"Expanding Stripe Radar to protect more of your business","url":"https://stripe.com/blog/expanding-stripe-radar-to-protect-more-of-your-business","author":[{"@type":"Person","name":"Samuel Bakouch","url":"https://www.linkedin.com/in/samuelbakouch/"}],"datePublished":"2026-05-27T00:00-07:00"}},{"@type":"ListItem","position":5,"item":{"@type":"BlogPosting","headline":"Five vertical SaaS insights from Sessions 2026","url":"https://stripe.com/blog/vertical-saas-insights-sessions-2026","author":[{"@type":"Person","name":"Aakash Sahney","url":"https://www.linkedin.com/in/aakash-sahney-94017114/?originalSubdomain=ca"},{"@type":"Person","name":"Christian DiCarlo","url":"https://www.linkedin.com/in/dicarlo/"}],"datePublished":"2026-05-11T00:00-07:00"}},{"@type":"ListItem","position":6,"item":{"@type":"BlogPosting","headline":"Everything we announced at Sessions 2026","url":"https://stripe.com/blog/everything-we-announced-at-sessions-2026","author":[{"@type":"Person","name":"Will Gaybrick","url":"https://twitter.com/gaybrick"}],"datePublished":"2026-04-29T00:00-07:00"}},{"@type":"ListItem","position":7,"item":{"@type":"BlogPosting","headline":"Giving agents the ability to pay","url":"https://stripe.com/blog/giving-agents-the-ability-to-pay","author":[{"@type":"Person","name":"Dan Hill","url":"https://www.linkedin.com/in/hilldan/"}],"datePublished":"2026-04-29T00:00-07:00"}},{"@type":"ListItem","position":8,"item":{"@type":"BlogPosting","headline":"How agents, digital wallets, and trust are rewriting checkout","url":"https://stripe.com/blog/global-checkout-trends","author":[{"@type":"Person","name":"Veni Singh","url":"https://www.linkedin.com/in/venisingh/"}],"datePublished":"2026-04-07T00:00-07:00"}},{"@type":"ListItem","position":9,"item":{"@type":"BlogPosting","headline":"Insights from Shoptalk 2026: How agents are changing retail","url":"https://stripe.com/blog/shoptalk-2026","author":[{"@type":"Person","name":"Ashye Marcus","url":"https://www.linkedin.com/in/ashye/"},{"@type":"Person","name":"Jake Sinsheimer","url":"https://www.linkedin.com/in/jake-sinsheimer-4334953a/"}],"datePublished":"2026-04-02T00:00-07:00"}}]}}</script>
     </div>
   </body>
 </html>
