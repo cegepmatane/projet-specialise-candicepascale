@@ -1,6 +1,6 @@
 [
-{"nom":"stripe-php","repo":"stripe/stripe-php","stars":4016,"forks":890,"issues":13},
-{"nom":"framework","repo":"laravel/framework","stars":34773,"forks":11889,"issues":112},
-{"nom":"symfony","repo":"symfony/symfony","stars":31073,"forks":9840,"issues":568},
-{"nom":"php-src","repo":"php/php-src","stars":40146,"forks":8070,"issues":1848}
+{"nom":"stripe-php","repo":"stripe/stripe-php","stars":4018,"forks":890,"issues":13},
+{"nom":"framework","repo":"laravel/framework","stars":34785,"forks":11887,"issues":98},
+{"nom":"symfony","repo":"symfony/symfony","stars":31086,"forks":9837,"issues":558},
+{"nom":"php-src","repo":"php/php-src","stars":40174,"forks":8075,"issues":1854}
 ]
