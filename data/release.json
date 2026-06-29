@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/stripe/stripe-php/releases/338835269",
-  "assets_url": "https://api.github.com/repos/stripe/stripe-php/releases/338835269/assets",
-  "upload_url": "https://uploads.github.com/repos/stripe/stripe-php/releases/338835269/assets{?name,label}",
-  "html_url": "https://github.com/stripe/stripe-php/releases/tag/v20.2.1",
-  "id": 338835269,
+  "url": "https://api.github.com/repos/stripe/stripe-php/releases/344399846",
+  "assets_url": "https://api.github.com/repos/stripe/stripe-php/releases/344399846/assets",
+  "upload_url": "https://uploads.github.com/repos/stripe/stripe-php/releases/344399846/assets{?name,label}",
+  "html_url": "https://github.com/stripe/stripe-php/releases/tag/v20.3.0",
+  "id": 344399846,
   "author": {
     "login": "xavdid",
     "id": 1231935,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOAB3Oas4UMjdF",
-  "tag_name": "v20.2.1",
+  "node_id": "RE_kwDOAB3Oas4Uhx_m",
+  "tag_name": "v20.3.0",
   "target_commitish": "master",
-  "name": "v20.2.1",
+  "name": "v20.3.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-06-12T22:42:01Z",
-  "updated_at": "2026-06-12T22:42:07Z",
-  "published_at": "2026-06-12T22:42:07Z",
+  "created_at": "2026-06-24T22:45:33Z",
+  "updated_at": "2026-06-24T22:45:38Z",
+  "published_at": "2026-06-24T22:45:38Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/stripe/stripe-php/tarball/v20.2.1",
-  "zipball_url": "https://api.github.com/repos/stripe/stripe-php/zipball/v20.2.1",
-  "body": "* [#2079](https://github.com/stripe/stripe-php/pull/2079) Add \"source\" field to user-agent header\n\nSee [the changelog for more details](https://github.com/stripe/stripe-php/blob/v20.2.1/CHANGELOG.md).\n"
+  "tarball_url": "https://api.github.com/repos/stripe/stripe-php/tarball/v20.3.0",
+  "zipball_url": "https://api.github.com/repos/stripe/stripe-php/zipball/v20.3.0",
+  "body": "This release changes the pinned API version to 2026-06-24.dahlia.\n\n* [#2088](https://github.com/stripe/stripe-php/pull/2088) Update generated code\n  * Add support for `release_details` on `Reserve.Hold`\n  * Add support for new value `tax_fund` on enum `BalanceTransaction.type`\n  * Change `Billing.CreditGrant.priority` to be required\n  * Add support for `buyer_id` on `Charge.payment_method_details.bizum`, `ConfirmationToken.payment_method_preview.bizum`, `ConfirmationToken.payment_method_preview.blik`, `PaymentAttemptRecord.payment_method_details.bizum`, `PaymentMethod.bizum`, `PaymentMethod.blik`, and `PaymentRecord.payment_method_details.bizum`\n  * Add support for `transaction_link_id` on `Charge.payment_method_details.card`\n  * Add support for new value `sui` on enums `Charge.payment_method_details.crypto.network`, `PaymentAttemptRecord.payment_method_details.crypto.network`, and `PaymentRecord.payment_method_details.crypto.network`\n  * Add support for new value `usdsui` on enums `Charge.payment_method_details.crypto.token_currency`, `PaymentAttemptRecord.payment_method_details.crypto.token_currency`, and `PaymentRecord.payment_method_details.crypto.token_currency`\n  * Add support for `fingerprint` on `Charge.payment_method_details.pix`, `ConfirmationToken.payment_method_preview.pix`, `PaymentMethod.pix`, and `SetupAttempt.payment_method_details.pix`\n  * Add support for `sunbit` on `Checkout.Session.payment_method_options`, `Checkout\\Session.create().$params.payment_method_option`, `PaymentIntent.confirm().$params.payment_method_option`, `PaymentIntent.create().$params.payment_method_option`, `PaymentIntent.payment_method_options`, and `PaymentIntent.update().$params.payment_method_option`\n  * Add support for `billing_cycle_anchor_config` on `Checkout\\Session.create().$params.subscription_datum`\n  * Add support for `wechat_pay` on `Checkout.Session.payment_method_options`\n  * Add support for `mastercard_compliance` on `Dispute.evidence.enhanced_evidence`, `Dispute.evidence_details.enhanced_eligibility`, and `Dispute.update().$params.evidence.enhanced_evidence`\n  * Add support for new value `mastercard_compliance` on enum `Dispute.enhanced_eligibility_types`\n  * Add support for `status_details` on `FinancialConnections.Account`\n  * Add support for new value `validated` on enum `Identity.VerificationSession.redaction.status`\n  * Add support for new value `satispay` on enums `Invoice.payment_settings.payment_method_types` and `Subscription.payment_settings.payment_method_types`\n  * ⚠️ Remove support for `stored_credential_usage` on `PaymentAttemptRecord.payment_method_details.card` and `PaymentRecord.payment_method_details.card`\n  * ⚠️ Change `PaymentAttemptRecord.payment_method_details.card.description` and `PaymentRecord.payment_method_details.card.description` to be optional\n  * ⚠️ Change `PaymentAttemptRecord.payment_method_details.card.iin` and `PaymentRecord.payment_method_details.card.iin` to be optional\n  * ⚠️ Change `PaymentAttemptRecord.payment_method_details.card.issuer` and `PaymentRecord.payment_method_details.card.issuer` to be optional\n  * Add support for `setup_future_usage` on `PaymentIntent.confirm().$params.payment_method_option.satispay`, `PaymentIntent.create().$params.payment_method_option.satispay`, `PaymentIntent.payment_method_options.satispay`, and `PaymentIntent.update().$params.payment_method_option.satispay`\n  * Change `PaymentRecord.report_refund().$params.refunded` to be optional\n  * Add support for `satispay` on `SetupAttempt.payment_method_details`\n  * Add support for `custom_fields`, `description`, and `footer` on `Subscription.create().$params.invoice_setting`, `Subscription.invoice_settings`, and `Subscription.update().$params.invoice_setting`\n  * Add support for `payment_method_options` and `payment_method` on `Topup.create().$params`\n  * Add support for `mode` on `V2.Commerce.ProductCatalogImport`\n  * Add support for new value `promotion` on enum `V2.Commerce.ProductCatalogImport.feed_type`\n  * Add support for `sunbit_payments` on `V2.Core.Account.configuration.merchant.capabilities`, `V2\\Core\\Account.create().$params.configuration.merchant.capability`, and `V2\\Core\\Account.update().$params.configuration.merchant.capability`\n  * Add support for `crypto_money_manager` and `money_manager` on `V2\\Core\\Account.update().$params.identity.attestation.terms_of_service`\n  * ⚠️ Remove support for `crypto_storer` and `storer` on `V2\\Core\\Account.update().$params.identity.attestation.terms_of_service`\n  * Add support for new value `sunbit_payments` on enum `EventsV2CoreAccountIncludingConfigurationMerchantCapabilityStatusUpdatedEvent.updated_capability`\n  * Add support for error codes `anomalous_money_movement_request`, `failed_tax_calculation`, `financial_account_balance_does_not_support_currency`, `financial_account_capability_not_enabled`, and `financial_account_capability_restricted` on `Invoice.last_finalization_error`, `PaymentIntent.last_payment_error`, `SetupAttempt.setup_error`, `SetupIntent.last_setup_error`, `StripeError`, and `Terminal.Reader.action.api_error`\n\nSee [the changelog for more details](https://github.com/stripe/stripe-php/blob/v20.3.0/CHANGELOG.md).\n"
 }
