@@ -15,14 +15,14 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 <meta
   name="sentry-config"
   data-js-dsn=""
-  data-js-release="0c61366e9d34fa6f4469e74877097078ce555f52"
+  data-js-release="417645b8af093ba10f9afd074510f5a8ef46c44b"
   data-js-environment="production"
   data-js-project="mkt"
 >
 
-    <meta name="edge-experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.619dff5d-184f-98ae-88e5-b0af39f7ddce.m.s,wpp_console_mvp_nav_cta.treatment.ursula.e74bed1c-567f-fd81-7268-2a1f92467c69.m.s,acquisition_chat_cta.control.ursula.5a887cce-3797-d3fc-2265-40390fd75e3d.a.s">
-<meta name="experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.0d346e4f-6bf0-45b1-8153-a9303ddd0464.m.s,wpp_console_mvp_nav_cta.treatment.ursula.12b1a138-0aca-45f5-b93d-63c15d6ffac1.m.s,acquisition_chat_cta.control.ursula.fdf83509-a66f-4d6e-8163-6b2dadf98044.a.s">
-<meta name="experiment-token" content="b057adf67e02d701c19c12c294b49719ca69ad9c">
+    <meta name="edge-experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.b00e4cac-7f84-5eff-f445-b543f0acc2b4.m.s,wpp_console_mvp_nav_cta.control.ursula.bc27e723-0f3e-fa48-c5e9-1593727598af.m.s,acquisition_chat_cta.control.ursula.a86ffe9c-c541-420f-fa4e-ae17cea14a08.a.s">
+<meta name="experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.05353706-d96b-49dc-8538-441a783876f3.m.s,wpp_console_mvp_nav_cta.control.ursula.d7e7a2a8-2de1-4a8d-8382-925561abfe21.m.s,acquisition_chat_cta.control.ursula.f18ec1d9-c689-45e1-acf2-4d29e8cbd8bf.a.s">
+<meta name="experiment-token" content="b057adf6c04bc35c1366ebaac41d002459f9fabf">
     
 
     <script>(() => {
@@ -82,7 +82,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
     <template id="source-attribution-loader">
   <script defer
-    src="https://b.stripecdn.com/mkt-statics-srv/assets/imt-b8c9014cfc11344f27ea6dc7f3cb0ddc.js"
+    src="https://b.stripecdn.com/mkt-statics-srv/assets/imt-a83945b9e749f1409b943387fc75ae35.js"
     data-store_url="https://b.stripecdn.com/mkt-statics-srv/assets/store-936f0d847a16164e7f6b15d74659c4a9.html">
   </script>
 </template>
@@ -443,11 +443,11 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
 
         <script type="application/json" data-js-script-registry>
-          [{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-UBML4VF6.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedSiteHeader-OLVLWZNH.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-DashboardLoginLink-UIB4F5HA.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedMobileMenu-332FKH2X.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedProductsNavGroup-P7YYUPMR.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-HorizontalOverflowContainer-OMJ7H7VG.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Gradient-PV35MTWS.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-SegmentedControl-JDA54DLW.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UpdateCard-366Q7NP7.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FullWidthCarousel-DA2R5JYJ.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FooterCta-CNLDRK3K.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-TextInput-LLIEFW4M.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Form-LX3YNCXK.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-PrivacyNotice-4FWJMP43.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LocaleControl-XRZYZL5S.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-JMEMHNXZ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Sentry-IABPFTSH.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-EnforceSameSiteLaxOnCookies-5NDXH4YF.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LoaderScript-ESMSC6G6.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatInitializer-VQXJ22Y2.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatCtaButtonLarge-P2D7FKNY.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Loader-NNHSJYSV.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-ScrollDepthTracker-WVLRBKEQ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-MonitorWebVitals-PIPPZ4NK.js"}]
+          [{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-QUM6ZZDC.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedSiteHeader-B7KOL6DL.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-DashboardLoginLink-Z3X5VLCO.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedMobileMenu-B6VP5IO7.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedProductsNavGroup-PTTRNO6Z.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-HorizontalOverflowContainer-KG3IYSEM.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Gradient-BQUSTTKK.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-SegmentedControl-UGS7BTBO.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UpdateCard-5WHNVITX.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FullWidthCarousel-USSLDXTT.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FooterCta-AOROS5QJ.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-TextInput-VQCXK6FP.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Form-VTTBL5YL.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-PrivacyNotice-WOKZRUK2.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LocaleControl-2GY6CITO.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-QDKO4TYK.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Sentry-IABPFTSH.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-EnforceSameSiteLaxOnCookies-5NDXH4YF.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LoaderScript-64GJKKZC.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatInitializer-DZNJB5MO.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatCtaButtonLarge-F4TC7ODE.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Loader-3AV55SLD.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-ScrollDepthTracker-HJ3RXHEZ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-MonitorWebVitals-ZHV3BB7H.js"}]
         </script>
       
 
-        <script type="module" src="https://b.stripecdn.com/mkt-statics-srv/assets/v1-Bootstrapper-XQ4F54A3.js"></script>
+        <script type="module" src="https://b.stripecdn.com/mkt-statics-srv/assets/v1-Bootstrapper-HAXPIBX7.js"></script>
       
 
   </head>
@@ -674,40 +674,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 >Pricing</a>
   
 </li>
-              <li class='
-  SiteHeaderNavItem
-  SiteHeaderNavItem--refreshed
-  
-  SiteHeaderNavItem--hasSparkle
-'>
-  
-    <svg class="SiteHeaderNavItem__sparkleDivider" width="1" height="19" viewBox="0 0 1 19" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
-      <rect width="1" height="19" fill="#061B31" fill-opacity="0.3"/>
-    </svg>
-    <a
-  class="
-    Link
-    SiteHeaderNavItem__link SiteHeaderNavItem__link--hasSparkle
-  "
-  href="/personalize"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='global_nav__guide_me'
-  
-  
-  
-  data-testid="header-guide-me-nav-item"
-  
-><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" class="SiteHeaderNavItem__sparkleIcon" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
-        <path fill="currentColor" d="M9.168 6.568c.076.213.244.38.457.456l4.106 1.455v1.641l-4.106 1.455a.75.75 0 0 0-.457.457l-1.4 3.951H6.018l-1.4-3.95a.75.75 0 0 0-.379-.425l-.077-.033L.055 10.12V8.48L4.16 7.024a.75.75 0 0 0 .424-.378l.032-.078 1.49-4.207h1.57zm-3.137.501a2.25 2.25 0 0 1-1.369 1.37l-2.433.86 2.433.863c.56.198 1.015.608 1.272 1.136l.097.233.862 2.432.862-2.432.098-.233a2.25 2.25 0 0 1 1.271-1.136l2.432-.862-2.432-.862a2.25 2.25 0 0 1-1.37-1.369l-.861-2.432zm7.63-4.835a.25.25 0 0 0 .15.153l1.793.635v.535l-1.792.636a.25.25 0 0 0-.152.153l-.644 1.816h-.518l-.644-1.816a.25.25 0 0 0-.153-.153L9.91 3.558V3.02l1.792-.634a.25.25 0 0 0 .152-.153l.645-1.816h.518z"/>
-      </svg>
-      <span>Guide me</span></a>
-  
-</li>
   </ul>
 </nav>
           </div>
@@ -899,46 +865,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
           </nav>
 
           <nav class="SiteHeader__menuNav SiteHeader__menuNav--guide-me-container">
-              <a
-  class='
-    CtaButton
-    variant--Link
-    CtaButton--arrow
-    
-    SiteHeader__menuNav--guide-me
-  '
-  href="/personalize"
-  
-  data-js-controller='AnalyticsButton'
-  
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='global_nav__guide_me'
-  
-  
-  
-  data-testid="header-guide-me-nav-item"
-  
->Guide me<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span>
-</a>
+              
               <button
   class='RefreshedMenuButton'
   title='Open mobile navigation'
@@ -992,46 +919,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
       <span class="MobileMenu__backButtonText">Back</span>
     </button>
     <div class="MobileMenu--guide-me">
-                  <a
-  class='
-    CtaButton
-    variant--Link
-    CtaButton--arrow
-    
-    SiteHeader__menuNav--guide-me
-  '
-  href="/personalize"
-  
-  data-js-controller='AnalyticsButton'
-  
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='global_nav__guide_me'
-  
-  
-  
-  data-testid="header-guide-me-nav-item"
-  
->Guide me<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span>
-</a>
+                  
                 <button
   class="MobileMenu__closeButton"
   data-js-target='MobileMenu.closeButton'
@@ -4261,6 +4149,45 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 >
   <a
     class="RefreshedNavItem__link"
+    href="https://stripecommunity.com/"
+    data-js-controller='AnalyticsButton'
+    data-analytics-category='Navigation'
+    data-analytics-action='Clicked'
+    data-analytics-label='global_nav__resources__stripe_community'
+    
+    tabindex="-1"
+    data-testid="header-mobile-stripe-community-nav-item"
+  >
+    <div class="RefreshedNavItem__content">
+      <span class="RefreshedNavItem__label">
+        Community
+        &nbsp;<svg
+  class="
+    RefreshedHoverArrow
+    RefreshedNavItem__arrow
+  "
+  width="10"
+  height="8"
+  viewBox="0 0 10 8"
+  aria-hidden="true"
+>
+<path d="M9.28027 3.4375L9.75195 3.91309L9.28027 4.3877L5.87012 7.8252L4.91113 6.87402L7.18066 4.58691H0V3.2373H7.18066L4.91113 0.951172L5.87012 0L9.28027 3.4375Z" fill="currentColor" />
+</svg>
+      </span>
+      
+    </div>
+  </a>
+</li>
+
+          
+          <li
+  class="
+    RefreshedNavItem
+    
+  "
+>
+  <a
+    class="RefreshedNavItem__link"
     href="/customers"
     data-js-controller='AnalyticsButton'
     data-analytics-category='Navigation'
@@ -6351,51 +6278,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 </div>
         </div>
       </aside>
-      <div class="RefreshedProductsNav__consoleBanner">
-          <span class="RefreshedProductsNav__consoleBannerDescription">
-            <strong>Not sure where to start?</strong> Tell us about your business to get personalized Stripe product recommendations.
-          </span>
-          <a
-  class='
-    CtaButton
-    variant--
-    CtaButton--arrow
-    
-    RefreshedProductsNav__consoleBannerLink
-  '
-  href="/personalize"
-  
-  data-js-controller='AnalyticsButton'
-  
-  data-analytics-category='Buttons'
-  data-analytics-action='Clicked'
-  data-analytics-label='global_nav__products__find_whats_right'
-  
-  
-  
-  
-  
->Find what's right for you<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
       
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span>
-</a>
-        </div>
     </div>
   </div>
   </div>
@@ -7927,6 +7810,45 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 >
   <a
     class="RefreshedNavItem__link"
+    href="https://stripecommunity.com/"
+    data-js-controller='AnalyticsButton'
+    data-analytics-category='Navigation'
+    data-analytics-action='Clicked'
+    data-analytics-label='global_nav__resources__stripe_community'
+    
+    tabindex="-1"
+    data-testid="header-resources-stripe-community-nav-item"
+  >
+    <div class="RefreshedNavItem__content">
+      <span class="RefreshedNavItem__label">
+        Community
+        &nbsp;<svg
+  class="
+    RefreshedHoverArrow
+    RefreshedNavItem__arrow
+  "
+  width="10"
+  height="8"
+  viewBox="0 0 10 8"
+  aria-hidden="true"
+>
+<path d="M9.28027 3.4375L9.75195 3.91309L9.28027 4.3877L5.87012 7.8252L4.91113 6.87402L7.18066 4.58691H0V3.2373H7.18066L4.91113 0.951172L5.87012 0L9.28027 3.4375Z" fill="currentColor" />
+</svg>
+      </span>
+      
+    </div>
+  </a>
+</li>
+
+              
+              <li
+  class="
+    RefreshedNavItem
+    
+  "
+>
+  <a
+    class="RefreshedNavItem__link"
     href="/customers"
     data-js-controller='AnalyticsButton'
     data-analytics-category='Navigation'
@@ -8162,7 +8084,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     </div>
   </a>
 </li>
-              
+
               
               <li
   class="
@@ -11466,226 +11388,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
-  data-analytics-label='everything_we_announced__category__product'
-  
-  
-  
-  
-  
->Product</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Everything we announced at Sessions 2026</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-04-29T00:00-07:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='everything_we_announced__date'
-  
-  
-  
-  
-  
->April 29, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://twitter.com/gaybrick"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/2V8UpuoDuP3zR8ehtLwjoN/796ff6de2354596236223bc835e3b0e0/Will_Gaybrick.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://twitter.com/gaybrick"
-      target="_blank"
-    >Will Gaybrick</a>
-    <span class="BlogAuthor__role">Product and Business</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/5Uq9NEKuVAdSjvGIpsY4wy/ef80210cb8ff35c3a15fb1f2e9123539/updated-blog-index.png?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="Blog &gt; Sessions 2026 &gt; Index image"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/5Uq9NEKuVAdSjvGIpsY4wy/ef80210cb8ff35c3a15fb1f2e9123539/updated-blog-index.png?w=1080&q=80
-        
-      "
-        width="2500"
-        height="2500"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>We’re making Stripe even more programmable; protecting and propelling your business with the strength of the Stripe network; and building economic infrastructure for AI.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-        
-          <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/product"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
   data-analytics-label='giving_agents_the__category__product'
   
   
@@ -11843,6 +11545,226 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost__readMoreLink
   "
   href="https://stripe.com/blog/giving-agents-the-ability-to-pay"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+        
+          <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
+    
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/product"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='everything_we_announced__category__product'
+  
+  
+  
+  
+  
+>Product</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Everything we announced at Sessions 2026</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-04-29T00:00-07:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='everything_we_announced__date'
+  
+  
+  
+  
+  
+>April 29, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://twitter.com/gaybrick"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/2V8UpuoDuP3zR8ehtLwjoN/796ff6de2354596236223bc835e3b0e0/Will_Gaybrick.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://twitter.com/gaybrick"
+      target="_blank"
+    >Will Gaybrick</a>
+    <span class="BlogAuthor__role">Product and Business</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/5Uq9NEKuVAdSjvGIpsY4wy/ef80210cb8ff35c3a15fb1f2e9123539/updated-blog-index.png?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="Blog &gt; Sessions 2026 &gt; Index image"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/5Uq9NEKuVAdSjvGIpsY4wy/ef80210cb8ff35c3a15fb1f2e9123539/updated-blog-index.png?w=1080&q=80
+        
+      "
+        width="2500"
+        height="2500"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>We’re making Stripe even more programmable; protecting and propelling your business with the strength of the Stripe network; and building economic infrastructure for AI.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
   
   
   
@@ -16710,7 +16632,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
-  data-analytics-label='everything_we_announced__category__product'
+  data-analytics-label='giving_agents_the__category__product'
   
   
   
@@ -16733,7 +16655,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogIndexPost__titleLink
   "
-  href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
+  href="https://stripe.com/blog/giving-agents-the-ability-to-pay"
   
   
   
@@ -16746,7 +16668,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   
   
   
->Everything we announced at Sessions 2026</a></h1>
+>Giving agents the ability to pay</a></h1>
 
   <time
   class="BlogPostDate BlogIndexPost__date"
@@ -16758,14 +16680,14 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogPostDate__link
   "
-  href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
+  href="https://stripe.com/blog/giving-agents-the-ability-to-pay"
   
   
   
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
-  data-analytics-label='everything_we_announced__date'
+  data-analytics-label='giving_agents_the__date'
   
   
   
@@ -16785,7 +16707,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   "
 >
   <a
-    href="https://twitter.com/gaybrick"
+    href="https://www.linkedin.com/in/hilldan/"
     target="_blank"
   >
     <img
@@ -16793,16 +16715,16 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
       width="48"
       height="48"
       loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/2V8UpuoDuP3zR8ehtLwjoN/796ff6de2354596236223bc835e3b0e0/Will_Gaybrick.png?w=96&h=96"
+      src="https://images.stripeassets.com/fzn2n1nzq965/14o7aP3jMwozZ4dNL0dIkR/10229680810e5245e41fbf7417e11de6/danhill.jpg.png?w=96&h=96"
     >
   </a>
   <figcaption class="BlogAuthor__caption">
     <a
       class="BlogAuthor__link"
-      href="https://twitter.com/gaybrick"
+      href="https://www.linkedin.com/in/hilldan/"
       target="_blank"
-    >Will Gaybrick</a>
-    <span class="BlogAuthor__role">Product and Business</span>
+    >Dan Hill</a>
+    <span class="BlogAuthor__role">Product Manager, Link Consumer Product</span>
   </figcaption>
 </figure>
   </div>
@@ -16834,7 +16756,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     >
       
         <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/5Uq9NEKuVAdSjvGIpsY4wy/ef80210cb8ff35c3a15fb1f2e9123539/updated-blog-index.png?w=1080&q=80&fm=webp"
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/6Q9CknSN2E2Fa6DUi6eWe/798ca5888658b7dd385cfb687dcff08b/LinkAgentWallet_1250x1250.png?w=1080&q=80&fm=webp"
           type="image/webp"
         >
       
@@ -16843,14 +16765,14 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
       <img
         class="BlogImageCard__image"
-        alt="Blog &gt; Sessions 2026 &gt; Index image"
+        alt="Blog &gt; Giving agents the ability to pay &gt; Index image"
         src="
         
-          https://images.stripeassets.com/fzn2n1nzq965/5Uq9NEKuVAdSjvGIpsY4wy/ef80210cb8ff35c3a15fb1f2e9123539/updated-blog-index.png?w=1080&q=80
+          https://images.stripeassets.com/fzn2n1nzq965/6Q9CknSN2E2Fa6DUi6eWe/798ca5888658b7dd385cfb687dcff08b/LinkAgentWallet_1250x1250.png?w=1080&q=80
         
       "
-        width="2500"
-        height="2500"
+        width="1250"
+        height="1250"
         loading="lazy"
       >
     </picture>
@@ -16858,7 +16780,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   
 
   <div class="BlogIndexPost__body">
-    <p>We’re making Stripe even more programmable; protecting and propelling your business with the strength of the Stripe network; and building economic infrastructure for AI.</p>
+    <p>Link’s wallet for agents gives agents programmatic access to Link, including the ability to generate a one-time-use card or Shared Payment Token (SPT) backed by the cards and bank accounts already in your wallet. It’s built on Stripe’s new Issuing for agents.</p>
   </div>
 
   <a
@@ -16866,7 +16788,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogIndexPost__readMoreLink
   "
-  href="https://stripe.com/blog/everything-we-announced-at-sessions-2026"
+  href="https://stripe.com/blog/giving-agents-the-ability-to-pay"
   
   
   
@@ -23191,6 +23113,46 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     ListItem__label
   "
+  href="https://stripecommunity.com/"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='global_footer__stripe_community'
+  
+  
+  
+  data-testid="footer-resources-stripe-community-list-item"
+  
+>Community</a>
+  
+
+  
+</li>
+  
+  <li
+  class="
+    List__item
+    ListItem
+    
+    
+    
+  "
+  
+  
+>
+  
+
+  
+    
+    
+    <a
+  class="
+    Link
+    ListItem__label
+  "
   href="/sessions"
   
   
@@ -23951,7 +23913,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   </div>
 </footer>
   
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Stripe Blog: Online Payment Solutions Blog","url":"https://stripe.com/blog","mainEntity":{"@type":"ItemList","name":"Latest articles","itemListOrder":"http://schema.org/ItemListOrderDescending","numberOfItems":9,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"BlogPosting","headline":"What Link data tells us about AI spending","url":"https://stripe.com/blog/what-link-data-tells-us-about-ai-spending","author":[{"@type":"Person","name":"Dan Hill","url":"https://www.linkedin.com/in/hilldan/"}],"datePublished":"2026-06-18T00:00-07:00"}},{"@type":"ListItem","position":2,"item":{"@type":"BlogPosting","headline":"Stripe Projects adds new agent integrations, more providers, and custom developer controls","url":"https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls","author":[{"@type":"Person","name":"Rami Banna","url":"https://www.linkedin.com/in/ramibanna/"}],"datePublished":"2026-06-11T08:30-07:00"}},{"@type":"ListItem","position":3,"item":{"@type":"BlogPosting","headline":"New ways to turn global demand into revenue","url":"https://stripe.com/blog/new-ways-to-turn-global-demand-into-revenue","author":[{"@type":"Person","name":"Abhi Tiwari","url":"https://www.linkedin.com/in/abhinav-tiwari-4687117/"}],"datePublished":"2026-06-04T00:00-07:00"}},{"@type":"ListItem","position":4,"item":{"@type":"BlogPosting","headline":"Helping businesses optimize network costs with the Visa Digital Commerce Authentication Program (DCAP)","url":"https://stripe.com/blog/helping-businesses-optimize-network-costs-with-visa-digital-commerce-authentication-program","author":[{"@type":"Person","name":"Kanika Nayyar","url":"https://www.linkedin.com/in/kanika-nayyar-/"}],"datePublished":"2026-06-03T00:00-07:00"}},{"@type":"ListItem","position":5,"item":{"@type":"BlogPosting","headline":"Solo founding is at an all-time high: Top performers have these traits in common","url":"https://stripe.com/blog/top-solo-founder-traits","author":[{"@type":"Person","name":"Jesse Carey","url":"https://www.linkedin.com/in/jesse-carey/"}],"datePublished":"2026-05-28T00:00-07:00"}},{"@type":"ListItem","position":6,"item":{"@type":"BlogPosting","headline":"Expanding Stripe Radar to protect more of your business","url":"https://stripe.com/blog/expanding-stripe-radar-to-protect-more-of-your-business","author":[{"@type":"Person","name":"Samuel Bakouch","url":"https://www.linkedin.com/in/samuelbakouch/"}],"datePublished":"2026-05-27T00:00-07:00"}},{"@type":"ListItem","position":7,"item":{"@type":"BlogPosting","headline":"Five vertical SaaS insights from Sessions 2026","url":"https://stripe.com/blog/vertical-saas-insights-sessions-2026","author":[{"@type":"Person","name":"Aakash Sahney","url":"https://www.linkedin.com/in/aakash-sahney-94017114/?originalSubdomain=ca"},{"@type":"Person","name":"Christian DiCarlo","url":"https://www.linkedin.com/in/dicarlo/"}],"datePublished":"2026-05-11T00:00-07:00"}},{"@type":"ListItem","position":8,"item":{"@type":"BlogPosting","headline":"Everything we announced at Sessions 2026","url":"https://stripe.com/blog/everything-we-announced-at-sessions-2026","author":[{"@type":"Person","name":"Will Gaybrick","url":"https://twitter.com/gaybrick"}],"datePublished":"2026-04-29T00:00-07:00"}},{"@type":"ListItem","position":9,"item":{"@type":"BlogPosting","headline":"Giving agents the ability to pay","url":"https://stripe.com/blog/giving-agents-the-ability-to-pay","author":[{"@type":"Person","name":"Dan Hill","url":"https://www.linkedin.com/in/hilldan/"}],"datePublished":"2026-04-29T00:00-07:00"}}]}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Stripe Blog: Online Payment Solutions Blog","url":"https://stripe.com/blog","mainEntity":{"@type":"ItemList","name":"Latest articles","itemListOrder":"http://schema.org/ItemListOrderDescending","numberOfItems":9,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"BlogPosting","headline":"What Link data tells us about AI spending","url":"https://stripe.com/blog/what-link-data-tells-us-about-ai-spending","author":[{"@type":"Person","name":"Dan Hill","url":"https://www.linkedin.com/in/hilldan/"}],"datePublished":"2026-06-18T00:00-07:00"}},{"@type":"ListItem","position":2,"item":{"@type":"BlogPosting","headline":"Stripe Projects adds new agent integrations, more providers, and custom developer controls","url":"https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls","author":[{"@type":"Person","name":"Rami Banna","url":"https://www.linkedin.com/in/ramibanna/"}],"datePublished":"2026-06-11T08:30-07:00"}},{"@type":"ListItem","position":3,"item":{"@type":"BlogPosting","headline":"New ways to turn global demand into revenue","url":"https://stripe.com/blog/new-ways-to-turn-global-demand-into-revenue","author":[{"@type":"Person","name":"Abhi Tiwari","url":"https://www.linkedin.com/in/abhinav-tiwari-4687117/"}],"datePublished":"2026-06-04T00:00-07:00"}},{"@type":"ListItem","position":4,"item":{"@type":"BlogPosting","headline":"Helping businesses optimize network costs with the Visa Digital Commerce Authentication Program (DCAP)","url":"https://stripe.com/blog/helping-businesses-optimize-network-costs-with-visa-digital-commerce-authentication-program","author":[{"@type":"Person","name":"Kanika Nayyar","url":"https://www.linkedin.com/in/kanika-nayyar-/"}],"datePublished":"2026-06-03T00:00-07:00"}},{"@type":"ListItem","position":5,"item":{"@type":"BlogPosting","headline":"Solo founding is at an all-time high: Top performers have these traits in common","url":"https://stripe.com/blog/top-solo-founder-traits","author":[{"@type":"Person","name":"Jesse Carey","url":"https://www.linkedin.com/in/jesse-carey/"}],"datePublished":"2026-05-28T00:00-07:00"}},{"@type":"ListItem","position":6,"item":{"@type":"BlogPosting","headline":"Expanding Stripe Radar to protect more of your business","url":"https://stripe.com/blog/expanding-stripe-radar-to-protect-more-of-your-business","author":[{"@type":"Person","name":"Samuel Bakouch","url":"https://www.linkedin.com/in/samuelbakouch/"}],"datePublished":"2026-05-27T00:00-07:00"}},{"@type":"ListItem","position":7,"item":{"@type":"BlogPosting","headline":"Five vertical SaaS insights from Sessions 2026","url":"https://stripe.com/blog/vertical-saas-insights-sessions-2026","author":[{"@type":"Person","name":"Aakash Sahney","url":"https://www.linkedin.com/in/aakash-sahney-94017114/?originalSubdomain=ca"},{"@type":"Person","name":"Christian DiCarlo","url":"https://www.linkedin.com/in/dicarlo/"}],"datePublished":"2026-05-11T00:00-07:00"}},{"@type":"ListItem","position":8,"item":{"@type":"BlogPosting","headline":"Giving agents the ability to pay","url":"https://stripe.com/blog/giving-agents-the-ability-to-pay","author":[{"@type":"Person","name":"Dan Hill","url":"https://www.linkedin.com/in/hilldan/"}],"datePublished":"2026-04-29T00:00-07:00"}},{"@type":"ListItem","position":9,"item":{"@type":"BlogPosting","headline":"Everything we announced at Sessions 2026","url":"https://stripe.com/blog/everything-we-announced-at-sessions-2026","author":[{"@type":"Person","name":"Will Gaybrick","url":"https://twitter.com/gaybrick"}],"datePublished":"2026-04-29T00:00-07:00"}}]}}</script>
     </div>
   </body>
 </html>
