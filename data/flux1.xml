@@ -15,14 +15,14 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 <meta
   name="sentry-config"
   data-js-dsn=""
-  data-js-release="417645b8af093ba10f9afd074510f5a8ef46c44b"
+  data-js-release="bee793a0f2553cd14a95f8b6b4bad1e35de51499"
   data-js-environment="production"
   data-js-project="mkt"
 >
 
-    <meta name="edge-experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.b00e4cac-7f84-5eff-f445-b543f0acc2b4.m.s,wpp_console_mvp_nav_cta.control.ursula.bc27e723-0f3e-fa48-c5e9-1593727598af.m.s,acquisition_chat_cta.control.ursula.a86ffe9c-c541-420f-fa4e-ae17cea14a08.a.s">
-<meta name="experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.05353706-d96b-49dc-8538-441a783876f3.m.s,wpp_console_mvp_nav_cta.control.ursula.d7e7a2a8-2de1-4a8d-8382-925561abfe21.m.s,acquisition_chat_cta.control.ursula.f18ec1d9-c689-45e1-acf2-4d29e8cbd8bf.a.s">
-<meta name="experiment-token" content="b057adf6c04bc35c1366ebaac41d002459f9fabf">
+    <meta name="edge-experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.1fb20010-261c-0384-ecaf-1f94bd33c941.m.s,wpp_console_mvp_nav_cta.treatment.ursula.0591a98e-5ea8-cb46-c246-2e9e9daedd59.m.s,acquisition_chat_cta.treatment.ursula.3776c667-9a4a-a9aa-50ce-64350ba9f1fe.a.s">
+<meta name="experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.07dbc3c7-ca8f-4ce2-a9d2-3d1d57fb2d05.m.s,wpp_console_mvp_nav_cta.treatment.ursula.f7653d55-8ae4-4d51-af6d-7593936738fb.m.s,acquisition_chat_cta.treatment.ursula.8109ca99-7412-4e5e-8a62-da34693a306b.a.s">
+<meta name="experiment-token" content="b057adf60e6d506a88900a2427b2c98f97c2d7d9">
     
 
     <script>(() => {
@@ -82,7 +82,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
     <template id="source-attribution-loader">
   <script defer
-    src="https://b.stripecdn.com/mkt-statics-srv/assets/imt-a83945b9e749f1409b943387fc75ae35.js"
+    src="https://b.stripecdn.com/mkt-statics-srv/assets/imt-1c176fd0607b7f9c169d6dc069ba107b.js"
     data-store_url="https://b.stripecdn.com/mkt-statics-srv/assets/store-936f0d847a16164e7f6b15d74659c4a9.html">
   </script>
 </template>
@@ -443,11 +443,11 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
 
         <script type="application/json" data-js-script-registry>
-          [{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-QUM6ZZDC.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedSiteHeader-B7KOL6DL.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-DashboardLoginLink-Z3X5VLCO.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedMobileMenu-B6VP5IO7.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedProductsNavGroup-PTTRNO6Z.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-HorizontalOverflowContainer-KG3IYSEM.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Gradient-BQUSTTKK.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-SegmentedControl-UGS7BTBO.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UpdateCard-5WHNVITX.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FullWidthCarousel-USSLDXTT.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FooterCta-AOROS5QJ.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-TextInput-VQCXK6FP.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Form-VTTBL5YL.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-PrivacyNotice-WOKZRUK2.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LocaleControl-2GY6CITO.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-QDKO4TYK.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Sentry-IABPFTSH.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-EnforceSameSiteLaxOnCookies-5NDXH4YF.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LoaderScript-64GJKKZC.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatInitializer-DZNJB5MO.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatCtaButtonLarge-F4TC7ODE.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Loader-3AV55SLD.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-ScrollDepthTracker-HJ3RXHEZ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-MonitorWebVitals-ZHV3BB7H.js"}]
+          [{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-B4BGXUKQ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedSiteHeader-SK2NNQTV.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-DashboardLoginLink-R7ITFTZG.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedMobileMenu-3HCCUN55.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedProductsNavGroup-U3ZRICJZ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-HorizontalOverflowContainer-FKC5BOVJ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Gradient-BQLH2XZ6.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-SegmentedControl-VDMEUPCE.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UpdateCard-XOFMBY2O.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FullWidthCarousel-4XFTHFKF.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FooterCta-ZSWJ2X7B.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-TextInput-BWXQ4XA7.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Form-5MMCTHWM.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-PrivacyNotice-NDZFOER4.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LocaleControl-HJB7U6AP.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-ZZQ2XSU6.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Sentry-IABPFTSH.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-EnforceSameSiteLaxOnCookies-5NDXH4YF.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LoaderScript-ZMRNY66E.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatInitializer-YOHYMGT4.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatCtaButtonLarge-7QEATMDS.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Loader-3FAXKCTA.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-ScrollDepthTracker-QLQ4SF3U.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-MonitorWebVitals-25AZETKV.js"}]
         </script>
       
 
-        <script type="module" src="https://b.stripecdn.com/mkt-statics-srv/assets/v1-Bootstrapper-HAXPIBX7.js"></script>
+        <script type="module" src="https://b.stripecdn.com/mkt-statics-srv/assets/v1-Bootstrapper-5I7ADLRL.js"></script>
       
 
   </head>
@@ -674,6 +674,40 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 >Pricing</a>
   
 </li>
+              <li class='
+  SiteHeaderNavItem
+  SiteHeaderNavItem--refreshed
+  
+  SiteHeaderNavItem--hasSparkle
+'>
+  
+    <svg class="SiteHeaderNavItem__sparkleDivider" width="1" height="19" viewBox="0 0 1 19" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+      <rect width="1" height="19" fill="#061B31" fill-opacity="0.3"/>
+    </svg>
+    <a
+  class="
+    Link
+    SiteHeaderNavItem__link SiteHeaderNavItem__link--hasSparkle
+  "
+  href="/personalize"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='global_nav__guide_me'
+  
+  
+  
+  data-testid="header-guide-me-nav-item"
+  
+><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" class="SiteHeaderNavItem__sparkleIcon" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+        <path fill="currentColor" d="M9.168 6.568c.076.213.244.38.457.456l4.106 1.455v1.641l-4.106 1.455a.75.75 0 0 0-.457.457l-1.4 3.951H6.018l-1.4-3.95a.75.75 0 0 0-.379-.425l-.077-.033L.055 10.12V8.48L4.16 7.024a.75.75 0 0 0 .424-.378l.032-.078 1.49-4.207h1.57zm-3.137.501a2.25 2.25 0 0 1-1.369 1.37l-2.433.86 2.433.863c.56.198 1.015.608 1.272 1.136l.097.233.862 2.432.862-2.432.098-.233a2.25 2.25 0 0 1 1.271-1.136l2.432-.862-2.432-.862a2.25 2.25 0 0 1-1.37-1.369l-.861-2.432zm7.63-4.835a.25.25 0 0 0 .15.153l1.793.635v.535l-1.792.636a.25.25 0 0 0-.152.153l-.644 1.816h-.518l-.644-1.816a.25.25 0 0 0-.153-.153L9.91 3.558V3.02l1.792-.634a.25.25 0 0 0 .152-.153l.645-1.816h.518z"/>
+      </svg>
+      <span>Guide me</span></a>
+  
+</li>
   </ul>
 </nav>
           </div>
@@ -865,7 +899,46 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
           </nav>
 
           <nav class="SiteHeader__menuNav SiteHeader__menuNav--guide-me-container">
-              
+              <a
+  class='
+    CtaButton
+    variant--Link
+    CtaButton--arrow
+    
+    SiteHeader__menuNav--guide-me
+  '
+  href="/personalize"
+  
+  data-js-controller='AnalyticsButton'
+  
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='global_nav__guide_me'
+  
+  
+  
+  data-testid="header-guide-me-nav-item"
+  
+>Guide me<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span>
+</a>
               <button
   class='RefreshedMenuButton'
   title='Open mobile navigation'
@@ -919,7 +992,46 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
       <span class="MobileMenu__backButtonText">Back</span>
     </button>
     <div class="MobileMenu--guide-me">
-                  
+                  <a
+  class='
+    CtaButton
+    variant--Link
+    CtaButton--arrow
+    
+    SiteHeader__menuNav--guide-me
+  '
+  href="/personalize"
+  
+  data-js-controller='AnalyticsButton'
+  
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='global_nav__guide_me'
+  
+  
+  
+  data-testid="header-guide-me-nav-item"
+  
+>Guide me<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span>
+</a>
                 <button
   class="MobileMenu__closeButton"
   data-js-target='MobileMenu.closeButton'
@@ -3161,7 +3273,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
           </ul>
       </section>
 
-          <section class="RefreshedNavigation__group">
+      <section class="RefreshedNavigation__group">
         <span class="RefreshedNavigation__groupTitle">By industry</span>
           <ul class="RefreshedNavigation__groupLinks">
             
@@ -3224,6 +3336,45 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     <div class="RefreshedNavItem__content">
       <span class="RefreshedNavItem__label">
         Creator economy
+        &nbsp;<svg
+  class="
+    RefreshedHoverArrow
+    RefreshedNavItem__arrow
+  "
+  width="10"
+  height="8"
+  viewBox="0 0 10 8"
+  aria-hidden="true"
+>
+<path d="M9.28027 3.4375L9.75195 3.91309L9.28027 4.3877L5.87012 7.8252L4.91113 6.87402L7.18066 4.58691H0V3.2373H7.18066L4.91113 0.951172L5.87012 0L9.28027 3.4375Z" fill="currentColor" />
+</svg>
+      </span>
+      
+    </div>
+  </a>
+</li>
+
+            
+            <li
+  class="
+    RefreshedNavItem
+    
+  "
+>
+  <a
+    class="RefreshedNavItem__link"
+    href="/industries/gaming"
+    data-js-controller='AnalyticsButton'
+    data-analytics-category='Navigation'
+    data-analytics-action='Clicked'
+    data-analytics-label='global_nav__solutions__gaming'
+    
+    tabindex="-1"
+    data-testid="header-mobile-industries-gaming-nav-item"
+  >
+    <div class="RefreshedNavItem__content">
+      <span class="RefreshedNavItem__label">
+        Gaming
         &nbsp;<svg
   class="
     RefreshedHoverArrow
@@ -6278,7 +6429,51 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 </div>
         </div>
       </aside>
+      <div class="RefreshedProductsNav__consoleBanner">
+          <span class="RefreshedProductsNav__consoleBannerDescription">
+            <strong>Not sure where to start?</strong> Tell us about your business to get personalized Stripe product recommendations.
+          </span>
+          <a
+  class='
+    CtaButton
+    variant--
+    CtaButton--arrow
+    
+    RefreshedProductsNav__consoleBannerLink
+  '
+  href="/personalize"
+  
+  data-js-controller='AnalyticsButton'
+  
+  data-analytics-category='Buttons'
+  data-analytics-action='Clicked'
+  data-analytics-label='global_nav__products__find_whats_right'
+  
+  
+  
+  
+  
+>Find what's right for you<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
       
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span>
+</a>
+        </div>
     </div>
   </div>
   </div>
@@ -6833,6 +7028,45 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     <div class="RefreshedNavItem__content">
       <span class="RefreshedNavItem__label">
         Creator economy
+        &nbsp;<svg
+  class="
+    RefreshedHoverArrow
+    RefreshedNavItem__arrow
+  "
+  width="10"
+  height="8"
+  viewBox="0 0 10 8"
+  aria-hidden="true"
+>
+<path d="M9.28027 3.4375L9.75195 3.91309L9.28027 4.3877L5.87012 7.8252L4.91113 6.87402L7.18066 4.58691H0V3.2373H7.18066L4.91113 0.951172L5.87012 0L9.28027 3.4375Z" fill="currentColor" />
+</svg>
+      </span>
+      
+    </div>
+  </a>
+</li>
+
+            
+            <li
+  class="
+    RefreshedNavItem
+    
+  "
+>
+  <a
+    class="RefreshedNavItem__link"
+    href="/industries/gaming"
+    data-js-controller='AnalyticsButton'
+    data-analytics-category='Navigation'
+    data-analytics-action='Clicked'
+    data-analytics-label='global_nav__solutions__gaming'
+    
+    tabindex="-1"
+    data-testid="header-industries-gaming-nav-item"
+  >
+    <div class="RefreshedNavItem__content">
+      <span class="RefreshedNavItem__label">
+        Gaming
         &nbsp;<svg
   class="
     RefreshedHoverArrow
@@ -18050,6 +18284,82 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     <img
   class="
     Flag
+    Flag--countryCN
+    GlobalizationPicker__countryFlagIcon
+  "
+  
+  
+  src="https://images.stripeassets.com/fzn2n1nzq965/6NuF1mvaIeEQbkEzqr5ri7/b4adfbc07d16fa159404eca23c2ab99a/flags.svg"
+  alt="CN"
+  loading="lazy"
+>
+  
+
+  <span class="GlobalizationPicker__country">China</span>
+
+  <ul class="GlobalizationPicker__countryLanguageList">
+    
+      <li class="GlobalizationPicker__countryLanguageListItem ">
+  <a
+  class="
+    Link
+    GlobalizationPicker__countryLanguage
+  "
+  href="https://stripe.com/cn/blog"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Languages'
+  data-analytics-action='Clicked'
+  data-analytics-label='简体中文'
+  
+  data-js-target-list="LocaleControl.items"
+  
+  data-testid="footer-locale-CN-zh-CN-link"
+  data-country-code="CN"
+      data-language-code="zh-CN"
+      data-globalization-active="false"
+      data-display-name="China (简体中文)"
+>简体中文</a>
+</li>
+    
+      <li class="GlobalizationPicker__countryLanguageListItem ">
+  <a
+  class="
+    Link
+    GlobalizationPicker__countryLanguage
+  "
+  href="https://stripe.com/en-cn/blog"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Languages'
+  data-analytics-action='Clicked'
+  data-analytics-label='English'
+  
+  data-js-target-list="LocaleControl.items"
+  
+  data-testid="footer-locale-CN-en-link"
+  data-country-code="CN"
+      data-language-code="en"
+      data-globalization-active="false"
+      data-display-name="China (English)"
+>English</a>
+</li>
+    
+  </ul>
+</li>
+
+            
+          
+            
+            <li class="GlobalizationPicker__countryListItem">
+  
+    <img
+  class="
+    Flag
     Flag--countryHR
     GlobalizationPicker__countryFlagIcon
   "
@@ -18323,6 +18633,9 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 </li>
 
             
+              
+              </ul><ul class="GlobalizationPicker__countryList">
+            
           
             
             <li class="GlobalizationPicker__countryListItem">
@@ -18398,9 +18711,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   </ul>
 </li>
 
-            
-              
-              </ul><ul class="GlobalizationPicker__countryList">
             
           
             
@@ -19088,6 +19398,9 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 </li>
 
             
+              
+              </ul><ul class="GlobalizationPicker__countryList">
+            
           
             
             <li class="GlobalizationPicker__countryListItem">
@@ -19163,9 +19476,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   </ul>
 </li>
 
-            
-              
-              </ul><ul class="GlobalizationPicker__countryList">
             
           
             
@@ -19878,6 +20188,9 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 </li>
 
             
+              
+              </ul><ul class="GlobalizationPicker__countryList">
+            
           
             
             <li class="GlobalizationPicker__countryListItem">
@@ -19953,9 +20266,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   </ul>
 </li>
 
-            
-              
-              </ul><ul class="GlobalizationPicker__countryList">
             
           
             
@@ -22275,6 +22585,46 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   data-testid="footer-use-cases-creator-economy-list-item"
   
 >Creator economy</a>
+  
+
+  
+</li>
+          
+          <li
+  class="
+    List__item
+    ListItem
+    
+    
+    
+  "
+  
+  
+>
+  
+
+  
+    
+    
+    <a
+  class="
+    Link
+    ListItem__label
+  "
+  href="/industries/gaming"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='global_footer__gaming'
+  
+  
+  
+  data-testid="footer-industries-gaming-list-item"
+  
+>Gaming</a>
   
 
   
