@@ -15,14 +15,14 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 <meta
   name="sentry-config"
   data-js-dsn=""
-  data-js-release="bee793a0f2553cd14a95f8b6b4bad1e35de51499"
+  data-js-release="af5ab8af129e8183ced9f809221ad36c82bbea61"
   data-js-environment="production"
   data-js-project="mkt"
 >
 
-    <meta name="edge-experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.1fb20010-261c-0384-ecaf-1f94bd33c941.m.s,wpp_console_mvp_nav_cta.treatment.ursula.0591a98e-5ea8-cb46-c246-2e9e9daedd59.m.s,acquisition_chat_cta.treatment.ursula.3776c667-9a4a-a9aa-50ce-64350ba9f1fe.a.s">
-<meta name="experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.07dbc3c7-ca8f-4ce2-a9d2-3d1d57fb2d05.m.s,wpp_console_mvp_nav_cta.treatment.ursula.f7653d55-8ae4-4d51-af6d-7593936738fb.m.s,acquisition_chat_cta.treatment.ursula.8109ca99-7412-4e5e-8a62-da34693a306b.a.s">
-<meta name="experiment-token" content="b057adf60e6d506a88900a2427b2c98f97c2d7d9">
+    <meta name="edge-experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.89337f1d-1bc7-29ad-84e1-8077466bbfc6.m.s,wpp_console_mvp_nav_cta.control.ursula.ac69c7cb-265f-a3a4-c011-e31704e90e72.m.s,acquisition_chat_cta.control.ursula.fe4c7de0-71d8-8e19-192d-31fa184ccb2d.a.s">
+<meta name="experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.3f1906c0-5a8c-42e9-bc0a-25b313caad51.m.s,wpp_console_mvp_nav_cta.control.ursula.299edf28-46a6-4afe-9bfd-6dd10ac1be36.m.s,acquisition_chat_cta.control.ursula.e80381cb-018a-4d98-afaf-8d1cc19a7a29.a.s">
+<meta name="experiment-token" content="b057adf6c423b01be9e7b7fdf90c4172719e50b5">
     
 
     <script>(() => {
@@ -78,11 +78,11 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
     <meta name="request-country" content="US"/>
 
-    <script type="application/json" id="AnalyticsConfigurationJSON" >{"GTM_ID":"GTM-WK8882T","GTM_FRAME_URL":"https://b.stripecdn.com/stripethirdparty-srv/assets/","patchMismatchedCids":false,"environment":"production"}</script>
+    <script type="application/json" id="AnalyticsConfigurationJSON" >{"GTM_ID":"GTM-WK8882T","GTM_FRAME_URL":"https://b.stripecdn.com/stripethirdparty-srv/assets/","patchMismatchedCids":false,"enableKeepalive":true,"environment":"production"}</script>
 
     <template id="source-attribution-loader">
   <script defer
-    src="https://b.stripecdn.com/mkt-statics-srv/assets/imt-1c176fd0607b7f9c169d6dc069ba107b.js"
+    src="https://b.stripecdn.com/mkt-statics-srv/assets/imt-b4660ee089c95b716715189ea3dacfd7.js"
     data-store_url="https://b.stripecdn.com/mkt-statics-srv/assets/store-936f0d847a16164e7f6b15d74659c4a9.html">
   </script>
 </template>
@@ -369,7 +369,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
             <link rel="stylesheet" href="https://b.stripecdn.com/mkt-statics-srv/assets/v1-FooterCta-5c36111b4ff102920753.css" media="print" data-js-lazy-style>
           
 
-            <link rel="stylesheet" href="https://b.stripecdn.com/mkt-statics-srv/assets/v1-TextInput-7a46dd2aeefbe11e0b8b.css" media="print" data-js-lazy-style>
+            <link rel="stylesheet" href="https://b.stripecdn.com/mkt-statics-srv/assets/v1-TextInput-143eb5cd823ddec04fca.css" media="print" data-js-lazy-style>
           
 
             <link rel="stylesheet" href="https://b.stripecdn.com/mkt-statics-srv/assets/v1-Form-cfab01294487569851d9.css" media="print" data-js-lazy-style>
@@ -423,7 +423,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 <link rel="stylesheet" href="https://b.stripecdn.com/mkt-statics-srv/assets/v1-FullWidthCarousel-ca581ba22d8ecfdc500f.css">
 <link rel="stylesheet" href="https://b.stripecdn.com/mkt-statics-srv/assets/v1-CtaGroup-13dc9478d03bd7cc5b13.css">
 <link rel="stylesheet" href="https://b.stripecdn.com/mkt-statics-srv/assets/v1-FooterCta-5c36111b4ff102920753.css">
-<link rel="stylesheet" href="https://b.stripecdn.com/mkt-statics-srv/assets/v1-TextInput-7a46dd2aeefbe11e0b8b.css">
+<link rel="stylesheet" href="https://b.stripecdn.com/mkt-statics-srv/assets/v1-TextInput-143eb5cd823ddec04fca.css">
 <link rel="stylesheet" href="https://b.stripecdn.com/mkt-statics-srv/assets/v1-Form-cfab01294487569851d9.css">
 <link rel="stylesheet" href="https://b.stripecdn.com/mkt-statics-srv/assets/v1-FormFooter-ff68f881919d6cf03864.css">
 <link rel="stylesheet" href="https://b.stripecdn.com/mkt-statics-srv/assets/v1-FormSubmitButton-1411de6fb107f89e4250.css">
@@ -443,11 +443,11 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
 
         <script type="application/json" data-js-script-registry>
-          [{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-B4BGXUKQ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedSiteHeader-SK2NNQTV.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-DashboardLoginLink-R7ITFTZG.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedMobileMenu-3HCCUN55.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedProductsNavGroup-U3ZRICJZ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-HorizontalOverflowContainer-FKC5BOVJ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Gradient-BQLH2XZ6.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-SegmentedControl-VDMEUPCE.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UpdateCard-XOFMBY2O.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FullWidthCarousel-4XFTHFKF.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FooterCta-ZSWJ2X7B.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-TextInput-BWXQ4XA7.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Form-5MMCTHWM.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-PrivacyNotice-NDZFOER4.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LocaleControl-HJB7U6AP.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-ZZQ2XSU6.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Sentry-IABPFTSH.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-EnforceSameSiteLaxOnCookies-5NDXH4YF.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LoaderScript-ZMRNY66E.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatInitializer-YOHYMGT4.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatCtaButtonLarge-7QEATMDS.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Loader-3FAXKCTA.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-ScrollDepthTracker-QLQ4SF3U.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-MonitorWebVitals-25AZETKV.js"}]
+          [{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-2QNQTHWC.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedSiteHeader-XLCJYC4C.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-DashboardLoginLink-SMEHIEMG.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedMobileMenu-7MO6DBLP.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedProductsNavGroup-DYYBNQBW.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-HorizontalOverflowContainer-YOU6AJP3.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Gradient-VRCDMTIQ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-SegmentedControl-43DQ3IMC.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UpdateCard-P2DHHNQS.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FullWidthCarousel-RT5HIJPN.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FooterCta-5EY6RXZ5.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-TextInput-VQHIYB2O.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Form-TN75DPUL.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-PrivacyNotice-QOCAABKJ.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LocaleControl-S2ZJVZYT.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-YZOCCQGV.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Sentry-IABPFTSH.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-EnforceSameSiteLaxOnCookies-5NDXH4YF.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LoaderScript-NT5I7B2U.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatInitializer-ZEJTGAG5.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatCtaButtonLarge-FZJAW3PL.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Loader-WYKIRAZN.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-ScrollDepthTracker-VL5FCJR3.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-MonitorWebVitals-FSGJSRZS.js"}]
         </script>
       
 
-        <script type="module" src="https://b.stripecdn.com/mkt-statics-srv/assets/v1-Bootstrapper-5I7ADLRL.js"></script>
+        <script type="module" src="https://b.stripecdn.com/mkt-statics-srv/assets/v1-Bootstrapper-QGOKFQKI.js"></script>
       
 
   </head>
@@ -674,40 +674,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 >Pricing</a>
   
 </li>
-              <li class='
-  SiteHeaderNavItem
-  SiteHeaderNavItem--refreshed
-  
-  SiteHeaderNavItem--hasSparkle
-'>
-  
-    <svg class="SiteHeaderNavItem__sparkleDivider" width="1" height="19" viewBox="0 0 1 19" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
-      <rect width="1" height="19" fill="#061B31" fill-opacity="0.3"/>
-    </svg>
-    <a
-  class="
-    Link
-    SiteHeaderNavItem__link SiteHeaderNavItem__link--hasSparkle
-  "
-  href="/personalize"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='global_nav__guide_me'
-  
-  
-  
-  data-testid="header-guide-me-nav-item"
-  
-><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" class="SiteHeaderNavItem__sparkleIcon" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
-        <path fill="currentColor" d="M9.168 6.568c.076.213.244.38.457.456l4.106 1.455v1.641l-4.106 1.455a.75.75 0 0 0-.457.457l-1.4 3.951H6.018l-1.4-3.95a.75.75 0 0 0-.379-.425l-.077-.033L.055 10.12V8.48L4.16 7.024a.75.75 0 0 0 .424-.378l.032-.078 1.49-4.207h1.57zm-3.137.501a2.25 2.25 0 0 1-1.369 1.37l-2.433.86 2.433.863c.56.198 1.015.608 1.272 1.136l.097.233.862 2.432.862-2.432.098-.233a2.25 2.25 0 0 1 1.271-1.136l2.432-.862-2.432-.862a2.25 2.25 0 0 1-1.37-1.369l-.861-2.432zm7.63-4.835a.25.25 0 0 0 .15.153l1.793.635v.535l-1.792.636a.25.25 0 0 0-.152.153l-.644 1.816h-.518l-.644-1.816a.25.25 0 0 0-.153-.153L9.91 3.558V3.02l1.792-.634a.25.25 0 0 0 .152-.153l.645-1.816h.518z"/>
-      </svg>
-      <span>Guide me</span></a>
-  
-</li>
   </ul>
 </nav>
           </div>
@@ -899,46 +865,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
           </nav>
 
           <nav class="SiteHeader__menuNav SiteHeader__menuNav--guide-me-container">
-              <a
-  class='
-    CtaButton
-    variant--Link
-    CtaButton--arrow
-    
-    SiteHeader__menuNav--guide-me
-  '
-  href="/personalize"
-  
-  data-js-controller='AnalyticsButton'
-  
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='global_nav__guide_me'
-  
-  
-  
-  data-testid="header-guide-me-nav-item"
-  
->Guide me<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span>
-</a>
+              
               <button
   class='RefreshedMenuButton'
   title='Open mobile navigation'
@@ -992,46 +919,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
       <span class="MobileMenu__backButtonText">Back</span>
     </button>
     <div class="MobileMenu--guide-me">
-                  <a
-  class='
-    CtaButton
-    variant--Link
-    CtaButton--arrow
-    
-    SiteHeader__menuNav--guide-me
-  '
-  href="/personalize"
-  
-  data-js-controller='AnalyticsButton'
-  
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='global_nav__guide_me'
-  
-  
-  
-  data-testid="header-guide-me-nav-item"
-  
->Guide me<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span>
-</a>
+                  
                 <button
   class="MobileMenu__closeButton"
   data-js-target='MobileMenu.closeButton'
@@ -3557,6 +3445,45 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 >
   <a
     class="RefreshedNavItem__link"
+    href="/industries/professional-services"
+    data-js-controller='AnalyticsButton'
+    data-analytics-category='Navigation'
+    data-analytics-action='Clicked'
+    data-analytics-label='global_nav__solutions__professional_services'
+    
+    tabindex="-1"
+    data-testid="header-mobile-industries-professional-services-nav-item"
+  >
+    <div class="RefreshedNavItem__content">
+      <span class="RefreshedNavItem__label">
+        Professional services
+        &nbsp;<svg
+  class="
+    RefreshedHoverArrow
+    RefreshedNavItem__arrow
+  "
+  width="10"
+  height="8"
+  viewBox="0 0 10 8"
+  aria-hidden="true"
+>
+<path d="M9.28027 3.4375L9.75195 3.91309L9.28027 4.3877L5.87012 7.8252L4.91113 6.87402L7.18066 4.58691H0V3.2373H7.18066L4.91113 0.951172L5.87012 0L9.28027 3.4375Z" fill="currentColor" />
+</svg>
+      </span>
+      
+    </div>
+  </a>
+</li>
+
+            
+            <li
+  class="
+    RefreshedNavItem
+    
+  "
+>
+  <a
+    class="RefreshedNavItem__link"
     href="/industries/retail"
     data-js-controller='AnalyticsButton'
     data-analytics-category='Navigation'
@@ -4060,6 +3987,45 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     <div class="RefreshedNavItem__content">
       <span class="RefreshedNavItem__label">
         Issue stablecoin-backed cards
+        &nbsp;<svg
+  class="
+    RefreshedHoverArrow
+    RefreshedNavItem__arrow
+  "
+  width="10"
+  height="8"
+  viewBox="0 0 10 8"
+  aria-hidden="true"
+>
+<path d="M9.28027 3.4375L9.75195 3.91309L9.28027 4.3877L5.87012 7.8252L4.91113 6.87402L7.18066 4.58691H0V3.2373H7.18066L4.91113 0.951172L5.87012 0L9.28027 3.4375Z" fill="currentColor" />
+</svg>
+      </span>
+      
+    </div>
+  </a>
+</li>
+
+          
+          <li
+  class="
+    RefreshedNavItem
+    
+  "
+>
+  <a
+    class="RefreshedNavItem__link"
+    href="https://docs.stripe.com/projects"
+    data-js-controller='AnalyticsButton'
+    data-analytics-category='Navigation'
+    data-analytics-action='Clicked'
+    data-analytics-label='global_nav__developers__stripe_projects'
+    
+    tabindex="-1"
+    data-testid="header-mobile-developers-stripe-projects-nav-item"
+  >
+    <div class="RefreshedNavItem__content">
+      <span class="RefreshedNavItem__label">
+        Provision and manage services with agents
         &nbsp;<svg
   class="
     RefreshedHoverArrow
@@ -6429,51 +6395,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 </div>
         </div>
       </aside>
-      <div class="RefreshedProductsNav__consoleBanner">
-          <span class="RefreshedProductsNav__consoleBannerDescription">
-            <strong>Not sure where to start?</strong> Tell us about your business to get personalized Stripe product recommendations.
-          </span>
-          <a
-  class='
-    CtaButton
-    variant--
-    CtaButton--arrow
-    
-    RefreshedProductsNav__consoleBannerLink
-  '
-  href="/personalize"
-  
-  data-js-controller='AnalyticsButton'
-  
-  data-analytics-category='Buttons'
-  data-analytics-action='Clicked'
-  data-analytics-label='global_nav__products__find_whats_right'
-  
-  
-  
-  
-  
->Find what's right for you<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
       
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span>
-</a>
-        </div>
     </div>
   </div>
   </div>
@@ -7249,6 +7171,45 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 >
   <a
     class="RefreshedNavItem__link"
+    href="/industries/professional-services"
+    data-js-controller='AnalyticsButton'
+    data-analytics-category='Navigation'
+    data-analytics-action='Clicked'
+    data-analytics-label='global_nav__solutions__professional_services'
+    
+    tabindex="-1"
+    data-testid="header-industries-professional-services-nav-item"
+  >
+    <div class="RefreshedNavItem__content">
+      <span class="RefreshedNavItem__label">
+        Professional services
+        &nbsp;<svg
+  class="
+    RefreshedHoverArrow
+    RefreshedNavItem__arrow
+  "
+  width="10"
+  height="8"
+  viewBox="0 0 10 8"
+  aria-hidden="true"
+>
+<path d="M9.28027 3.4375L9.75195 3.91309L9.28027 4.3877L5.87012 7.8252L4.91113 6.87402L7.18066 4.58691H0V3.2373H7.18066L4.91113 0.951172L5.87012 0L9.28027 3.4375Z" fill="currentColor" />
+</svg>
+      </span>
+      
+    </div>
+  </a>
+</li>
+
+            
+            <li
+  class="
+    RefreshedNavItem
+    
+  "
+>
+  <a
+    class="RefreshedNavItem__link"
     href="/industries/public-sector"
     data-js-controller='AnalyticsButton'
     data-analytics-category='Navigation'
@@ -7796,6 +7757,45 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     <div class="RefreshedNavItem__content">
       <span class="RefreshedNavItem__label">
         Issue stablecoin-backed cards
+        &nbsp;<svg
+  class="
+    RefreshedHoverArrow
+    RefreshedNavItem__arrow
+  "
+  width="10"
+  height="8"
+  viewBox="0 0 10 8"
+  aria-hidden="true"
+>
+<path d="M9.28027 3.4375L9.75195 3.91309L9.28027 4.3877L5.87012 7.8252L4.91113 6.87402L7.18066 4.58691H0V3.2373H7.18066L4.91113 0.951172L5.87012 0L9.28027 3.4375Z" fill="currentColor" />
+</svg>
+      </span>
+      
+    </div>
+  </a>
+</li>
+
+              
+              <li
+  class="
+    RefreshedNavItem
+    
+  "
+>
+  <a
+    class="RefreshedNavItem__link"
+    href="https://docs.stripe.com/projects"
+    data-js-controller='AnalyticsButton'
+    data-analytics-category='Navigation'
+    data-analytics-action='Clicked'
+    data-analytics-label='global_nav__developers__stripe_projects'
+    
+    tabindex="-1"
+    data-testid="header-developers-stripe-projects-nav-item"
+  >
+    <div class="RefreshedNavItem__content">
+      <span class="RefreshedNavItem__label">
+        Provision and manage services with agents
         &nbsp;<svg
   class="
     RefreshedHoverArrow
@@ -17319,6 +17319,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
       <g fill="var(--inputErrorAccentColor)" fill-rule="evenodd"><circle cx="8" cy="8" r="8" fill-opacity=".2"/><path d="M8 11a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm0-8a1 1 0 0 1 1 1v5a1 1 0 1 1-2 0V4a1 1 0 0 1 1-1z"/></g>
     </svg>
+    
   </div>
 </div>
 
@@ -22143,7 +22144,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
   
 </li>
-          
+
           
           <li
   class="
@@ -22810,6 +22811,46 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     ListItem__label
   "
+  href="/industries/professional-services"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='global_footer__professional_services'
+  
+  
+  
+  data-testid="footer-industries-professional-services-list-item"
+  
+>Professional services</a>
+  
+
+  
+</li>
+          
+          <li
+  class="
+    List__item
+    ListItem
+    
+    
+    
+  "
+  
+  
+>
+  
+
+  
+    
+    
+    <a
+  class="
+    Link
+    ListItem__label
+  "
   href="/industries/public-sector"
   
   
@@ -23245,6 +23286,46 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   data-testid="footer-developers-libraries-and_sdks-list-item"
   
 >Libraries and SDKs</a>
+  
+
+  
+</li>
+      
+        <li
+  class="
+    List__item
+    ListItem
+    
+    
+    
+  "
+  
+  
+>
+  
+
+  
+    
+    
+    <a
+  class="
+    Link
+    ListItem__label
+  "
+  href="https://docs.stripe.com/projects"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='global_footer__stripe_projects'
+  
+  
+  
+  data-testid="footer-developers-stripe-projects-list-item"
+  
+>Stripe Projects</a>
   
 
   
