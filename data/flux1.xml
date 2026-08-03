@@ -15,14 +15,14 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 <meta
   name="sentry-config"
   data-js-dsn=""
-  data-js-release="d1f62e4325d406ee09a9e4a0c65b722378d96685"
+  data-js-release="bcc1c54911b8aa3d835c8932c03705d35a513021"
   data-js-environment="production"
   data-js-project="mkt"
 >
 
-    <meta name="edge-experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.2e6b0703-840d-fbe8-d224-bba69f8ed2e0.m.s,wpp_console_mvp_nav_cta.control.ursula.2e6b0703-840d-fbe8-d224-bba69f8ed2e0.m.s,acquisition_chat_cta.treatment.ursula.2e6b0703-840d-fbe8-d224-bba69f8ed2e0.a.s">
-<meta name="experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.5a48cddb-fee9-48b1-b908-5ea3b85a1afb.m.s,wpp_console_mvp_nav_cta.control.ursula.71069d17-f6f5-40d5-9a06-9591d1543923.m.s,acquisition_chat_cta.treatment.ursula.a0d27062-894f-4407-9189-afb2fd64cd8c.a.s">
-<meta name="experiment-token" content="b057adf65592c550675e1fb2b776c83855a0c409">
+    <meta name="edge-experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.67e32614-8409-46b3-ea37-2e9f877fb7fa.m.s,wpp_console_mvp_nav_cta.treatment.ursula.b5966aa0-d6e8-7da8-99f1-8aac95a6445f.m.s,acquisition_chat_cta.treatment.ursula.c3071a78-64ad-2761-a2b8-2a7ba317082c.a.s">
+<meta name="experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.6983698a-69c2-477a-aee8-1c519c4f55e1.m.s,wpp_console_mvp_nav_cta.treatment.ursula.bb3a09f6-7c7b-4a44-8de5-eac693075fa4.m.s,acquisition_chat_cta.treatment.ursula.587decea-97b5-4e11-8afd-bb70a6fbc587.a.s">
+<meta name="experiment-token" content="b057adf68076654b067a13ac61429a6120179092">
     
 
     <script>(() => {
@@ -82,7 +82,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
     <template id="source-attribution-loader">
   <script defer
-    src="https://b.stripecdn.com/mkt-statics-srv/assets/imt-2b998bc079acb705832762341c126e47.js"
+    src="https://b.stripecdn.com/mkt-statics-srv/assets/imt-b322d192a84de4bd69ea6395f47e42e0.js"
     data-store_url="https://b.stripecdn.com/mkt-statics-srv/assets/store-936f0d847a16164e7f6b15d74659c4a9.html">
   </script>
 </template>
@@ -443,11 +443,11 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
 
         <script type="application/json" data-js-script-registry>
-          [{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-5YR2GODR.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedSiteHeader-XEYSDM7I.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-DashboardLoginLink-PCBGPUD5.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedMobileMenu-EGWFQS3O.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedProductsNavGroup-2OL4XFPI.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-HorizontalOverflowContainer-BO5BQNCQ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Gradient-7KRHHO6I.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-SegmentedControl-AIQPLP5I.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UpdateCard-FW3XQ4PA.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FullWidthCarousel-5OXHYY4Z.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FooterCta-ZLMFD3VI.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-TextInput-C7SNT2ED.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Form-XPPOQ23V.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-PrivacyNotice-WFW5CXGL.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LocaleControl-RVV3BJ3N.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-SVFPKZHE.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Sentry-IABPFTSH.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-EnforceSameSiteLaxOnCookies-5NDXH4YF.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LoaderScript-ING2ZBJT.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatInitializer-K2JUHGQD.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatCtaButtonLarge-VFKCHM64.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Loader-IGLMV3G4.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-ScrollDepthTracker-4LMS2NYA.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-MonitorWebVitals-TA7OE237.js"}]
+          [{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-KCTGLSRD.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedSiteHeader-TVPGZFQW.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-DashboardLoginLink-TJB22IFQ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedMobileMenu-XU4TPCWU.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedProductsNavGroup-Y7AGH4MD.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-HorizontalOverflowContainer-GQNAYF2I.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Gradient-O7YSEUB7.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-SegmentedControl-SU5IPMAG.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UpdateCard-EWJ2LEGE.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FullWidthCarousel-BEW2PXFT.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FooterCta-TTYMGXKC.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-TextInput-AL3I7ZMO.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Form-3YQLDCFS.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-PrivacyNotice-RQLGCF7I.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LocaleControl-ZT64UILJ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-IPDYYTQ7.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Sentry-IABPFTSH.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-EnforceSameSiteLaxOnCookies-5NDXH4YF.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LoaderScript-BK7GKOZ3.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatInitializer-W3YKH7RJ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatCtaButtonLarge-DWOJIGVS.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Loader-UBHCMIXF.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-ScrollDepthTracker-7VOYHZH5.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-MonitorWebVitals-5JPLWT2F.js"}]
         </script>
       
 
-        <script type="module" src="https://b.stripecdn.com/mkt-statics-srv/assets/v1-Bootstrapper-4J6B7XVO.js"></script>
+        <script type="module" src="https://b.stripecdn.com/mkt-statics-srv/assets/v1-Bootstrapper-LB5GVWAK.js"></script>
       
 
   </head>
@@ -672,6 +672,40 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   data-testid="header-pricing-nav-item"
   
 >Pricing</a>
+  
+</li>
+              <li class='
+  SiteHeaderNavItem
+  SiteHeaderNavItem--refreshed
+  
+  SiteHeaderNavItem--hasSparkle
+'>
+  
+    <svg class="SiteHeaderNavItem__sparkleDivider" width="1" height="19" viewBox="0 0 1 19" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+      <rect width="1" height="19" fill="#061B31" fill-opacity="0.3"/>
+    </svg>
+    <a
+  class="
+    Link
+    SiteHeaderNavItem__link SiteHeaderNavItem__link--hasSparkle
+  "
+  href="/personalize"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='global_nav__guide_me'
+  
+  
+  
+  data-testid="header-guide-me-nav-item"
+  
+><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" class="SiteHeaderNavItem__sparkleIcon" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+        <path fill="currentColor" d="M9.168 6.568c.076.213.244.38.457.456l4.106 1.455v1.641l-4.106 1.455a.75.75 0 0 0-.457.457l-1.4 3.951H6.018l-1.4-3.95a.75.75 0 0 0-.379-.425l-.077-.033L.055 10.12V8.48L4.16 7.024a.75.75 0 0 0 .424-.378l.032-.078 1.49-4.207h1.57zm-3.137.501a2.25 2.25 0 0 1-1.369 1.37l-2.433.86 2.433.863c.56.198 1.015.608 1.272 1.136l.097.233.862 2.432.862-2.432.098-.233a2.25 2.25 0 0 1 1.271-1.136l2.432-.862-2.432-.862a2.25 2.25 0 0 1-1.37-1.369l-.861-2.432zm7.63-4.835a.25.25 0 0 0 .15.153l1.793.635v.535l-1.792.636a.25.25 0 0 0-.152.153l-.644 1.816h-.518l-.644-1.816a.25.25 0 0 0-.153-.153L9.91 3.558V3.02l1.792-.634a.25.25 0 0 0 .152-.153l.645-1.816h.518z"/>
+      </svg>
+      <span>Guide me</span></a>
   
 </li>
   </ul>
@@ -1487,48 +1521,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 >
   <a
     class="RefreshedNavItem__link"
-    href="/radar"
-    data-js-controller='AnalyticsButton'
-    data-analytics-category='Navigation'
-    data-analytics-action='Clicked'
-    data-analytics-label='global_nav__products__radar'
-    
-    tabindex="-1"
-    data-testid="header-products-global-payments-radar-nav-item"
-  >
-    <div class="RefreshedNavItem__content">
-      <span class="RefreshedNavItem__label">
-        Radar
-        &nbsp;<svg
-  class="
-    RefreshedHoverArrow
-    RefreshedNavItem__arrow
-  "
-  width="10"
-  height="8"
-  viewBox="0 0 10 8"
-  aria-hidden="true"
->
-<path d="M9.28027 3.4375L9.75195 3.91309L9.28027 4.3877L5.87012 7.8252L4.91113 6.87402L7.18066 4.58691H0V3.2373H7.18066L4.91113 0.951172L5.87012 0L9.28027 3.4375Z" fill="currentColor" />
-</svg>
-      </span>
-      
-        <p class="RefreshedNavItem__body">
-          Fraud prevention
-        </p>
-      
-    </div>
-  </a>
-</li>
-                
-                  <li
-  class="
-    RefreshedNavItem
-    
-  "
->
-  <a
-    class="RefreshedNavItem__link"
     href="/authorization-boost"
     data-js-controller='AnalyticsButton'
     data-analytics-category='Navigation'
@@ -1599,6 +1591,48 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
       
         <p class="RefreshedNavItem__body">
           Accelerated checkout
+        </p>
+      
+    </div>
+  </a>
+</li>
+                
+                  <li
+  class="
+    RefreshedNavItem
+    
+  "
+>
+  <a
+    class="RefreshedNavItem__link"
+    href="/financial-connections"
+    data-js-controller='AnalyticsButton'
+    data-analytics-category='Navigation'
+    data-analytics-action='Clicked'
+    data-analytics-label='global_nav__products__financial_connections'
+    
+    tabindex="-1"
+    data-testid="header-products-global-payments-financial-connections-nav-item"
+  >
+    <div class="RefreshedNavItem__content">
+      <span class="RefreshedNavItem__label">
+        Financial Connections
+        &nbsp;<svg
+  class="
+    RefreshedHoverArrow
+    RefreshedNavItem__arrow
+  "
+  width="10"
+  height="8"
+  viewBox="0 0 10 8"
+  aria-hidden="true"
+>
+<path d="M9.28027 3.4375L9.75195 3.91309L9.28027 4.3877L5.87012 7.8252L4.91113 6.87402L7.18066 4.58691H0V3.2373H7.18066L4.91113 0.951172L5.87012 0L9.28027 3.4375Z" fill="currentColor" />
+</svg>
+      </span>
+      
+        <p class="RefreshedNavItem__body">
+          Linked financial account data
         </p>
       
     </div>
@@ -1966,7 +2000,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
             <div class="SiteProductsNav__group" data-js-controller="RefreshedProductsNavGroup">
   <h1 class="SiteProductsNav__groupTitle">
   
-        Money Management
+        Money management
     
 </h1>
   <div class="RefreshedGradientLine"></div>
@@ -2429,6 +2463,48 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 >
   <a
     class="RefreshedNavItem__link"
+    href="/radar"
+    data-js-controller='AnalyticsButton'
+    data-analytics-category='Navigation'
+    data-analytics-action='Clicked'
+    data-analytics-label='global_nav__products__radar'
+    
+    tabindex="-1"
+    data-testid="header-products-global-payments-radar-nav-item"
+  >
+    <div class="RefreshedNavItem__content">
+      <span class="RefreshedNavItem__label">
+        Radar
+        &nbsp;<svg
+  class="
+    RefreshedHoverArrow
+    RefreshedNavItem__arrow
+  "
+  width="10"
+  height="8"
+  viewBox="0 0 10 8"
+  aria-hidden="true"
+>
+<path d="M9.28027 3.4375L9.75195 3.91309L9.28027 4.3877L5.87012 7.8252L4.91113 6.87402L7.18066 4.58691H0V3.2373H7.18066L4.91113 0.951172L5.87012 0L9.28027 3.4375Z" fill="currentColor" />
+</svg>
+      </span>
+      
+        <p class="RefreshedNavItem__body">
+          Fraud prevention
+        </p>
+      
+    </div>
+  </a>
+</li>
+            
+              <li
+  class="
+    RefreshedNavItem
+    
+  "
+>
+  <a
+    class="RefreshedNavItem__link"
     href="/atlas"
     data-js-controller='AnalyticsButton'
     data-analytics-category='Navigation'
@@ -2541,48 +2617,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
       
         <p class="RefreshedNavItem__body">
           Online identity verification
-        </p>
-      
-    </div>
-  </a>
-</li>
-            
-              <li
-  class="
-    RefreshedNavItem
-    
-  "
->
-  <a
-    class="RefreshedNavItem__link"
-    href="/financial-connections"
-    data-js-controller='AnalyticsButton'
-    data-analytics-category='Navigation'
-    data-analytics-action='Clicked'
-    data-analytics-label='global_nav__products__financial_connections'
-    
-    tabindex="-1"
-    data-testid="header-products-global-payments-financial-connections-nav-item"
-  >
-    <div class="RefreshedNavItem__content">
-      <span class="RefreshedNavItem__label">
-        Financial Connections
-        &nbsp;<svg
-  class="
-    RefreshedHoverArrow
-    RefreshedNavItem__arrow
-  "
-  width="10"
-  height="8"
-  viewBox="0 0 10 8"
-  aria-hidden="true"
->
-<path d="M9.28027 3.4375L9.75195 3.91309L9.28027 4.3877L5.87012 7.8252L4.91113 6.87402L7.18066 4.58691H0V3.2373H7.18066L4.91113 0.951172L5.87012 0L9.28027 3.4375Z" fill="currentColor" />
-</svg>
-      </span>
-      
-        <p class="RefreshedNavItem__body">
-          Linked financial account data
         </p>
       
     </div>
@@ -3059,6 +3093,45 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     <div class="RefreshedNavItem__content">
       <span class="RefreshedNavItem__label">
         Marketplaces
+        &nbsp;<svg
+  class="
+    RefreshedHoverArrow
+    RefreshedNavItem__arrow
+  "
+  width="10"
+  height="8"
+  viewBox="0 0 10 8"
+  aria-hidden="true"
+>
+<path d="M9.28027 3.4375L9.75195 3.91309L9.28027 4.3877L5.87012 7.8252L4.91113 6.87402L7.18066 4.58691H0V3.2373H7.18066L4.91113 0.951172L5.87012 0L9.28027 3.4375Z" fill="currentColor" />
+</svg>
+      </span>
+      
+    </div>
+  </a>
+</li>
+
+            
+            <li
+  class="
+    RefreshedNavItem
+    
+  "
+>
+  <a
+    class="RefreshedNavItem__link"
+    href="/money-management/availability"
+    data-js-controller='AnalyticsButton'
+    data-analytics-category='Navigation'
+    data-analytics-action='Clicked'
+    data-analytics-label='global_nav__solutions__money_management'
+    
+    tabindex="-1"
+    data-testid="header-mobile-use-cases-money-management-nav-item"
+  >
+    <div class="RefreshedNavItem__content">
+      <span class="RefreshedNavItem__label">
+        Money management
         &nbsp;<svg
   class="
     RefreshedHoverArrow
@@ -4262,45 +4335,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 >
   <a
     class="RefreshedNavItem__link"
-    href="https://stripecommunity.com/"
-    data-js-controller='AnalyticsButton'
-    data-analytics-category='Navigation'
-    data-analytics-action='Clicked'
-    data-analytics-label='global_nav__resources__stripe_community'
-    
-    tabindex="-1"
-    data-testid="header-mobile-stripe-community-nav-item"
-  >
-    <div class="RefreshedNavItem__content">
-      <span class="RefreshedNavItem__label">
-        Community
-        &nbsp;<svg
-  class="
-    RefreshedHoverArrow
-    RefreshedNavItem__arrow
-  "
-  width="10"
-  height="8"
-  viewBox="0 0 10 8"
-  aria-hidden="true"
->
-<path d="M9.28027 3.4375L9.75195 3.91309L9.28027 4.3877L5.87012 7.8252L4.91113 6.87402L7.18066 4.58691H0V3.2373H7.18066L4.91113 0.951172L5.87012 0L9.28027 3.4375Z" fill="currentColor" />
-</svg>
-      </span>
-      
-    </div>
-  </a>
-</li>
-
-          
-          <li
-  class="
-    RefreshedNavItem
-    
-  "
->
-  <a
-    class="RefreshedNavItem__link"
     href="/customers"
     data-js-controller='AnalyticsButton'
     data-analytics-category='Navigation'
@@ -4584,18 +4618,18 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 >
   <a
     class="RefreshedNavItem__link"
-    href="/jobs"
+    href="/careers"
     data-js-controller='AnalyticsButton'
     data-analytics-category='Navigation'
     data-analytics-action='Clicked'
-    data-analytics-label='global_nav__resources__jobs'
+    data-analytics-label='global_nav__resources__careers'
     
     tabindex="-1"
-    data-testid="header-mobile-jobs-nav-item"
+    data-testid="header-mobile-careers-nav-item"
   >
     <div class="RefreshedNavItem__content">
       <span class="RefreshedNavItem__label">
-        Jobs
+        Careers
         &nbsp;<svg
   class="
     RefreshedHoverArrow
@@ -5203,48 +5237,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 >
   <a
     class="RefreshedNavItem__link"
-    href="/radar"
-    data-js-controller='AnalyticsButton'
-    data-analytics-category='Navigation'
-    data-analytics-action='Clicked'
-    data-analytics-label='global_nav__products__radar'
-    
-    tabindex="-1"
-    data-testid="header-products-global-payments-radar-nav-item"
-  >
-    <div class="RefreshedNavItem__content">
-      <span class="RefreshedNavItem__label">
-        Radar
-        &nbsp;<svg
-  class="
-    RefreshedHoverArrow
-    RefreshedNavItem__arrow
-  "
-  width="10"
-  height="8"
-  viewBox="0 0 10 8"
-  aria-hidden="true"
->
-<path d="M9.28027 3.4375L9.75195 3.91309L9.28027 4.3877L5.87012 7.8252L4.91113 6.87402L7.18066 4.58691H0V3.2373H7.18066L4.91113 0.951172L5.87012 0L9.28027 3.4375Z" fill="currentColor" />
-</svg>
-      </span>
-      
-        <p class="RefreshedNavItem__body">
-          Fraud prevention
-        </p>
-      
-    </div>
-  </a>
-</li>
-              
-                <li
-  class="
-    RefreshedNavItem
-    
-  "
->
-  <a
-    class="RefreshedNavItem__link"
     href="/authorization-boost"
     data-js-controller='AnalyticsButton'
     data-analytics-category='Navigation'
@@ -5315,6 +5307,48 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
       
         <p class="RefreshedNavItem__body">
           Accelerated checkout
+        </p>
+      
+    </div>
+  </a>
+</li>
+              
+                <li
+  class="
+    RefreshedNavItem
+    
+  "
+>
+  <a
+    class="RefreshedNavItem__link"
+    href="/financial-connections"
+    data-js-controller='AnalyticsButton'
+    data-analytics-category='Navigation'
+    data-analytics-action='Clicked'
+    data-analytics-label='global_nav__products__financial_connections'
+    
+    tabindex="-1"
+    data-testid="header-products-global-payments-financial-connections-nav-item"
+  >
+    <div class="RefreshedNavItem__content">
+      <span class="RefreshedNavItem__label">
+        Financial Connections
+        &nbsp;<svg
+  class="
+    RefreshedHoverArrow
+    RefreshedNavItem__arrow
+  "
+  width="10"
+  height="8"
+  viewBox="0 0 10 8"
+  aria-hidden="true"
+>
+<path d="M9.28027 3.4375L9.75195 3.91309L9.28027 4.3877L5.87012 7.8252L4.91113 6.87402L7.18066 4.58691H0V3.2373H7.18066L4.91113 0.951172L5.87012 0L9.28027 3.4375Z" fill="currentColor" />
+</svg>
+      </span>
+      
+        <p class="RefreshedNavItem__body">
+          Linked financial account data
         </p>
       
     </div>
@@ -5682,7 +5716,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
           <div class="SiteProductsNav__group" data-js-controller="RefreshedProductsNavGroup">
   <h1 class="SiteProductsNav__groupTitle">
   
-        Money Management
+        Money management
     
 </h1>
   <div class="RefreshedGradientLine"></div>
@@ -6145,6 +6179,48 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 >
   <a
     class="RefreshedNavItem__link"
+    href="/radar"
+    data-js-controller='AnalyticsButton'
+    data-analytics-category='Navigation'
+    data-analytics-action='Clicked'
+    data-analytics-label='global_nav__products__radar'
+    
+    tabindex="-1"
+    data-testid="header-products-global-payments-radar-nav-item"
+  >
+    <div class="RefreshedNavItem__content">
+      <span class="RefreshedNavItem__label">
+        Radar
+        &nbsp;<svg
+  class="
+    RefreshedHoverArrow
+    RefreshedNavItem__arrow
+  "
+  width="10"
+  height="8"
+  viewBox="0 0 10 8"
+  aria-hidden="true"
+>
+<path d="M9.28027 3.4375L9.75195 3.91309L9.28027 4.3877L5.87012 7.8252L4.91113 6.87402L7.18066 4.58691H0V3.2373H7.18066L4.91113 0.951172L5.87012 0L9.28027 3.4375Z" fill="currentColor" />
+</svg>
+      </span>
+      
+        <p class="RefreshedNavItem__body">
+          Fraud prevention
+        </p>
+      
+    </div>
+  </a>
+</li>
+            
+              <li
+  class="
+    RefreshedNavItem
+    
+  "
+>
+  <a
+    class="RefreshedNavItem__link"
     href="/atlas"
     data-js-controller='AnalyticsButton'
     data-analytics-category='Navigation'
@@ -6263,48 +6339,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   </a>
 </li>
             
-              <li
-  class="
-    RefreshedNavItem
-    
-  "
->
-  <a
-    class="RefreshedNavItem__link"
-    href="/financial-connections"
-    data-js-controller='AnalyticsButton'
-    data-analytics-category='Navigation'
-    data-analytics-action='Clicked'
-    data-analytics-label='global_nav__products__financial_connections'
-    
-    tabindex="-1"
-    data-testid="header-products-global-payments-financial-connections-nav-item"
-  >
-    <div class="RefreshedNavItem__content">
-      <span class="RefreshedNavItem__label">
-        Financial Connections
-        &nbsp;<svg
-  class="
-    RefreshedHoverArrow
-    RefreshedNavItem__arrow
-  "
-  width="10"
-  height="8"
-  viewBox="0 0 10 8"
-  aria-hidden="true"
->
-<path d="M9.28027 3.4375L9.75195 3.91309L9.28027 4.3877L5.87012 7.8252L4.91113 6.87402L7.18066 4.58691H0V3.2373H7.18066L4.91113 0.951172L5.87012 0L9.28027 3.4375Z" fill="currentColor" />
-</svg>
-      </span>
-      
-        <p class="RefreshedNavItem__body">
-          Linked financial account data
-        </p>
-      
-    </div>
-  </a>
-</li>
-            
           </ul>
           <div class="SessionsBanner">
   <div class="SessionsBanner__card">
@@ -6391,7 +6425,51 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 </div>
         </div>
       </aside>
+      <div class="RefreshedProductsNav__consoleBanner">
+          <span class="RefreshedProductsNav__consoleBannerDescription">
+            <strong>Not sure where to start?</strong> Tell us about your business to get personalized Stripe product recommendations.
+          </span>
+          <a
+  class='
+    CtaButton
+    variant--
+    CtaButton--arrow
+    
+    RefreshedProductsNav__consoleBannerLink
+  '
+  href="/personalize"
+  
+  data-js-controller='AnalyticsButton'
+  
+  data-analytics-category='Buttons'
+  data-analytics-action='Clicked'
+  data-analytics-label='global_nav__products__find_whats_right'
+  
+  
+  
+  
+  
+>Find what's right for you<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
       
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span>
+</a>
+        </div>
     </div>
   </div>
   </div>
@@ -6785,6 +6863,45 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     <div class="RefreshedNavItem__content">
       <span class="RefreshedNavItem__label">
         Marketplaces
+        &nbsp;<svg
+  class="
+    RefreshedHoverArrow
+    RefreshedNavItem__arrow
+  "
+  width="10"
+  height="8"
+  viewBox="0 0 10 8"
+  aria-hidden="true"
+>
+<path d="M9.28027 3.4375L9.75195 3.91309L9.28027 4.3877L5.87012 7.8252L4.91113 6.87402L7.18066 4.58691H0V3.2373H7.18066L4.91113 0.951172L5.87012 0L9.28027 3.4375Z" fill="currentColor" />
+</svg>
+      </span>
+      
+    </div>
+  </a>
+</li>
+
+            
+            <li
+  class="
+    RefreshedNavItem
+    
+  "
+>
+  <a
+    class="RefreshedNavItem__link"
+    href="/money-management/availability"
+    data-js-controller='AnalyticsButton'
+    data-analytics-category='Navigation'
+    data-analytics-action='Clicked'
+    data-analytics-label='global_nav__solutions__money_management'
+    
+    tabindex="-1"
+    data-testid="header-use-cases-money-management-nav-item"
+  >
+    <div class="RefreshedNavItem__content">
+      <span class="RefreshedNavItem__label">
+        Money management
         &nbsp;<svg
   class="
     RefreshedHoverArrow
@@ -8040,45 +8157,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 >
   <a
     class="RefreshedNavItem__link"
-    href="https://stripecommunity.com/"
-    data-js-controller='AnalyticsButton'
-    data-analytics-category='Navigation'
-    data-analytics-action='Clicked'
-    data-analytics-label='global_nav__resources__stripe_community'
-    
-    tabindex="-1"
-    data-testid="header-resources-stripe-community-nav-item"
-  >
-    <div class="RefreshedNavItem__content">
-      <span class="RefreshedNavItem__label">
-        Community
-        &nbsp;<svg
-  class="
-    RefreshedHoverArrow
-    RefreshedNavItem__arrow
-  "
-  width="10"
-  height="8"
-  viewBox="0 0 10 8"
-  aria-hidden="true"
->
-<path d="M9.28027 3.4375L9.75195 3.91309L9.28027 4.3877L5.87012 7.8252L4.91113 6.87402L7.18066 4.58691H0V3.2373H7.18066L4.91113 0.951172L5.87012 0L9.28027 3.4375Z" fill="currentColor" />
-</svg>
-      </span>
-      
-    </div>
-  </a>
-</li>
-
-              
-              <li
-  class="
-    RefreshedNavItem
-    
-  "
->
-  <a
-    class="RefreshedNavItem__link"
     href="/customers"
     data-js-controller='AnalyticsButton'
     data-analytics-category='Navigation'
@@ -8355,9 +8433,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 </li>
 
               
-              
-
-              
               <li
   class="
     RefreshedNavItem
@@ -8366,18 +8441,18 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 >
   <a
     class="RefreshedNavItem__link"
-    href="/jobs"
+    href="/careers"
     data-js-controller='AnalyticsButton'
     data-analytics-category='Navigation'
     data-analytics-action='Clicked'
-    data-analytics-label='global_nav__resources__jobs'
+    data-analytics-label='global_nav__resources__careers'
     
     tabindex="-1"
-    data-testid="header-resources-jobs-nav-item"
+    data-testid="header-resources-careers-nav-item"
   >
     <div class="RefreshedNavItem__content">
       <span class="RefreshedNavItem__label">
-        Jobs
+        Careers
         &nbsp;<svg
   class="
     RefreshedHoverArrow
@@ -22133,7 +22208,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
   
 </li>
-
           
           <li
   class="
@@ -22174,7 +22248,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
   
 </li>
-
           
           <li
   class="
@@ -22455,6 +22528,46 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   data-testid="footer-use-cases-marketplaces-list-item"
   
 >Marketplaces</a>
+  
+
+  
+</li>
+          
+          <li
+  class="
+    List__item
+    ListItem
+    
+    
+    
+  "
+  
+  
+>
+  
+
+  
+    
+    
+    <a
+  class="
+    Link
+    ListItem__label
+  "
+  href="/money-management/availability"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='global_footer__money_management'
+  
+  
+  
+  data-testid="footer-use-cases-money-management-list-item"
+  
+>Money management</a>
   
 
   
@@ -23980,8 +24093,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
   
 </li>
-          
-          
           <li
   class="
     List__item
@@ -24003,20 +24114,20 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     ListItem__label
   "
-  href="/jobs"
+  href="/careers"
   
   
   
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
-  data-analytics-label='global_footer__jobs'
+  data-analytics-label='global_footer__careers'
   
   
   
-  data-testid="footer-company-jobs-list-item"
+  data-testid="footer-company-careers-list-item"
   
->Jobs</a>
+>Careers</a>
   
 
   
