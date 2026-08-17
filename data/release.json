@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/stripe/stripe-php/releases/362641998",
-  "assets_url": "https://api.github.com/repos/stripe/stripe-php/releases/362641998/assets",
-  "upload_url": "https://uploads.github.com/repos/stripe/stripe-php/releases/362641998/assets{?name,label}",
-  "html_url": "https://github.com/stripe/stripe-php/releases/tag/v21.1.1",
-  "id": 362641998,
+  "url": "https://api.github.com/repos/stripe/stripe-php/releases/368224454",
+  "assets_url": "https://api.github.com/repos/stripe/stripe-php/releases/368224454/assets",
+  "upload_url": "https://uploads.github.com/repos/stripe/stripe-php/releases/368224454/assets{?name,label}",
+  "html_url": "https://github.com/stripe/stripe-php/releases/tag/v21.2.0",
+  "id": 368224454,
   "author": {
     "login": "xavdid",
     "id": 1231935,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOAB3Oas4VnXpO",
-  "tag_name": "v21.1.1",
+  "node_id": "RE_kwDOAB3Oas4V8qjG",
+  "tag_name": "v21.2.0",
   "target_commitish": "master",
-  "name": "v21.1.1",
+  "name": "v21.2.0",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-07-30T18:43:34Z",
-  "updated_at": "2026-07-30T18:43:40Z",
-  "published_at": "2026-07-30T18:43:40Z",
+  "created_at": "2026-08-10T22:11:41Z",
+  "updated_at": "2026-08-10T22:11:47Z",
+  "published_at": "2026-08-10T22:11:47Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/stripe/stripe-php/tarball/v21.1.1",
-  "zipball_url": "https://api.github.com/repos/stripe/stripe-php/zipball/v21.1.1",
-  "body": "* [#2110](https://github.com/stripe/stripe-php/pull/2110) suppress warnings when we can't access a directory\n\nSee [the changelog for more details](https://github.com/stripe/stripe-php/blob/v21.1.1/CHANGELOG.md).\n"
+  "tarball_url": "https://api.github.com/repos/stripe/stripe-php/tarball/v21.2.0",
+  "zipball_url": "https://api.github.com/repos/stripe/stripe-php/zipball/v21.2.0",
+  "body": "* [#2119](https://github.com/stripe/stripe-php/pull/2119) Surface `object` property on `EventNotification`\n* [#2117](https://github.com/stripe/stripe-php/pull/2117) Emit Claude Code plugin hint at module load time\n* [#2115](https://github.com/stripe/stripe-php/pull/2115) Fix v2 timestamp phpdoc type annotations ([#2114](https://github.com/stripe/stripe-php/issues/2114))\n* [#2105](https://github.com/stripe/stripe-php/pull/2105) add/adjust event parsing helpers\n  \n  - Added methods that return their respective `Event`/`EventNotification` class instances without verifying authenticity. Use them when you've previously verified an event (e.g. you verified, put the event in a queue, and are now processing). Supports events from [AWS EventBridge](https://docs.stripe.com/event-destinations/eventbridge) and [Azure Event Grid](https://docs.stripe.com/event-destinations/eventgrid) natively.\n    - `Webhook::constructEventWithoutVerification($payload)`\n    - `BaseStripeClient::constructEventWithoutVerification($payload)`\n    - `BaseStripeClient::parseEventNotificationWithoutVerification($payload)`\n  - Added `WebhookSignature::generateSignatureHeader($payload, $secret, $timestamp = null)`, which computes a full `Stripe-Signature` header for the given payload. Useful for unit tests!\n* [#2112](https://github.com/stripe/stripe-php/pull/2112) Add `stripe.major_api_version` constant\n\nSee [the changelog for more details](https://github.com/stripe/stripe-php/blob/v21.2.0/CHANGELOG.md).\n"
 }
