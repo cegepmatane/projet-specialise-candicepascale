@@ -66,14 +66,14 @@
   "releases_url": "https://api.github.com/repos/stripe/stripe-php/releases{/id}",
   "deployments_url": "https://api.github.com/repos/stripe/stripe-php/deployments",
   "created_at": "2011-06-25T19:52:24Z",
-  "updated_at": "2026-08-16T19:03:56Z",
-  "pushed_at": "2026-08-15T03:42:06Z",
+  "updated_at": "2026-08-30T20:42:51Z",
+  "pushed_at": "2026-08-31T15:29:52Z",
   "git_url": "git://github.com/stripe/stripe-php.git",
   "ssh_url": "org-856813@github.com:stripe/stripe-php.git",
   "clone_url": "https://github.com/stripe/stripe-php.git",
   "svn_url": "https://github.com/stripe/stripe-php",
   "homepage": "https://stripe.com",
-  "size": 11945,
+  "size": 12359,
   "stargazers_count": 4018,
   "watchers_count": 4018,
   "language": "PHP",
@@ -83,11 +83,11 @@
   "has_wiki": true,
   "has_pages": false,
   "has_discussions": false,
-  "forks_count": 893,
+  "forks_count": 895,
   "mirror_url": null,
   "archived": false,
   "disabled": false,
-  "open_issues_count": 16,
+  "open_issues_count": 14,
   "license": {
     "key": "mit",
     "name": "MIT License",
@@ -105,8 +105,8 @@
     "stripe-sdk"
   ],
   "visibility": "public",
-  "forks": 893,
-  "open_issues": 16,
+  "forks": 895,
+  "open_issues": 14,
   "watchers": 4018,
   "default_branch": "master",
   "temp_clone_token": null,
@@ -136,6 +136,6 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "network_count": 893,
-  "subscribers_count": 109
+  "network_count": 895,
+  "subscribers_count": 108
 }
