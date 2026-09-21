@@ -15,14 +15,14 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 <meta
   name="sentry-config"
   data-js-dsn=""
-  data-js-release="fd82d231be442878fdeae36b98813b10e444fd38"
+  data-js-release="8ea4adc1f3248eaf30dddc35208728863f497e28"
   data-js-environment="production"
   data-js-project="mkt"
 >
 
-    <meta name="edge-experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.df2b470f-7252-279b-e819-7417b9743def.m.s,wpp_curator_h2.control.ursula.49c6befe-1113-e661-d11c-d56c215879b6.m.s">
-<meta name="experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.40185fd5-c28c-40c2-a2fa-798439bb134d.m.s,wpp_curator_h2.control.ursula.ee1c5d40-cefd-46b6-b39f-4370442d1849.m.s">
-<meta name="experiment-token" content="b057adf6789181efd7b2e88af0a08da011161845">
+    <meta name="edge-experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.1aedb7ee-b089-ceb3-77ec-8299e7fd7b9b.m.s,wpp_curator_h2.treatment.ursula.bd9fa5a4-03c3-303b-a082-3e54bd42aae0.m.s">
+<meta name="experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.64d585ae-e8c5-4ea1-97cd-3f135ad41b65.m.s,wpp_curator_h2.treatment.ursula.ef568ec0-de4c-46dc-957b-66fc979c7c50.m.s">
+<meta name="experiment-token" content="b057adf67f2cedb42a1847426ddd878028ffcaa4">
     
 
     <script>(() => {
@@ -82,7 +82,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
     <template id="source-attribution-loader">
   <script defer
-    src="https://b.stripecdn.com/mkt-statics-srv/assets/imt-c080f20b4b766409cce89f224b019648.js"
+    src="https://b.stripecdn.com/mkt-statics-srv/assets/imt-534f4a7589e6b6eb334da16d99f3b07a.js"
     data-store_url="https://b.stripecdn.com/mkt-statics-srv/assets/store-936f0d847a16164e7f6b15d74659c4a9.html">
   </script>
 </template>
@@ -309,7 +309,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 </script>
     <link rel="preconnect" href="https://b.stripecdn.com" crossorigin>
 <link rel="dns-prefetch" href="https://b.stripecdn.com">
-<style>.SiteHeader{--siteMenuTransition:250ms;--siteMenuArrowSpacing:13px;--siteMenuArrowOffset:0;--userLogoColor:var(--navColor);position:relative;z-index:100;background-color:var(--backgroundColor)}@media (max-width:899px){.SiteHeader{--desktopNavDisplay:none}}@media (min-width:900px){.SiteHeader{--mobileNavDisplay:none}}@media (prefers-reduced-motion:reduce){.SiteHeader{--siteMenuTransition:1ms}}.SiteHeader--noTransitions{--siteMenuTransition:0ms}.SiteHeader.variant--Overlay{position:absolute;top:0;left:0;width:100%;background:none}@media (min-width:900px){.SiteHeader.variant--Fixed{position:fixed;top:0;left:0;width:100%}}.SiteHeader--hasGuides:after{position:absolute;bottom:0;left:0;width:100%;height:1px;margin:0;border:none;background:linear-gradient(90deg,var(--guideDashedColor),var(--guideDashedColor) 50%,transparent 0,transparent);background-size:8px 1px;content:""}.SiteHeader--excludesNav{pointer-events:none}.SiteHeader--excludesNav .SiteHeader__logo{pointer-events:auto}.SiteHeader.theme--Transparent:after{display:none}.SiteHeader__guidesContainer{position:absolute;top:0;left:0;width:100%;height:100%;overflow:hidden}.SiteHeader.theme--Transparent .SiteHeader__guidesContainer{display:none}.SiteHeader__container{position:relative;max-width:calc(1080px + var(--columnPaddingNormal)*2);margin:0 auto;padding:0 var(--columnPaddingNormal);overflow:hidden}.SiteHeader__navContainer{display:flex;justify-content:space-between;align-items:center;min-height:68px;padding:32px var(--columnPaddingNormal) 12px}.HubPage .SiteHeader__navContainer{padding-left:0;padding-right:0}@media (min-width:900px){.HubPage .SiteHeader__navContainer,.SiteHeader__navContainer{padding:12px var(--columnPaddingNormal)}}@media (pointer:fine){.SiteHeader__logo{transition:var(--hoverTransition);transition-property:color,opacity}@media (-webkit-min-device-pixel-ratio:2){.SiteHeader__logo{will-change:opacity,color}}.SiteHeader__logo:hover{color:var(--navHoverColor);opacity:var(--navHoverOpacity)}}.SiteHeader__logoLink{display:block;outline:none;padding:4px;margin:-4px}.keyboard-navigation .SiteHeader__logoLink:focus{box-shadow:var(--focusBoxShadow);border-radius:2px}.SiteHeader__ctaNav{display:var(--desktopNavDisplay,initial);white-space:nowrap;overflow:hidden;justify-content:flex-end}html[lang^=de] .SiteHeader__ctaNav{--ctaFont:var(--fontWeightSemibold) 14px/1.6 var(--fontFamily)}@media (min-width:900px) and (max-width:990px){.MktRoot[lang^=en][data-loading] .SiteHeader__ctaNav{opacity:0}}@media (min-width:900px) and (max-width:1069px){.MktRoot:not([lang^=en])[data-loading] .SiteHeader__ctaNav{opacity:0}}.SiteHeader__menuNav{display:var(--mobileNavDisplay,initial)}.SiteHeader__mobileMenuMask{position:absolute;top:0;left:0;width:100%;display:var(--mobileNavDisplay,flex);justify-content:flex-end;transform:translateY(-100%);transition:ease-out var(--siteMenuTransition);overflow:hidden;z-index:1;pointer-events:none}.SiteHeader--mobileMenuVisible .SiteHeader__mobileMenuMask{transform:translateY(0)}.SiteHeader__mobileMenu{opacity:0;transform:translateY(100%);transform-origin:50% 0;transition:visibility step-end var(--siteMenuTransition),transform ease-out var(--siteMenuTransition),opacity ease-out var(--siteMenuTransition);pointer-events:none;visibility:hidden}.SiteHeader--mobileMenuVisible .SiteHeader__mobileMenu{transform:translateY(0);opacity:1;pointer-events:auto;visibility:visible;transition:visibility step-start var(--siteMenuTransition),transform ease-out var(--siteMenuTransition),opacity ease-out var(--siteMenuTransition)}@media (min-width:900px){.SiteHeader__mobileMenu{display:none}}.SiteHeader__menuContainer{display:var(--desktopNavDisplay,block);position:absolute;top:calc(100% - 1px - var(--siteMenuArrowSpacing));left:0;width:100%;height:1000px;z-index:1;pointer-events:none;overflow:hidden;opacity:0;transition:var(--siteMenuTransition)}.SiteHeader--dropdownVisible .SiteHeader__menuContainer{opacity:1}.SiteHeader__menu{position:absolute;top:0;left:0}.SiteHeader--hasContactSales .SiteHeader__navContainer{-moz-column-gap:20px;column-gap:20px}html[lang^=de] .SiteHeader--hasContactSales .SiteHeader__navContainer,html[lang^=es] .SiteHeader--hasContactSales .SiteHeader__navContainer,html[lang^=fr] .SiteHeader--hasContactSales .SiteHeader__navContainer,html[lang^=id] .SiteHeader--hasContactSales .SiteHeader__navContainer,html[lang^=nl] .SiteHeader--hasContactSales .SiteHeader__navContainer{-moz-column-gap:16px;column-gap:16px}.SiteHeader--hasContactSales .SiteHeader__ctaNav{display:var(--desktopNavDisplay,flex);flex-grow:1}.SiteHeader--hasContactSales .SiteHeader__ctaNavContainer{display:flex;margin-top:3px;-moz-column-gap:16px;column-gap:16px}.SiteHeader--hasContactSales .SiteHeader__leftCta.SiteHeader__leftCta--isHidden,.SiteHeader--hasContactSales .SiteHeader__secondaryAction--isHidden{position:absolute;visibility:hidden;pointer-events:none}.SiteHeader--hasContactSales .SiteHeader__ctaNav .variant--Link{color:var(--linkColor)}.SiteHeader--tripleCTA .SiteHeader__navContainer{gap:15px}.SiteHeader--tripleCTA .SiteHeader__ctaNavContainer{--column-gap-inner:25px;-moz-column-gap:var(--column-gap-inner);column-gap:var(--column-gap-inner)}.SiteHeader__contactSalesButtonWithSearch{--column-gap:8px;display:flex;gap:var(--column-gap)}@media (min-width:900px){.MktRoot .SiteHeader--isSticky{--easeOutSine:cubic-bezier(0.61,1,0.88,1)}.MktRoot .SiteHeader--isSticky .SiteHeader__stickyShadow{position:absolute;top:0;width:100%;height:100%;transform:translateY(-100%);transition:opacity .25s var(--easeOutSine);box-shadow:0 0 60px rgba(50,50,93,.18);pointer-events:none;opacity:0}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque{--accentColor:#96f;--navColor:#0a2540;--navHoverColor:#0a2540;--linkColor:#0a2540;--linkHoverColor:#0a2540;--linkHoverOpacity:0.6;--buttonColor:#635bff;--menuBgColor:#eff3f9}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__stickyContainer{background:#fff}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenu__card.Card{box-shadow:0 20px 60px rgba(50,50,93,.18)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteSubMenu{--siteSubMenuBackgroundColor:var(--menuBgColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__ctaNav .variant--Button{color:var(--textColor);background-color:var(--buttonColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__ctaNav .variant--Button:hover{background-color:var(--linkColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__ctaNav .variant--Link{color:var(--linkColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__stickyShadow{transform:translateY(0)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenu{padding-top:0;height:calc(var(--siteMenuHeight))}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenu__card.Card{--cardBackground:var(--menuBgColor);border-top-left-radius:0;border-top-right-radius:0}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__menuContainer{top:100%;overflow:visible}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__menuShadowContainer{overflow:hidden}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenu__sectionWrapper{margin:4px}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenuSection__body{border-radius:4px;background:#fff}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenuSection__footer{--siteMenuFooterMargin:0px;border-radius:0;background:var(--menuBgColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteSubMenu{border-radius:0}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeaderArrow{top:-6px;box-shadow:none;--siteHeaderArrowBackgroundColor:var(--menuBgColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteSolutionsNav{padding:0;background-color:var(--menuBgColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteProductsNav{border-top-left-radius:0;border-top-right-radius:0;background-color:var(--menuBgColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--isStuck{position:fixed}.MktRoot .SiteHeader--isSticky.SiteHeader--noStickyTransitions .SiteHeader__navContainer *{transition:none}}html:has(.SiteHeader--refreshed[data-menu-state=open]){overflow:hidden;scrollbar-gutter:stable}.MktRoot .SiteHeader--refreshed{--siteMenuArrowSpacing:0;--refreshedNavShadow:0 30px 60px -50px rgba(0,0,0,0.10196078431372549),0 30px 60px -10px rgba(50,50,93,0.25098039215686274);--refreshedMenuShadow:0 18px 36px -18px rgba(0,0,0,0.1),0 30px 45px -30px rgba(50,50,93,0.25);--refreshedNavWidth:calc(100vw - var(--columnPaddingNormal)*2 - var(--scrollbarWidth));--refreshedNavMaxWidth:1264px;--refreshedNavHeight:64px;--refreshedNavPaddingBlock:6px;--refreshedNavBorderRadius:8px;--navContainerBorderBottomRadius:8px;--navContainerBgColor:#fff;--navContainerBoxShadow:var(--refreshedNavShadow);--hoverTransition:none;padding-block:var(--refreshedNavPaddingBlock)}.MktRoot .SiteHeader--refreshed.SiteHeader--hasGuides:after{z-index:-1}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer{min-height:var(--refreshedNavHeight);padding:12px 16px;border-top-left-radius:var(--refreshedNavBorderRadius);border-top-right-radius:var(--refreshedNavBorderRadius)}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeaderNav__list{display:var(--desktopNavDisplay,flex);gap:1px}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeaderNavItem__link{text-box:trim-both cap alphabetic}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeaderNavItem__link--hasCaret{-moz-column-gap:4px;column-gap:4px}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeaderNavItem__link--hasCaret .SiteHeaderNavItem__linkCaretContainer{margin-block-start:2px;padding:0}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeader__ctaNavContainer{margin-top:0}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeader__ctaNavContainer .HoverArrow{--hoverTransition:150ms cubic-bezier(0.215,0.61,0.355,1)}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeader__ctaNavContainer .CtaButton.variant--Link{padding:3px 0 5px}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeader__ctaNavContainer .CtaButton{display:flex;align-items:center;justify-content:center}.MktRoot .SiteHeader--refreshed.SiteHeader--mobileMenuVisible .SiteHeader__container{--navContainerTransitionMs:0ms}.MktRoot .SiteHeader--refreshed.theme--HubDark:hover{--buttonHoverColor:#031323;fill:var(--knockoutColor)}.MktRoot .SiteHeader--refreshed.theme--HubDark .RefreshedMenuButton__icon{fill:var(--knockoutColor)}.MktRoot .SiteHeader--refreshed.SiteHeader--isHomepage .RefreshedMenuButton__icon{fill:var(--stripeAccentDark)}@media (max-width:900px){.MktRoot .SiteHeader--refreshed{padding-top:0}.MktRoot .SiteHeader--refreshed .SiteHeader__container{padding:16px 24px 12px}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer{padding:0;min-height:40px}}@media (min-width:900px){.MktRoot .SiteHeader--refreshed .SiteHeader__logoLink{padding-block:4px 5px;padding-inline:4px}}.MktRoot .SiteHeader--refreshed .SiteHeader__overlay{position:fixed;inset:0;z-index:1;background:linear-gradient(transparent,rgba(236,239,241,.8));-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);transition-property:opacity;transition-timing-function:cubic-bezier(.22,1,.36,1);transition-duration:.5s}.MktRoot .SiteHeader--refreshed .SiteHeader__container{overflow:hidden;z-index:2}@media (min-width:1112px){.MktRoot .SiteHeader--refreshed .SiteHeader__container{overflow:visible}}.MktRoot .SiteHeader--refreshed .SiteHeader__container:after{content:"";display:block;width:calc(100vw - var(--columnPaddingNormal)*2 - var(--scrollbarWidth));max-width:1264px;height:100%;position:absolute;z-index:-1;top:0;left:50%;transform:translateX(-50%);opacity:0;transition-property:opacity,border-radius;transition-duration:.24s,0ms;transition-timing-function:cubic-bezier(.45,.05,.55,.95),linear;border-top-left-radius:var(--refreshedNavBorderRadius);border-top-right-radius:var(--refreshedNavBorderRadius);border-bottom-left-radius:var(--navContainerBorderBottomRadius);border-bottom-right-radius:var(--navContainerBorderBottomRadius);background-color:var(--navContainerBgColor);box-shadow:var(--navContainerBoxShadow)}@media (min-width:900px){.MktRoot .SiteHeader--refreshed .SiteHeader__container .CtaButton,.MktRoot .SiteHeader--refreshed .SiteHeader__container .RefreshedNavGradientCta .HoverArrow,.MktRoot .SiteHeader--refreshed .SiteHeader__container .RefreshedNavGradientCta .NavCta__label,.MktRoot .SiteHeader--refreshed .SiteHeader__container .RefreshedNavGradientCta .NavCta__label--noGradient,.MktRoot .SiteHeader--refreshed .SiteHeader__container .SiteHeader__logo svg path,.MktRoot .SiteHeader--refreshed .SiteHeader__container .SiteHeaderNavItem__link{transition-property:opacity,color,background-color,border,fill,stroke;transition-duration:.3s;transition-timing-function:cubic-bezier(.25,1,.5,1);transform:translateZ(0)}.MktRoot .SiteHeader--refreshed .SiteHeader__container .SiteHeader__logo{transition-duration:.24s;transition-timing-function:cubic-bezier(.45,.05,.55,.95)}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover{--navColor:#061b31;--navHoverColor:#061b31;--linkColor:#061b31;--linkHoverColor:#061b31;--linkHoverOpacity:0.6;--menuBgColor:#eff3f9;--userLogoColor:#031323;--knockoutColor:#fff;--buttonColor:#031323}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover .RefreshedNavGradientCta .CtaButton{background-color:#0a2540}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover .CtaButton.variant--Button:hover{opacity:.6}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover .RefreshedNavGradientCta .NavCta__label{opacity:0}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover .RefreshedNavGradientCta .NavCta__label--noGradient{opacity:1}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover .RefreshedNavGradientCta .HoverArrow{stroke:#fff!important}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover:after{opacity:1}}.MktRoot .SiteHeader--refreshed .SiteHeader__menuContainer{all:unset;display:block;opacity:1;height:100%;position:relative;z-index:2;pointer-events:none}.MktRoot .SiteHeader--refreshed .SiteHeader__menuContainer:before{content:"";display:block;position:absolute;left:50%;transform:translateX(-50%);width:var(--refreshedNavWidth);max-width:var(--refreshedNavMaxWidth);transition-property:opacity;transition-duration:.24s;transition-timing-function:cubic-bezier(.45,.05,.55,.95);height:10px;z-index:100;top:-10px;border-bottom:1px solid #e5edf5;pointer-events:auto}.MktRoot .SiteHeader--refreshed .RefreshedMenu{width:var(--refreshedNavWidth);max-width:var(--refreshedNavMaxWidth);background-color:#fff;border-bottom-left-radius:var(--refreshedNavBorderRadius);border-bottom-right-radius:var(--refreshedNavBorderRadius);box-shadow:var(--refreshedMenuShadow);display:inline-block;z-index:2;overflow:clip;left:50%;transform:translateX(-50%);transition:height .2s cubic-bezier(.45,.05,.55,.95);will-change:height}.MktRoot .SiteHeader--refreshed .RefreshedMenu__card{position:relative;height:100%;overflow:hidden;z-index:1}.MktRoot .SiteHeader--refreshed .RefreshedMenu__section{--siteMenuSectionOffset:0;display:inline-block;position:absolute;top:0;left:50%;opacity:1;transform:translateX(-50%) translateX(var(--siteMenuSectionOffset));transition-property:opacity,transform;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.25s,.5s;will-change:opacity,transform}.MktRoot .SiteHeader--refreshed .RefreshedMenu__section[aria-hidden=true]{opacity:0;pointer-events:none}.MktRoot .SiteHeader--refreshed .RefreshedMenu__section[aria-hidden=true].SiteMenu__section--left{--siteMenuSectionOffset:-20%}.MktRoot .SiteHeader--refreshed .RefreshedMenu__section[aria-hidden=true].SiteMenu__section--right{--siteMenuSectionOffset:20%}.MktRoot .SiteHeader--refreshed.SiteHeader--noTransitions .RefreshedMenu__section{transition-duration:0ms}.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .CtaButton,.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .RefreshedNavGradientCta .HoverArrow,.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .RefreshedNavGradientCta .NavCta__label,.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .RefreshedNavGradientCta .NavCta__label--noGradient,.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .SiteHeader__logo svg path,.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .SiteHeaderNavItem__link{transition-delay:.24s}.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .SiteHeader__container:after{transition-delay:.24s,.2s}.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .SiteHeaderNavItem__link:not(.SiteHeaderNavItem__link--hasCaret):hover{transition-delay:0ms}.MktRoot .SiteHeader--refreshed[data-menu-state=closed] .RefreshedMenu{height:0;pointer-events:none}.MktRoot .SiteHeader--refreshed[data-menu-state=closed] .SiteHeader__overlay{opacity:0;pointer-events:none}.MktRoot .SiteHeader--refreshed[data-menu-state=closed] .SiteHeader__menuContainer:before{opacity:0}.MktRoot .SiteHeader--refreshed[data-menu-state=open]{z-index:2147483647}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container{--navContainerBorderBottomRadius:0}@media (min-width:900px){.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container{--navColor:#061b31;--navHoverColor:#061b31;--linkColor:#061b31;--linkHoverColor:#061b31;--linkHoverOpacity:0.6;--menuBgColor:#eff3f9;--userLogoColor:#031323;--knockoutColor:#fff;--buttonColor:#031323}}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container .RefreshedNavGradientCta .CtaButton{background-color:#0a2540}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container .RefreshedNavGradientCta .CtaButton:hover{opacity:.6}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container .RefreshedNavGradientCta .NavCta__label{opacity:0}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container .RefreshedNavGradientCta .NavCta__label--noGradient{opacity:1}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container .RefreshedNavGradientCta .HoverArrow{stroke:#fff!important}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container:after{opacity:1;transition:none}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .RefreshedMenu{height:var(--siteMenuHeight);pointer-events:auto}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__menuContainer:before,.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__overlay{opacity:1}</style>
+<style>.SiteHeader{--siteMenuTransition:250ms;--siteMenuArrowSpacing:13px;--siteMenuArrowOffset:0;--userLogoColor:var(--navColor);position:relative;z-index:100;background-color:var(--backgroundColor)}@media (max-width:899px){.SiteHeader{--desktopNavDisplay:none}}@media (min-width:900px){.SiteHeader{--mobileNavDisplay:none}}@media (prefers-reduced-motion:reduce){.SiteHeader{--siteMenuTransition:1ms}}.SiteHeader--noTransitions{--siteMenuTransition:0ms}.SiteHeader.variant--Overlay{position:absolute;top:0;left:0;width:100%;background:none}@media (min-width:900px){.SiteHeader.variant--Fixed{position:fixed;top:0;left:0;width:100%}}.SiteHeader--hasGuides:after{position:absolute;bottom:0;left:0;width:100%;height:1px;margin:0;border:none;background:linear-gradient(90deg,var(--guideDashedColor),var(--guideDashedColor) 50%,transparent 0,transparent);background-size:8px 1px;content:""}.SiteHeader--excludesNav{pointer-events:none}.SiteHeader--excludesNav .SiteHeader__logo{pointer-events:auto}.SiteHeader.theme--Transparent:after{display:none}.SiteHeader__guidesContainer{position:absolute;top:0;left:0;width:100%;height:100%;overflow:hidden}.SiteHeader.theme--Transparent .SiteHeader__guidesContainer{display:none}.SiteHeader__container{position:relative;max-width:calc(1080px + var(--columnPaddingNormal)*2);margin:0 auto;padding:0 var(--columnPaddingNormal);overflow:hidden}.SiteHeader__navContainer{display:flex;justify-content:space-between;align-items:center;min-height:68px;padding:32px var(--columnPaddingNormal) 12px}.HubPage .SiteHeader__navContainer{padding-left:0;padding-right:0}@media (min-width:900px){.HubPage .SiteHeader__navContainer,.SiteHeader__navContainer{padding:12px var(--columnPaddingNormal)}}@media (pointer:fine){.SiteHeader__logo{transition:var(--hoverTransition);transition-property:color,opacity}@media (-webkit-min-device-pixel-ratio:2){.SiteHeader__logo{will-change:opacity,color}}.SiteHeader__logo:hover{color:var(--navHoverColor);opacity:var(--navHoverOpacity)}}.SiteHeader__logoLink{display:block;outline:none;padding:4px;margin:-4px}.keyboard-navigation .SiteHeader__logoLink:focus{box-shadow:var(--focusBoxShadow);border-radius:2px}.SiteHeader__ctaNav{display:var(--desktopNavDisplay,initial);white-space:nowrap;overflow:hidden;justify-content:flex-end}html[lang^=de] .SiteHeader__ctaNav{--ctaFont:var(--fontWeightSemibold) 14px/1.6 var(--fontFamily)}@media (min-width:900px) and (max-width:990px){.MktRoot[lang^=en][data-loading] .SiteHeader__ctaNav{opacity:0}}@media (min-width:900px) and (max-width:1069px){.MktRoot:not([lang^=en])[data-loading] .SiteHeader__ctaNav{opacity:0}}.SiteHeader__menuNav{display:var(--mobileNavDisplay,initial)}.SiteHeader__mobileMenuMask{position:absolute;top:0;left:0;width:100%;display:var(--mobileNavDisplay,flex);justify-content:flex-end;transform:translateY(-100%);transition:ease-out var(--siteMenuTransition);overflow:hidden;z-index:1;pointer-events:none}.SiteHeader--mobileMenuVisible .SiteHeader__mobileMenuMask{transform:translateY(0)}.SiteHeader__mobileMenu{opacity:0;transform:translateY(100%);transform-origin:50% 0;transition:visibility step-end var(--siteMenuTransition),transform ease-out var(--siteMenuTransition),opacity ease-out var(--siteMenuTransition);pointer-events:none;visibility:hidden}.SiteHeader--mobileMenuVisible .SiteHeader__mobileMenu{transform:translateY(0);opacity:1;pointer-events:auto;visibility:visible;transition:visibility step-start var(--siteMenuTransition),transform ease-out var(--siteMenuTransition),opacity ease-out var(--siteMenuTransition)}@media (min-width:900px){.SiteHeader__mobileMenu{display:none}}.SiteHeader__menuContainer{display:var(--desktopNavDisplay,block);position:absolute;top:calc(100% - 1px - var(--siteMenuArrowSpacing));left:0;width:100%;height:1000px;z-index:1;pointer-events:none;overflow:hidden;opacity:0;transition:var(--siteMenuTransition)}.SiteHeader--dropdownVisible .SiteHeader__menuContainer{opacity:1}.SiteHeader__menu{position:absolute;top:0;left:0}.SiteHeader--hasContactSales .SiteHeader__navContainer{-moz-column-gap:20px;column-gap:20px}html[lang^=de] .SiteHeader--hasContactSales .SiteHeader__navContainer,html[lang^=es] .SiteHeader--hasContactSales .SiteHeader__navContainer,html[lang^=fr] .SiteHeader--hasContactSales .SiteHeader__navContainer,html[lang^=id] .SiteHeader--hasContactSales .SiteHeader__navContainer,html[lang^=nl] .SiteHeader--hasContactSales .SiteHeader__navContainer{-moz-column-gap:16px;column-gap:16px}.SiteHeader--hasContactSales .SiteHeader__ctaNav{display:var(--desktopNavDisplay,flex);flex-grow:1}.SiteHeader--hasContactSales .SiteHeader__ctaNavContainer{display:flex;margin-top:3px;-moz-column-gap:16px;column-gap:16px}.SiteHeader--hasContactSales .SiteHeader__leftCta.SiteHeader__leftCta--isHidden,.SiteHeader--hasContactSales .SiteHeader__secondaryAction--isHidden{position:absolute;visibility:hidden;pointer-events:none}.SiteHeader--hasContactSales .SiteHeader__ctaNav .variant--Link{color:var(--linkColor)}.SiteHeader--tripleCTA .SiteHeader__navContainer{gap:15px}.SiteHeader--tripleCTA .SiteHeader__ctaNavContainer{--column-gap-inner:25px;-moz-column-gap:var(--column-gap-inner);column-gap:var(--column-gap-inner)}.SiteHeader__contactSalesButtonWithSearch{--column-gap:8px;display:flex;gap:var(--column-gap)}@media (min-width:900px){.MktRoot .SiteHeader--isSticky{--easeOutSine:cubic-bezier(0.61,1,0.88,1)}.MktRoot .SiteHeader--isSticky .SiteHeader__stickyShadow{position:absolute;top:0;width:100%;height:100%;transform:translateY(-100%);transition:opacity .25s var(--easeOutSine);box-shadow:0 0 60px rgba(50,50,93,.18);pointer-events:none;opacity:0}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque{--accentColor:#96f;--navColor:#0a2540;--navHoverColor:#0a2540;--linkColor:#0a2540;--linkHoverColor:#0a2540;--linkHoverOpacity:0.6;--buttonColor:#635bff;--menuBgColor:#eff3f9}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__stickyContainer{background:#fff}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenu__card.Card{box-shadow:0 20px 60px rgba(50,50,93,.18)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__ctaNav .variant--Button{color:var(--textColor);background-color:var(--buttonColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__ctaNav .variant--Button:hover{background-color:var(--linkColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__ctaNav .variant--Link{color:var(--linkColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__stickyShadow{transform:translateY(0)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenu{padding-top:0;height:calc(var(--siteMenuHeight))}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenu__card.Card{--cardBackground:var(--menuBgColor);border-top-left-radius:0;border-top-right-radius:0}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__menuContainer{top:100%;overflow:visible}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeader__menuShadowContainer{overflow:hidden}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenu__sectionWrapper{margin:4px}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenuSection__body{border-radius:4px;background:#fff}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteMenuSection__footer{--siteMenuFooterMargin:0px;border-radius:0;background:var(--menuBgColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteHeaderArrow{top:-6px;box-shadow:none;--siteHeaderArrowBackgroundColor:var(--menuBgColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteSolutionsNav{padding:0;background-color:var(--menuBgColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--opaque .SiteProductsNav{border-top-left-radius:0;border-top-right-radius:0;background-color:var(--menuBgColor)}.MktRoot .SiteHeader--isSticky.SiteHeader--isStuck{position:fixed}.MktRoot .SiteHeader--isSticky.SiteHeader--noStickyTransitions .SiteHeader__navContainer *{transition:none}}html:has(.SiteHeader--refreshed[data-menu-state=open]){overflow:hidden;scrollbar-gutter:stable}.MktRoot .SiteHeader--refreshed{--siteMenuArrowSpacing:0;--refreshedNavShadow:0 30px 60px -50px rgba(0,0,0,0.10196078431372549),0 30px 60px -10px rgba(50,50,93,0.25098039215686274);--refreshedMenuShadow:0 18px 36px -18px rgba(0,0,0,0.1),0 30px 45px -30px rgba(50,50,93,0.25);--refreshedNavWidth:calc(100vw - var(--columnPaddingNormal)*2 - var(--scrollbarWidth));--refreshedNavMaxWidth:1264px;--refreshedNavHeight:64px;--refreshedNavPaddingBlock:6px;--refreshedNavBorderRadius:8px;--navContainerBorderBottomRadius:8px;--navContainerBgColor:#fff;--navContainerBoxShadow:var(--refreshedNavShadow);--hoverTransition:none;padding-block:var(--refreshedNavPaddingBlock)}.MktRoot .SiteHeader--refreshed.SiteHeader--hasGuides:after{z-index:-1}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer{min-height:var(--refreshedNavHeight);padding:12px 16px;border-top-left-radius:var(--refreshedNavBorderRadius);border-top-right-radius:var(--refreshedNavBorderRadius)}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeaderNav__list{display:var(--desktopNavDisplay,flex);gap:1px}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeaderNavItem__link{text-box:trim-both cap alphabetic}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeaderNavItem__link--hasCaret{-moz-column-gap:4px;column-gap:4px}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeaderNavItem__link--hasCaret .SiteHeaderNavItem__linkCaretContainer{margin-block-start:2px;padding:0}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeader__ctaNavContainer{margin-top:0}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeader__ctaNavContainer .HoverArrow{--hoverTransition:150ms cubic-bezier(0.215,0.61,0.355,1)}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeader__ctaNavContainer .CtaButton.variant--Link{padding:3px 0 5px}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer .SiteHeader__ctaNavContainer .CtaButton{display:flex;align-items:center;justify-content:center}.MktRoot .SiteHeader--refreshed.SiteHeader--mobileMenuVisible .SiteHeader__container{--navContainerTransitionMs:0ms}.MktRoot .SiteHeader--refreshed.theme--HubDark:hover{--buttonHoverColor:#031323;fill:var(--knockoutColor)}.MktRoot .SiteHeader--refreshed.theme--HubDark .RefreshedMenuButton__icon{fill:var(--knockoutColor)}.MktRoot .SiteHeader--refreshed.SiteHeader--isHomepage .RefreshedMenuButton__icon{fill:var(--stripeAccentDark)}@media (max-width:900px){.MktRoot .SiteHeader--refreshed{padding-top:0}.MktRoot .SiteHeader--refreshed .SiteHeader__container{padding:16px 24px 12px}.MktRoot .SiteHeader--refreshed .SiteHeader__navContainer{padding:0;min-height:40px}}@media (min-width:900px){.MktRoot .SiteHeader--refreshed .SiteHeader__logoLink{padding-block:4px 5px;padding-inline:4px}}.MktRoot .SiteHeader--refreshed .SiteHeader__overlay{position:fixed;inset:0;z-index:1;background:linear-gradient(transparent,rgba(236,239,241,.8));-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);transition-property:opacity;transition-timing-function:cubic-bezier(.22,1,.36,1);transition-duration:.5s}.MktRoot .SiteHeader--refreshed .SiteHeader__container{overflow:hidden;z-index:2}@media (min-width:1112px){.MktRoot .SiteHeader--refreshed .SiteHeader__container{overflow:visible}}.MktRoot .SiteHeader--refreshed .SiteHeader__container:after{content:"";display:block;width:calc(100vw - var(--columnPaddingNormal)*2 - var(--scrollbarWidth));max-width:1264px;height:100%;position:absolute;z-index:-1;top:0;left:50%;transform:translateX(-50%);opacity:0;transition-property:opacity,border-radius;transition-duration:.24s,0ms;transition-timing-function:cubic-bezier(.45,.05,.55,.95),linear;border-top-left-radius:var(--refreshedNavBorderRadius);border-top-right-radius:var(--refreshedNavBorderRadius);border-bottom-left-radius:var(--navContainerBorderBottomRadius);border-bottom-right-radius:var(--navContainerBorderBottomRadius);background-color:var(--navContainerBgColor);box-shadow:var(--navContainerBoxShadow)}@media (min-width:900px){.MktRoot .SiteHeader--refreshed .SiteHeader__container .CtaButton,.MktRoot .SiteHeader--refreshed .SiteHeader__container .RefreshedNavGradientCta .HoverArrow,.MktRoot .SiteHeader--refreshed .SiteHeader__container .RefreshedNavGradientCta .NavCta__label,.MktRoot .SiteHeader--refreshed .SiteHeader__container .RefreshedNavGradientCta .NavCta__label--noGradient,.MktRoot .SiteHeader--refreshed .SiteHeader__container .SiteHeader__logo svg path,.MktRoot .SiteHeader--refreshed .SiteHeader__container .SiteHeaderNavItem__link{transition-property:opacity,color,background-color,border,fill,stroke;transition-duration:.3s;transition-timing-function:cubic-bezier(.25,1,.5,1);transform:translateZ(0)}.MktRoot .SiteHeader--refreshed .SiteHeader__container .SiteHeader__logo{transition-duration:.24s;transition-timing-function:cubic-bezier(.45,.05,.55,.95)}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover{--navColor:#061b31;--navHoverColor:#061b31;--linkColor:#061b31;--linkHoverColor:#061b31;--linkHoverOpacity:0.6;--menuBgColor:#eff3f9;--userLogoColor:#031323;--knockoutColor:#fff;--buttonColor:#031323}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover .RefreshedNavGradientCta .CtaButton{background-color:#0a2540}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover .CtaButton.variant--Button:hover{opacity:.6}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover .RefreshedNavGradientCta .NavCta__label{opacity:0}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover .RefreshedNavGradientCta .NavCta__label--noGradient{opacity:1}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover .RefreshedNavGradientCta .HoverArrow{stroke:#fff!important}.MktRoot .SiteHeader--refreshed .SiteHeader__container:hover:after{opacity:1}}.MktRoot .SiteHeader--refreshed .SiteHeader__menuContainer{all:unset;display:block;opacity:1;height:100%;position:relative;z-index:2;pointer-events:none}.MktRoot .SiteHeader--refreshed .SiteHeader__menuContainer:before{content:"";display:block;position:absolute;left:50%;transform:translateX(-50%);width:var(--refreshedNavWidth);max-width:var(--refreshedNavMaxWidth);transition-property:opacity;transition-duration:.24s;transition-timing-function:cubic-bezier(.45,.05,.55,.95);height:10px;z-index:100;top:-10px;border-bottom:1px solid #e5edf5;pointer-events:auto}.MktRoot .SiteHeader--refreshed .RefreshedMenu{width:var(--refreshedNavWidth);max-width:var(--refreshedNavMaxWidth);background-color:#fff;border-bottom-left-radius:var(--refreshedNavBorderRadius);border-bottom-right-radius:var(--refreshedNavBorderRadius);box-shadow:var(--refreshedMenuShadow);display:inline-block;z-index:2;overflow:clip;left:50%;transform:translateX(-50%);transition:height .2s cubic-bezier(.45,.05,.55,.95);will-change:height}.MktRoot .SiteHeader--refreshed .RefreshedMenu__card{position:relative;height:100%;overflow:hidden;z-index:1}.MktRoot .SiteHeader--refreshed .RefreshedMenu__section{--siteMenuSectionOffset:0;display:inline-block;position:absolute;top:0;left:50%;opacity:1;transform:translateX(-50%) translateX(var(--siteMenuSectionOffset));transition-property:opacity,transform;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.25s,.5s;will-change:opacity,transform}.MktRoot .SiteHeader--refreshed .RefreshedMenu__section[aria-hidden=true]{opacity:0;pointer-events:none}.MktRoot .SiteHeader--refreshed .RefreshedMenu__section[aria-hidden=true].SiteMenu__section--left{--siteMenuSectionOffset:-20%}.MktRoot .SiteHeader--refreshed .RefreshedMenu__section[aria-hidden=true].SiteMenu__section--right{--siteMenuSectionOffset:20%}.MktRoot .SiteHeader--refreshed.SiteHeader--noTransitions .RefreshedMenu__section{transition-duration:0ms}.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .CtaButton,.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .RefreshedNavGradientCta .HoverArrow,.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .RefreshedNavGradientCta .NavCta__label,.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .RefreshedNavGradientCta .NavCta__label--noGradient,.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .SiteHeader__logo svg path,.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .SiteHeaderNavItem__link{transition-delay:.24s}.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .SiteHeader__container:after{transition-delay:.24s,.2s}.MktRoot .SiteHeader--refreshed[data-menu-state=closed].SiteHeader--dropdownVisible .SiteHeaderNavItem__link:not(.SiteHeaderNavItem__link--hasCaret):hover{transition-delay:0ms}.MktRoot .SiteHeader--refreshed[data-menu-state=closed] .RefreshedMenu{height:0;pointer-events:none}.MktRoot .SiteHeader--refreshed[data-menu-state=closed] .SiteHeader__overlay{opacity:0;pointer-events:none}.MktRoot .SiteHeader--refreshed[data-menu-state=closed] .SiteHeader__menuContainer:before{opacity:0}.MktRoot .SiteHeader--refreshed[data-menu-state=open]{z-index:2147483647}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container{--navContainerBorderBottomRadius:0}@media (min-width:900px){.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container{--navColor:#061b31;--navHoverColor:#061b31;--linkColor:#061b31;--linkHoverColor:#061b31;--linkHoverOpacity:0.6;--menuBgColor:#eff3f9;--userLogoColor:#031323;--knockoutColor:#fff;--buttonColor:#031323}}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container .RefreshedNavGradientCta .CtaButton{background-color:#0a2540}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container .RefreshedNavGradientCta .CtaButton:hover{opacity:.6}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container .RefreshedNavGradientCta .NavCta__label{opacity:0}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container .RefreshedNavGradientCta .NavCta__label--noGradient{opacity:1}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container .RefreshedNavGradientCta .HoverArrow{stroke:#fff!important}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__container:after{opacity:1;transition:none}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .RefreshedMenu{height:var(--siteMenuHeight);pointer-events:auto}.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__menuContainer:before,.MktRoot .SiteHeader--refreshed[data-menu-state=open] .SiteHeader__overlay{opacity:1}</style>
 <style>.Guides{position:absolute;height:100%;width:100%;top:0;left:0;padding:0 var(--columnPaddingNormal);pointer-events:none}@media (max-width:1111px){.Guides{max-width:var(--windowWidth)}}.Guides__container{display:grid;grid:1fr/repeat(var(--columnCountMax),1fr);position:relative;max-width:var(--layoutWidth);height:100%;margin:0 auto}.Guides__guide{width:1px;background:linear-gradient(180deg,var(--guideDashedColor),var(--guideDashedColor) 50%,transparent 0,transparent);background-size:1px 8px}.Guides__guide:first-of-type,.Guides__guide:last-of-type{background:var(--guideSolidColor)}.Guides__guide:last-of-type{position:absolute;top:0;right:0;height:100%}@media (max-width:599px){.Guides__guide:nth-of-type(3n){display:none}}@media (max-width:899px){.Guides__guide:nth-of-type(2n){display:none}}</style>
 <style>.UserLogo{--userLogoMaxWidth:140px;display:block}@media (min-width:350px){.UserLogo{--userLogoMaxWidth:160px}}@media (max-width:899px){.UserLogo{max-width:var(--userLogoMaxWidth)}}.theme--White .UserLogo.variant--Flat{--userLogoColor:#b2bcc7}.theme--Light .UserLogo.variant--Flat{--userLogoColor:#aab4c1}.theme--Dark .UserLogo.variant--Flat{--userLogoColor:#fff;--userLogoColorAltShadeLighter:color-mix(in srgb,var(--userLogoColor) 92.5%,#000)}.UserLogo.variant--Flat{--userLogoColorAlt:var(--backgroundColor);--userLogoColorAltShadeDarker:color-mix(in srgb,var(--userLogoColor) 85%,#000);--userLogoColorAltShadeLighter:color-mix(in srgb,var(--userLogoColor) 75%,#fff);--userLogoColorAltNoTransparency:var(--backgroundColor)}</style>
 <style>.SiteHeaderNavItem+.SiteHeaderNavItem{margin-left:-1px}.SiteHeaderNavItem__link,.SiteHeaderNavItem__link.Link{--linkColor:var(--navColor);--linkHoverColor:var(--navHoverColor);--linkHoverOpacity:var(--navHoverOpacity);display:block;padding:10px 20px;font:var(--fontWeightBold) 15px/1.6 var(--fontFamily);letter-spacing:.2px;color:var(--navColor);cursor:pointer;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:transparent;border:none;outline:none}.SiteHeaderNavItem__link.Link[aria-haspopup=true],.SiteHeaderNavItem__link[aria-haspopup=true]{cursor:default;transition:var(--hoverTransition);transition-property:color,opacity}.SiteHeaderNavItem__link.Link[aria-expanded=true],.SiteHeaderNavItem__link[aria-expanded=true]{color:var(--linkHoverColor);opacity:var(--linkHoverOpacity)}.keyboard-navigation .SiteHeaderNavItem__link.Link:focus,.keyboard-navigation .SiteHeaderNavItem__link:focus{box-shadow:var(--focusBoxShadow);border-radius:4px}html[lang^=ja] .SiteHeaderNavItem__link,html[lang^=ja] .SiteHeaderNavItem__link.Link{font-weight:600;font-variation-settings:"wght" 500}html[lang^=de] .SiteHeaderNavItem__link,html[lang^=de] .SiteHeaderNavItem__link.Link{font:var(--fontWeightBold) 14px/1.6 var(--fontFamily)}.SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link,.SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link.Link{padding:10px 20px}html[lang^=es] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link,html[lang^=es] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link.Link,html[lang^=fr] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link,html[lang^=fr] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link.Link,html[lang^=id] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link,html[lang^=id] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link.Link,html[lang^=nl] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link,html[lang^=nl] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link.Link{padding:10px 16px}html[lang^=de] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link,html[lang^=de] .SiteHeader--hasContactSales:not(.SiteHeader--refreshed) .SiteHeaderNavItem__link.Link{padding:10px 8px}.SiteHeader--tripleCTA .SiteHeaderNavItem__link,.SiteHeader--tripleCTA .SiteHeaderNavItem__link.Link{padding:10px 14px}.SiteHeader .SiteHeaderNavItem--condensed .SiteHeaderNavItem__link{padding:10px 12px}.SiteHeader .SiteHeaderNavItem--condensed .SiteHeaderNavItem__link:not(.SiteHeaderNavItem__link--hasCaret){padding:10px 16px}.SiteHeaderNavItem__link--hasCaret{display:flex;align-items:center;-moz-column-gap:3px;column-gap:3px}.SiteHeaderNavItem__link--hasCaret span,.SiteHeaderNavItem__link--hasCaret svg{display:inline-flex}.SiteHeaderNavItem__link--hasCaret.SiteHeaderNavItem__link[aria-expanded=true] .SiteHeaderNavItem__linkCaret--left{transform:rotate(-90deg)}.SiteHeaderNavItem__link--hasCaret.SiteHeaderNavItem__link[aria-expanded=true] .SiteHeaderNavItem__linkCaret--right{transform:rotate(90deg)}.SiteHeaderNavItem__link--hasCaret .SiteHeaderNavItem__linkCaretContainer{position:relative;padding:7px 1px 5px}.SiteHeaderNavItem__link--hasCaret .SiteHeaderNavItem__linkCaret{transition:transform .4s cubic-bezier(.4,0,.2,1)}.SiteHeaderNavItem__link--hasCaret .SiteHeaderNavItem__linkCaret--left{translate:2px}.SiteHeaderNavItem__link--hasCaret .SiteHeaderNavItem__linkCaret--right{translate:-2px}.SiteHeader--refreshed[data-menu-state=open] a.SiteHeaderNavItem__link,.SiteHeader--refreshed[data-menu-state=open] button.SiteHeaderNavItem__link[aria-expanded=false]{--navColor:#667691}.SiteHeader--refreshed .SiteHeaderNav__list:has(a.SiteHeaderNavItem__link:hover) .SiteHeaderNavItem__link:not(:hover){--navColor:#667691}.SiteHeaderNavItem--refreshed .SiteHeaderNavItem__link,.SiteHeaderNavItem--refreshed .SiteHeaderNavItem__link.Link{letter-spacing:normal;font:400 14px/1 var(--fontFamily);padding-block:12px 14px;padding-inline:12px;cursor:pointer}.SiteHeaderNavItem--refreshed .SiteHeaderNavItem__link.Link:hover,.SiteHeaderNavItem--refreshed .SiteHeaderNavItem__link.Link[aria-expanded=true],.SiteHeaderNavItem--refreshed .SiteHeaderNavItem__link:hover,.SiteHeaderNavItem--refreshed .SiteHeaderNavItem__link[aria-expanded=true]{color:var(--navColor);opacity:1}.SiteHeaderNavItem--refreshed.SiteHeaderNavItem--hasSparkle{display:none;margin-left:0}.SiteHeaderNavItem--refreshed.SiteHeaderNavItem--hasSparkle .SiteHeaderNavItem__sparkleDivider{display:block;flex-shrink:0;margin-left:4px;margin-right:16px}.SiteHeaderNavItem--refreshed.SiteHeaderNavItem--hasSparkle .SiteHeaderNavItem__link--hasSparkle,.SiteHeaderNavItem--refreshed.SiteHeaderNavItem--hasSparkle .SiteHeaderNavItem__link--hasSparkle.Link{display:inline-flex;align-items:center;-moz-column-gap:6px;column-gap:6px;padding-inline:0 12px}.SiteHeaderNavItem--refreshed.SiteHeaderNavItem--hasSparkle .SiteHeaderNavItem__sparkleIcon{flex-shrink:0}@media (min-width:1000px){.SiteHeader--refreshed .SiteHeaderNavItem--hasSparkle{display:inline-flex;align-items:center;flex-shrink:0}}</style>
@@ -320,8 +320,9 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 <style>.HoverArrow{--arrowSpacing:5px;--arrowHoverTransition:150ms cubic-bezier(0.215,0.61,0.355,1);--arrowHoverOffset:translateX(3px);--arrowTipTransform:none;--arrowLineOpacity:0;position:relative;top:var(--arrowTop,1px);margin-left:var(--arrowSpacing);stroke-width:2px;fill:none;stroke:currentColor}.HoverArrow--sizeSmall{--arrowSpacing:4px;stroke-width:1.5px}.HoverArrow__linePath{opacity:var(--arrowLineOpacity);transition:opacity var(--hoverTransition,var(--arrowHoverTransition))}.HoverArrow__tipPath{transform:var(--arrowTipTransform);transition:transform var(--hoverTransition,var(--arrowHoverTransition))}.nobr{white-space:nowrap;line-height:0}@media (pointer:fine){a:hover .HoverArrow__linePath,button:hover .HoverArrow__linePath{--arrowLineOpacity:1}a:hover .HoverArrow__tipPath,button:hover .HoverArrow__tipPath{--arrowTipTransform:var(--arrowHoverOffset)}}@media (pointer:coarse){a:active .HoverArrow__linePath,button:active .HoverArrow__linePath{--arrowLineOpacity:1}a:active .HoverArrow__tipPath,button:active .HoverArrow__tipPath{--arrowTipTransform:var(--arrowHoverOffset)}}</style>
 <style>.SiteHeader:not(.SiteHeader--isStuck) .NavCtaGradient{--buttonColor:#fff;--buttonHoverColor:hsla(0,0%,100%,0.9);--initialGradientColor:linear-gradient(90deg,#e18638,#e17a38)}.SiteHeader:not(.SiteHeader--isStuck) .NavCtaGradient .CtaButton.variant--Button .NavCta__label{background:var(--initialGradientColor);will-change:color;background-clip:text!important;-webkit-background-clip:text!important;-webkit-text-fill-color:transparent!important;transition:background .3s linear}.SiteHeader:not(.SiteHeader--isStuck) .NavCtaGradient .CtaButton.variant--Button .HoverArrow{stroke:#e17a38;will-change:stroke;transition:stroke .3s linear}.SiteHeader--isStuck .NavCtaGradient .CtaButton.variant--Button .NavCta__label{background:none!important}.SiteHeader--isStuck .NavCtaGradient .HoverArrow{stroke:#fff!important}</style>
 <style>.RefreshedMenuButton{margin-left:auto;position:relative;border-radius:6px;padding:0;width:40px;height:40px;display:grid;place-items:center;background-color:var(--accentColor);border:none;cursor:pointer;transition:background-color .2s cubic-bezier(0,.09,.4,1),opacity .25s ease-in-out,visibility .25s ease-in-out}.RefreshedMenuButton rect{opacity:1;transform-origin:center;transition:.25s ease-in-out}@media (pointer:fine){.RefreshedMenuButton:hover rect:first-child{transform:translateY(-10px)}.RefreshedMenuButton:hover rect:nth-child(4){transform:translateY(10px)}}@media (pointer:coarse){.RefreshedMenuButton:active rect:first-child{transform:translateY(-10px)}.RefreshedMenuButton:active rect:nth-child(4){transform:translateY(10px)}}.RefreshedMenuButton__icon{fill:#fff}.SiteHeader--mobileMenuVisible .RefreshedMenuButton{fill:#533afd;opacity:0;visibility:hidden;pointer-events:none}.SiteHeader--mobileMenuVisible .RefreshedMenuButton rect{opacity:1;transform-origin:center;transition:.25s ease-in-out}.SiteHeader--mobileMenuVisible .RefreshedMenuButton rect:first-child{transform:translateX(40px) translateY(20px);width:0;opacity:0}.SiteHeader--mobileMenuVisible .RefreshedMenuButton rect:nth-child(4){transform:translateX(40px) translateY(-20px);width:0;opacity:0}.SiteHeader--mobileMenuVisible .RefreshedMenuButton rect:nth-child(2){transform:rotate(45deg)}.SiteHeader--mobileMenuVisible .RefreshedMenuButton rect:nth-child(3){transform:rotate(-45deg)}</style>
-<style>.MobileMenu{--siteMobileMenuHeaderHeight:60px;--siteMobileMenuFooterHeight:64px;--siteMobileMenuPadding:4px;--siteMobileMenuNavListTransform:translateY(0px);--siteMobileMenuSectionTransform:translateY(0px);--transitionDuration:240ms;--transitionEasing:cubic-bezier(0.45,0.05,0.55,0.95);--siteMobileMenuTransition:var(--transitionDuration) var(--transitionEasing);--siteMobileMenuTransitionIn:visibility var(--transitionDuration) step-end,opacity var(--siteMobileMenuTransition);--siteMobileMenuTransitionOut:visibility var(--transitionDuration) step-start,opacity var(--siteMobileMenuTransition);position:fixed;inset:0;transform:translateY(0);background:#f6f9fb;overflow-x:hidden;overflow-y:var(--siteMobileMenuOverflowY);display:grid;grid:var(--siteMobileMenuHeaderHeight) auto var(--siteMobileMenuFooterHeight)/auto;padding:var(--siteMobileMenuPadding);z-index:2}@media (min-width:900px){.MobileMenu{display:none}}@media (prefers-reduced-motion:reduced){.MobileMenu{--transitionDuration:1ms}}.MobileMenu__header{position:sticky;top:0;padding:16px;height:var(--siteMobileMenuHeaderHeight);display:flex;justify-content:space-between;align-items:center;background-color:#fff;border-radius:4px 4px 0 0;z-index:1}.MobileMenu__header:before{content:"";position:absolute;inset:calc(var(--siteMobileMenuPadding)*-1) calc(var(--siteMobileMenuPadding)*-1) 0 calc(var(--siteMobileMenuPadding)*-1);border:solid #f6f9fb;border-width:var(--siteMobileMenuPadding);border-bottom:0 solid #f6f9fb;pointer-events:none}.MobileMenu__header:after{content:"";position:absolute;right:0;bottom:0;left:0;height:1px;background:linear-gradient(90deg,var(--guideDashedColor),var(--guideDashedColor) 50%,transparent 0,transparent);background-size:8px 1px}.MobileMenu__logo{--userLogoColor:var(--accentColor);opacity:1;visibility:visible;transition:var(--siteMobileMenuTransitionOut);-webkit-tap-highlight-color:transparent}.MobileMenu--isMenuSectionActive .MobileMenu__logo{opacity:0;visibility:hidden;transition:var(--siteMobileMenuTransitionIn);pointer-events:none}.MobileMenu__backButton{position:absolute;left:12px;display:inline-flex;justify-content:center;align-items:center;-moz-column-gap:8px;column-gap:8px;padding:0;color:var(--accentColor);font:var(--fontWeightSemibold) 16px/1.5 var(--fontFamily);border:none;outline:none;background:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;opacity:0;visibility:hidden;transition:visibility var(--transitionDuration) step-end,opacity .15s ease-out;pointer-events:none;cursor:pointer;-webkit-tap-highlight-color:transparent}.MobileMenu--isMenuSectionActive .MobileMenu__backButton{opacity:1;pointer-events:auto;visibility:visible;transition:var(--siteMobileMenuTransitionOut)}.keyboard-navigation .MobileMenu__backButton:focus{box-shadow:var(--focusBoxShadow)}.MobileMenu__backButtonChevron{margin-top:3px}.MobileMenu__backButtonText{padding:0 4px 2px 0}.MobileMenu__closeButton{padding:0;border:none;outline:none;background:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;cursor:pointer;-webkit-tap-highlight-color:transparent}.keyboard-navigation .MobileMenu__closeButton:focus{box-shadow:var(--focusBoxShadow)}.MobileMenu__body{width:calc(100vw - 8px);display:flex}.MobileMenu__nav{width:100%;flex-shrink:0;background-color:#fff}.MobileMenu__navList{list-style:none;margin:20px 16px;padding:0;transform:var(--siteMobileMenuNavListTransform)}.MobileMenu__sections{position:relative;width:100%;flex-shrink:0;background:#f6f9fb;transform:translateX(-80%);opacity:0;pointer-events:none;transition-duration:.25s,.5s;transition-property:opacity,transform;transition-timing-function:cubic-bezier(.4,0,.2,1)}.MobileMenu--isMenuSectionActive .MobileMenu__sections{transform:translateX(-100%);opacity:1;pointer-events:auto}.MobileMenu__footer{height:var(--siteMobileMenuFooterHeight);display:flex;justify-content:center;align-items:center;padding:4px;gap:16px;position:sticky;bottom:0;background:radial-gradient(66.35% 66.35% at 50% 50%,hsla(0,0%,100%,.9) 0,hsla(0,0%,100%,0) 100%),hsla(0,0%,100%,.8);-webkit-backdrop-filter:blur(3.5px);backdrop-filter:blur(3.5px);z-index:2;border-radius:0 0 4px 4px}.MobileMenu__footer:after{content:"";position:absolute;inset:0 calc(var(--siteMobileMenuPadding)*-1) calc(var(--siteMobileMenuPadding)*-1) calc(var(--siteMobileMenuPadding)*-1);border:solid #f6f9fb;border-width:var(--siteMobileMenuPadding);border-top:0 solid #f6f9fb;pointer-events:none}.MobileMenu--isRefreshed.MobileMenu{--siteMobileMenuFooterHeight:76px;--siteMobileMenuPadding:0;--siteMobileMenuHeaderHeight:66px;background:#fff}.MobileMenu--isRefreshed .MobileMenu__sections{background-color:#fff}.MobileMenu--isRefreshed .MobileMenu__header:after{content:none}.MobileMenu--isRefreshed .MobileMenu__logo{--userLogoColor:#031323}.MobileMenu--isRefreshed .MobileMenu__header{padding:16px 24px 10px}.MobileMenu--isRefreshed .MobileMenu__navList{margin-block:12px;margin-inline:24px 16px}.MobileMenu--isRefreshed .MobileMenu__backButton{color:#533afd;left:24px;line-height:1;text-box:trim-both cap alphabetic}.MobileMenu--isRefreshed .MobileMenu__backButtonText{padding:0}.MobileMenu--isRefreshed .MobileMenu__closeButton{width:40px;height:40px;display:grid;place-items:center;border-radius:4px;background:#e8e9ff;opacity:0;visibility:hidden;transition:none}.MobileMenu--isRefreshed .SiteMobileMenuNavItem{margin-top:1px}.MobileMenu--isRefreshed .SiteMobileMenuNavItem__label,.MobileMenu--isRefreshed .SiteMobileMenuNavItem__link{font-weight:400;line-height:1;color:#061b31}.MobileMenu--isRefreshed .SiteMobileMenuNavItem__link{padding:16px 0}.MobileMenu--isRefreshed .SiteMobileMenuNavItem__chevron{color:#533afd}.MobileMenu--isRefreshed .SiteMobileMenuNavItem:not(.SiteMobileMenuNavItem--hasDescription):before{border-bottom:1px dashed #e5edf5;background:none;background-size:none}.MobileMenu--isRefreshed .MobileMenu__footer .CtaButton.variant--Button{color:#fff;background-color:#031323}.MobileMenu--isRefreshed .MobileMenu__footer .CtaButton.variant--Link{color:#031323}.MobileMenu--isRefreshed .MobileMenu__personalizeCallout{padding:4px 24px}.MobileMenu--isRefreshed .MobileMenu__personalizeCallout .PersonalizeCallout{display:flex;flex-direction:column;align-items:flex-start;gap:8px}.SiteHeader--mobileMenuVisible:has(.MobileMenu--isRefreshed) .MobileMenu__closeButton{fill:#533afd;opacity:1;visibility:visible;transition:opacity .25s ease-in-out .1s,visibility 0s ease-in-out .1s}.SiteHeader--mobileMenuVisible:has(.MobileMenu--isRefreshed) .MobileMenu__closeButton rect{opacity:1;transform-origin:center;transition:.25s ease-in-out}.SiteHeader--mobileMenuVisible:has(.MobileMenu--isRefreshed) .MobileMenu__closeButton rect:first-child{transform:translateX(40px) translateY(20px);width:0;opacity:0}.SiteHeader--mobileMenuVisible:has(.MobileMenu--isRefreshed) .MobileMenu__closeButton rect:nth-child(4){transform:translateX(40px) translateY(-20px);width:0;opacity:0}.SiteHeader--mobileMenuVisible:has(.MobileMenu--isRefreshed) .MobileMenu__closeButton rect:nth-child(2){transform:rotate(45deg)}.SiteHeader--mobileMenuVisible:has(.MobileMenu--isRefreshed) .MobileMenu__closeButton rect:nth-child(3){transform:rotate(-45deg)}</style>
+<style>.MobileMenu{--siteMobileMenuHeaderHeight:60px;--siteMobileMenuFooterHeight:64px;--siteMobileMenuPadding:4px;--siteMobileMenuNavListTransform:translateY(0px);--siteMobileMenuSectionTransform:translateY(0px);--transitionDuration:240ms;--transitionEasing:cubic-bezier(0.45,0.05,0.55,0.95);--siteMobileMenuTransition:var(--transitionDuration) var(--transitionEasing);--siteMobileMenuTransitionIn:visibility var(--transitionDuration) step-end,opacity var(--siteMobileMenuTransition);--siteMobileMenuTransitionOut:visibility var(--transitionDuration) step-start,opacity var(--siteMobileMenuTransition);position:fixed;inset:0;transform:translateY(0);background:#f6f9fb;overflow-x:hidden;overflow-y:var(--siteMobileMenuOverflowY);display:grid;grid:var(--siteMobileMenuHeaderHeight) auto var(--siteMobileMenuFooterHeight)/auto;padding:var(--siteMobileMenuPadding);z-index:2}@media (min-width:900px){.MobileMenu{display:none}}@media (prefers-reduced-motion:reduced){.MobileMenu{--transitionDuration:1ms}}.MobileMenu__header{position:sticky;top:0;padding:16px;height:var(--siteMobileMenuHeaderHeight);display:flex;justify-content:space-between;align-items:center;background-color:#fff;border-radius:4px 4px 0 0;z-index:1}.MobileMenu__header:before{content:"";position:absolute;inset:calc(var(--siteMobileMenuPadding)*-1) calc(var(--siteMobileMenuPadding)*-1) 0 calc(var(--siteMobileMenuPadding)*-1);border:solid #f6f9fb;border-width:var(--siteMobileMenuPadding);border-bottom:0 solid #f6f9fb;pointer-events:none}.MobileMenu__header:after{content:"";position:absolute;right:0;bottom:0;left:0;height:1px;background:linear-gradient(90deg,var(--guideDashedColor),var(--guideDashedColor) 50%,transparent 0,transparent);background-size:8px 1px}.MobileMenu__logo{--userLogoColor:var(--accentColor);opacity:1;visibility:visible;transition:var(--siteMobileMenuTransitionOut);-webkit-tap-highlight-color:transparent}.MobileMenu--isMenuSectionActive .MobileMenu__logo{opacity:0;visibility:hidden;transition:var(--siteMobileMenuTransitionIn);pointer-events:none}.MobileMenu__backButton{position:absolute;left:12px;display:inline-flex;justify-content:center;align-items:center;-moz-column-gap:8px;column-gap:8px;padding:0;color:var(--accentColor);font:var(--fontWeightSemibold) 16px/1.5 var(--fontFamily);border:none;outline:none;background:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;opacity:0;visibility:hidden;transition:visibility var(--transitionDuration) step-end,opacity .15s ease-out;pointer-events:none;cursor:pointer;-webkit-tap-highlight-color:transparent}.MobileMenu--isMenuSectionActive .MobileMenu__backButton{opacity:1;pointer-events:auto;visibility:visible;transition:var(--siteMobileMenuTransitionOut)}.keyboard-navigation .MobileMenu__backButton:focus{box-shadow:var(--focusBoxShadow)}.MobileMenu__backButtonChevron{margin-top:3px}.MobileMenu__backButtonText{padding:0 4px 2px 0}.MobileMenu__closeButton{padding:0;border:none;outline:none;background:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;cursor:pointer;-webkit-tap-highlight-color:transparent}.keyboard-navigation .MobileMenu__closeButton:focus{box-shadow:var(--focusBoxShadow)}.MobileMenu__body{width:calc(100vw - 8px);display:flex}.MobileMenu__nav{width:100%;flex-shrink:0;background-color:#fff}.MobileMenu__navList{list-style:none;margin:20px 16px;padding:0;transform:var(--siteMobileMenuNavListTransform)}.MobileMenu__sections{position:relative;width:100%;flex-shrink:0;background:#f6f9fb;transform:translateX(-80%);opacity:0;pointer-events:none;transition-duration:.25s,.5s;transition-property:opacity,transform;transition-timing-function:cubic-bezier(.4,0,.2,1)}.MobileMenu--isMenuSectionActive .MobileMenu__sections{transform:translateX(-100%);opacity:1;pointer-events:auto}.MobileMenu__footer{height:var(--siteMobileMenuFooterHeight);display:flex;justify-content:center;align-items:center;padding:4px;gap:16px;position:sticky;bottom:0;background:radial-gradient(66.35% 66.35% at 50% 50%,hsla(0,0%,100%,.9) 0,hsla(0,0%,100%,0) 100%),hsla(0,0%,100%,.8);-webkit-backdrop-filter:blur(3.5px);backdrop-filter:blur(3.5px);z-index:2;border-radius:0 0 4px 4px}.MobileMenu__footer:after{content:"";position:absolute;inset:0 calc(var(--siteMobileMenuPadding)*-1) calc(var(--siteMobileMenuPadding)*-1) calc(var(--siteMobileMenuPadding)*-1);border:solid #f6f9fb;border-width:var(--siteMobileMenuPadding);border-top:0 solid #f6f9fb;pointer-events:none}.MobileMenu--isRefreshed.MobileMenu{--siteMobileMenuFooterHeight:76px;--siteMobileMenuPadding:0;--siteMobileMenuHeaderHeight:66px;background:#fff}.MobileMenu--isRefreshed .MobileMenu__sections{background-color:#fff}.MobileMenu--isRefreshed .MobileMenu__header:after{content:none}.MobileMenu--isRefreshed .MobileMenu__logo{--userLogoColor:#031323}.MobileMenu--isRefreshed .MobileMenu__header{padding:16px 24px 10px}.MobileMenu--isRefreshed .MobileMenu__navList{margin-block:12px;margin-inline:24px 16px}.MobileMenu--isRefreshed .MobileMenu__backButton{color:#533afd;left:24px;line-height:1;text-box:trim-both cap alphabetic}.MobileMenu--isRefreshed .MobileMenu__backButtonText{padding:0}.MobileMenu--isRefreshed .MobileMenu__closeButton{width:40px;height:40px;display:grid;place-items:center;border-radius:4px;background:#e8e9ff;opacity:0;visibility:hidden;transition:none}.MobileMenu--isRefreshed .SiteMobileMenuNavItem{margin-top:1px}.MobileMenu--isRefreshed .SiteMobileMenuNavItem__label,.MobileMenu--isRefreshed .SiteMobileMenuNavItem__link{font-weight:400;line-height:1;color:#061b31}.MobileMenu--isRefreshed .SiteMobileMenuNavItem__link{padding:16px 0}.MobileMenu--isRefreshed .SiteMobileMenuNavItem__chevron{color:#533afd}.MobileMenu--isRefreshed .SiteMobileMenuNavItem:not(.SiteMobileMenuNavItem--hasDescription):before{border-bottom:1px dashed #e5edf5;background:none;background-size:none}.MobileMenu--isRefreshed .MobileMenu__footer .CtaButton.variant--Button{color:#fff;background-color:#031323}.MobileMenu--isRefreshed .MobileMenu__footer .CtaButton.variant--Link{color:#031323}.SiteHeader--mobileMenuVisible:has(.MobileMenu--isRefreshed) .MobileMenu__closeButton{fill:#533afd;opacity:1;visibility:visible;transition:opacity .25s ease-in-out .1s,visibility 0s ease-in-out .1s}.SiteHeader--mobileMenuVisible:has(.MobileMenu--isRefreshed) .MobileMenu__closeButton rect{opacity:1;transform-origin:center;transition:.25s ease-in-out}.SiteHeader--mobileMenuVisible:has(.MobileMenu--isRefreshed) .MobileMenu__closeButton rect:first-child{transform:translateX(40px) translateY(20px);width:0;opacity:0}.SiteHeader--mobileMenuVisible:has(.MobileMenu--isRefreshed) .MobileMenu__closeButton rect:nth-child(4){transform:translateX(40px) translateY(-20px);width:0;opacity:0}.SiteHeader--mobileMenuVisible:has(.MobileMenu--isRefreshed) .MobileMenu__closeButton rect:nth-child(2){transform:rotate(45deg)}.SiteHeader--mobileMenuVisible:has(.MobileMenu--isRefreshed) .MobileMenu__closeButton rect:nth-child(3){transform:rotate(-45deg)}</style>
 <style>.SiteMobileMenuNavItem{--linkColor:#3f4b66;position:relative}.SiteMobileMenuNavItem:not(.SiteMobileMenuNavItem--hasDescription):before{content:"";position:absolute;right:0;bottom:0;left:0;height:1px;background:linear-gradient(90deg,var(--guideDashedColor),var(--guideDashedColor) 50%,transparent 0,transparent);background-size:8px 1px}.SiteMobileMenuNavItem--hasDescription{--linkHoverOpacity:0.8}.SiteMobileMenuNavItem__link{--linkWeight:var(--fontWeightBold);display:flex;justify-content:space-between;align-items:center;-moz-column-gap:20px;column-gap:20px;width:100%;padding:20px 0;border:none;outline:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:transparent;text-align:left;font:var(--fontWeightBold) 18px/1.27 var(--fontFamily);letter-spacing:.2px;color:#3f4b66;cursor:pointer;-webkit-tap-highlight-color:transparent}.keyboard-navigation .SiteMobileMenuNavItem__link:focus{box-shadow:var(--focusBoxShadow)}@media (pointer:fine){.SiteMobileMenuNavItem__link:hover{opacity:var(--linkHoverOpacity,1)}}@media (pointer:coarse){.SiteMobileMenuNavItem__link:active{opacity:var(--linkHoverOpacity,1)}}.SiteMobileMenuNavItem__label:not(:only-child){color:#0a2540;font:var(--fontWeightBold) 16px/1.3 var(--fontFamily)}.SiteMobileMenuNavItem__description{margin-top:4px;font:var(--fontWeightNormal) 16px/1.25 var(--fontFamily)}.SiteMobileMenuNavItem__chevron{flex-shrink:0}</style>
+<style>.ProductsCallout{--hds-font-weight-normal:var(--fontWeightNormal);--hds-font-weight-bold:400;font:var(--hds-font-weight-normal) 14px/1.4 var(--fontFamily)}.ProductsCallout__description,.ProductsCallout__title{margin:0;font-weight:var(--hds-font-weight-normal)}.ProductsCallout__title{color:#061b31}.ProductsCallout__description{color:#50617a}.ProductsCallout__link{display:flex;flex-direction:column;align-items:flex-start;font-weight:var(--hds-font-weight-bold);color:#533afd}.ProductsCallout__link:hover{color:#2e2b8c}.ProductsCallout__link:hover .ProductsCallout__description{color:#061b31}.ProductsCallout__link:focus-visible{outline:none;box-shadow:var(--focusBoxShadow)}.ProductsCallout--mobile{display:grid;gap:var(--rowGapNormal);margin:var(--rowGapMedium);padding:20px;border:1px solid #d6d9fc;border-radius:6px}.ProductsCallout--mobile .ProductsCallout__title{margin-bottom:4px;font-weight:var(--hds-font-weight-bold)}.ProductsCallout--desktop{grid-column:1/span 4;display:grid;grid-template-columns:subgrid;margin-top:var(--rowGapLarge);margin-inline:calc(var(--content-padding)*-1);margin-bottom:calc(var(--content-padding)*-1);padding:var(--rowGapMedium) var(--content-padding);border-top:1px solid #e5edf5}.ProductsCallout--desktop.ProductsCallout--withCurator{padding-top:20px}.ProductsCallout--desktop>:last-child{grid-column:span 2}.ProductsCallout--desktop .ProductsCallout__title{color:#1c1e54}@media (min-width:1300px){.ProductsCallout--desktop{margin-inline-end:-40px;padding-inline-end:40px}}</style>
 <style>.RefreshedProductsNavMobile__content{width:100%;display:grid;grid-template-columns:1fr;background-color:#fff;padding:24px 24px 0;row-gap:32px}.RefreshedProductsNavMobile__groupLinks{display:flex;flex-direction:column;gap:12px;margin:calc(var(--divider-vertical-margin)*2) 0 0;list-style:none;padding:0}.RefreshedProductsNavMobile__aside{background-color:#f8fafd;padding:24px;margin:0 -24px}.RefreshedProductsNavMobile__asideTitle{color:#0a2540;font:300 14px/1.5 var(--fontFamily)}.RefreshedProductsNavMobile__asideLinks{display:grid;grid-template-columns:1fr;row-gap:12px;margin:24px 0 0;list-style:none;padding:0}.RefreshedProductsNavMobile__content .SiteProductsNav__group{background-color:#fff;--divider-color:#e5edf5;--divider-vertical-margin:12px}.RefreshedProductsNavMobile__content .SiteProductsNav__group:first-child{--suite-color:#ff6118;--stop-color:#fb76fa;--gradient-color:#533afd}.RefreshedProductsNavMobile__content .SiteProductsNav__group:nth-child(2){--suite-color:#fc5;--stop-color:#fb76fa;--gradient-color:#533afd;--gradient-line-offset:100%}.RefreshedProductsNavMobile__content .SiteProductsNav__group:nth-child(3){--suite-color:#f44bcc;--stop-color:#ec8fff;--gradient-color:#533afd;--gradient-line-offset:200%}.RefreshedProductsNavMobile__content .SiteProductsNav__group:nth-child(4){--suite-color:#ea2261;--stop-color:#da56ed;--gradient-color:#533afd;--gradient-line-offset:300%}.RefreshedProductsNavMobile__content .SiteProductsNav__groupTitle{position:relative;color:#0a2540;font:300 14px/1.2 var(--fontFamily)}</style>
 <style>.RefreshedNavItem{font:300 14px/18px var(--fontFamily);letter-spacing:normal;text-wrap:balance}.RefreshedNavItem:hover .RefreshedNavItem__link{color:#2e2b8c}.RefreshedNavItem:hover .RefreshedNavItem__body{color:#061b31}.RefreshedNavItem__link{color:#533afd;font-weight:400}.RefreshedNavItem__content{display:flex;flex-direction:column;gap:4px}.RefreshedNavItem__body{color:#3c4f69;font:300 14px/1.4 var(--fontFamily);opacity:1;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}@media (hover:none){.RefreshedNavItem__arrow.RefreshedHoverArrow{display:none}}.RefreshedNavItem__link:hover .RefreshedNavItem__arrow.RefreshedHoverArrow{visibility:visible}</style>
 <style>.RefreshedHoverArrow{position:relative;top:0;margin-left:0;visibility:hidden;transition:visibility 0ms linear .3s;animation-name:refreshed-nav-hover-arrow-out;animation-duration:.15s;animation-timing-function:cubic-bezier(.25,1,.5,1);animation-fill-mode:forwards}@media (hover:hover){a:hover .RefreshedHoverArrow,button:hover .RefreshedHoverArrow{animation-name:refreshed-nav-hover-arrow-in;animation-duration:.3s;visibility:visible;transition-delay:0ms}}@keyframes refreshed-nav-hover-arrow-in{0%{opacity:0;transform:translateX(-3px)}to{opacity:1;transform:translateX(0)}}@keyframes refreshed-nav-hover-arrow-out{0%{opacity:1}to{opacity:0}}</style>
@@ -329,7 +330,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 <style>.Picture{--pictureMaxWidth:none;--pictureBleedLeft:0;--pictureBleedRight:0;--pictureBleedLeftMobile:0;--pictureBleedRightMobile:0;display:flex;max-width:var(--pictureMaxWidth);margin-left:calc(var(--pictureBleedLeft)*-1);margin-right:calc(var(--pictureBleedRight)*-1)}@media (max-width:599px){.Picture{margin-left:calc(var(--pictureBleedLeftMobile)*-1);margin-right:calc(var(--pictureBleedRightMobile)*-1)}}.Picture--fitCover{width:100%;height:100%}.Picture__image{vertical-align:top;align-self:flex-start}.Picture--autosize .Picture__image{width:100%;height:auto;max-width:100%}.Picture--fitCover .Picture__image{width:100%;height:100%;-o-object-fit:cover;object-fit:cover}</style>
 <style>.SiteMobileMenuSection{height:100%;max-height:0;overflow:hidden;opacity:0;transform:var(--siteMobileMenuSectionTransform);transition:max-height var(--transitionDuration) step-end,opacity var(--transitionDuration) step-end}.SiteMobileMenuSection--isActive{max-height:100%;opacity:1;transition:max-height var(--transitionDuration) step-start,opacity var(--transitionDuration) step-start}</style>
 <style>.RefreshedNavigation__content{--group-border:1px solid #e5edf5;--bg-aside:#f8fafd;--shadow-aside:#e5edf5;width:100%;display:grid;grid-template-columns:1fr;background-color:#fff;padding:24px 24px 0}.RefreshedNavigation__group{background-color:#fff;padding:0 0 32px}.RefreshedNavigation__group+.RefreshedNavigation__group:not(aside){border-top:var(--group-border);padding:32px 0}aside.RefreshedNavigation__group{position:relative;background-color:var(--bg-aside);padding:24px;margin:0 -24px}@media (min-width:940px){aside.RefreshedNavigation__group:after{content:"";display:block;position:absolute;inset:0 -1000px 0 0;box-shadow:0 -1px 0 0 var(--shadow-aside);background-color:var(--bg-aside);z-index:-1}}.RefreshedNavigation__groupTitle{display:flex;color:#0a2540;font:300 14px/1.2 var(--fontFamily)}.RefreshedNavigation__groupLinks{display:flex;flex-direction:column;gap:12px;margin:24px 0 0;list-style:none;padding:0}@media (min-width:900px){.RefreshedNavigation__content{width:var(--refreshedNavWidth);max-width:var(--refreshedNavMaxWidth);grid-template-columns:repeat(4,1fr);padding:0}.RefreshedNavigation__group{padding:32px 32px 48px}.RefreshedNavigation__group+.RefreshedNavigation__group:not(aside){border-top:none;border-left:var(--group-border);padding:32px 32px 48px}aside.RefreshedNavigation__group{border-left:var(--group-border);padding:32px 32px 48px;margin:0}}</style>
-<style>.RefreshedProductsNav{width:var(--refreshedNavWidth);max-width:var(--refreshedNavMaxWidth)}.RefreshedProductsNav__content{--content-padding:32px;display:grid;grid-template-columns:repeat(4,1fr);-moz-column-gap:40px;column-gap:40px;padding:var(--content-padding)}@media (min-width:1300px){.RefreshedProductsNav__content{grid-template-columns:repeat(4,1fr) 226px;padding:var(--content-padding)}}.RefreshedProductsNav__links{width:100%;display:flex;flex-direction:column;gap:12px;margin:calc(var(--divider-vertical-margin)*2) 0 0;list-style:none;padding:0}.RefreshedProductsNav__aside{--bg-aside:#f8fafd;--shadow-aside:#e5edf5;position:relative;grid-column:span 4;display:grid;grid-template-columns:subgrid;background-color:#f8fafd;padding:var(--content-padding);margin:32px calc(var(--content-padding)*-1) calc(var(--content-padding)*-1)}@media (min-width:940px){.RefreshedProductsNav__aside:after{content:"";display:block;position:absolute;inset:0 -1000px 0 0;box-shadow:0 -1px 0 0 var(--shadow-aside);background-color:var(--bg-aside);z-index:-1}}@media (min-width:1300px){.RefreshedProductsNav__aside{grid-column:5;display:block;grid-template-columns:unset;grid-row:1/span 2;border-left:1px solid #e5edf5;margin:calc(var(--content-padding)*-1) calc(var(--content-padding)*-1) -32px;margin-left:0;display:flex;flex-direction:column}}.RefreshedProductsNav__asideTitle{color:#0a2540;font:300 14px/1.5 var(--fontFamily)}.RefreshedProductsNav__asideContent{grid-column:span 4;display:grid;grid-template-columns:subgrid;align-items:center}.RefreshedProductsNav__asideContent .SessionsBanner{grid-column:span 2;margin-block-start:0}@media (min-width:1300px){.RefreshedProductsNav__asideContent{all:unset;flex:1;display:flex;flex-direction:column;justify-content:space-between}.RefreshedProductsNav__asideContent .SessionsBanner{grid-column:unset;margin-block-start:32px}}.RefreshedProductsNav__asideLinks{grid-column:span 2;display:grid;grid-template-columns:subgrid;row-gap:12px;list-style:none;padding:0;margin:0}@media (min-width:1300px){.RefreshedProductsNav__asideLinks{grid-column:unset;display:grid;grid-template-columns:1fr;row-gap:12px;margin:24px 0 0}}.RefreshedProductsNav .SiteProductsNav__group{--divider-vertical-margin:12px}.RefreshedProductsNav .SiteProductsNav__group:first-child{--suite-color:#ff6118;--stop-color:#fb76fa;--gradient-color:#533afd}.RefreshedProductsNav .SiteProductsNav__group:nth-child(2){--suite-color:#fc5;--stop-color:#fb76fa;--gradient-color:#533afd;--gradient-line-offset:100%}.RefreshedProductsNav .SiteProductsNav__group:nth-child(3){--suite-color:#f44bcc;--stop-color:#ec8fff;--gradient-color:#533afd;--gradient-line-offset:200%}.RefreshedProductsNav .SiteProductsNav__group:nth-child(4){--suite-color:#ea2261;--stop-color:#da56ed;--gradient-color:#533afd;--gradient-line-offset:300%}.RefreshedProductsNav .SiteProductsNav__groupTitle{position:relative;color:#0a2540;font:300 14px/1.5 var(--fontFamily)}.RefreshedGradientLine{position:relative;width:100%;height:1px;overflow:clip;margin-top:var(--divider-vertical-margin);margin-bottom:calc(var(--divider-vertical-margin)*-1);top:0;border-radius:1px}.RefreshedGradientLine:after{content:"";display:block;position:absolute;top:0;left:0;right:0;height:1px;width:100%;background:linear-gradient(90deg,var(--gradient-color),var(--gradient-color) 20%,var(--stop-color) 40%,var(--suite-color) 60%,var(--suite-color)),#e5edf5;border-radius:1px;pointer-events:none}@media (hover:hover){.RefreshedGradientLine:after{background-size:0 100%,100% 100%;background-position:var(--mouse-in-dir,right),0;background-repeat:no-repeat,no-repeat;transition:background-size .3s ease-out}.RefreshedProductsNav__content .SiteProductsNav__group:hover .RefreshedGradientLine:after{background-position:var(--mouse-out-dir,left),0;background-size:100% 100%,100% 100%}}@media (min-width:900px) and (max-height:900px){.RefreshedProductsNav__content{max-height:calc(100vh - var(--refreshedNavHeight) - var(--refreshedNavPaddingBlock)*2);overflow-y:auto}.RefreshedProductsNav__content .RefreshedProductsNav__aside:after{display:none}}.RefreshedProductsNav__consoleBanner{display:none}@media (min-width:1300px){.RefreshedProductsNav__consoleBanner{--console-banner-offset:15px;--console-banner-divider-top:22px;--console-banner-divider-gap:22px;position:relative;grid-column:span 4;display:flex;justify-content:space-between;align-items:center;padding-top:calc(var(--console-banner-divider-top) + var(--console-banner-divider-gap));transform:translateY(var(--console-banner-offset))}.RefreshedProductsNav__consoleBanner:before{content:"";position:absolute;top:var(--console-banner-divider-top);display:block;height:1px;width:100%;background-color:#e5edf5}.RefreshedProductsNav__consoleBanner .hds-link{padding:0}}</style>
+<style>.RefreshedProductsNav{width:var(--refreshedNavWidth);max-width:var(--refreshedNavMaxWidth)}.RefreshedProductsNav__content{--content-padding:32px;display:grid;grid-template-columns:repeat(4,1fr);-moz-column-gap:40px;column-gap:40px;padding:var(--content-padding)}@media (min-width:1300px){.RefreshedProductsNav__content{grid-template-columns:repeat(4,1fr) 226px;padding:var(--content-padding)}}.RefreshedProductsNav__links{width:100%;display:flex;flex-direction:column;gap:12px;margin:calc(var(--divider-vertical-margin)*2) 0 0;list-style:none;padding:0}.RefreshedProductsNav__aside{--bg-aside:#f8fafd;--shadow-aside:#e5edf5;position:relative;grid-column:span 4;display:grid;grid-template-columns:subgrid;background-color:#f8fafd;padding:var(--content-padding);margin:32px calc(var(--content-padding)*-1) calc(var(--content-padding)*-1)}@media (min-width:940px){.RefreshedProductsNav__aside:after{content:"";display:block;position:absolute;inset:0 -1000px 0 0;box-shadow:0 -1px 0 0 var(--shadow-aside);background-color:var(--bg-aside);z-index:-1}}@media (min-width:1300px){.RefreshedProductsNav__aside{grid-column:5;display:block;grid-template-columns:unset;grid-row:1/span 2;border-left:1px solid #e5edf5;margin:calc(var(--content-padding)*-1) calc(var(--content-padding)*-1) -32px;margin-left:0;display:flex;flex-direction:column}}.RefreshedProductsNav__asideTitle{color:#0a2540;font:300 14px/1.5 var(--fontFamily)}.RefreshedProductsNav__asideContent{grid-column:span 4;display:grid;grid-template-columns:subgrid;align-items:center}.RefreshedProductsNav__asideContent .SessionsBanner{grid-column:span 2;margin-block-start:0}@media (min-width:1300px){.RefreshedProductsNav__asideContent{all:unset;flex:1;display:flex;flex-direction:column;justify-content:space-between}.RefreshedProductsNav__asideContent .SessionsBanner{grid-column:unset;margin-block-start:32px}}.RefreshedProductsNav__asideLinks{grid-column:span 2;display:grid;grid-template-columns:subgrid;row-gap:12px;list-style:none;padding:0;margin:0}@media (min-width:1300px){.RefreshedProductsNav__asideLinks{grid-column:unset;display:grid;grid-template-columns:1fr;row-gap:12px;margin:24px 0 0}}.RefreshedProductsNav .SiteProductsNav__group{--divider-vertical-margin:12px}.RefreshedProductsNav .SiteProductsNav__group:first-child{--suite-color:#ff6118;--stop-color:#fb76fa;--gradient-color:#533afd}.RefreshedProductsNav .SiteProductsNav__group:nth-child(2){--suite-color:#fc5;--stop-color:#fb76fa;--gradient-color:#533afd;--gradient-line-offset:100%}.RefreshedProductsNav .SiteProductsNav__group:nth-child(3){--suite-color:#f44bcc;--stop-color:#ec8fff;--gradient-color:#533afd;--gradient-line-offset:200%}.RefreshedProductsNav .SiteProductsNav__group:nth-child(4){--suite-color:#ea2261;--stop-color:#da56ed;--gradient-color:#533afd;--gradient-line-offset:300%}.RefreshedProductsNav .SiteProductsNav__groupTitle{position:relative;color:#0a2540;font:300 14px/1.5 var(--fontFamily)}.RefreshedGradientLine{position:relative;width:100%;height:1px;overflow:clip;margin-top:var(--divider-vertical-margin);margin-bottom:calc(var(--divider-vertical-margin)*-1);top:0;border-radius:1px}.RefreshedGradientLine:after{content:"";display:block;position:absolute;top:0;left:0;right:0;height:1px;width:100%;background:linear-gradient(90deg,var(--gradient-color),var(--gradient-color) 20%,var(--stop-color) 40%,var(--suite-color) 60%,var(--suite-color)),#e5edf5;border-radius:1px;pointer-events:none}@media (hover:hover){.RefreshedGradientLine:after{background-size:0 100%,100% 100%;background-position:var(--mouse-in-dir,right),0;background-repeat:no-repeat,no-repeat;transition:background-size .3s ease-out}.RefreshedProductsNav__content .SiteProductsNav__group:hover .RefreshedGradientLine:after{background-position:var(--mouse-out-dir,left),0;background-size:100% 100%,100% 100%}}@media (min-width:900px) and (max-height:900px){.RefreshedProductsNav__content{max-height:calc(100vh - var(--refreshedNavHeight) - var(--refreshedNavPaddingBlock)*2);overflow-y:auto}.RefreshedProductsNav__content .RefreshedProductsNav__aside:after{display:none}}</style>
 <style>.SiteMenuSection{--siteMenuSpacing:24px;position:relative}@media (min-width:900px){.SiteMenuSection{display:inline-block;--siteMenuSpacing:32px}}@media (max-width:899px){.SiteMenuSection:before{position:absolute;top:0;left:0;width:100%;height:1px;background:linear-gradient(90deg,var(--guideDashedColor),var(--guideDashedColor) 50%,transparent 0,transparent);background-size:8px 1px;content:""}}.SiteMenuSection__body{padding:var(--siteMenuSectionBodyPadding,var(--siteMenuSpacing) var(--siteMenuSpacing) calc(var(--siteMenuSpacing) - 11px))}.SiteMenuSection:only-child .SiteMenuSection__body{padding:var(--siteMenuSectionBodyPadding,var(--siteMenuSpacing) var(--siteMenuSpacing) calc(var(--siteMenuSpacing) - 8px))}.SiteMenuSection+.SiteMenuSection .SiteMenuSection__body{padding-top:var(--siteMenuSectionBodyPadding,calc(var(--siteMenuSpacing) - 12px))}.SiteMenuSection--variantNoPadding .SiteMenuSection__body,.SiteMenuSection--variantNoPadding:only-child .SiteMenuSection__body{padding:0}.SiteMenuSection+.SiteMenuSection:before{position:absolute;top:0;left:0;width:100%;height:1px;background:linear-gradient(90deg,var(--guideDashedColor),var(--guideDashedColor) 50%,transparent 0,transparent);background-size:8px 1px;content:""}.SiteMenuSection__footer{--siteMenuFooterMargin:4px;border-radius:4px;background-color:#eff3f9;margin:var(--siteMenuFooterMargin);padding:calc(var(--siteMenuSpacing) - var(--siteMenuFooterMargin)) calc(var(--siteMenuSpacing) - var(--siteMenuFooterMargin))}</style>
 <style>@media (min-width:901px){.RefreshedNavigation__content--developers{grid-template-columns:repeat(3,1fr)}}</style>
 <style>.BlogHero.HeroSection.Section{--sectionPaddingTop:0;--sectionAnglePaddingBottomBaseMax:-100;--gradientHeight:300px;pointer-events:none}.BlogHero__layout{pointer-events:auto}</style>
@@ -472,11 +473,11 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
 
         <script type="application/json" data-js-script-registry>
-          [{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-ZERTISFL.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedSiteHeader-MJ2HTF6K.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-DashboardLoginLink-3QFZNGJL.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedMobileMenu-CAYUUTQN.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedProductsNavGroup-DI4SE4KV.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-HorizontalOverflowContainer-34W26XTY.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Gradient-7XUGZAWB.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-SegmentedControl-ZZ2DFKWT.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UpdateCard-2KCQKNS2.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FullWidthCarousel-6FM6RI43.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FooterCta-ZEZHZIPX.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-TextInput-5QDTF624.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Form-TRPPSY6G.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-PrivacyNotice-HRFH5FJH.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LocaleControl-ODBS3XQW.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-SRCFDYZY.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Sentry-IABPFTSH.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-EnforceSameSiteLaxOnCookies-5NDXH4YF.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LoaderScript-3TO6ASJ3.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Loader-HRRVSNEY.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Container-IORQFPRP.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatInitializer-M5NZ4GWV.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Notification-LCAKS2JL.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-ScrollDepthTracker-FFAGCRFB.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-MonitorWebVitals-SESDKDX7.js"}]
+          [{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-2TC2BLQ4.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedSiteHeader-UQ66XXAS.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-DashboardLoginLink-T4WXE5KK.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedMobileMenu-4ELQVYFQ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedProductsNavGroup-T46OEKK4.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-HorizontalOverflowContainer-YAJ2K25J.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Gradient-D36UD3UG.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-SegmentedControl-TD6NDA4H.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UpdateCard-6L7XKDJE.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FullWidthCarousel-E37MAPYZ.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FooterCta-LNTKL6L7.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-TextInput-J3CE7P7Y.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Form-VYPMKL6I.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-PrivacyNotice-CASAQM6J.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LocaleControl-GZ7V77XD.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-W24DT2LF.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Sentry-IABPFTSH.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-EnforceSameSiteLaxOnCookies-5NDXH4YF.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LoaderScript-KMPHPAA4.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Loader-TUVCCTAJ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Container-3I7Q6VN5.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatInitializer-EIQ3GOWN.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Notification-MFXU5VKB.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-ScrollDepthTracker-MQFO4MKB.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-MonitorWebVitals-K7J3RVJV.js"}]
         </script>
       
 
-        <script type="module" src="https://b.stripecdn.com/mkt-statics-srv/assets/v1-Bootstrapper-77STOLKQ.js"></script>
+        <script type="module" src="https://b.stripecdn.com/mkt-statics-srv/assets/v1-Bootstrapper-Q7QMZ475.js"></script>
       
 
   </head>
@@ -701,6 +702,40 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   data-testid="header-pricing-nav-item"
   
 >Pricing</a>
+  
+</li>
+              <li class='
+  SiteHeaderNavItem
+  SiteHeaderNavItem--refreshed
+  
+  SiteHeaderNavItem--hasSparkle
+'>
+  
+    <svg class="SiteHeaderNavItem__sparkleDivider" width="1" height="19" viewBox="0 0 1 19" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+      <rect width="1" height="19" fill="#061B31" fill-opacity="0.3"/>
+    </svg>
+    <a
+  class="
+    Link
+    SiteHeaderNavItem__link SiteHeaderNavItem__link--hasSparkle
+  "
+  href="/personalize"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='global_nav__guide_me'
+  
+  
+  
+  data-testid="header-guide-me-nav-item"
+  
+><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" class="SiteHeaderNavItem__sparkleIcon" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+        <path fill="currentColor" d="M9.168 6.568c.076.213.244.38.457.456l4.106 1.455v1.641l-4.106 1.455a.75.75 0 0 0-.457.457l-1.4 3.951H6.018l-1.4-3.95a.75.75 0 0 0-.379-.425l-.077-.033L.055 10.12V8.48L4.16 7.024a.75.75 0 0 0 .424-.378l.032-.078 1.49-4.207h1.57zm-3.137.501a2.25 2.25 0 0 1-1.369 1.37l-2.433.86 2.433.863c.56.198 1.015.608 1.272 1.136l.097.233.862 2.432.862-2.432.098-.233a2.25 2.25 0 0 1 1.271-1.136l2.432-.862-2.432-.862a2.25 2.25 0 0 1-1.37-1.369l-.861-2.432zm7.63-4.835a.25.25 0 0 0 .15.153l1.793.635v.535l-1.792.636a.25.25 0 0 0-.152.153l-.644 1.816h-.518l-.644-1.816a.25.25 0 0 0-.153-.153L9.91 3.558V3.02l1.792-.634a.25.25 0 0 0 .152-.153l.645-1.816h.518z"/>
+      </svg>
+      <span>Guide me</span></a>
   
 </li>
   </ul>
@@ -1193,7 +1228,45 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
         </template>
 
       </ul>
+      <div class="ProductsCallout ProductsCallout--mobile ProductsCallout--withCurator">
+  
+    <p class="ProductsCallout__title">Not sure where to start?</p>
+    <a
+      class="ProductsCallout__link"
+      href="/personalize"
+      data-js-controller="AnalyticsButton"
+      data-analytics-category="Navigation"
+      data-analytics-action="Clicked"
+      data-analytics-label="global_nav__mobile_menu__find_whats_right"
+    >
+      <span>
+        Get recommendations
+        
+      </span>
+      <span class="ProductsCallout__description">
+        Tell us about your business
+      </span>
+    </a>
+  
+  <a
+    class="ProductsCallout__link"
+    href="/products"
+    data-js-controller="AnalyticsButton"
+    data-analytics-category="Navigation"
+    data-analytics-action="Clicked"
+    data-analytics-label="global_nav__mobile_menu__see_all_products"
+  >
+    <span>
+      See all products
       
+    </span>
+    
+      <span class="ProductsCallout__description">
+        Explore our full product catalog
+      </span>
+    
+  </a>
+</div>
     </nav>
     <div class="MobileMenu__sections">
       <div
@@ -6198,6 +6271,67 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
       
         
       
+      <div class="ProductsCallout ProductsCallout--desktop ProductsCallout--withCurator">
+  
+    <p class="ProductsCallout__title">Not sure where to start?</p>
+    <a
+      class="ProductsCallout__link"
+      href="/personalize"
+      data-js-controller="AnalyticsButton"
+      data-analytics-category="Navigation"
+      data-analytics-action="Clicked"
+      data-analytics-label="global_nav__products__find_whats_right"
+    >
+      <span>
+        Get recommendations
+        &nbsp;<svg
+  class="
+    RefreshedHoverArrow
+    
+  "
+  width="10"
+  height="8"
+  viewBox="0 0 10 8"
+  aria-hidden="true"
+>
+<path d="M9.28027 3.4375L9.75195 3.91309L9.28027 4.3877L5.87012 7.8252L4.91113 6.87402L7.18066 4.58691H0V3.2373H7.18066L4.91113 0.951172L5.87012 0L9.28027 3.4375Z" fill="currentColor" />
+</svg>
+      </span>
+      <span class="ProductsCallout__description">
+        Tell us about your business
+      </span>
+    </a>
+  
+  <a
+    class="ProductsCallout__link"
+    href="/products"
+    data-js-controller="AnalyticsButton"
+    data-analytics-category="Navigation"
+    data-analytics-action="Clicked"
+    data-analytics-label="global_nav__products__see_all_products"
+  >
+    <span>
+      See all products
+      &nbsp;<svg
+  class="
+    RefreshedHoverArrow
+    
+  "
+  width="10"
+  height="8"
+  viewBox="0 0 10 8"
+  aria-hidden="true"
+>
+<path d="M9.28027 3.4375L9.75195 3.91309L9.28027 4.3877L5.87012 7.8252L4.91113 6.87402L7.18066 4.58691H0V3.2373H7.18066L4.91113 0.951172L5.87012 0L9.28027 3.4375Z" fill="currentColor" />
+</svg>
+    </span>
+    
+      <span class="ProductsCallout__description">
+        Explore our full product catalog
+      </span>
+    
+  </a>
+</div>
       <aside class="RefreshedProductsNav__aside">
         <h1 class="RefreshedProductsNav__asideTitle">More</h1>
         <div class="RefreshedProductsNav__asideContent">
@@ -6499,7 +6633,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 </div>
         </div>
       </aside>
-      
     </div>
   </div>
   </div>
@@ -8984,7 +9117,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost
     BlogIndexPost--variantFeatured
     BlogIndexPost--hasFigure
-    
+    BlogIndexPost--hasMultipleAuthors
   "
 >
   <h2
@@ -9009,7 +9142,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
-  data-analytics-label='five_monetization_trends__category__industry'
+  data-analytics-label='analyzing_rising_fraud__category__industry'
   
   
   
@@ -9032,7 +9165,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogIndexPost__titleLink
   "
-  href="https://stripe.com/blog/five-monetization-trends-from-global-pricing-leaders"
+  href="https://stripe.com/blog/analyzing-rising-fraud-attempts-among-travel-and-leisure-businesses-on-stripe"
   
   
   
@@ -9045,11 +9178,11 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   
   
   
->Five monetization trends from global pricing leaders</a></h1>
+>Analyzing rising fraud attempts among travel and leisure businesses on Stripe</a></h1>
 
   <time
   class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-08-20T00:00-04:00"
+  datetime="2026-09-18T00:00-04:00"
 >
   
   <a
@@ -9057,20 +9190,20 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogPostDate__link
   "
-  href="https://stripe.com/blog/five-monetization-trends-from-global-pricing-leaders"
+  href="https://stripe.com/blog/analyzing-rising-fraud-attempts-among-travel-and-leisure-businesses-on-stripe"
   
   
   
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
-  data-analytics-label='five_monetization_trends__date'
+  data-analytics-label='analyzing_rising_fraud__date'
   
   
   
   
   
->August 20, 2026</a>
+>September 18, 2026</a>
 </time>
 
   <div class="BlogIndexPost__authorList">
@@ -9084,7 +9217,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   "
 >
   <a
-    href="https://www.linkedin.com/in/scott-woody-21677121/"
+    href="https://www.linkedin.com/in/andrewdbeckmann/"
     target="_blank"
   >
     <img
@@ -9092,16 +9225,47 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
       width="48"
       height="48"
       loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/436XYllFLTRsAOxMVZeVba/5fc4f334ae10ac6f02d55863374d3786/scott_woody_headshot_b_w_and_cropped.png?w=96&h=96"
+      src="https://images.stripeassets.com/fzn2n1nzq965/6gEAAUylW4biHGOBkLeXNK/c05b66fd68be6be1763d8e37545a77c7/andrewbeckmann.jpg.png?w=96&h=96"
     >
   </a>
   <figcaption class="BlogAuthor__caption">
     <a
       class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/scott-woody-21677121/"
+      href="https://www.linkedin.com/in/andrewdbeckmann/"
       target="_blank"
-    >Scott Woody</a>
-    <span class="BlogAuthor__role">CEO and Founder, Metronome</span>
+    >Andrew Beckmann</a>
+    <span class="BlogAuthor__role">GTM Lead, Hospitality and Travel</span>
+  </figcaption>
+</figure>
+    
+      <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://uk.linkedin.com/in/jamesclemon"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/31zOErNcRIpVg3ESfWMzDN/5f69ea517a58cae5aa5a597e0895a95b/jameslemon.jpg?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://uk.linkedin.com/in/jamesclemon"
+      target="_blank"
+    >James Lemon</a>
+    <span class="BlogAuthor__role">GTM Industries Hospitality and Travel team</span>
   </figcaption>
 </figure>
   </div>
@@ -9133,7 +9297,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     >
       
         <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/7AILd6YY3INBk4QCI4LaTx/1842bb0154e43c182f1c26a8cf7f8a4e/Monitization_trends_index.png?w=1080&q=80&fm=webp"
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/msOow88CKXXHqlWSzckzs/a05f46fcd58edc95d1fa9cdb0ac7b052/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding_2x__2_.png?w=1080&q=80&fm=webp"
           type="image/webp"
         >
       
@@ -9142,14 +9306,14 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
       <img
         class="BlogImageCard__image"
-        alt="Blog &gt; Five monetization trends from global pricing leaders &gt; Index image"
+        alt="Blog &gt; Analyzing rising fraud attempts among travel and leisure businesses on Stripe &gt; Index image"
         src="
         
-          https://images.stripeassets.com/fzn2n1nzq965/7AILd6YY3INBk4QCI4LaTx/1842bb0154e43c182f1c26a8cf7f8a4e/Monitization_trends_index.png?w=1080&q=80
+          https://images.stripeassets.com/fzn2n1nzq965/msOow88CKXXHqlWSzckzs/a05f46fcd58edc95d1fa9cdb0ac7b052/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding_2x__2_.png?w=1080&q=80
         
       "
-        width="1250"
-        height="1250"
+        width="2500"
+        height="2500"
         loading="auto"
       >
     </picture>
@@ -9157,7 +9321,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   
 
   <div class="BlogIndexPost__body">
-    <p>As AI transforms software economics, the standard revenue playbook is breaking down. Learn how leaders around the world are preparing for agent buyers, updating processes for faster pricing iteration, and building more flexible infrastructure.</p>
+    <p>Stripe data shows fraud attempts against travel and leisure businesses hit a four-year high last year. We analyzed payment activity from more than 200,000 businesses on Stripe to understand where fraud is rising and how it’s being blocked.</p>
   </div>
 
   <a
@@ -9165,7 +9329,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogIndexPost__readMoreLink
   "
-  href="https://stripe.com/blog/five-monetization-trends-from-global-pricing-leaders"
+  href="https://stripe.com/blog/analyzing-rising-fraud-attempts-among-travel-and-leisure-businesses-on-stripe"
   
   
   
@@ -9401,6 +9565,226 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost
     BlogIndexPost--variantNormal
     BlogIndexPost--hasFigure
+    
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/industry"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='saas_platforms_are__category__industry'
+  
+  
+  
+  
+  
+>Industry</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/saas-platforms-are-surging-despite-the-saaspocalypse"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>SaaS platforms are surging despite the SaaSpocalypse</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-09-17T00:00-04:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/saas-platforms-are-surging-despite-the-saaspocalypse"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='saas_platforms_are__date'
+  
+  
+  
+  
+  
+>September 17, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/aakash-sahney-94017114/?originalSubdomain=ca"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/p0cKJihswqSLVGVOlpoTq/650bc8f54e6d74b8964d90b3e1590a51/asahney.jpg.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/aakash-sahney-94017114/?originalSubdomain=ca"
+      target="_blank"
+    >Aakash Sahney</a>
+    <span class="BlogAuthor__role">Head of Product, Stripe Connect</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/4eii8vuv5rIus0HNvlMEs6/1f5a15bc4f8dca9c66bec691f507befb/Specs__1250x1250px_with_100_padding_2x.png?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="Blog &gt; SaaS platforms are surging despite the SaaSpocalypse &gt; Index image"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/4eii8vuv5rIus0HNvlMEs6/1f5a15bc4f8dca9c66bec691f507befb/Specs__1250x1250px_with_100_padding_2x.png?w=1080&q=80
+        
+      "
+        width="2500"
+        height="2500"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>The SaaSpocalypse was a useful warning for the software industry, but SaaS platforms that help businesses run core operations are more deeply embedded. New platform businesses on Stripe are up 182% year over year.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/saas-platforms-are-surging-despite-the-saaspocalypse"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+        
+          <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
     BlogIndexPost--hasMultipleAuthors
   "
 >
@@ -9426,7 +9810,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
-  data-analytics-label='why_global_workers__category__industry'
+  data-analytics-label='what_stripe_data__category__industry'
   
   
   
@@ -9449,7 +9833,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogIndexPost__titleLink
   "
-  href="https://stripe.com/blog/why-global-workers-are-driving-demand-for-stablecoin-payouts"
+  href="https://stripe.com/blog/what-stripe-data-shows-about-fraud-at-ai-startups"
   
   
   
@@ -9462,11 +9846,11 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   
   
   
->Why global workers are driving demand for stablecoin payouts</a></h1>
+>What Stripe data shows about fraud at AI startups</a></h1>
 
   <time
   class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-08-19T00:00-04:00"
+  datetime="2026-09-15T00:00-07:00"
 >
   
   <a
@@ -9474,20 +9858,20 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogPostDate__link
   "
-  href="https://stripe.com/blog/why-global-workers-are-driving-demand-for-stablecoin-payouts"
+  href="https://stripe.com/blog/what-stripe-data-shows-about-fraud-at-ai-startups"
   
   
   
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
-  data-analytics-label='why_global_workers__date'
+  data-analytics-label='what_stripe_data__date'
   
   
   
   
   
->August 19, 2026</a>
+>September 15, 2026</a>
 </time>
 
   <div class="BlogIndexPost__authorList">
@@ -9501,7 +9885,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   "
 >
   <a
-    href="https://www.linkedin.com/in/siddharthpkulkarni"
+    href="https://www.linkedin.com/in/jacob-meltzer-25438b114/"
     target="_blank"
   >
     <img
@@ -9509,16 +9893,16 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
       width="48"
       height="48"
       loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/2Hajm4uoYQPdW3KdaSxQzK/15a365a3cc765b1fa30e73b8c190b333/siddharthkulkarni.jpg?w=96&h=96"
+      src="https://images.stripeassets.com/fzn2n1nzq965/5eyqlHCu45v94z66ZrImHa/008affb4f60e729459444e081eec6d17/Screenshot_2025-01-10_at_8.55.57_AM.png?w=96&h=96"
     >
   </a>
   <figcaption class="BlogAuthor__caption">
     <a
       class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/siddharthpkulkarni"
+      href="https://www.linkedin.com/in/jacob-meltzer-25438b114/"
       target="_blank"
-    >Siddharth Kulkarni</a>
-    <span class="BlogAuthor__role">Quant Research Lead, Link</span>
+    >Jacob Meltzer</a>
+    <span class="BlogAuthor__role">Engineering Lead, Stripe Radar</span>
   </figcaption>
 </figure>
     
@@ -9532,7 +9916,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   "
 >
   <a
-    href="https://www.linkedin.com/in/mitchellcollum"
+    href="https://www.linkedin.com/in/samuelbakouch/"
     target="_blank"
   >
     <img
@@ -9540,16 +9924,16 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
       width="48"
       height="48"
       loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/3cI4sgJRNTjBtSaVF4EGb1/06612abfb486f1344901aa149e65189b/mcollum.jpg?w=96&h=96"
+      src="https://images.stripeassets.com/fzn2n1nzq965/3z7sTxfj4EqUcuALokYl7Q/2632260aa44da4b06dc82fa7f428d2c4/E0181S17H6Z-U08TQKY3DJ7-b8bac14771e5-512.png?w=96&h=96"
     >
   </a>
   <figcaption class="BlogAuthor__caption">
     <a
       class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/mitchellcollum"
+      href="https://www.linkedin.com/in/samuelbakouch/"
       target="_blank"
-    >Mitchell Martins-Collum</a>
-    <span class="BlogAuthor__role">UX Research Lead, Money Management</span>
+    >Samuel Bakouch</a>
+    <span class="BlogAuthor__role">Head of Product, Payments Intelligence</span>
   </figcaption>
 </figure>
   </div>
@@ -9581,7 +9965,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     >
       
         <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/wRqifAA3sZ1z3kJIX2UKM/8f2619305be2fe7039bf68c26429a8c1/Blog_index_image_1250x1250_2x.png?w=1080&q=80&fm=webp"
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/4RzPleRe5QheYPTOGMyzYe/6655f5d1499d7030e5b51fe5720d9a65/final-index.jpg?w=1080&q=80&fm=webp"
           type="image/webp"
         >
       
@@ -9590,10 +9974,10 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
       <img
         class="BlogImageCard__image"
-        alt="Blog &gt; Why global workers are driving demand for stablecoin payouts &gt; Index image"
+        alt="blog &gt; AI fraud &gt; index"
         src="
         
-          https://images.stripeassets.com/fzn2n1nzq965/wRqifAA3sZ1z3kJIX2UKM/8f2619305be2fe7039bf68c26429a8c1/Blog_index_image_1250x1250_2x.png?w=1080&q=80
+          https://images.stripeassets.com/fzn2n1nzq965/4RzPleRe5QheYPTOGMyzYe/6655f5d1499d7030e5b51fe5720d9a65/final-index.jpg?w=1080&q=80
         
       "
         width="2500"
@@ -9605,7 +9989,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   
 
   <div class="BlogIndexPost__body">
-    <p>Platforms like DoorDash, Meta, and Deel already enable stablecoin payouts for global workers. We surveyed 2,300 workers in 20 countries to see what's driving stablecoin demand, where the opportunity is highest, and how other platforms can adapt.</p>
+    <p>We analyzed attempted fraud rates and customer abuse patterns on Stripe over the past year and found that AI companies faced 4.3x more fraud attempts than startups overall in Q3 2025. </p>
   </div>
 
   <a
@@ -9613,227 +9997,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogIndexPost__readMoreLink
   "
-  href="https://stripe.com/blog/why-global-workers-are-driving-demand-for-stablecoin-payouts"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-        
-          <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/product"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='new_currency_capabilities__category__product'
-  
-  
-  
-  
-  
->Product</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/reduce-fx-costs-with-stripe"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->New currency capabilities for global businesses to cut FX costs</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-08-17T00:00-04:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/reduce-fx-costs-with-stripe"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='new_currency_capabilities__date'
-  
-  
-  
-  
-  
->August 17, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://ie.linkedin.com/in/bartheideman"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/3oNmmPxnbJu7i30qd8KpgW/78f8ff0c9a6aebcc9984aea434bb3ccd/Heidemanheadshot2.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://ie.linkedin.com/in/bartheideman"
-      target="_blank"
-    >Bart Heideman</a>
-    <span class="BlogAuthor__role">Head of Product, Payouts, FX &amp; Marketplaces</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/7xgfnyZq3lIBjWIuhI5cph/a0cc8cc59d2b78c690252633e9fb33e3/Blog___Index_new__1250_x_1250_.png?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="Blog &gt; New currency capabilities for global businesses to cut FX costs &gt; Index image"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/7xgfnyZq3lIBjWIuhI5cph/a0cc8cc59d2b78c690252633e9fb33e3/Blog___Index_new__1250_x_1250_.png?w=1080&q=80
-        
-      "
-        width="1250"
-        height="1250"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>Two product upgrades make it easy for global businesses to manage FX entirely on Stripe. We’re expanding multicurrency settlement to more markets and currencies, and we’re introducing the ability to convert currencies instantly—all on Stripe. </p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/reduce-fx-costs-with-stripe"
+  href="https://stripe.com/blog/what-stripe-data-shows-about-fraud-at-ai-startups"
   
   
   
@@ -9897,7 +10061,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
-  data-analytics-label='mapping_the_ai__category__industry'
+  data-analytics-label='five_monetization_trends__category__industry'
   
   
   
@@ -9920,7 +10084,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogIndexPost__titleLink
   "
-  href="https://stripe.com/blog/mapping-the-ai-economy"
+  href="https://stripe.com/blog/five-monetization-trends-from-global-pricing-leaders"
   
   
   
@@ -9933,11 +10097,11 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   
   
   
->Mapping the AI economy</a></h1>
+>Five monetization trends from global pricing leaders</a></h1>
 
   <time
   class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-08-11T00:00-07:00"
+  datetime="2026-08-20T00:00-04:00"
 >
   
   <a
@@ -9945,20 +10109,20 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogPostDate__link
   "
-  href="https://stripe.com/blog/mapping-the-ai-economy"
+  href="https://stripe.com/blog/five-monetization-trends-from-global-pricing-leaders"
   
   
   
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
-  data-analytics-label='mapping_the_ai__date'
+  data-analytics-label='five_monetization_trends__date'
   
   
   
   
   
->August 11, 2026</a>
+>August 20, 2026</a>
 </time>
 
   <div class="BlogIndexPost__authorList">
@@ -9972,7 +10136,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   "
 >
   <a
-    href="https://www.linkedin.com/in/abhinav-tiwari-4687117/"
+    href="https://www.linkedin.com/in/scott-woody-21677121/"
     target="_blank"
   >
     <img
@@ -9980,16 +10144,16 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
       width="48"
       height="48"
       loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/1ISuR83B05mcT6Ou7eknwY/12e6049d8c8d4424ca7b8213e66d7352/abhit.jpeg.png?w=96&h=96"
+      src="https://images.stripeassets.com/fzn2n1nzq965/436XYllFLTRsAOxMVZeVba/5fc4f334ae10ac6f02d55863374d3786/scott_woody_headshot_b_w_and_cropped.png?w=96&h=96"
     >
   </a>
   <figcaption class="BlogAuthor__caption">
     <a
       class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/abhinav-tiwari-4687117/"
+      href="https://www.linkedin.com/in/scott-woody-21677121/"
       target="_blank"
-    >Abhi Tiwari</a>
-    <span class="BlogAuthor__role">Product Lead, Global</span>
+    >Scott Woody</a>
+    <span class="BlogAuthor__role">CEO and Founder, Metronome</span>
   </figcaption>
 </figure>
   </div>
@@ -10021,7 +10185,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     >
       
         <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/3zq67gzl09NDsPhwwSKpiS/420f8b42b6aff303aa6293fbc6ff3283/Hero_image_optimized_for_ratio_bigger_labels_darker_bigger_disclaimer_3x.png?w=1080&q=80&fm=webp"
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/7AILd6YY3INBk4QCI4LaTx/1842bb0154e43c182f1c26a8cf7f8a4e/Monitization_trends_index.png?w=1080&q=80&fm=webp"
           type="image/webp"
         >
       
@@ -10030,14 +10194,14 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
       <img
         class="BlogImageCard__image"
-        alt="blog &gt; mapping &gt; index"
+        alt="Blog &gt; Five monetization trends from global pricing leaders &gt; Index image"
         src="
         
-          https://images.stripeassets.com/fzn2n1nzq965/3zq67gzl09NDsPhwwSKpiS/420f8b42b6aff303aa6293fbc6ff3283/Hero_image_optimized_for_ratio_bigger_labels_darker_bigger_disclaimer_3x.png?w=1080&q=80
+          https://images.stripeassets.com/fzn2n1nzq965/7AILd6YY3INBk4QCI4LaTx/1842bb0154e43c182f1c26a8cf7f8a4e/Monitization_trends_index.png?w=1080&q=80
         
       "
-        width="4515"
-        height="3293"
+        width="1250"
+        height="1250"
         loading="lazy"
       >
     </picture>
@@ -10045,7 +10209,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   
 
   <div class="BlogIndexPost__body">
-    <p>AI companies are undergoing rapid global expansion while achieving unprecedented rates of growth. We analyzed Stripe data to understand where global demand is the strongest, and how companies can build to best capture that demand.</p>
+    <p>As AI transforms software economics, the standard revenue playbook is breaking down. Learn how leaders around the world are preparing for agent buyers, updating processes for faster pricing iteration, and building more flexible infrastructure.</p>
   </div>
 
   <a
@@ -10053,7 +10217,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogIndexPost__readMoreLink
   "
-  href="https://stripe.com/blog/mapping-the-ai-economy"
+  href="https://stripe.com/blog/five-monetization-trends-from-global-pricing-leaders"
   
   
   
@@ -10920,6 +11084,701 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
+  data-analytics-label='why_global_workers__category__industry'
+  
+  
+  
+  
+  
+>Industry</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/why-global-workers-are-driving-demand-for-stablecoin-payouts"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Why global workers are driving demand for stablecoin payouts</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-08-19T00:00-04:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/why-global-workers-are-driving-demand-for-stablecoin-payouts"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='why_global_workers__date'
+  
+  
+  
+  
+  
+>August 19, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/siddharthpkulkarni"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/2Hajm4uoYQPdW3KdaSxQzK/15a365a3cc765b1fa30e73b8c190b333/siddharthkulkarni.jpg?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/siddharthpkulkarni"
+      target="_blank"
+    >Siddharth Kulkarni</a>
+    <span class="BlogAuthor__role">Quant Research Lead, Link</span>
+  </figcaption>
+</figure>
+    
+      <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/mitchellcollum"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/3cI4sgJRNTjBtSaVF4EGb1/06612abfb486f1344901aa149e65189b/mcollum.jpg?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/mitchellcollum"
+      target="_blank"
+    >Mitchell Martins-Collum</a>
+    <span class="BlogAuthor__role">UX Research Lead, Money Management</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/wRqifAA3sZ1z3kJIX2UKM/8f2619305be2fe7039bf68c26429a8c1/Blog_index_image_1250x1250_2x.png?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="Blog &gt; Why global workers are driving demand for stablecoin payouts &gt; Index image"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/wRqifAA3sZ1z3kJIX2UKM/8f2619305be2fe7039bf68c26429a8c1/Blog_index_image_1250x1250_2x.png?w=1080&q=80
+        
+      "
+        width="2500"
+        height="2500"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>Platforms like DoorDash, Meta, and Deel already enable stablecoin payouts for global workers. We surveyed 2,300 workers in 20 countries to see what's driving stablecoin demand, where the opportunity is highest, and how other platforms can adapt.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/why-global-workers-are-driving-demand-for-stablecoin-payouts"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+        
+          <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
+    
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/product"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='new_currency_capabilities__category__product'
+  
+  
+  
+  
+  
+>Product</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/reduce-fx-costs-with-stripe"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>New currency capabilities for global businesses to cut FX costs</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-08-17T00:00-04:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/reduce-fx-costs-with-stripe"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='new_currency_capabilities__date'
+  
+  
+  
+  
+  
+>August 17, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://ie.linkedin.com/in/bartheideman"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/3oNmmPxnbJu7i30qd8KpgW/78f8ff0c9a6aebcc9984aea434bb3ccd/Heidemanheadshot2.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://ie.linkedin.com/in/bartheideman"
+      target="_blank"
+    >Bart Heideman</a>
+    <span class="BlogAuthor__role">Head of Product, Payouts, FX &amp; Marketplaces</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/7xgfnyZq3lIBjWIuhI5cph/a0cc8cc59d2b78c690252633e9fb33e3/Blog___Index_new__1250_x_1250_.png?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="Blog &gt; New currency capabilities for global businesses to cut FX costs &gt; Index image"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/7xgfnyZq3lIBjWIuhI5cph/a0cc8cc59d2b78c690252633e9fb33e3/Blog___Index_new__1250_x_1250_.png?w=1080&q=80
+        
+      "
+        width="1250"
+        height="1250"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>Two product upgrades make it easy for global businesses to manage FX entirely on Stripe. We’re expanding multicurrency settlement to more markets and currencies, and we’re introducing the ability to convert currencies instantly—all on Stripe. </p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/reduce-fx-costs-with-stripe"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+        
+          <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
+    
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/industry"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='mapping_the_ai__category__industry'
+  
+  
+  
+  
+  
+>Industry</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/mapping-the-ai-economy"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Mapping the AI economy</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-08-11T00:00-07:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/mapping-the-ai-economy"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='mapping_the_ai__date'
+  
+  
+  
+  
+  
+>August 11, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/abhinav-tiwari-4687117/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/1ISuR83B05mcT6Ou7eknwY/12e6049d8c8d4424ca7b8213e66d7352/abhit.jpeg.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/abhinav-tiwari-4687117/"
+      target="_blank"
+    >Abhi Tiwari</a>
+    <span class="BlogAuthor__role">Product Lead, Global</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/3zq67gzl09NDsPhwwSKpiS/420f8b42b6aff303aa6293fbc6ff3283/Hero_image_optimized_for_ratio_bigger_labels_darker_bigger_disclaimer_3x.png?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="blog &gt; mapping &gt; index"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/3zq67gzl09NDsPhwwSKpiS/420f8b42b6aff303aa6293fbc6ff3283/Hero_image_optimized_for_ratio_bigger_labels_darker_bigger_disclaimer_3x.png?w=1080&q=80
+        
+      "
+        width="4515"
+        height="3293"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>AI companies are undergoing rapid global expansion while achieving unprecedented rates of growth. We analyzed Stripe data to understand where global demand is the strongest, and how companies can build to best capture that demand.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/mapping-the-ai-economy"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+        
+
+        
+
+        
+          <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
+    BlogIndexPost--hasMultipleAuthors
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/industry"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
   data-analytics-label='analyzing_the_evidence__category__industry'
   
   
@@ -11548,670 +12407,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost__readMoreLink
   "
   href="https://stripe.com/blog/what-link-data-tells-us-about-ai-spending"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-        
-
-        
-
-        
-          <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/product"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='stripe_projects_adds__category__product'
-  
-  
-  
-  
-  
->Product</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Stripe Projects adds new agent integrations, more providers, and custom developer controls</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-06-11T08:30-07:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='stripe_projects_adds__date'
-  
-  
-  
-  
-  
->June 11, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/ramibanna/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/7eD6kZQ2g0U57wwXoI138U/15e4dedd7dae8af343420ae9bbc9ace1/Rami_Banna_-_Headshot.jpg?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/ramibanna/"
-      target="_blank"
-    >Rami Banna</a>
-    <span class="BlogAuthor__role">Product Lead, Stripe Projects </span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/4mPcNGGQ44X1tyxR5NqLkf/c5c51591187eaebeb1291d662bee2356/projects-index.jpg?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="Blog &gt; Projects &gt; Index"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/4mPcNGGQ44X1tyxR5NqLkf/c5c51591187eaebeb1291d662bee2356/projects-index.jpg?w=1080&q=80
-        
-      "
-        width="1250"
-        height="1250"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>Our data shows that agents are now fully capable of independently writing code and integrating with APIs like Stripe’s. And yet, many of the steps adjacent to writing code are still too hard for agents to do on their own. We’re expanding Stripe Projects to solve this. </p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-        
-          <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/product"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='new_ways_to__category__product'
-  
-  
-  
-  
-  
->Product</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/new-ways-to-turn-global-demand-into-revenue"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->New ways to turn global demand into revenue</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-06-04T00:00-07:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/new-ways-to-turn-global-demand-into-revenue"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='new_ways_to__date'
-  
-  
-  
-  
-  
->June  4, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/abhinav-tiwari-4687117/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/1ISuR83B05mcT6Ou7eknwY/12e6049d8c8d4424ca7b8213e66d7352/abhit.jpeg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/abhinav-tiwari-4687117/"
-      target="_blank"
-    >Abhi Tiwari</a>
-    <span class="BlogAuthor__role">Product Lead, Global</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/4U7BjI3CSDLJ5GSJRpNkIB/c6bcc4533280bfced4e2067247035319/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding_4.png?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="Blog &gt; New ways to turn global demand into revenue &gt; Index image"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/4U7BjI3CSDLJ5GSJRpNkIB/c6bcc4533280bfced4e2067247035319/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding_4.png?w=1080&q=80
-        
-      "
-        width="1250"
-        height="1250"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>At Sessions 2026, Stripe unveiled dozens of products and capabilities to help businesses turn global demand into revenue. See how to go global faster with localized checkout and Adaptive Pricing, smarter fraud tools, multicurrency treasury support, and automated tax compliance.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/new-ways-to-turn-global-demand-into-revenue"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-        
-          <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/product"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='helping_businesses_optimize__category__product'
-  
-  
-  
-  
-  
->Product</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/helping-businesses-optimize-network-costs-with-visa-digital-commerce-authentication-program"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Helping businesses optimize network costs with the Visa Digital Commerce Authentication Program (DCAP)</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-06-03T00:00-07:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/helping-businesses-optimize-network-costs-with-visa-digital-commerce-authentication-program"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='helping_businesses_optimize__date'
-  
-  
-  
-  
-  
->June  3, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/kanika-nayyar-/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/6CoNwdOcjWENbUQlcsU7Pc/bfd909ac774799d88f120a5a600a61a4/kanikanayyar.jpg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/kanika-nayyar-/"
-      target="_blank"
-    >Kanika Nayyar</a>
-    <span class="BlogAuthor__role">Global Payments Performance </span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/JzGrj59MBDaLNm9e1akgN/e43d83ae9015d74511b815aadec81ee9/dcap-index-2.jpg?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="Blog &gt; Visa DCAP &gt; Index image"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/JzGrj59MBDaLNm9e1akgN/e43d83ae9015d74511b815aadec81ee9/dcap-index-2.jpg?w=1080&q=80
-        
-      "
-        width="2500"
-        height="2500"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>We moved quickly to help Stripe businesses take advantage of DCAP and capture interchange savings while protecting authorization rates. Here’s what we did.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/helping-businesses-optimize-network-costs-with-visa-digital-commerce-authentication-program"
   
   
   
@@ -14895,6 +15090,697 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost
     BlogIndexPost--variantNormal
     BlogIndexPost--hasFigure
+    
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/industry"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='saas_platforms_are__category__industry'
+  
+  
+  
+  
+  
+>Industry</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/saas-platforms-are-surging-despite-the-saaspocalypse"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>SaaS platforms are surging despite the SaaSpocalypse</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-09-17T00:00-04:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/saas-platforms-are-surging-despite-the-saaspocalypse"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='saas_platforms_are__date'
+  
+  
+  
+  
+  
+>September 17, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/aakash-sahney-94017114/?originalSubdomain=ca"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/p0cKJihswqSLVGVOlpoTq/650bc8f54e6d74b8964d90b3e1590a51/asahney.jpg.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/aakash-sahney-94017114/?originalSubdomain=ca"
+      target="_blank"
+    >Aakash Sahney</a>
+    <span class="BlogAuthor__role">Head of Product, Stripe Connect</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/4eii8vuv5rIus0HNvlMEs6/1f5a15bc4f8dca9c66bec691f507befb/Specs__1250x1250px_with_100_padding_2x.png?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="Blog &gt; SaaS platforms are surging despite the SaaSpocalypse &gt; Index image"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/4eii8vuv5rIus0HNvlMEs6/1f5a15bc4f8dca9c66bec691f507befb/Specs__1250x1250px_with_100_padding_2x.png?w=1080&q=80
+        
+      "
+        width="2500"
+        height="2500"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>The SaaSpocalypse was a useful warning for the software industry, but SaaS platforms that help businesses run core operations are more deeply embedded. New platform businesses on Stripe are up 182% year over year.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/saas-platforms-are-surging-despite-the-saaspocalypse"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+          
+            <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
+    BlogIndexPost--hasMultipleAuthors
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/industry"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='what_stripe_data__category__industry'
+  
+  
+  
+  
+  
+>Industry</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/what-stripe-data-shows-about-fraud-at-ai-startups"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>What Stripe data shows about fraud at AI startups</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-09-15T00:00-07:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/what-stripe-data-shows-about-fraud-at-ai-startups"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='what_stripe_data__date'
+  
+  
+  
+  
+  
+>September 15, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/jacob-meltzer-25438b114/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/5eyqlHCu45v94z66ZrImHa/008affb4f60e729459444e081eec6d17/Screenshot_2025-01-10_at_8.55.57_AM.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/jacob-meltzer-25438b114/"
+      target="_blank"
+    >Jacob Meltzer</a>
+    <span class="BlogAuthor__role">Engineering Lead, Stripe Radar</span>
+  </figcaption>
+</figure>
+    
+      <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/samuelbakouch/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/3z7sTxfj4EqUcuALokYl7Q/2632260aa44da4b06dc82fa7f428d2c4/E0181S17H6Z-U08TQKY3DJ7-b8bac14771e5-512.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/samuelbakouch/"
+      target="_blank"
+    >Samuel Bakouch</a>
+    <span class="BlogAuthor__role">Head of Product, Payments Intelligence</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/4RzPleRe5QheYPTOGMyzYe/6655f5d1499d7030e5b51fe5720d9a65/final-index.jpg?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="blog &gt; AI fraud &gt; index"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/4RzPleRe5QheYPTOGMyzYe/6655f5d1499d7030e5b51fe5720d9a65/final-index.jpg?w=1080&q=80
+        
+      "
+        width="2500"
+        height="2500"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>We analyzed attempted fraud rates and customer abuse patterns on Stripe over the past year and found that AI companies faced 4.3x more fraud attempts than startups overall in Q3 2025. </p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/what-stripe-data-shows-about-fraud-at-ai-startups"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+          
+            <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
+    
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/industry"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='five_monetization_trends__category__industry'
+  
+  
+  
+  
+  
+>Industry</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/five-monetization-trends-from-global-pricing-leaders"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Five monetization trends from global pricing leaders</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-08-20T00:00-04:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/five-monetization-trends-from-global-pricing-leaders"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='five_monetization_trends__date'
+  
+  
+  
+  
+  
+>August 20, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/scott-woody-21677121/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/436XYllFLTRsAOxMVZeVba/5fc4f334ae10ac6f02d55863374d3786/scott_woody_headshot_b_w_and_cropped.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/scott-woody-21677121/"
+      target="_blank"
+    >Scott Woody</a>
+    <span class="BlogAuthor__role">CEO and Founder, Metronome</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/7AILd6YY3INBk4QCI4LaTx/1842bb0154e43c182f1c26a8cf7f8a4e/Monitization_trends_index.png?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="Blog &gt; Five monetization trends from global pricing leaders &gt; Index image"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/7AILd6YY3INBk4QCI4LaTx/1842bb0154e43c182f1c26a8cf7f8a4e/Monitization_trends_index.png?w=1080&q=80
+        
+      "
+        width="1250"
+        height="1250"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>As AI transforms software economics, the standard revenue playbook is breaking down. Learn how leaders around the world are preparing for agent buyers, updating processes for faster pricing iteration, and building more flexible infrastructure.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/five-monetization-trends-from-global-pricing-leaders"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+          
+            <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
     BlogIndexPost--hasMultipleAuthors
   "
 >
@@ -15328,697 +16214,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost__readMoreLink
   "
   href="https://stripe.com/blog/mapping-the-ai-economy"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-          
-            <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    BlogIndexPost--hasMultipleAuthors
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/industry"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='analyzing_the_evidence__category__industry'
-  
-  
-  
-  
-  
->Industry</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/analyzing-the-evidence-that-helps-businesses-win-product-not-received-disputes"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Analyzing the evidence that helps businesses win “product not received” disputes</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-07-21T00:00-07:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/analyzing-the-evidence-that-helps-businesses-win-product-not-received-disputes"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='analyzing_the_evidence__date'
-  
-  
-  
-  
-  
->July 21, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/kaistrubel/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/5XWA8ULRoLfKkUJCOxVzYX/f6a97f4143350d71ec57dc024545bfac/kstrubel.jpg?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/kaistrubel/"
-      target="_blank"
-    >Kai Strubel</a>
-    <span class="BlogAuthor__role">Product Manager, Smart Disputes</span>
-  </figcaption>
-</figure>
-    
-      <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/nithinchandy/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/6P3XO37IdZr3AINotR6tQq/762c006930ea7d7bbe4decaf6290deab/nithinc.jpg?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/nithinchandy/"
-      target="_blank"
-    >Nithin Chandy</a>
-    <span class="BlogAuthor__role">Software Engineer, Smart Disputes</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/3vypk0Ytlyr2remavexqoj/e6a58a7abd1166835b40c3d3d63881a4/index2-disputes.jpg?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="blog_analyzing-disputes_index"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/3vypk0Ytlyr2remavexqoj/e6a58a7abd1166835b40c3d3d63881a4/index2-disputes.jpg?w=1080&q=80
-        
-      "
-        width="2500"
-        height="2500"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>To understand what can influence win rates, we analyzed evidence packets from one million disputes over a 16-week period. Here’s what the data shows and what it means for how you mitigate disputes.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/analyzing-the-evidence-that-helps-businesses-win-product-not-received-disputes"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-          
-            <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/industry"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='four_travel_and__category__industry'
-  
-  
-  
-  
-  
->Industry</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/trends-from-hitec"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Four travel and hospitality trends from HITEC 2026</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-06-23T00:00-07:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/trends-from-hitec"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='four_travel_and__date'
-  
-  
-  
-  
-  
->June 23, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/andrewdbeckmann/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/6gEAAUylW4biHGOBkLeXNK/c05b66fd68be6be1763d8e37545a77c7/andrewbeckmann.jpg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/andrewdbeckmann/"
-      target="_blank"
-    >Andrew Beckmann</a>
-    <span class="BlogAuthor__role">GTM Lead, Hospitality and Travel</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/5yStRoozmsf9LiDdy2hFc3/a941bc071d98e02d2781e61add6bb868/IMG_9096.jpg?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="Blog &gt; Four travel and hospitality takeaways from HITEC 2026 &gt; Index preview image"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/5yStRoozmsf9LiDdy2hFc3/a941bc071d98e02d2781e61add6bb868/IMG_9096.jpg?w=1080&q=80
-        
-      "
-        width="1250"
-        height="1250"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>More than 6,000 hospitality executives and operators gathered in San Antonio last week for the HITEC conference. The big topic: whether the industry’s AI investment is actually working. Across four days and over 50 meetings, four trends stood out.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/trends-from-hitec"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-          
-            <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/industry"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='what_link_data__category__industry'
-  
-  
-  
-  
-  
->Industry</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/what-link-data-tells-us-about-ai-spending"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->What Link data tells us about AI spending</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-06-18T00:00-07:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/what-link-data-tells-us-about-ai-spending"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='what_link_data__date'
-  
-  
-  
-  
-  
->June 18, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/hilldan/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/14o7aP3jMwozZ4dNL0dIkR/10229680810e5245e41fbf7417e11de6/danhill.jpg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/hilldan/"
-      target="_blank"
-    >Dan Hill</a>
-    <span class="BlogAuthor__role">Product Manager, Link Consumer Product</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/1d0PEqEHTGAp3Ovw1cwtq4/53bb4255b0aa7ae5c55f157acf96c53f/new-index.jpg?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="Blog &gt; Link AI spending &gt; index"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/1d0PEqEHTGAp3Ovw1cwtq4/53bb4255b0aa7ae5c55f157acf96c53f/new-index.jpg?w=1080&q=80
-        
-      "
-        width="2500"
-        height="2500"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>We analyzed spending patterns across the 250 million customers paying with Link. We found that Link customers are spending more on AI than they were three months prior, investing heavily in platforms that let them build with AI. </p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/what-link-data-tells-us-about-ai-spending"
   
   
   
@@ -17775,7 +17970,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     
     
   '
-  href="/jobs"
+  href="/careers/search"
   
   data-js-controller='AnalyticsButton'
   
@@ -24133,7 +24328,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   
 </li>
   
-  
   <li
   class="
     List__item
@@ -24675,7 +24869,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   </div>
 </footer>
   
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Stripe Blog: Online Payment Solutions Blog","url":"https://stripe.com/blog","mainEntity":{"@type":"ItemList","name":"Latest articles","itemListOrder":"http://schema.org/ItemListOrderDescending","numberOfItems":9,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"BlogPosting","headline":"Why global workers are driving demand for stablecoin payouts","url":"https://stripe.com/blog/why-global-workers-are-driving-demand-for-stablecoin-payouts","author":[{"@type":"Person","name":"Siddharth Kulkarni","url":"https://www.linkedin.com/in/siddharthpkulkarni"},{"@type":"Person","name":"Mitchell Martins-Collum","url":"https://www.linkedin.com/in/mitchellcollum"}],"datePublished":"2026-08-19T00:00-04:00"}},{"@type":"ListItem","position":2,"item":{"@type":"BlogPosting","headline":"New currency capabilities for global businesses to cut FX costs ","url":"https://stripe.com/blog/reduce-fx-costs-with-stripe","author":[{"@type":"Person","name":"Bart Heideman","url":"https://ie.linkedin.com/in/bartheideman"}],"datePublished":"2026-08-17T00:00-04:00"}},{"@type":"ListItem","position":3,"item":{"@type":"BlogPosting","headline":"Mapping the AI economy","url":"https://stripe.com/blog/mapping-the-ai-economy","author":[{"@type":"Person","name":"Abhi Tiwari","url":"https://www.linkedin.com/in/abhinav-tiwari-4687117/"}],"datePublished":"2026-08-11T00:00-07:00"}},{"@type":"ListItem","position":4,"item":{"@type":"BlogPosting","headline":"Analyzing the evidence that helps businesses win “product not received” disputes","url":"https://stripe.com/blog/analyzing-the-evidence-that-helps-businesses-win-product-not-received-disputes","author":[{"@type":"Person","name":"Kai Strubel","url":"https://www.linkedin.com/in/kaistrubel/"},{"@type":"Person","name":"Nithin Chandy","url":"https://www.linkedin.com/in/nithinchandy/"}],"datePublished":"2026-07-21T00:00-07:00"}},{"@type":"ListItem","position":5,"item":{"@type":"BlogPosting","headline":"Four travel and hospitality trends from HITEC 2026","url":"https://stripe.com/blog/trends-from-hitec","author":[{"@type":"Person","name":"Andrew Beckmann","url":"https://www.linkedin.com/in/andrewdbeckmann/"}],"datePublished":"2026-06-23T00:00-07:00"}},{"@type":"ListItem","position":6,"item":{"@type":"BlogPosting","headline":"What Link data tells us about AI spending","url":"https://stripe.com/blog/what-link-data-tells-us-about-ai-spending","author":[{"@type":"Person","name":"Dan Hill","url":"https://www.linkedin.com/in/hilldan/"}],"datePublished":"2026-06-18T00:00-07:00"}},{"@type":"ListItem","position":7,"item":{"@type":"BlogPosting","headline":"Stripe Projects adds new agent integrations, more providers, and custom developer controls","url":"https://stripe.com/blog/stripe-projects-adds-new-agents-providers-developer-controls","author":[{"@type":"Person","name":"Rami Banna","url":"https://www.linkedin.com/in/ramibanna/"}],"datePublished":"2026-06-11T08:30-07:00"}},{"@type":"ListItem","position":8,"item":{"@type":"BlogPosting","headline":"New ways to turn global demand into revenue","url":"https://stripe.com/blog/new-ways-to-turn-global-demand-into-revenue","author":[{"@type":"Person","name":"Abhi Tiwari","url":"https://www.linkedin.com/in/abhinav-tiwari-4687117/"}],"datePublished":"2026-06-04T00:00-07:00"}},{"@type":"ListItem","position":9,"item":{"@type":"BlogPosting","headline":"Helping businesses optimize network costs with the Visa Digital Commerce Authentication Program (DCAP)","url":"https://stripe.com/blog/helping-businesses-optimize-network-costs-with-visa-digital-commerce-authentication-program","author":[{"@type":"Person","name":"Kanika Nayyar","url":"https://www.linkedin.com/in/kanika-nayyar-/"}],"datePublished":"2026-06-03T00:00-07:00"}}]}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Stripe Blog: Online Payment Solutions Blog","url":"https://stripe.com/blog","mainEntity":{"@type":"ItemList","name":"Latest articles","itemListOrder":"http://schema.org/ItemListOrderDescending","numberOfItems":9,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"BlogPosting","headline":"SaaS platforms are surging despite the SaaSpocalypse","url":"https://stripe.com/blog/saas-platforms-are-surging-despite-the-saaspocalypse","author":[{"@type":"Person","name":"Aakash Sahney","url":"https://www.linkedin.com/in/aakash-sahney-94017114/?originalSubdomain=ca"}],"datePublished":"2026-09-17T00:00-04:00"}},{"@type":"ListItem","position":2,"item":{"@type":"BlogPosting","headline":"What Stripe data shows about fraud at AI startups","url":"https://stripe.com/blog/what-stripe-data-shows-about-fraud-at-ai-startups","author":[{"@type":"Person","name":"Jacob Meltzer","url":"https://www.linkedin.com/in/jacob-meltzer-25438b114/"},{"@type":"Person","name":"Samuel Bakouch","url":"https://www.linkedin.com/in/samuelbakouch/"}],"datePublished":"2026-09-15T00:00-07:00"}},{"@type":"ListItem","position":3,"item":{"@type":"BlogPosting","headline":"Five monetization trends from global pricing leaders ","url":"https://stripe.com/blog/five-monetization-trends-from-global-pricing-leaders","author":[{"@type":"Person","name":"Scott Woody","url":"https://www.linkedin.com/in/scott-woody-21677121/"}],"datePublished":"2026-08-20T00:00-04:00"}},{"@type":"ListItem","position":4,"item":{"@type":"BlogPosting","headline":"Why global workers are driving demand for stablecoin payouts","url":"https://stripe.com/blog/why-global-workers-are-driving-demand-for-stablecoin-payouts","author":[{"@type":"Person","name":"Siddharth Kulkarni","url":"https://www.linkedin.com/in/siddharthpkulkarni"},{"@type":"Person","name":"Mitchell Martins-Collum","url":"https://www.linkedin.com/in/mitchellcollum"}],"datePublished":"2026-08-19T00:00-04:00"}},{"@type":"ListItem","position":5,"item":{"@type":"BlogPosting","headline":"New currency capabilities for global businesses to cut FX costs ","url":"https://stripe.com/blog/reduce-fx-costs-with-stripe","author":[{"@type":"Person","name":"Bart Heideman","url":"https://ie.linkedin.com/in/bartheideman"}],"datePublished":"2026-08-17T00:00-04:00"}},{"@type":"ListItem","position":6,"item":{"@type":"BlogPosting","headline":"Mapping the AI economy","url":"https://stripe.com/blog/mapping-the-ai-economy","author":[{"@type":"Person","name":"Abhi Tiwari","url":"https://www.linkedin.com/in/abhinav-tiwari-4687117/"}],"datePublished":"2026-08-11T00:00-07:00"}},{"@type":"ListItem","position":7,"item":{"@type":"BlogPosting","headline":"Analyzing the evidence that helps businesses win “product not received” disputes","url":"https://stripe.com/blog/analyzing-the-evidence-that-helps-businesses-win-product-not-received-disputes","author":[{"@type":"Person","name":"Kai Strubel","url":"https://www.linkedin.com/in/kaistrubel/"},{"@type":"Person","name":"Nithin Chandy","url":"https://www.linkedin.com/in/nithinchandy/"}],"datePublished":"2026-07-21T00:00-07:00"}},{"@type":"ListItem","position":8,"item":{"@type":"BlogPosting","headline":"Four travel and hospitality trends from HITEC 2026","url":"https://stripe.com/blog/trends-from-hitec","author":[{"@type":"Person","name":"Andrew Beckmann","url":"https://www.linkedin.com/in/andrewdbeckmann/"}],"datePublished":"2026-06-23T00:00-07:00"}},{"@type":"ListItem","position":9,"item":{"@type":"BlogPosting","headline":"What Link data tells us about AI spending","url":"https://stripe.com/blog/what-link-data-tells-us-about-ai-spending","author":[{"@type":"Person","name":"Dan Hill","url":"https://www.linkedin.com/in/hilldan/"}],"datePublished":"2026-06-18T00:00-07:00"}}]}}</script>
     </div>
   </body>
 </html>
