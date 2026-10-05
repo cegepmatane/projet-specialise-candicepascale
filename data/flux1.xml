@@ -15,14 +15,14 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 <meta
   name="sentry-config"
   data-js-dsn=""
-  data-js-release="690462184dbcc26c406afca80d743beb89faf55f"
+  data-js-release="7be4ab54fcd1fafb5a63d122a413eb337f9d6f9d"
   data-js-environment="production"
   data-js-project="mkt"
 >
 
-    <meta name="edge-experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.261caf7f-fe3f-06a2-d3b2-6c46b43f6c31.m.s,wpp_curator_h2.control.ursula.288bf7a8-2e85-14fb-60fb-4c4ee809f60e.m.s">
-<meta name="experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.e5223b72-b066-4f27-a8cc-fb5e8c5c0487.m.s,wpp_curator_h2.control.ursula.8fc8852a-dc2a-4755-bb2d-166492d5e597.m.s">
-<meta name="experiment-token" content="b057adf6759627dbf96c58fb24519b841b03ce1c">
+    <meta name="edge-experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.a658d292-e4da-0528-86f7-683126e3c7fe.m.s,wpp_curator_h2.control.ursula.2d89f870-8a6e-9268-8c56-73530c5fd850.m.s">
+<meta name="experiment-treatments" content="wpp_acquisition_mobile_sticky_hamburger.control.ursula.2bdd42be-2abc-4a7a-88df-5f099d1e976f.m.s,wpp_curator_h2.control.ursula.6231a7c9-c6fa-4f36-9a0b-59f071670d6f.m.s">
+<meta name="experiment-token" content="b057adf64f3309ce3da919fa3833630c56b174f9">
     
 
     <script>(() => {
@@ -82,7 +82,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
     <template id="source-attribution-loader">
   <script defer
-    src="https://b.stripecdn.com/mkt-statics-srv/assets/imt-534f4a7589e6b6eb334da16d99f3b07a.js"
+    src="https://b.stripecdn.com/mkt-statics-srv/assets/imt-9321f18b91218bffc65b85fd2ad709a1.js"
     data-store_url="https://b.stripecdn.com/mkt-statics-srv/assets/store-936f0d847a16164e7f6b15d74659c4a9.html">
   </script>
 </template>
@@ -473,11 +473,11 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
 
         <script type="application/json" data-js-script-registry>
-          [{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-WGPVYDIK.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedSiteHeader-3WWK4H4F.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-DashboardLoginLink-CDBSC4XA.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedMobileMenu-6F3N4GI2.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedProductsNavGroup-FJ3JQEWO.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-HorizontalOverflowContainer-LYUIRO3R.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Gradient-LLG4DJZK.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-SegmentedControl-ZUXYL6CI.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UpdateCard-7ZQ25YAB.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FullWidthCarousel-O5BCYZIM.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FooterCta-RFHW67C7.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-TextInput-P67GHZPZ.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Form-MGGWKOHQ.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-PrivacyNotice-2IJ6ZEGL.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LocaleControl-S4JXMHCZ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-ZOC2QEQD.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Sentry-IABPFTSH.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-EnforceSameSiteLaxOnCookies-5NDXH4YF.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LoaderScript-KMPHPAA4.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Loader-CQ7CYL24.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Container-OEC2UX3S.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatInitializer-DNX7OYO5.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Notification-OESJVJ6N.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-ScrollDepthTracker-SKOUQQ22.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-MonitorWebVitals-J6MIA6Y7.js"}]
+          [{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-ZE3DLKA3.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedSiteHeader-QNU4OKNJ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-DashboardLoginLink-LXEBMVPW.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedMobileMenu-EAMORMJS.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-RefreshedProductsNavGroup-HNWT2RU7.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-HorizontalOverflowContainer-OA7L2TAL.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Gradient-IF7YQROJ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-SegmentedControl-LCA26H3B.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UpdateCard-GLGJCI62.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FullWidthCarousel-6PPG5FAG.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-FooterCta-HQ56M6US.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-TextInput-7HEMMCYA.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Form-6F4BFYJX.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-PrivacyNotice-AVJUZHXW.js"},{"critical":false,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LocaleControl-AB6YKLVV.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Page-BDBMXNYJ.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Sentry-IABPFTSH.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-EnforceSameSiteLaxOnCookies-5NDXH4YF.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-LoaderScript-YCE7ATPC.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Loader-REZ6T47E.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Container-2EKF3V4C.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-UniversalChatInitializer-DRPAIHU6.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-Notification-Z7WLMR77.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-ScrollDepthTracker-KCAK3FS4.js"},{"critical":true,"path":"https://b.stripecdn.com/mkt-statics-srv/assets/v1-MonitorWebVitals-J6NOS2LZ.js"}]
         </script>
       
 
-        <script type="module" src="https://b.stripecdn.com/mkt-statics-srv/assets/v1-Bootstrapper-YNPABTTF.js"></script>
+        <script type="module" src="https://b.stripecdn.com/mkt-statics-srv/assets/v1-Bootstrapper-QI62UIOA.js"></script>
       
 
   </head>
@@ -9032,7 +9032,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost
     BlogIndexPost--variantFeatured
     BlogIndexPost--hasFigure
-    BlogIndexPost--hasMultipleAuthors
+    
   "
 >
   <h2
@@ -9050,20 +9050,20 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogCategoryLink
   "
-  href="/blog/industry"
+  href="/blog/product"
   
   
   
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
-  data-analytics-label='new_trends_in__category__industry'
+  data-analytics-label='why_i_tried__category__product'
   
   
   
   
   
->Industry</a></h2>
+>Product</a></h2>
 
   <h1
   class="
@@ -9080,7 +9080,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogIndexPost__titleLink
   "
-  href="https://stripe.com/blog/new-trends-in-global-card-fraud-how-3d-secure-and-regional-mandates-are-affecting-risk"
+  href="https://stripe.com/blog/where-pricing-is-headed"
   
   
   
@@ -9093,11 +9093,11 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   
   
   
->New trends in global card fraud: How 3D Secure and regional mandates are affecting risk</a></h1>
+>Why I tried to kill token billing (and why we kept it)</a></h1>
 
   <time
   class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-09-22T00:00-07:00"
+  datetime="2026-10-01T00:00-07:00"
 >
   
   <a
@@ -9105,20 +9105,20 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogPostDate__link
   "
-  href="https://stripe.com/blog/new-trends-in-global-card-fraud-how-3d-secure-and-regional-mandates-are-affecting-risk"
+  href="https://stripe.com/blog/where-pricing-is-headed"
   
   
   
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
-  data-analytics-label='new_trends_in__date'
+  data-analytics-label='why_i_tried__date'
   
   
   
   
   
->September 22, 2026</a>
+>October  1, 2026</a>
 </time>
 
   <div class="BlogIndexPost__authorList">
@@ -9132,7 +9132,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   "
 >
   <a
-    href="https://www.linkedin.com/in/samuelbakouch/"
+    href="https://www.linkedin.com/in/scott-woody-21677121/"
     target="_blank"
   >
     <img
@@ -9140,47 +9140,16 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
       width="48"
       height="48"
       loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/3z7sTxfj4EqUcuALokYl7Q/2632260aa44da4b06dc82fa7f428d2c4/E0181S17H6Z-U08TQKY3DJ7-b8bac14771e5-512.png?w=96&h=96"
+      src="https://images.stripeassets.com/fzn2n1nzq965/436XYllFLTRsAOxMVZeVba/37123130c665701824521ec8d41f4cec/scott_woody_headshot_b_w_and_cropped.png?w=96&h=96"
     >
   </a>
   <figcaption class="BlogAuthor__caption">
     <a
       class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/samuelbakouch/"
+      href="https://www.linkedin.com/in/scott-woody-21677121/"
       target="_blank"
-    >Samuel Bakouch</a>
-    <span class="BlogAuthor__role">Head of Product, Payments Intelligence</span>
-  </figcaption>
-</figure>
-    
-      <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/jacob-meltzer-25438b114/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/5eyqlHCu45v94z66ZrImHa/008affb4f60e729459444e081eec6d17/Screenshot_2025-01-10_at_8.55.57_AM.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/jacob-meltzer-25438b114/"
-      target="_blank"
-    >Jacob Meltzer</a>
-    <span class="BlogAuthor__role">Engineering Lead, Stripe Radar</span>
+    >Scott Woody</a>
+    <span class="BlogAuthor__role">CEO and Founder, Metronome</span>
   </figcaption>
 </figure>
   </div>
@@ -9212,7 +9181,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     >
       
         <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/1Ttw18lQFBzxo2wuqd2XlA/bbac418ecc8be77df011264faeb15b0f/regional-index.jpg?w=1080&q=80&fm=webp"
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/429O97zRn17cvoY9EQIuoO/17adb35450f60d6ddd613c04cca873f4/1250x1250.jpg?w=1080&q=80&fm=webp"
           type="image/webp"
         >
       
@@ -9221,14 +9190,14 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
       <img
         class="BlogImageCard__image"
-        alt="blog &gt; regional fraud trends &gt; index"
+        alt="Blog &gt; Where pricing is headed &gt; Index image"
         src="
         
-          https://images.stripeassets.com/fzn2n1nzq965/1Ttw18lQFBzxo2wuqd2XlA/bbac418ecc8be77df011264faeb15b0f/regional-index.jpg?w=1080&q=80
+          https://images.stripeassets.com/fzn2n1nzq965/429O97zRn17cvoY9EQIuoO/17adb35450f60d6ddd613c04cca873f4/1250x1250.jpg?w=1080&q=80
         
       "
-        width="2500"
-        height="2500"
+        width="1250"
+        height="1250"
         loading="auto"
       >
     </picture>
@@ -9236,7 +9205,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   
 
   <div class="BlogIndexPost__body">
-    <p>We analyzed billions of transactions on Stripe from January 2022 to March 2026 to understand how card fraud patterns differ by region and country, what's driving those differences, and how businesses can respond. </p>
+    <p>Token billing is useful infrastructure, but usually a bad customer-facing pricing model. Your invoice should define the value your product delivers, not break down what it cost you to create it.</p>
   </div>
 
   <a
@@ -9244,7 +9213,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogIndexPost__readMoreLink
   "
-  href="https://stripe.com/blog/new-trends-in-global-card-fraud-how-3d-secure-and-regional-mandates-are-affecting-risk"
+  href="https://stripe.com/blog/where-pricing-is-headed"
   
   
   
@@ -9480,7 +9449,447 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost
     BlogIndexPost--variantNormal
     BlogIndexPost--hasFigure
-    BlogIndexPost--hasMultipleAuthors
+    
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/product"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='ousd_is_now__category__product'
+  
+  
+  
+  
+  
+>Product</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/ousd-now-live-on-stripe"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>OUSD is now the default stablecoin on Stripe</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-09-30T00:00-07:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/ousd-now-live-on-stripe"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='ousd_is_now__date'
+  
+  
+  
+  
+  
+>September 30, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/henri-stern/?isSelfProfile=false"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/1qHSW0bSA1ozulLTnOCeHU/a90735395efeb6bb9e61e9dd65039357/1655502278349.jpg?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/henri-stern/?isSelfProfile=false"
+      target="_blank"
+    >Henri Stern</a>
+    <span class="BlogAuthor__role">Cofounder and CEO, Privy</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/2YSRP4aCTTxIcUOn1lu4Qq/187eabba0a9b39e79b4c228b89812493/Square__4_.jpg?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="blog &gt; ousd &gt; index"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/2YSRP4aCTTxIcUOn1lu4Qq/187eabba0a9b39e79b4c228b89812493/Square__4_.jpg?w=1080&q=80
+        
+      "
+        width="2500"
+        height="2500"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>Open USD (OUSD), a stablecoin built for global money movement, is now available across Stripe. Businesses can use OUSD to manage funds, make payments, and offer new financial services.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/ousd-now-live-on-stripe"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+        
+          <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
+    
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/product"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='helping_personal_agents__category__product'
+  
+  
+  
+  
+  
+>Product</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/helping-personal-agents-shop-more-intelligently-and-reliably-with-link"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Helping personal agents shop more intelligently and reliably with Link</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-09-29T00:00-07:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/helping-personal-agents-shop-more-intelligently-and-reliably-with-link"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='helping_personal_agents__date'
+  
+  
+  
+  
+  
+>September 29, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/hilldan/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/14o7aP3jMwozZ4dNL0dIkR/10229680810e5245e41fbf7417e11de6/danhill.jpg.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/hilldan/"
+      target="_blank"
+    >Dan Hill</a>
+    <span class="BlogAuthor__role">Product Manager, Link Consumer Product</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/259tRMFUDzwXlrETBMQId4/a6af0d366e1e601e70b52c7f071fa007/index-5.png?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="blog &gt; link innovation &gt; index"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/259tRMFUDzwXlrETBMQId4/a6af0d366e1e601e70b52c7f071fa007/index-5.png?w=1080&q=80
+        
+      "
+        width="1250"
+        height="1250"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>As agents take on more purchases, agent builders have increasingly asked us to help agents navigate checkout and earn consumer trust. Today, we’re sharing three major improvements to support this broader set of needs.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/helping-personal-agents-shop-more-intelligently-and-reliably-with-link"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+        
+          <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
+    
   "
 >
   <h2
@@ -9505,7 +9914,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   data-js-controller='AnalyticsButton'
   data-analytics-category='Navigation'
   data-analytics-action='Clicked'
-  data-analytics-label='analyzing_rising_fraud__category__industry'
+  data-analytics-label='travel_s_ai__category__industry'
   
   
   
@@ -9528,7 +9937,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogIndexPost__titleLink
   "
-  href="https://stripe.com/blog/analyzing-rising-fraud-attempts-among-travel-and-leisure-businesses-on-stripe"
+  href="https://stripe.com/blog/travels-ai-dilemma-at-skift-global-forum"
   
   
   
@@ -9541,11 +9950,11 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   
   
   
->Analyzing rising fraud attempts among travel and leisure businesses on Stripe</a></h1>
+>Travel’s AI dilemma at Skift Global Forum</a></h1>
 
   <time
   class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-09-18T00:00-04:00"
+  datetime="2026-09-28T00:00-07:00"
 >
   
   <a
@@ -9553,20 +9962,20 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogPostDate__link
   "
-  href="https://stripe.com/blog/analyzing-rising-fraud-attempts-among-travel-and-leisure-businesses-on-stripe"
+  href="https://stripe.com/blog/travels-ai-dilemma-at-skift-global-forum"
   
   
   
   data-js-controller='AnalyticsButton'
   data-analytics-category='Links'
   data-analytics-action='Clicked'
-  data-analytics-label='analyzing_rising_fraud__date'
+  data-analytics-label='travel_s_ai__date'
   
   
   
   
   
->September 18, 2026</a>
+>September 28, 2026</a>
 </time>
 
   <div class="BlogIndexPost__authorList">
@@ -9600,37 +10009,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     <span class="BlogAuthor__role">GTM Lead, Hospitality and Travel</span>
   </figcaption>
 </figure>
-    
-      <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://uk.linkedin.com/in/jamesclemon"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/31zOErNcRIpVg3ESfWMzDN/5f69ea517a58cae5aa5a597e0895a95b/jameslemon.jpg?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://uk.linkedin.com/in/jamesclemon"
-      target="_blank"
-    >James Lemon</a>
-    <span class="BlogAuthor__role">GTM Industries Hospitality and Travel team</span>
-  </figcaption>
-</figure>
   </div>
 
   
@@ -9660,7 +10038,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     >
       
         <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/msOow88CKXXHqlWSzckzs/a05f46fcd58edc95d1fa9cdb0ac7b052/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding_2x__2_.png?w=1080&q=80&fm=webp"
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/42kKrzG4TiYUHyP5JqyTs4/92838da218c78955c0aad7542467a3e8/01_Index-1.png?w=1080&q=80&fm=webp"
           type="image/webp"
         >
       
@@ -9669,14 +10047,14 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 
       <img
         class="BlogImageCard__image"
-        alt="Blog &gt; Analyzing rising fraud attempts among travel and leisure businesses on Stripe &gt; Index image"
+        alt="blog &gt; skift &gt; index"
         src="
         
-          https://images.stripeassets.com/fzn2n1nzq965/msOow88CKXXHqlWSzckzs/a05f46fcd58edc95d1fa9cdb0ac7b052/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding_2x__2_.png?w=1080&q=80
+          https://images.stripeassets.com/fzn2n1nzq965/42kKrzG4TiYUHyP5JqyTs4/92838da218c78955c0aad7542467a3e8/01_Index-1.png?w=1080&q=80
         
       "
-        width="2500"
-        height="2500"
+        width="1250"
+        height="1250"
         loading="lazy"
       >
     </picture>
@@ -9684,7 +10062,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   
 
   <div class="BlogIndexPost__body">
-    <p>Last year, Stripe data shows fraud attempts against travel and leisure businesses hit a four-year high. We analyzed payment activity from more than 200,000 active travel and leisure businesses on Stripe to understand where fraud is rising, how effectively it’s being blocked, and what businesses can do in response.</p>
+    <p>At the “great recalibration”-themed travel conference, Airbnb CEO Brian Chesky called AI “an existential risk” to his company and “literally the best thing to ever happen” to it in the same discussion. That sums up many travel leaders’ push-and-pull relationship with AI. </p>
   </div>
 
   <a
@@ -9692,478 +10070,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     Link
     BlogIndexPost__readMoreLink
   "
-  href="https://stripe.com/blog/analyzing-rising-fraud-attempts-among-travel-and-leisure-businesses-on-stripe"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-        
-          <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/industry"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='saas_platforms_are__category__industry'
-  
-  
-  
-  
-  
->Industry</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/saas-platforms-are-surging-despite-the-saaspocalypse"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->SaaS platforms are surging despite the SaaSpocalypse</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-09-17T00:00-04:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/saas-platforms-are-surging-despite-the-saaspocalypse"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='saas_platforms_are__date'
-  
-  
-  
-  
-  
->September 17, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/aakash-sahney-94017114/?originalSubdomain=ca"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/p0cKJihswqSLVGVOlpoTq/650bc8f54e6d74b8964d90b3e1590a51/asahney.jpg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/aakash-sahney-94017114/?originalSubdomain=ca"
-      target="_blank"
-    >Aakash Sahney</a>
-    <span class="BlogAuthor__role">Head of Product, Stripe Connect</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/4eii8vuv5rIus0HNvlMEs6/1f5a15bc4f8dca9c66bec691f507befb/Specs__1250x1250px_with_100_padding_2x.png?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="Blog &gt; SaaS platforms are surging despite the SaaSpocalypse &gt; Index image"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/4eii8vuv5rIus0HNvlMEs6/1f5a15bc4f8dca9c66bec691f507befb/Specs__1250x1250px_with_100_padding_2x.png?w=1080&q=80
-        
-      "
-        width="2500"
-        height="2500"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>The SaaSpocalypse was a useful warning for the software industry, but SaaS platforms that help businesses run core operations are more deeply embedded. New platform businesses on Stripe are up 182% year over year.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/saas-platforms-are-surging-despite-the-saaspocalypse"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-        
-          <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    BlogIndexPost--hasMultipleAuthors
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/industry"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='what_stripe_data__category__industry'
-  
-  
-  
-  
-  
->Industry</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/what-stripe-data-shows-about-fraud-at-ai-startups"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->What Stripe data shows about fraud at AI startups</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-09-15T00:00-07:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/what-stripe-data-shows-about-fraud-at-ai-startups"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='what_stripe_data__date'
-  
-  
-  
-  
-  
->September 15, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/jacob-meltzer-25438b114/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/5eyqlHCu45v94z66ZrImHa/008affb4f60e729459444e081eec6d17/Screenshot_2025-01-10_at_8.55.57_AM.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/jacob-meltzer-25438b114/"
-      target="_blank"
-    >Jacob Meltzer</a>
-    <span class="BlogAuthor__role">Engineering Lead, Stripe Radar</span>
-  </figcaption>
-</figure>
-    
-      <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/samuelbakouch/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/3z7sTxfj4EqUcuALokYl7Q/2632260aa44da4b06dc82fa7f428d2c4/E0181S17H6Z-U08TQKY3DJ7-b8bac14771e5-512.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/samuelbakouch/"
-      target="_blank"
-    >Samuel Bakouch</a>
-    <span class="BlogAuthor__role">Head of Product, Payments Intelligence</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/4RzPleRe5QheYPTOGMyzYe/6655f5d1499d7030e5b51fe5720d9a65/final-index.jpg?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="blog &gt; AI fraud &gt; index"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/4RzPleRe5QheYPTOGMyzYe/6655f5d1499d7030e5b51fe5720d9a65/final-index.jpg?w=1080&q=80
-        
-      "
-        width="2500"
-        height="2500"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>We analyzed attempted fraud rates and customer abuse patterns on Stripe over the past year and found that AI companies faced 4.3x more fraud attempts than startups overall in Q3 2025. </p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/what-stripe-data-shows-about-fraud-at-ai-startups"
+  href="https://stripe.com/blog/travels-ai-dilemma-at-skift-global-forum"
   
   
   
@@ -11005,6 +10912,983 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost
     BlogIndexPost--variantNormal
     BlogIndexPost--hasFigure
+    BlogIndexPost--hasMultipleAuthors
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/industry"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='new_trends_in__category__industry'
+  
+  
+  
+  
+  
+>Industry</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/new-trends-in-global-card-fraud-how-3d-secure-and-regional-mandates-are-affecting-risk"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>New trends in global card fraud: How 3D Secure and regional mandates are affecting risk</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-09-22T00:00-07:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/new-trends-in-global-card-fraud-how-3d-secure-and-regional-mandates-are-affecting-risk"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='new_trends_in__date'
+  
+  
+  
+  
+  
+>September 22, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/samuelbakouch/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/3z7sTxfj4EqUcuALokYl7Q/2632260aa44da4b06dc82fa7f428d2c4/E0181S17H6Z-U08TQKY3DJ7-b8bac14771e5-512.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/samuelbakouch/"
+      target="_blank"
+    >Samuel Bakouch</a>
+    <span class="BlogAuthor__role">Head of Product, Payments Intelligence</span>
+  </figcaption>
+</figure>
+    
+      <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/jacob-meltzer-25438b114/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/5eyqlHCu45v94z66ZrImHa/008affb4f60e729459444e081eec6d17/Screenshot_2025-01-10_at_8.55.57_AM.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/jacob-meltzer-25438b114/"
+      target="_blank"
+    >Jacob Meltzer</a>
+    <span class="BlogAuthor__role">Engineering Lead, Stripe Radar</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/1Ttw18lQFBzxo2wuqd2XlA/bbac418ecc8be77df011264faeb15b0f/regional-index.jpg?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="blog &gt; regional fraud trends &gt; index"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/1Ttw18lQFBzxo2wuqd2XlA/bbac418ecc8be77df011264faeb15b0f/regional-index.jpg?w=1080&q=80
+        
+      "
+        width="2500"
+        height="2500"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>We analyzed billions of transactions on Stripe from January 2022 to March 2026 to understand how card fraud patterns differ by region and country, what's driving those differences, and how businesses can respond. </p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/new-trends-in-global-card-fraud-how-3d-secure-and-regional-mandates-are-affecting-risk"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+        
+          <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
+    BlogIndexPost--hasMultipleAuthors
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/industry"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='analyzing_rising_fraud__category__industry'
+  
+  
+  
+  
+  
+>Industry</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/analyzing-rising-fraud-attempts-among-travel-and-leisure-businesses-on-stripe"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Analyzing rising fraud attempts among travel and leisure businesses on Stripe</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-09-18T00:00-04:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/analyzing-rising-fraud-attempts-among-travel-and-leisure-businesses-on-stripe"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='analyzing_rising_fraud__date'
+  
+  
+  
+  
+  
+>September 18, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/andrewdbeckmann/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/6gEAAUylW4biHGOBkLeXNK/c05b66fd68be6be1763d8e37545a77c7/andrewbeckmann.jpg.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/andrewdbeckmann/"
+      target="_blank"
+    >Andrew Beckmann</a>
+    <span class="BlogAuthor__role">GTM Lead, Hospitality and Travel</span>
+  </figcaption>
+</figure>
+    
+      <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://uk.linkedin.com/in/jamesclemon"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/31zOErNcRIpVg3ESfWMzDN/5f69ea517a58cae5aa5a597e0895a95b/jameslemon.jpg?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://uk.linkedin.com/in/jamesclemon"
+      target="_blank"
+    >James Lemon</a>
+    <span class="BlogAuthor__role">GTM Industries Hospitality and Travel team</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/msOow88CKXXHqlWSzckzs/a05f46fcd58edc95d1fa9cdb0ac7b052/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding_2x__2_.png?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="Blog &gt; Analyzing rising fraud attempts among travel and leisure businesses on Stripe &gt; Index image"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/msOow88CKXXHqlWSzckzs/a05f46fcd58edc95d1fa9cdb0ac7b052/Index_image__appears_on_the_blog_index_page_._Specs__1250x1250px_with_padding_2x__2_.png?w=1080&q=80
+        
+      "
+        width="2500"
+        height="2500"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>Last year, Stripe data shows fraud attempts against travel and leisure businesses hit a four-year high. We analyzed payment activity from more than 200,000 active travel and leisure businesses on Stripe to understand where fraud is rising, how effectively it’s being blocked, and what businesses can do in response.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/analyzing-rising-fraud-attempts-among-travel-and-leisure-businesses-on-stripe"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+        
+          <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
+    
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/industry"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='saas_platforms_are__category__industry'
+  
+  
+  
+  
+  
+>Industry</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/saas-platforms-are-surging-despite-the-saaspocalypse"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>SaaS platforms are surging despite the SaaSpocalypse</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-09-17T00:00-04:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/saas-platforms-are-surging-despite-the-saaspocalypse"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='saas_platforms_are__date'
+  
+  
+  
+  
+  
+>September 17, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/aakash-sahney-94017114/?originalSubdomain=ca"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/p0cKJihswqSLVGVOlpoTq/650bc8f54e6d74b8964d90b3e1590a51/asahney.jpg.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/aakash-sahney-94017114/?originalSubdomain=ca"
+      target="_blank"
+    >Aakash Sahney</a>
+    <span class="BlogAuthor__role">Head of Product, Stripe Connect</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/4eii8vuv5rIus0HNvlMEs6/1f5a15bc4f8dca9c66bec691f507befb/Specs__1250x1250px_with_100_padding_2x.png?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="Blog &gt; SaaS platforms are surging despite the SaaSpocalypse &gt; Index image"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/4eii8vuv5rIus0HNvlMEs6/1f5a15bc4f8dca9c66bec691f507befb/Specs__1250x1250px_with_100_padding_2x.png?w=1080&q=80
+        
+      "
+        width="2500"
+        height="2500"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>The SaaSpocalypse was a useful warning for the software industry, but SaaS platforms that help businesses run core operations are more deeply embedded. New platform businesses on Stripe are up 182% year over year.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/saas-platforms-are-surging-despite-the-saaspocalypse"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+        
+
+        
+
+        
+          <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
+    BlogIndexPost--hasMultipleAuthors
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/industry"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='what_stripe_data__category__industry'
+  
+  
+  
+  
+  
+>Industry</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/what-stripe-data-shows-about-fraud-at-ai-startups"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>What Stripe data shows about fraud at AI startups</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-09-15T00:00-07:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/what-stripe-data-shows-about-fraud-at-ai-startups"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='what_stripe_data__date'
+  
+  
+  
+  
+  
+>September 15, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/jacob-meltzer-25438b114/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/5eyqlHCu45v94z66ZrImHa/008affb4f60e729459444e081eec6d17/Screenshot_2025-01-10_at_8.55.57_AM.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/jacob-meltzer-25438b114/"
+      target="_blank"
+    >Jacob Meltzer</a>
+    <span class="BlogAuthor__role">Engineering Lead, Stripe Radar</span>
+  </figcaption>
+</figure>
+    
+      <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/samuelbakouch/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/3z7sTxfj4EqUcuALokYl7Q/2632260aa44da4b06dc82fa7f428d2c4/E0181S17H6Z-U08TQKY3DJ7-b8bac14771e5-512.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/samuelbakouch/"
+      target="_blank"
+    >Samuel Bakouch</a>
+    <span class="BlogAuthor__role">Head of Product, Payments Intelligence</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/4RzPleRe5QheYPTOGMyzYe/6655f5d1499d7030e5b51fe5720d9a65/final-index.jpg?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="blog &gt; AI fraud &gt; index"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/4RzPleRe5QheYPTOGMyzYe/6655f5d1499d7030e5b51fe5720d9a65/final-index.jpg?w=1080&q=80
+        
+      "
+        width="2500"
+        height="2500"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>We analyzed attempted fraud rates and customer abuse patterns on Stripe over the past year and found that AI companies faced 4.3x more fraud attempts than startups overall in Q3 2025. </p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/what-stripe-data-shows-about-fraud-at-ai-startups"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+        
+          <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
     
   "
 >
@@ -11113,7 +11997,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
       width="48"
       height="48"
       loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/436XYllFLTRsAOxMVZeVba/5fc4f334ae10ac6f02d55863374d3786/scott_woody_headshot_b_w_and_cropped.png?w=96&h=96"
+      src="https://images.stripeassets.com/fzn2n1nzq965/436XYllFLTRsAOxMVZeVba/37123130c665701824521ec8d41f4cec/scott_woody_headshot_b_w_and_cropped.png?w=96&h=96"
     >
   </a>
   <figcaption class="BlogAuthor__caption">
@@ -11438,921 +12322,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost__readMoreLink
   "
   href="https://stripe.com/blog/why-global-workers-are-driving-demand-for-stablecoin-payouts"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-        
-          <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/product"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='new_currency_capabilities__category__product'
-  
-  
-  
-  
-  
->Product</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/reduce-fx-costs-with-stripe"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->New currency capabilities for global businesses to cut FX costs</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-08-17T00:00-04:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/reduce-fx-costs-with-stripe"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='new_currency_capabilities__date'
-  
-  
-  
-  
-  
->August 17, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://ie.linkedin.com/in/bartheideman"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/3oNmmPxnbJu7i30qd8KpgW/78f8ff0c9a6aebcc9984aea434bb3ccd/Heidemanheadshot2.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://ie.linkedin.com/in/bartheideman"
-      target="_blank"
-    >Bart Heideman</a>
-    <span class="BlogAuthor__role">Head of Product, Payouts, FX &amp; Marketplaces</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/7xgfnyZq3lIBjWIuhI5cph/a0cc8cc59d2b78c690252633e9fb33e3/Blog___Index_new__1250_x_1250_.png?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="Blog &gt; New currency capabilities for global businesses to cut FX costs &gt; Index image"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/7xgfnyZq3lIBjWIuhI5cph/a0cc8cc59d2b78c690252633e9fb33e3/Blog___Index_new__1250_x_1250_.png?w=1080&q=80
-        
-      "
-        width="1250"
-        height="1250"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>Two product upgrades make it easy for global businesses to manage FX entirely on Stripe. We’re expanding multicurrency settlement to more markets and currencies, and we’re introducing the ability to convert currencies instantly—all on Stripe. </p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/reduce-fx-costs-with-stripe"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-        
-
-        
-
-        
-          <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/industry"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='mapping_the_ai__category__industry'
-  
-  
-  
-  
-  
->Industry</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/mapping-the-ai-economy"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Mapping the AI economy</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-08-11T00:00-07:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/mapping-the-ai-economy"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='mapping_the_ai__date'
-  
-  
-  
-  
-  
->August 11, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/abhinav-tiwari-4687117/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/1ISuR83B05mcT6Ou7eknwY/12e6049d8c8d4424ca7b8213e66d7352/abhit.jpeg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/abhinav-tiwari-4687117/"
-      target="_blank"
-    >Abhi Tiwari</a>
-    <span class="BlogAuthor__role">Product Lead, Global</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/3zq67gzl09NDsPhwwSKpiS/420f8b42b6aff303aa6293fbc6ff3283/Hero_image_optimized_for_ratio_bigger_labels_darker_bigger_disclaimer_3x.png?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="blog &gt; mapping &gt; index"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/3zq67gzl09NDsPhwwSKpiS/420f8b42b6aff303aa6293fbc6ff3283/Hero_image_optimized_for_ratio_bigger_labels_darker_bigger_disclaimer_3x.png?w=1080&q=80
-        
-      "
-        width="4515"
-        height="3293"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>AI companies are undergoing rapid global expansion while achieving unprecedented rates of growth. We analyzed Stripe data to understand where global demand is the strongest, and how companies can build to best capture that demand.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/mapping-the-ai-economy"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-        
-          <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    BlogIndexPost--hasMultipleAuthors
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/industry"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='analyzing_the_evidence__category__industry'
-  
-  
-  
-  
-  
->Industry</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/analyzing-the-evidence-that-helps-businesses-win-product-not-received-disputes"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Analyzing the evidence that helps businesses win “product not received” disputes</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-07-21T00:00-07:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/analyzing-the-evidence-that-helps-businesses-win-product-not-received-disputes"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='analyzing_the_evidence__date'
-  
-  
-  
-  
-  
->July 21, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/kaistrubel/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/5XWA8ULRoLfKkUJCOxVzYX/f6a97f4143350d71ec57dc024545bfac/kstrubel.jpg?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/kaistrubel/"
-      target="_blank"
-    >Kai Strubel</a>
-    <span class="BlogAuthor__role">Product Manager, Smart Disputes</span>
-  </figcaption>
-</figure>
-    
-      <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/nithinchandy/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/6P3XO37IdZr3AINotR6tQq/762c006930ea7d7bbe4decaf6290deab/nithinc.jpg?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/nithinchandy/"
-      target="_blank"
-    >Nithin Chandy</a>
-    <span class="BlogAuthor__role">Software Engineer, Smart Disputes</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/3vypk0Ytlyr2remavexqoj/e6a58a7abd1166835b40c3d3d63881a4/index2-disputes.jpg?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="blog_analyzing-disputes_index"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/3vypk0Ytlyr2remavexqoj/e6a58a7abd1166835b40c3d3d63881a4/index2-disputes.jpg?w=1080&q=80
-        
-      "
-        width="2500"
-        height="2500"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>To understand what can influence win rates, we analyzed evidence packets from one million disputes over a 16-week period. Here’s what the data shows and what it means for how you mitigate disputes.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/analyzing-the-evidence-that-helps-businesses-win-product-not-received-disputes"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-        
-          <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/industry"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='four_travel_and__category__industry'
-  
-  
-  
-  
-  
->Industry</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/trends-from-hitec"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Four travel and hospitality trends from HITEC 2026</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-06-23T00:00-07:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/trends-from-hitec"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='four_travel_and__date'
-  
-  
-  
-  
-  
->June 23, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/andrewdbeckmann/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/6gEAAUylW4biHGOBkLeXNK/c05b66fd68be6be1763d8e37545a77c7/andrewbeckmann.jpg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/andrewdbeckmann/"
-      target="_blank"
-    >Andrew Beckmann</a>
-    <span class="BlogAuthor__role">GTM Lead, Hospitality and Travel</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/5yStRoozmsf9LiDdy2hFc3/a941bc071d98e02d2781e61add6bb868/IMG_9096.jpg?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="Blog &gt; Four travel and hospitality takeaways from HITEC 2026 &gt; Index preview image"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/5yStRoozmsf9LiDdy2hFc3/a941bc071d98e02d2781e61add6bb868/IMG_9096.jpg?w=1080&q=80
-        
-      "
-        width="1250"
-        height="1250"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>More than 6,000 hospitality executives and operators gathered in San Antonio last week for the HITEC conference. The big topic: whether the industry’s AI investment is actually working. Across four days and over 50 meetings, four trends stood out.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/trends-from-hitec"
   
   
   
@@ -15036,6 +15005,477 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost
     BlogIndexPost--variantNormal
     BlogIndexPost--hasFigure
+    
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/industry"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='travel_s_ai__category__industry'
+  
+  
+  
+  
+  
+>Industry</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/travels-ai-dilemma-at-skift-global-forum"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Travel’s AI dilemma at Skift Global Forum</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-09-28T00:00-07:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/travels-ai-dilemma-at-skift-global-forum"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='travel_s_ai__date'
+  
+  
+  
+  
+  
+>September 28, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/andrewdbeckmann/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/6gEAAUylW4biHGOBkLeXNK/c05b66fd68be6be1763d8e37545a77c7/andrewbeckmann.jpg.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/andrewdbeckmann/"
+      target="_blank"
+    >Andrew Beckmann</a>
+    <span class="BlogAuthor__role">GTM Lead, Hospitality and Travel</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/42kKrzG4TiYUHyP5JqyTs4/92838da218c78955c0aad7542467a3e8/01_Index-1.png?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="blog &gt; skift &gt; index"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/42kKrzG4TiYUHyP5JqyTs4/92838da218c78955c0aad7542467a3e8/01_Index-1.png?w=1080&q=80
+        
+      "
+        width="1250"
+        height="1250"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>At the “great recalibration”-themed travel conference, Airbnb CEO Brian Chesky called AI “an existential risk” to his company and “literally the best thing to ever happen” to it in the same discussion. That sums up many travel leaders’ push-and-pull relationship with AI. </p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/travels-ai-dilemma-at-skift-global-forum"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+          
+            <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
+    BlogIndexPost--hasMultipleAuthors
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/industry"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='new_trends_in__category__industry'
+  
+  
+  
+  
+  
+>Industry</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/new-trends-in-global-card-fraud-how-3d-secure-and-regional-mandates-are-affecting-risk"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>New trends in global card fraud: How 3D Secure and regional mandates are affecting risk</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-09-22T00:00-07:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/new-trends-in-global-card-fraud-how-3d-secure-and-regional-mandates-are-affecting-risk"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='new_trends_in__date'
+  
+  
+  
+  
+  
+>September 22, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/samuelbakouch/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/3z7sTxfj4EqUcuALokYl7Q/2632260aa44da4b06dc82fa7f428d2c4/E0181S17H6Z-U08TQKY3DJ7-b8bac14771e5-512.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/samuelbakouch/"
+      target="_blank"
+    >Samuel Bakouch</a>
+    <span class="BlogAuthor__role">Head of Product, Payments Intelligence</span>
+  </figcaption>
+</figure>
+    
+      <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/jacob-meltzer-25438b114/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/5eyqlHCu45v94z66ZrImHa/008affb4f60e729459444e081eec6d17/Screenshot_2025-01-10_at_8.55.57_AM.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/jacob-meltzer-25438b114/"
+      target="_blank"
+    >Jacob Meltzer</a>
+    <span class="BlogAuthor__role">Engineering Lead, Stripe Radar</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/1Ttw18lQFBzxo2wuqd2XlA/bbac418ecc8be77df011264faeb15b0f/regional-index.jpg?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="blog &gt; regional fraud trends &gt; index"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/1Ttw18lQFBzxo2wuqd2XlA/bbac418ecc8be77df011264faeb15b0f/regional-index.jpg?w=1080&q=80
+        
+      "
+        width="2500"
+        height="2500"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>We analyzed billions of transactions on Stripe from January 2022 to March 2026 to understand how card fraud patterns differ by region and country, what's driving those differences, and how businesses can respond. </p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/new-trends-in-global-card-fraud-how-3d-secure-and-regional-mandates-are-affecting-risk"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+          
+            <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
     BlogIndexPost--hasMultipleAuthors
   "
 >
@@ -15753,477 +16193,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
 </span></a>
 </article>
           
-            <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/industry"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='five_monetization_trends__category__industry'
-  
-  
-  
-  
-  
->Industry</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/five-monetization-trends-from-global-pricing-leaders"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Five monetization trends from global pricing leaders</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-08-20T00:00-04:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/five-monetization-trends-from-global-pricing-leaders"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='five_monetization_trends__date'
-  
-  
-  
-  
-  
->August 20, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/scott-woody-21677121/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/436XYllFLTRsAOxMVZeVba/5fc4f334ae10ac6f02d55863374d3786/scott_woody_headshot_b_w_and_cropped.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/scott-woody-21677121/"
-      target="_blank"
-    >Scott Woody</a>
-    <span class="BlogAuthor__role">CEO and Founder, Metronome</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/7AILd6YY3INBk4QCI4LaTx/1842bb0154e43c182f1c26a8cf7f8a4e/Monitization_trends_index.png?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="Blog &gt; Five monetization trends from global pricing leaders &gt; Index image"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/7AILd6YY3INBk4QCI4LaTx/1842bb0154e43c182f1c26a8cf7f8a4e/Monitization_trends_index.png?w=1080&q=80
-        
-      "
-        width="1250"
-        height="1250"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>As AI transforms software economics, the standard revenue playbook is breaking down. Learn how leaders around the world are preparing for agent buyers, updating processes for faster pricing iteration, and building more flexible infrastructure.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/five-monetization-trends-from-global-pricing-leaders"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-          
-            <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    BlogIndexPost--hasMultipleAuthors
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/industry"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='why_global_workers__category__industry'
-  
-  
-  
-  
-  
->Industry</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/why-global-workers-are-driving-demand-for-stablecoin-payouts"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Why global workers are driving demand for stablecoin payouts</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-08-19T00:00-04:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/why-global-workers-are-driving-demand-for-stablecoin-payouts"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='why_global_workers__date'
-  
-  
-  
-  
-  
->August 19, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/siddharthpkulkarni"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/2Hajm4uoYQPdW3KdaSxQzK/15a365a3cc765b1fa30e73b8c190b333/siddharthkulkarni.jpg?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/siddharthpkulkarni"
-      target="_blank"
-    >Siddharth Kulkarni</a>
-    <span class="BlogAuthor__role">Quant Research Lead, Link</span>
-  </figcaption>
-</figure>
-    
-      <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/mitchellcollum"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/3cI4sgJRNTjBtSaVF4EGb1/06612abfb486f1344901aa149e65189b/mcollum.jpg?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/mitchellcollum"
-      target="_blank"
-    >Mitchell Martins-Collum</a>
-    <span class="BlogAuthor__role">UX Research Lead, Money Management</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/wRqifAA3sZ1z3kJIX2UKM/8f2619305be2fe7039bf68c26429a8c1/Blog_index_image_1250x1250_2x.png?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="Blog &gt; Why global workers are driving demand for stablecoin payouts &gt; Index image"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/wRqifAA3sZ1z3kJIX2UKM/8f2619305be2fe7039bf68c26429a8c1/Blog_index_image_1250x1250_2x.png?w=1080&q=80
-        
-      "
-        width="2500"
-        height="2500"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>Platforms like DoorDash, Meta, and Deel already enable stablecoin payouts for global workers. We surveyed 2,300 workers in 20 countries to see what's driving stablecoin demand, where the opportunity is highest, and how other platforms can adapt.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/why-global-workers-are-driving-demand-for-stablecoin-payouts"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-          
 
           <div
   class="
@@ -16342,6 +16311,446 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
           
             <div class="BlogIndexGridSection__layout">
     <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
+    
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/product"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='ousd_is_now__category__product'
+  
+  
+  
+  
+  
+>Product</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/ousd-now-live-on-stripe"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>OUSD is now the default stablecoin on Stripe</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-09-30T00:00-07:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/ousd-now-live-on-stripe"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='ousd_is_now__date'
+  
+  
+  
+  
+  
+>September 30, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/henri-stern/?isSelfProfile=false"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/1qHSW0bSA1ozulLTnOCeHU/a90735395efeb6bb9e61e9dd65039357/1655502278349.jpg?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/henri-stern/?isSelfProfile=false"
+      target="_blank"
+    >Henri Stern</a>
+    <span class="BlogAuthor__role">Cofounder and CEO, Privy</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/2YSRP4aCTTxIcUOn1lu4Qq/187eabba0a9b39e79b4c228b89812493/Square__4_.jpg?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="blog &gt; ousd &gt; index"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/2YSRP4aCTTxIcUOn1lu4Qq/187eabba0a9b39e79b4c228b89812493/Square__4_.jpg?w=1080&q=80
+        
+      "
+        width="2500"
+        height="2500"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>Open USD (OUSD), a stablecoin built for global money movement, is now available across Stripe. Businesses can use OUSD to manage funds, make payments, and offer new financial services.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/ousd-now-live-on-stripe"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+          
+            <article
+  class="
+    BlogIndexPost
+    BlogIndexPost--variantNormal
+    BlogIndexPost--hasFigure
+    
+  "
+>
+  <h2
+  class="
+    CopyTitle
+    CopyTitle--variantDetail
+    
+    
+    
+    BlogIndexPost__category
+  "
+  
+><a
+  class="
+    Link
+    BlogCategoryLink
+  "
+  href="/blog/product"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Navigation'
+  data-analytics-action='Clicked'
+  data-analytics-label='helping_personal_agents__category__product'
+  
+  
+  
+  
+  
+>Product</a></h2>
+
+  <h1
+  class="
+    CopyTitle
+    CopyTitle--variantSection
+    
+    
+    
+    BlogIndexPost__title
+  "
+  
+><a
+  class="
+    Link
+    BlogIndexPost__titleLink
+  "
+  href="https://stripe.com/blog/helping-personal-agents-shop-more-intelligently-and-reliably-with-link"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Helping personal agents shop more intelligently and reliably with Link</a></h1>
+
+  <time
+  class="BlogPostDate BlogIndexPost__date"
+  datetime="2026-09-29T00:00-07:00"
+>
+  
+  <a
+  class="
+    Link
+    BlogPostDate__link
+  "
+  href="https://stripe.com/blog/helping-personal-agents-shop-more-intelligently-and-reliably-with-link"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label='helping_personal_agents__date'
+  
+  
+  
+  
+  
+>September 29, 2026</a>
+</time>
+
+  <div class="BlogIndexPost__authorList">
+    <figure
+  class="
+    BlogAuthor
+    BlogAuthor--hasAvatarBorder
+    theme--White
+    flavor--Slate
+    accent--Slate
+  "
+>
+  <a
+    href="https://www.linkedin.com/in/hilldan/"
+    target="_blank"
+  >
+    <img
+      class="BlogAuthor__avatar"
+      width="48"
+      height="48"
+      loading="lazy"
+      src="https://images.stripeassets.com/fzn2n1nzq965/14o7aP3jMwozZ4dNL0dIkR/10229680810e5245e41fbf7417e11de6/danhill.jpg.png?w=96&h=96"
+    >
+  </a>
+  <figcaption class="BlogAuthor__caption">
+    <a
+      class="BlogAuthor__link"
+      href="https://www.linkedin.com/in/hilldan/"
+      target="_blank"
+    >Dan Hill</a>
+    <span class="BlogAuthor__role">Product Manager, Link Consumer Product</span>
+  </figcaption>
+</figure>
+  </div>
+
+  
+    <figure
+  class="
+    Card
+    
+    
+    
+    
+    
+    
+    
+    BlogImageCard
+    
+    BlogIndexPost__figure
+  "
+  
+  
+  
+  
+  
+  
+>
+  <picture
+      class="BlogImageCard__picture"
+    >
+      
+        <source
+          srcset="https://images.stripeassets.com/fzn2n1nzq965/259tRMFUDzwXlrETBMQId4/a6af0d366e1e601e70b52c7f071fa007/index-5.png?w=1080&q=80&fm=webp"
+          type="image/webp"
+        >
+      
+
+      
+
+      <img
+        class="BlogImageCard__image"
+        alt="blog &gt; link innovation &gt; index"
+        src="
+        
+          https://images.stripeassets.com/fzn2n1nzq965/259tRMFUDzwXlrETBMQId4/a6af0d366e1e601e70b52c7f071fa007/index-5.png?w=1080&q=80
+        
+      "
+        width="1250"
+        height="1250"
+        loading="lazy"
+      >
+    </picture>
+</figure>
+  
+
+  <div class="BlogIndexPost__body">
+    <p>As agents take on more purchases, agent builders have increasingly asked us to help agents navigate checkout and earn consumer trust. Today, we’re sharing three major improvements to support this broader set of needs.</p>
+  </div>
+
+  <a
+  class="
+    Link
+    BlogIndexPost__readMoreLink
+  "
+  href="https://stripe.com/blog/helping-personal-agents-shop-more-intelligently-and-reliably-with-link"
+  
+  
+  
+  data-js-controller='AnalyticsButton'
+  data-analytics-category='Links'
+  data-analytics-action='Clicked'
+  data-analytics-label=''
+  
+  
+  
+  
+  
+>Read more<span class="nobr">&nbsp;<svg
+    class="
+      HoverArrow
+      
+      
+    "
+    width="10"
+    height="10"
+    viewBox="0 0 10 10"
+    aria-hidden="true"
+  >
+    <g fill-rule="evenodd">
+      
+        <path class="HoverArrow__linePath" d="M0 5h7" />
+        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
+      
+    </g>
+  </svg>
+</span></a>
+</article>
+          
+            <article
   class="
     BlogIndexPost
     BlogIndexPost--variantNormal
@@ -16968,446 +17377,6 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
     BlogIndexPost__readMoreLink
   "
   href="https://stripe.com/blog/new-ways-to-turn-global-demand-into-revenue"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-          
-            <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/product"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='helping_businesses_optimize__category__product'
-  
-  
-  
-  
-  
->Product</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/helping-businesses-optimize-network-costs-with-visa-digital-commerce-authentication-program"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Helping businesses optimize network costs with the Visa Digital Commerce Authentication Program (DCAP)</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-06-03T00:00-07:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/helping-businesses-optimize-network-costs-with-visa-digital-commerce-authentication-program"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='helping_businesses_optimize__date'
-  
-  
-  
-  
-  
->June  3, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/kanika-nayyar-/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/6CoNwdOcjWENbUQlcsU7Pc/bfd909ac774799d88f120a5a600a61a4/kanikanayyar.jpg.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/kanika-nayyar-/"
-      target="_blank"
-    >Kanika Nayyar</a>
-    <span class="BlogAuthor__role">Global Payments Performance </span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/JzGrj59MBDaLNm9e1akgN/e43d83ae9015d74511b815aadec81ee9/dcap-index-2.jpg?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="Blog &gt; Visa DCAP &gt; Index image"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/JzGrj59MBDaLNm9e1akgN/e43d83ae9015d74511b815aadec81ee9/dcap-index-2.jpg?w=1080&q=80
-        
-      "
-        width="2500"
-        height="2500"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>We moved quickly to help Stripe businesses take advantage of DCAP and capture interchange savings while protecting authorization rates. Here’s what we did.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/helping-businesses-optimize-network-costs-with-visa-digital-commerce-authentication-program"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Read more<span class="nobr">&nbsp;<svg
-    class="
-      HoverArrow
-      
-      
-    "
-    width="10"
-    height="10"
-    viewBox="0 0 10 10"
-    aria-hidden="true"
-  >
-    <g fill-rule="evenodd">
-      
-        <path class="HoverArrow__linePath" d="M0 5h7" />
-        <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4" />
-      
-    </g>
-  </svg>
-</span></a>
-</article>
-          
-            <article
-  class="
-    BlogIndexPost
-    BlogIndexPost--variantNormal
-    BlogIndexPost--hasFigure
-    
-  "
->
-  <h2
-  class="
-    CopyTitle
-    CopyTitle--variantDetail
-    
-    
-    
-    BlogIndexPost__category
-  "
-  
-><a
-  class="
-    Link
-    BlogCategoryLink
-  "
-  href="/blog/product"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Navigation'
-  data-analytics-action='Clicked'
-  data-analytics-label='expanding_stripe_radar__category__product'
-  
-  
-  
-  
-  
->Product</a></h2>
-
-  <h1
-  class="
-    CopyTitle
-    CopyTitle--variantSection
-    
-    
-    
-    BlogIndexPost__title
-  "
-  
-><a
-  class="
-    Link
-    BlogIndexPost__titleLink
-  "
-  href="https://stripe.com/blog/expanding-stripe-radar-to-protect-more-of-your-business"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label=''
-  
-  
-  
-  
-  
->Expanding Stripe Radar to protect more of your business</a></h1>
-
-  <time
-  class="BlogPostDate BlogIndexPost__date"
-  datetime="2026-05-27T00:00-07:00"
->
-  
-  <a
-  class="
-    Link
-    BlogPostDate__link
-  "
-  href="https://stripe.com/blog/expanding-stripe-radar-to-protect-more-of-your-business"
-  
-  
-  
-  data-js-controller='AnalyticsButton'
-  data-analytics-category='Links'
-  data-analytics-action='Clicked'
-  data-analytics-label='expanding_stripe_radar__date'
-  
-  
-  
-  
-  
->May 27, 2026</a>
-</time>
-
-  <div class="BlogIndexPost__authorList">
-    <figure
-  class="
-    BlogAuthor
-    BlogAuthor--hasAvatarBorder
-    theme--White
-    flavor--Slate
-    accent--Slate
-  "
->
-  <a
-    href="https://www.linkedin.com/in/samuelbakouch/"
-    target="_blank"
-  >
-    <img
-      class="BlogAuthor__avatar"
-      width="48"
-      height="48"
-      loading="lazy"
-      src="https://images.stripeassets.com/fzn2n1nzq965/3z7sTxfj4EqUcuALokYl7Q/2632260aa44da4b06dc82fa7f428d2c4/E0181S17H6Z-U08TQKY3DJ7-b8bac14771e5-512.png?w=96&h=96"
-    >
-  </a>
-  <figcaption class="BlogAuthor__caption">
-    <a
-      class="BlogAuthor__link"
-      href="https://www.linkedin.com/in/samuelbakouch/"
-      target="_blank"
-    >Samuel Bakouch</a>
-    <span class="BlogAuthor__role">Head of Product, Payments Intelligence</span>
-  </figcaption>
-</figure>
-  </div>
-
-  
-    <figure
-  class="
-    Card
-    
-    
-    
-    
-    
-    
-    
-    BlogImageCard
-    
-    BlogIndexPost__figure
-  "
-  
-  
-  
-  
-  
-  
->
-  <picture
-      class="BlogImageCard__picture"
-    >
-      
-        <source
-          srcset="https://images.stripeassets.com/fzn2n1nzq965/2FSmdXVwwuymT0YfmIXxfq/aeadbd7af5e4620151924efbf9cdf6ad/radar-index.jpg?w=1080&q=80&fm=webp"
-          type="image/webp"
-        >
-      
-
-      
-
-      <img
-        class="BlogImageCard__image"
-        alt="Blog &gt; Expanding Stripe Radar &gt; Index image"
-        src="
-        
-          https://images.stripeassets.com/fzn2n1nzq965/2FSmdXVwwuymT0YfmIXxfq/aeadbd7af5e4620151924efbf9cdf6ad/radar-index.jpg?w=1080&q=80
-        
-      "
-        width="1250"
-        height="1250"
-        loading="lazy"
-      >
-    </picture>
-</figure>
-  
-
-  <div class="BlogIndexPost__body">
-    <p>Radar now blocks high-risk transactions across all supported payment methods; defends against new fraud types like multi-account abuse and pay-as-you-go abuse, regardless of which payment processor you use; and gives platforms new tools to evaluate and mitigate merchant risk on and off Stripe.</p>
-  </div>
-
-  <a
-  class="
-    Link
-    BlogIndexPost__readMoreLink
-  "
-  href="https://stripe.com/blog/expanding-stripe-radar-to-protect-more-of-your-business"
   
   
   
@@ -24828,7 +24797,7 @@ window.onunhandledrejection = function(evt) { __capturedErrors.push(evt.reason);
   </div>
 </footer>
   
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Stripe Blog: Online Payment Solutions Blog","url":"https://stripe.com/blog","mainEntity":{"@type":"ItemList","name":"Latest articles","itemListOrder":"http://schema.org/ItemListOrderDescending","numberOfItems":9,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"BlogPosting","headline":"Analyzing rising fraud attempts among travel and leisure businesses on Stripe","url":"https://stripe.com/blog/analyzing-rising-fraud-attempts-among-travel-and-leisure-businesses-on-stripe","author":[{"@type":"Person","name":"Andrew Beckmann","url":"https://www.linkedin.com/in/andrewdbeckmann/"},{"@type":"Person","name":"James Lemon","url":"https://uk.linkedin.com/in/jamesclemon"}],"datePublished":"2026-09-18T00:00-04:00"}},{"@type":"ListItem","position":2,"item":{"@type":"BlogPosting","headline":"SaaS platforms are surging despite the SaaSpocalypse","url":"https://stripe.com/blog/saas-platforms-are-surging-despite-the-saaspocalypse","author":[{"@type":"Person","name":"Aakash Sahney","url":"https://www.linkedin.com/in/aakash-sahney-94017114/?originalSubdomain=ca"}],"datePublished":"2026-09-17T00:00-04:00"}},{"@type":"ListItem","position":3,"item":{"@type":"BlogPosting","headline":"What Stripe data shows about fraud at AI startups","url":"https://stripe.com/blog/what-stripe-data-shows-about-fraud-at-ai-startups","author":[{"@type":"Person","name":"Jacob Meltzer","url":"https://www.linkedin.com/in/jacob-meltzer-25438b114/"},{"@type":"Person","name":"Samuel Bakouch","url":"https://www.linkedin.com/in/samuelbakouch/"}],"datePublished":"2026-09-15T00:00-07:00"}},{"@type":"ListItem","position":4,"item":{"@type":"BlogPosting","headline":"Five monetization trends from global pricing leaders ","url":"https://stripe.com/blog/five-monetization-trends-from-global-pricing-leaders","author":[{"@type":"Person","name":"Scott Woody","url":"https://www.linkedin.com/in/scott-woody-21677121/"}],"datePublished":"2026-08-20T00:00-04:00"}},{"@type":"ListItem","position":5,"item":{"@type":"BlogPosting","headline":"Why global workers are driving demand for stablecoin payouts","url":"https://stripe.com/blog/why-global-workers-are-driving-demand-for-stablecoin-payouts","author":[{"@type":"Person","name":"Siddharth Kulkarni","url":"https://www.linkedin.com/in/siddharthpkulkarni"},{"@type":"Person","name":"Mitchell Martins-Collum","url":"https://www.linkedin.com/in/mitchellcollum"}],"datePublished":"2026-08-19T00:00-04:00"}},{"@type":"ListItem","position":6,"item":{"@type":"BlogPosting","headline":"New currency capabilities for global businesses to cut FX costs ","url":"https://stripe.com/blog/reduce-fx-costs-with-stripe","author":[{"@type":"Person","name":"Bart Heideman","url":"https://ie.linkedin.com/in/bartheideman"}],"datePublished":"2026-08-17T00:00-04:00"}},{"@type":"ListItem","position":7,"item":{"@type":"BlogPosting","headline":"Mapping the AI economy","url":"https://stripe.com/blog/mapping-the-ai-economy","author":[{"@type":"Person","name":"Abhi Tiwari","url":"https://www.linkedin.com/in/abhinav-tiwari-4687117/"}],"datePublished":"2026-08-11T00:00-07:00"}},{"@type":"ListItem","position":8,"item":{"@type":"BlogPosting","headline":"Analyzing the evidence that helps businesses win “product not received” disputes","url":"https://stripe.com/blog/analyzing-the-evidence-that-helps-businesses-win-product-not-received-disputes","author":[{"@type":"Person","name":"Kai Strubel","url":"https://www.linkedin.com/in/kaistrubel/"},{"@type":"Person","name":"Nithin Chandy","url":"https://www.linkedin.com/in/nithinchandy/"}],"datePublished":"2026-07-21T00:00-07:00"}},{"@type":"ListItem","position":9,"item":{"@type":"BlogPosting","headline":"Four travel and hospitality trends from HITEC 2026","url":"https://stripe.com/blog/trends-from-hitec","author":[{"@type":"Person","name":"Andrew Beckmann","url":"https://www.linkedin.com/in/andrewdbeckmann/"}],"datePublished":"2026-06-23T00:00-07:00"}}]}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Stripe Blog: Online Payment Solutions Blog","url":"https://stripe.com/blog","mainEntity":{"@type":"ItemList","name":"Latest articles","itemListOrder":"http://schema.org/ItemListOrderDescending","numberOfItems":9,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"BlogPosting","headline":"OUSD is now the default stablecoin on Stripe","url":"https://stripe.com/blog/ousd-now-live-on-stripe","author":[{"@type":"Person","name":"Henri Stern","url":"https://www.linkedin.com/in/henri-stern/?isSelfProfile=false"}],"datePublished":"2026-09-30T00:00-07:00"}},{"@type":"ListItem","position":2,"item":{"@type":"BlogPosting","headline":"Helping personal agents shop more intelligently and reliably with Link ","url":"https://stripe.com/blog/helping-personal-agents-shop-more-intelligently-and-reliably-with-link","author":[{"@type":"Person","name":"Dan Hill","url":"https://www.linkedin.com/in/hilldan/"}],"datePublished":"2026-09-29T00:00-07:00"}},{"@type":"ListItem","position":3,"item":{"@type":"BlogPosting","headline":"Travel’s AI dilemma at Skift Global Forum","url":"https://stripe.com/blog/travels-ai-dilemma-at-skift-global-forum","author":[{"@type":"Person","name":"Andrew Beckmann","url":"https://www.linkedin.com/in/andrewdbeckmann/"}],"datePublished":"2026-09-28T00:00-07:00"}},{"@type":"ListItem","position":4,"item":{"@type":"BlogPosting","headline":"New trends in global card fraud: How 3D Secure and regional mandates are affecting risk ","url":"https://stripe.com/blog/new-trends-in-global-card-fraud-how-3d-secure-and-regional-mandates-are-affecting-risk","author":[{"@type":"Person","name":"Samuel Bakouch","url":"https://www.linkedin.com/in/samuelbakouch/"},{"@type":"Person","name":"Jacob Meltzer","url":"https://www.linkedin.com/in/jacob-meltzer-25438b114/"}],"datePublished":"2026-09-22T00:00-07:00"}},{"@type":"ListItem","position":5,"item":{"@type":"BlogPosting","headline":"Analyzing rising fraud attempts among travel and leisure businesses on Stripe","url":"https://stripe.com/blog/analyzing-rising-fraud-attempts-among-travel-and-leisure-businesses-on-stripe","author":[{"@type":"Person","name":"Andrew Beckmann","url":"https://www.linkedin.com/in/andrewdbeckmann/"},{"@type":"Person","name":"James Lemon","url":"https://uk.linkedin.com/in/jamesclemon"}],"datePublished":"2026-09-18T00:00-04:00"}},{"@type":"ListItem","position":6,"item":{"@type":"BlogPosting","headline":"SaaS platforms are surging despite the SaaSpocalypse","url":"https://stripe.com/blog/saas-platforms-are-surging-despite-the-saaspocalypse","author":[{"@type":"Person","name":"Aakash Sahney","url":"https://www.linkedin.com/in/aakash-sahney-94017114/?originalSubdomain=ca"}],"datePublished":"2026-09-17T00:00-04:00"}},{"@type":"ListItem","position":7,"item":{"@type":"BlogPosting","headline":"What Stripe data shows about fraud at AI startups","url":"https://stripe.com/blog/what-stripe-data-shows-about-fraud-at-ai-startups","author":[{"@type":"Person","name":"Jacob Meltzer","url":"https://www.linkedin.com/in/jacob-meltzer-25438b114/"},{"@type":"Person","name":"Samuel Bakouch","url":"https://www.linkedin.com/in/samuelbakouch/"}],"datePublished":"2026-09-15T00:00-07:00"}},{"@type":"ListItem","position":8,"item":{"@type":"BlogPosting","headline":"Five monetization trends from global pricing leaders ","url":"https://stripe.com/blog/five-monetization-trends-from-global-pricing-leaders","author":[{"@type":"Person","name":"Scott Woody","url":"https://www.linkedin.com/in/scott-woody-21677121/"}],"datePublished":"2026-08-20T00:00-04:00"}},{"@type":"ListItem","position":9,"item":{"@type":"BlogPosting","headline":"Why global workers are driving demand for stablecoin payouts","url":"https://stripe.com/blog/why-global-workers-are-driving-demand-for-stablecoin-payouts","author":[{"@type":"Person","name":"Siddharth Kulkarni","url":"https://www.linkedin.com/in/siddharthpkulkarni"},{"@type":"Person","name":"Mitchell Martins-Collum","url":"https://www.linkedin.com/in/mitchellcollum"}],"datePublished":"2026-08-19T00:00-04:00"}}]}}</script>
     </div>
   </body>
 </html>
